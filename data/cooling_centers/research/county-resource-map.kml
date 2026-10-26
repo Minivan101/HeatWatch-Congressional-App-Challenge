@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Southern Nevada Heat Resource Map</name>
+    <description><![CDATA[Hey! Trying to see the full list of spots to cool down on the map? Opening the side menu is super easy:<br><br>Look at the dark bar at the top of the map.<br>Find the little square icon with an arrow pointing right, located in the top left corner next to the map's title.<br>Just click that icon!<br>A sidebar will instantly slide out, showing you all the different categories you can check out, like cooling stations, splash pads, and libraries.<br><br>Stay cool out there!<br><br>Click on icons on the map for additional information:<br>Orange/thermometer icons: Community/Rec centers (Cooling Stations)<br>Purple/Book icons: Libraries (Cooling Stations)<br>Yellow/Book icons: Libraries (Cooling Stations with a Limited Quantity of Free Bus Passes first come first serve)<br>Green/Dog Paw icons: Cooling Stations that accept pets (No size restriction)<br>Light Blue/Swimming icons: Public Pools (Fees apply)<br>Dark Blue/Cascade icons: Splash Pads (FREE)<br><br>REMEMBER: Cooling stations are only active during high heat events <br><br>Visit https://www.staycoolclarkcounty.com for additional resources and programs that can help address heat-related challenges.<br><br><br>Please note: Cooling station locations do change periodically, and while every effort will be made to update locations as needed, contacting a location to confirm its availability is highly recommended.]]></description>
+    <Style id="icon-1507-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1507-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1507-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1507-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1507-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1664-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1664-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1664-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1664-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1664-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1664-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1664-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1664-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1664-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1664-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1701-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1701-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1701-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1701-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1701-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1710-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1710-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1710-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1710-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1710-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1892-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1892-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1892-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1892-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1892-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Extreme Heat Cooling Stations (Free)</name>
+      <Placemark>
+        <name>Centennial Hills Library</name>
+        <description><![CDATA[Hours: <br>Mon-Thu 10:00am – 8:00pm<br> Fri-Sun 10:00am – 6:00pm <br>Unless otherwise listed.<br><br> *This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*]]></description>
+        <styleUrl>#icon-1664-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2620179,36.2832025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Las Vegas Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1104179,36.1735018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed. <br><br>*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*]]></description>
+        <styleUrl>#icon-1664-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2594225,36.2173063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clark County Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1350864,36.1141081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enterprise Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1710813,36.0384107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sahara West Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.3053056,36.1451944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Valley Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.224237,36.111408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summerlin Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.3018914,36.1911372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunrise Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0548272,36.1783425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Charleston Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2311566,36.1582708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Las Vegas Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.161546,36.19222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Windmill Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.24635,36.0424909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitney Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu 10:00am – 8:00pm<br>Fri-Sun 10:00am – 6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0603783,36.0999295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bunkerville Library</name>
+        <description><![CDATA[Hours:<br>Mon: 11:00am-7:00pm<br>Tue-Thu: 11:00am-5:00pm<br>Sat: 10:00am-3:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -114.1287637,36.7730572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Diamond Library</name>
+        <description><![CDATA[Hours:<br>Tue: 11:00am-6:00pm <br>Wed: 12:00pm-4:00pm<br>Thu: 11:00am-6:00pm <br>Fri: 12:00pm-4:00pm<br>Sat: 10:00am-3:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.4071102,36.0469569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indian Springs Library</name>
+        <description><![CDATA[Hours:<br>Tue-Thu: 11:00am-7:00pm<br>Sat: 10:00am-4:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.6769183,36.5697522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goodsprings Library</name>
+        <description><![CDATA[Hours:<br>Tue-Thu: 1:00pm-7:00pm<br>Fri-Sat: 10:00am-3:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.4352073,35.8316059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Searchlight Library</name>
+        <description><![CDATA[Hours:<br>Tue-Wed: 11:00am-6:00pm<br>Thu 11:00am-7:00pm<br>Fri-Sat 10:00am-2:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9069135,35.4681642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mesquite Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu: 10:00am-7:00pm<br>Fri-Sat: 10:00am-6:00pm<br>Sun 1:00pm-5:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -114.0704839,36.8049765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moapa Valley Library</name>
+        <description><![CDATA[Hours:<br>Mon-Wed 10:00am-6:00pm<br>Thu: 10:00am-7:00pm<br>Fri-Sat: 10:00am-6:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4461319,36.5461088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moapa Town Library</name>
+        <description><![CDATA[Hours:<br>Tue: 11:00am – 7:00pm<br>Wed – Thu: 10:00am-6:00pm<br>Sat: 11:00am – 5:00pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -114.5901097,36.6711515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sandy Valley Library</name>
+        <description><![CDATA[Hours:<br>Tue – Wed, Fri: 1:00pm-7:00pm<br>Thu: 12:00pm-7:00pm<br>Sat: 10:00am-6:00 pm<br>Unless otherwise listed.]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.6457796,35.8096859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Charleston Library</name>
+        <description><![CDATA[Hours:<br>Tue: 11:00am-7:00pm<br>Wed – Thu: 10:00am-6:00pm<br>Fri: 10:00am-4:00pm<br>Sat: 12:00pm-5:00pm<br>Unless otherwise listed]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.6461086,36.2593107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alexander Library</name>
+        <description><![CDATA[Hours:<br>Mon-Tue: 10:30am-8:00pm<br>Wed-Thu: 9:00am-9:00pm<br>Fri-Sat: 9:00am-6:00pm ]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1648661,36.2314746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cambridge Recreation Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 07:00am-8:00 pm<br>Closed Weekends]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1410289,36.1181297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Mesa Recreation Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 09:00am-6:45 pm<br> Sat:  09:00am-2:00 pm]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1900787,36.2326927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>American Legion</name>
+        <description><![CDATA[Hours:<br>Mon-Sat 9:00am-9:00pm <br><br>*Cooling Station accept pets on leash when active*]]></description>
+        <styleUrl>#icon-1507-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -114.6148155,35.1541642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Henderson Library</name>
+        <description><![CDATA[Hours:<br>Tue-Thu: 10:00am-6:00pm<br>Fri-Sat: 10:00am-5:00pm ]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1304541,35.9397822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Valley Library</name>
+        <description><![CDATA[Hours:<br>Tue-Thu: 10:00am-6:00pm<br>Fri-Sat: 10:00am-5:00pm]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0832367,36.0702719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Courtyard Homeless Resource Center</name>
+        <description><![CDATA[Hours:<br>Daily: 24 hours<br><br>*Cooling Station accept pets on leash when active*]]></description>
+        <styleUrl>#icon-1507-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1343732,36.1858302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Downtown Senior Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 9:00am-3:00 pm <br>Closed Weekends]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9825063,36.033566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Salvation Army</name>
+        <description><![CDATA[Hours:<br>Daily: 8:00am-4:00pm<br><br>*Cooling Station accept pets on leash when active*]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1408604,36.1881326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitney Recreation Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 8:00am-6:00pm<br>Closed Weekends ]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0479818,36.0958809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salvation Army Family Service Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 8:00am-3:00pm<br>Closed Weekends]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -114.0908891,36.8103129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo Verde Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu: 9:00am-7:00pm<br>Fri-Sat: 9:00am-5:00pm<br><br>*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*]]></description>
+        <styleUrl>#icon-1664-F9A825</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0801182,36.0174533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colorado River Food Bank</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 8:00am-3:00pm<br>Closed Weekends<br><br>*Cooling Station accept pets on leash when active*]]></description>
+        <styleUrl>#icon-1507-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -114.5737751,35.1687438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>James I Gibson Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu: 9:00am-7:00pm<br>Fri-Sat: 9:00am-5:00pm ]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9888889,36.0397222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neighborhood Recreation Center</name>
+        <description><![CDATA[Hours:<br> Mon-Fri 8:00am-6:45pm]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.124181,36.1902132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hollywood Recreation Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 6:00am-8:00pm<br>Sat 8:30am-3:00pm ]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0255976,36.1525619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pearson Community Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 9:00am-6:00pm<br>Sat 8:00am-5:00pm ]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1629216,36.2014399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walnut Recreation Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 7:00am-8:00 pm <br>Sat 9:00am-2:00pm]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0902126,36.2150928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boulder City Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu: 10:00am-8:00pm<br>Fri-Sun: 10:00am-5:00pm <br><br>*Cooling Station accept pets on leash when active*]]></description>
+        <styleUrl>#icon-1507-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -114.8295426,35.9688218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SkyView Multi-Generational Center</name>
+        <description><![CDATA[Hours:<br>Mon-Fri: 8:00am-7:00pm<br>Sat: 8:00am-2:00pm]]></description>
+        <styleUrl>#icon-1710-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1066116,36.277418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laughlin Library</name>
+        <description><![CDATA[Hours:<br>Mon-Thu: 10:00am-7:00pm <br>Fri-Sat: 10:00am-6:00pm <br>Sun: 1:00pm-5:00pm ]]></description>
+        <styleUrl>#icon-1664-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -114.6248513,35.1454878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Splash Pads (Free)</name>
+      <Placemark>
+        <name>Alexander Villas Park </name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30. <br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0834592,36.2251524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aliante Nature Discovery Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1762796,36.2869083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Craig Ranch Regional Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1495164,36.2413086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nicholas E. Flores Jr.Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1893824,36.2345213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hartke Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.121226,36.191347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prentiss Walker Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1616557,36.2082671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tropical Breeze Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1253812,36.2676407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Acacia Park and Acacia Demonstration Gardens</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.017933,36.0308957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amador Vista Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0529917,36.0157172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aventura Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1199208,35.9345729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bark Park at Heritage Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9538346,36.0336992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capriola Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1234148,35.9491948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dundee Jones Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1179711,35.9994947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Esselmont Park North</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1086851,35.9323665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hayley Hendricks Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9570867,36.0544402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidden Falls Park </name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.995019,36.0065981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Madeira Canyon Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0907092,35.9295072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mission Hills Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9618494,35.9960545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montagna Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.138713,35.92782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo Vista Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0978969,36.0188199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Reunion Trails Park & Amargosa Trailhead]]></name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0424304,36.027138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saguaro Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.941969,36.021709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Water Street Plaza</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9825041,36.0306409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wells Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0015282,36.062915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weston Hills Park</name>
+        <description>Open 9 a.m. to 8 p.m. daily Now-October 31. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9802376,36.0745935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>All American Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2629831,36.1553983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alyn Beck Memorial Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2974702,36.3194367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Angel Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2780341,36.17096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baker Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1411135,36.1474095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bill Briare Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2496546,36.1790269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bob Baskin Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1803935,36.1509834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bruce Trent Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2855743,36.1884673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Hills Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2609721,36.2888821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Douglas A. Selby Park and Trailhead</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0897637,36.1837676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Las Vegas Family Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.077309,36.181768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estelle Neal Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2389342,36.2700491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gary Dexter Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.221035,36.1624449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilcrease Brothers Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.3137629,36.3021799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Justice Myron E. Leavitt & Jaycee Community Park]]></name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1164601,36.1471416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kianga Isoke Palacio Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1545822,36.1938369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lorenzi Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1852145,36.1794767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Patriot Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2107767,36.2325452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Polly Gonzalez Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2171003,36.2659064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Family Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2478639,36.1498269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raptor Play Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2801293,36.2712634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotary Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1940848,36.1602796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunny Springs Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.260295,36.2935457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stupak Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1605668,36.1477027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teton Trails Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2136247,36.3055043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trigono Hills Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.3316936,36.2296018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Essex/West Charleston Lions Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2013558,36.162925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winding Trails Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.296353,36.2928028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woofter Family Park</name>
+        <description>Open 8 a.m. to 8 p.m. daily May 1-September 30. Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.</description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2478641,36.1895659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charlie Frias Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2130807,36.1007178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duck Creek Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1443865,36.0327813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Exploration Peak Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2609305,36.0141149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goodsprings Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.4352761,35.8312599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indian Springs Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.6765176,36.5687205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joe Shoong Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0786722,36.1547537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maslow Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.06635,36.109158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molasky Family Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1406293,36.121185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mountain Crest Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2793754,36.24666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mountain View Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.624737,35.149329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paul Meyer Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2538389,36.107445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pebble Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1144041,36.0262432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid Canyon Day Use Area</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.5742235,35.1949964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Ridge Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2889907,36.0615108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ridgebrook Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.3338045,36.1238113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ron Lewis</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.5930151,36.6720164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Searchlight Town Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9165288,35.4649087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Somerset Hills Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1982322,35.9951368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Valley Community Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2567548,36.1153506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.111595,36.065649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thomas Dudley Leavitt Sr. Memorial Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -114.1287637,36.7730572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winchester Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1084366,36.1325493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cougar Creek Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2380947,36.0333436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desert Inn Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0690256,36.1247821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Doctor Harry B. Johnson Rose Garden</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2136918,35.9952041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. William U. Pearson Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1630872,36.2015819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nathaniel Jones Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2845092,36.0069071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olympia Sports Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2074593,35.9844736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bob Price Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0445524,36.198027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitney Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0491658,36.0959518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Von Tobel Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0976435,36.2047271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peace Park</name>
+        <description><![CDATA[Open 8 a.m. to 10 p.m. daily Now-September 30.<br>Hours and availability are subject to change without notice. Splash Pads may be closed at any time for maintenance.]]></description>
+        <styleUrl>#icon-1892-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -115.6476619,35.8098486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Summer Open Pools (Required Fee)</name>
+      <Placemark>
+        <name>Baker Pool</name>
+        <description><![CDATA[Hours:<br>Tuesday & Thursday: 6PM – 9PM<br>Sunday: 12PM – 4PM<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 4-17 – $2<br>Adults ages 18-49 – $3<br>Seniors ages 50+ – $2]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1403673,36.1470503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carlos L. Martinez and Darrio J. Hall Family Pool</name>
+        <description><![CDATA[Hours:<br>Mon/Wed/Fri: 6PM-9PM<br>Tue and Thu: 12PM – 4PM<br>Sat: 12PM – 6PM<br>Sun: Closed<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 4-17 – $2<br>Adults ages 18-49 – $3<br>Seniors ages 50+ – $2]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0987375,36.180167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Municipal Pool</name>
+        <description><![CDATA[Hours:<br>Mon/Wed/Fri: 10AM – 8PM <br>Tue and Thru: 8AM – 8PM<br>Sat: 12PM – 5PM <br>Sun: Closed<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 4-17 – $2<br>Adults ages 18-49 – $3<br>Seniors ages 50+ – $2]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1393531,36.1748775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garside Pool</name>
+        <description><![CDATA[Indoor Pool Hours:<br>June 6-July 3, open swim hours will be:<br>Daily: 12PM – 4PM<br>Monday-Friday: 6PM – 9PM<br><br>July 4-Aug. 6, open swim hours will be:<br>Monday-Saturday: 12PM – 4PM<br>Monday/Wednesday/Friday: 6PM – 9PM<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 4-17 – $2<br>Adults ages 18-49 – $3<br>Seniors ages 50+ – $2]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2334696,36.1703247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Petitti Pool</name>
+        <description><![CDATA[Hours:<br>Wed – Saturday: 12PM – 5PM<br>Sunday: 12PM – 6PM<br><br>Entrance Fees:<br>Children under 3 – free <br>Child 3-7: $1.00 <br>Adult 18-54: $2.00 <br>Seniors 55+: $1.00 ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.126117,36.2051162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prentiss Walker Memorial Park and Pool</name>
+        <description><![CDATA[Hours:<br>Wed – Saturday: 12PM – 5PM<br>Sunday: 12PM – 6PM<br><br>Entrance Fees:<br>Children under 3- free <br>Child 3-7: $1.00 <br>Adult 18-54: $2.00 <br>Seniors 55+: $1.00 ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1614306,36.2082611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Mesa Activity Pool</name>
+        <description><![CDATA[Hours:<br>Wednesday – Thursday: 12PM – 5PM<br>Friday – Saturday: 12PM – 6PM<br>Sunday: 12PM – 5PM<br><br>Entrance Fees:<br>Children under 3 – free <br>Child 3-7: $2.00 <br>Adult 18-54: $3.00 <br>Seniors 55+: $2.00 ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.190108,36.2335654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitney Ranch Activity Pool</name>
+        <description><![CDATA[Reopens Memorial Day Weekend 2026.<br>Hours:<br>Monday-Thursday: Noon-4pm<br>Friday-Sunday: 11am-6pm<br>Sunday & Holidays: Closed<br><br>Starting August 11, pool will be CLOSED during the week. Open Weekends Only. Closes for season after Labor Day, September 1<br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45 ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0583882,36.075504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitney Ranch Indoor Pool</name>
+        <description><![CDATA[Hours:<br>Monday – Thursday: 6AM – 11:30AM; 2PM – 8PM<br>Friday: 6AM – 11:30AM; 2PM – 6PM<br>Saturday: 7AM – 12PM<br>Sunday & Holidays: Closed<br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45 ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.057872,36.0752289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Mountain Recreation Center</name>
+        <description><![CDATA[Hours:<br>Monday – Thursday: 12PM – 4PM<br>Friday & Saturday: 11AM – 6PM<br>Sunday & Holidays: Closed<br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9761847,36.0128027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Henderson Multigenerational Indoor Pool</name>
+        <description><![CDATA[Hours:<br>Monday-Thursday: 6am-11:30am; 2pm-8pm (Limited Lanes Tuesday/Thursday from 10:30am – 11:30am and Monday – Thursday from 4pm-7pm)<br><br> Friday: 6am-11:30am; 2pm-6pm (Limited lanes from 4pm-6pm)<br><br> Saturday: 9am – Noon<br>Sunday & Holidays: Closed<br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0789397,36.0191544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Henderson Multigenerational Activity Pool</name>
+        <description><![CDATA[Reopens Memorial Day Weekend 2026.<br>Hours:<br>Monday – Thursday: 12PM – 4PM <br>Friday & Saturday: 11AM – 6PM<br>Sunday & Holidays: Closed<br><br>Starting August 11, pool will be CLOSED during the week. Open Weekends Only. Closes for season after Labor Day, September 1.<br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45 ]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0787079,36.0195221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Springs Outdoor Pool</name>
+        <description><![CDATA[Reopens Memorial Day Weekend 2026<br>Hours: <br>Tuesday – Friday: 12PM – 4PM<br>Closes for season on August 11. <br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0748063,36.045197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wells Park and Pool</name>
+        <description><![CDATA[Reopens Memorial Day Weekend 2026<br>Hours: <br>Monday-Sunday: 12PM – 4PM<br>Closes for season on August 11.<br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0015282,36.062915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heritage Park Aquatic Complex</name>
+        <description><![CDATA[Hours:<br>Monday-Thursday: 6am-8pm (Limited lanes from 4pm-7pm)<br>Friday: 6am-6pm (Limited lanes from 4pm-6pm)<br>Saturday: 7am – Noon<br>Sundays & Holiday: Closed<br><br>Entrance Fees:<br>City of Henderson Residents<br>Adults: $5<br>Children & Seniors: $3<br><br>Non City of Henderson Residents<br>Adults: $5.75<br>Children & Seniors: $3.45]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9512942,36.0321946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Doolittle Pool</name>
+        <description><![CDATA[Hours:<br>Monday & Wednesday:12PM – 4PM<br>Friday/Saturday: 12PM – 4PM<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 4-17 – $2<br>Adults ages 18-49 – $3<br>Seniors ages 50+ – $2]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1556073,36.1951508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aquatic Springs</name>
+        <description><![CDATA[Hours:<br>Family Pool hours and Lap Lane hours differ<br><br>Lap Lane hours:<br>Monday-Friday: 6am-noon & 3-7pm<br><br>Family Pool Hours:<br>Monday-Thursday: 6am-noon & 3-4pm<br>Friday: 6am-noon & 3-7pm<br>Saturday: 11am-3pm<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2999151,36.0604889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desert Breeze Indoor Pool</name>
+        <description><![CDATA[Hours:<br>Family Pool hours and Lap Lane hours differ<br><br>Lap Lane hours:<br>Monday-Friday: 5:30-11am & 2:30-8pm<br>Saturday: 8am-2pm<br><br>Family Pool Hours:<br>Monday-Thursday: 5:30-8:30am & 2:30-4pm<br>Friday: 5:30-9:30am & 2:30-8pm<br>Saturday: 11:30am-2pm<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2716324,36.1249523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hollywood Aquatic Center</name>
+        <description><![CDATA[Hours:<br>Indoor Training Pool and Lap Lane hours differ<br>18+ hours differ.<br><br>Lap Lane hours:<br>Monday-Thursday: 7-11am & 2-8pm<br>Friday:  7-11am & 2-4pm<br>Saturday: 9am-1pm<br><br>Lap Lane 18+ hours:<br>Monday-Friday: 10-11am & 2-4pm<br>Saturday: 10am-1pm<br><br>Indoor Training Pool Hours:<br>Monday-Wednesday: 7-9am & 10-11am & 2-4pm<br>Tuesday/Thursday: 8-10am & 2-4pm<br>Friday: 7-10am<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0254745,36.1548958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cora Coleman Adult Activity Pool</name>
+        <description><![CDATA[Hours:<br>21 and older<br>Monday/Wednesday/Friday: 8am-2pm<br>Tuesday/Thursday: 8-11am & 12-2pm<br><br>Entrance Fees:<br>Adults ages 21-54 – $2<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0454506,36.1979289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Flamingo Adult Activity Pool</name>
+        <description><![CDATA[Hours:<br>21 and older<br>Monday/Wednesday/Friday: 9am-noon & 1-3 pm<br>Tuesday/Thursday: 9am-3pm<br><br>Entrance Fees:<br>CASH ONLY<br>Adults ages 21-54 – $2<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2264527,36.113561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Indian Springs Neighborhood Swimming Pool</name>
+        <description><![CDATA[Hours:<br><br>Monday-Thursday: 12-4pm<br>Saturday/Sunday: 12pm-6pm<br><br>Entrance Fees:<br>CASH ONLY<br>Ages 3 and younger – free<br>Ages 3-17 – $1<br>Adults ages 18-54 – $2<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.6765874,36.5746902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desert Breeze Water Park</name>
+        <description><![CDATA[Hours:<br><br>Wednesday/Friday: 10am-3pm<br>Tuesday/Thursday: 4-9pm<br>Saturday/Sunday: 10am-4pm<br>Sensory swim FRIDAY: 8-10am<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2716324,36.1249523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laughlin Aquatic Center</name>
+        <description><![CDATA[Hours:<br>Tuesday/Thursday: 12-4pm<br>Saturday/Sunday: 12pm-6pm<br><br>Entrance Fees:<br>CASH ONLY<br>Ages 3 and younger – free<br>Ages 3-17 – $1<br>Adults ages 18-54 – $2<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -114.6232026,35.1288672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Logandale Neighborhood Pool</name>
+        <description><![CDATA[Hours:<br>Monday/Wednesday: 12-4pm<br>Friday/Saturday: 12pm-6pm<br><br>Entrance Fees:<br>CASH ONLY<br>Ages 3 and younger – free<br>Ages 3-17 – $1<br>Adults ages 18-54 – $2<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4825797,36.599911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Overton Neighborhood Pool
+</name>
+        <description><![CDATA[Hours:<br>Tuesday/Thursday: 12-4pm<br>Saturday: 12pm-6pm<br><br>Entrance Fees:<br>CASH ONLY<br>Ages 3 and younger – free<br>Ages 3-17 – $1<br>Adults ages 18-54 – $2<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4484787,36.5422181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkdale Water Park</name>
+        <description><![CDATA[Hours:<br>Tuesday/Thursday: 10am-4pm<br>Saturday/Sunday: 10am-4pm<br><br>Entrance Fees:<br>CASH ONLY<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.077354,36.1319498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walnut Water Park</name>
+        <description><![CDATA[Hours:<br>Tuesday/Thursday: 10am-4pm<br>Saturday/Sunday: 10am-4pm<br><br>Entrance Fees:<br>CASH ONLY<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0909408,36.2156256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitney Water Park</name>
+        <description><![CDATA[Hours:<br>Monday-Thursday: 12pm-4pm<br>Saturday/Sunday: 10am-4pm<br><br>Entrance Fees:<br>CASH ONLY<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0484134,36.0956426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hollywood Water Park</name>
+        <description><![CDATA[Hours:<br><br>Monday/Wednesday/Friday: 10am-4pm<br>Saturday/Sunday: 12pm-4pm<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0254745,36.1548958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradise Water Park</name>
+        <description><![CDATA[Hours:<br><br>Monday/Wednesday/Friday: 12pm-4pm<br>Saturday/Sunday: 10am-4pm<br><br>Entrance Fees:<br>Ages 3 and younger – free<br>Ages 3-17 – $2<br>Adults ages 18-54 – $3<br>Seniors ages 55+ – $1<br><br>Hours and Pool Closures are subject to change. Check the Clark County Pools Guide]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1117891,36.1035081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

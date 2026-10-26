@@ -1,0 +1,97 @@
+[
+  {
+    "id": "gibson",
+    "url": "https://henderson.communico.co/gibson-library",
+    "finalUrl": "https://henderson.communico.co/gibson-library",
+    "status": 200,
+    "file": "sources/review-gibson.html",
+    "sha256": "219a286458d40b73bae6c0be93cf73dd4d6d8bb2415962dc35c055febb0431d0",
+    "retrievedAt": "2026-10-03T03:38:02.607870+00:00"
+  },
+  {
+    "id": "west-henderson",
+    "url": "https://henderson.libnet.info/west-henderson-library",
+    "finalUrl": "https://henderson.libnet.info/west-henderson-library",
+    "status": 200,
+    "file": "sources/review-west-henderson.html",
+    "sha256": "3fdb2473029688e5cf334ad186341d2bb95feb88176d8b12ebfe064d2bf7f1dc",
+    "retrievedAt": "2026-10-03T03:38:03.144719+00:00"
+  },
+  {
+    "id": "henderson-city",
+    "url": "https://www.cityofhenderson.com/government/departments/mayor-and-council/welcome-to-henderson/services/libraries",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "salvation-owens",
+    "url": "https://www.salvationarmyusa.org/nv/north-las-vegas/w-owens-ave-4/",
+    "finalUrl": "https://www.salvationarmyusa.org/nv/north-las-vegas/w-owens-ave-4/",
+    "status": 200,
+    "file": "sources/review-salvation-owens.html",
+    "sha256": "317feeee25dea0198f6ec3157aaf6d94f08bad7c9be12d4b426c38061696cc7b",
+    "retrievedAt": "2026-10-03T03:38:05.293251+00:00"
+  },
+  {
+    "id": "salvation-mesquite",
+    "url": "https://www.salvationarmyusa.org/nv/mesquite/",
+    "finalUrl": "https://www.salvationarmyusa.org/nv/mesquite/",
+    "status": 200,
+    "file": "sources/review-salvation-mesquite.html",
+    "sha256": "5f7083ae54e7f40d514254dd4df0eb5b07d58f308edfe0a172fb09e8bc8f9ca1",
+    "retrievedAt": "2026-10-03T03:38:08.790934+00:00"
+  },
+  {
+    "id": "courtyard",
+    "url": "https://www.lasvegasnevada.gov/Residents/Resident-Services/Homeless-Services",
+    "finalUrl": "https://www.lasvegasnevada.gov/Residents/Resident-Services/Homeless-Services",
+    "status": 200,
+    "file": "sources/review-courtyard.html",
+    "sha256": "04727b35f45a77397887b11eb4dcb62e4bc00017d0d4d1d6c2d2aed9c4082070",
+    "retrievedAt": "2026-10-03T03:38:14.008238+00:00"
+  },
+  {
+    "id": "legion-district",
+    "url": "https://www.nevadalegiond2.org/post-info",
+    "finalUrl": "https://www.nevadalegiond2.org/post-info",
+    "status": 200,
+    "file": "sources/review-legion-district.html",
+    "sha256": "22346c506536c3e45922ba28c0e111f683449765f4eb9e638ee66830331d598d",
+    "retrievedAt": "2026-10-03T03:38:14.403922+00:00"
+  },
+  {
+    "id": "legion-post",
+    "url": "https://richardspringstonpost60.com/",
+    "finalUrl": "https://richardspringstonpost60.com/",
+    "status": 200,
+    "file": "sources/review-legion-post.html",
+    "sha256": "85e4c191d6eb6a9b2303b0353172eda379663567d92c83621d31048c48ade66b",
+    "retrievedAt": "2026-10-03T03:38:14.758051+00:00"
+  },
+  {
+    "id": "foodbank-partner",
+    "url": "https://www.threesquare.org/images/documents/Website_TEFAP_Update_-_Last_Updated_1.27.26.pdf",
+    "finalUrl": "https://www.threesquare.org/images/documents/Website_TEFAP_Update_-_Last_Updated_1.27.26.pdf",
+    "status": 200,
+    "file": "sources/review-foodbank-partner.pdf",
+    "sha256": "c4d84097685496b9ca26c8891127d68630acbb072b12806685e57d8b15aa0975",
+    "retrievedAt": "2026-10-03T03:38:15.401262+00:00"
+  },
+  {
+    "id": "qr-cooling",
+    "url": "https://flowcode.com/p/eP1Dvza0vX",
+    "finalUrl": "https://experience.arcgis.com/experience/b48c8acd2629459680735491401c020b",
+    "status": 200,
+    "file": "sources/review-qr-cooling.html",
+    "sha256": "d183d08124a3215b7d102a980bd27ab2d198233375ce2b9d085ee37511f9a184",
+    "retrievedAt": "2026-10-03T03:38:15.942440+00:00"
+  },
+  {
+    "id": "qr-heat",
+    "url": "https://allin.clarkcountynv.gov/Initiative/StayCool",
+    "finalUrl": "https://allin.clarkcountynv.gov/Initiative/StayCool",
+    "status": 200,
+    "file": "sources/review-qr-heat.html",
+    "sha256": "c124ab39f0025346eb422746b116832f7ca1cb6bbd986e47929135d551f52fd5",
+    "retrievedAt": "2026-10-03T03:38:16.103009+00:00"
+  }
+]

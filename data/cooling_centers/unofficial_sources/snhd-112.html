@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head profile="https://microformats.org/profile/hcalendar">
+	<meta http-equiv="content-language" content="en" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />	
+
+	<!--<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/ui-lightness/jquery-ui.css" /> -->
+	<link type="text/css" href="js/jquery.ui.snhd/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Neon to Nature - Get Moving - Southern Nevada Health District</title>
+  <meta name="description" content="Southern Nevada has about 200 miles of urban off-street trails, 260 miles of on-street bicycle lanes and more than 1,100 additional miles in the works." />
+  <meta name="keywords" content="Get Healthy Clark County, Southern Nevada Health District, Clark County, Las Vegas, North Las Vegas, Henderson, Mesquite, Boulder City, public health education, health education, office of chronic disease prevention and health promotion, get moving, eat better, be safe, live tobacco-free, know your risks, neon to nature, walking trails, bike lanes" />
+  
+	<script src="https://www.google.com/jsapi?key=ABQIAAAA4EaovZ0d_LCpMCPNY24SCxR2ROAwBMw5L-c4NMSB6o-s7asBZxRAQhE_Pj2ISpn5IQHmm-Z85eZRUA" type="text/javascript"></script>				
+	<script type="text/javascript">
+		google.load("maps", "3", {'other_params':'sensor=false'});
+		google.load("jquery", "1.6.1");
+		google.load("jqueryui", "1.8.13");
+	</script>
+	<script type="text/javascript" src="js/ui/jquery.ui.map.js"></script>
+	<script type="text/javascript" src="js/ui/jquery.ui.gmap.microformat.js"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="js/galleryview/galleryview.css" media="screen" />
+  <script type="text/javascript" src="js/galleryview/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/galleryview/jquery.galleryview-2.1.1-pack.js"></script>
+  <script type="text/javascript" src="js/galleryview/jquery.timers-1.2.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="js/shadowbox/shadowbox.css">
+  <script type="text/javascript" src="js/shadowbox/shadowbox.js"></script>
+
+  <script type="text/javascript">
+  
+    var options = {
+      keysClose: ['c', 27]
+    }; 
+    Shadowbox.init({
+      onOpen: moveCloseLink
+    });
+    function moveCloseLink(){
+      var cb=document.getElementById('sb-info');
+      $(cb).css("position","absolute");
+      $(cb).css("right","0");
+      $(cb).css("top","0");
+      $(cb).css("z-index","1300");
+    }
+  
+    $(document).ready(function(){
+      // load map
+      function load_map() {
+        // load the map
+        $('#events').ready(function() {
+          $('#trail_map').gmap('destroy');
+          $('#trail_map').gmap({
+            'scrollwheel': true,
+            'callback': function(map){
+              $('#trail_map').gmap('loadMetadata', 'microformat', 'vevent', function(index, item, data){
+                var clone = $(item).clone().addClass('ui-dialog-vevent').append('<div id="streetview{0}" class="streetview"></div>'.replace('{0}', index));
+                $('#trail_map').gmap('option','center', new google.maps.LatLng(data.latitude.title, data.longitude.title)); 
+                $('#trail_map').gmap('addMarker', {
+                  'bounds': false,
+                  'position': new google.maps.LatLng(data.latitude.title, data.longitude.title),
+                  'title': data.summary.text,
+                  'icon': new google.maps.MarkerImage('map-icons/' + data.org.text)
+                  //'icon': new google.maps.MarkerImage('https://google-maps-icons.googlecode.com/files/music-rock.png')
+                }, function(map, marker){
+                  $(item).find('.summary').click(function(){
+                    $(marker).triggerEvent('click');
+                  //map.panTo( $(marker).get(0).getPosition());
+                  //$(clone).dialog({ 'modal': true, 'width': 530, 'title': data.summary.text, 'resizable': false, 'draggable': false });
+                  //return false;
+                  });
+                }).click(function(){
+                  map.panTo($(this).get(0).getPosition());
+                  $(clone).dialog({
+                    'modal': true,
+                    'width': 530,
+                    'title': data.summary.text,
+                    'resizable': false,
+                    'draggable': false
+                  });
+                  //$('#trail_map').gmap('addControl', 'sidebar', google.maps.ControlPosition.LEFT_TOP);
+                $('#trail_map').gmap('displayStreetView', 'streetview{0}'.replace('{0}', index), { 'position': $(this).get(0).getPosition() });
+                });
+              });
+              
+            }
+          });
+          $('#trail_map').gmap('option','zoom',13); 
+        });
+      }
+      load_map();
+  
+      //To override default option values, include them in JSON format in the call to the plugin, like so:
+      $('#gallery').galleryView({
+        gallery_width: 350,
+        gallery_height: 250,
+        panel_width: 350,
+        panel_height: 250,
+        gallery_padding:0,
+        frame_width: 60,
+        frame_height: 40,
+        pause_on_hover: true
+      });
+      
+      $('.large').click(function() {
+        var url =  'imageflow.php?trail_id=112';
+        Shadowbox.open({
+          content: url,
+          player: "iframe"
+        });
+      });
+      $("#btn_dir_to").click(function() { 
+      	$('#trail_map').gmap('displayDirections', {
+          'origin': $('#user_address').val(),
+          'destination':  new google.maps.LatLng(35.99114738, -115.22179775),
+          'travelMode': google.maps.DirectionsTravelMode.DRIVING },
+          { 'panel': document.getElementById('directions_panel')},
+          function(success, response) {
+            if ( success )
+              $('#directions_panel').show();
+          });
+      });
+      $("#btn_dir_from").click(function() { 
+      	$('#trail_map').gmap('displayDirections', {
+          'destination': $('#user_address').val(),
+          'origin':  new google.maps.LatLng(35.99114738, -115.22179775),
+          'travelMode': google.maps.DirectionsTravelMode.DRIVING },
+          { 'panel': document.getElementById('directions_panel')},
+          function(success, response) {
+            if ( success )
+              $('#directions_panel').show();
+          });
+      });
+      $("#btn_reset").click(function() {
+        $('#directions_panel').empty();
+        load_map();
+      });
+    });
+    
+  </script>
+  <link href="../css/ghcc.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="783" height="842" border="1" align="center" cellpadding="5" cellspacing="0" class="table1">
+  <tr>
+    <td width="767" height="840">
+      <table width="767" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+          <td colspan="2" bgcolor="#336666"><img src="../image/footer.jpg" width="770" height="27" /></td>
+        </tr>
+        <tr>
+          <td colspan="2"><img src="../image/spacer2.gif" width="770" height="2" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="td-669999" height="5"></td>
+        </tr> 
+        <tr>
+          <td colspan="2" class="td-669999"></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="td-669999" height="5"></td>
+        </tr>
+        <tr>
+          <td height="156" colspan="2"><a href="../index.php"><img src="../image/ghcc-logo.jpg" alt="Get Healthy Clark County Logo" width="770" height="156" border="0" /></a></td>
+        </tr>
+        <tr>
+          <td colspan="2" valign="top"></td>
+        </tr>
+        
+        <tr>
+          <td colspan="2" valign="top"><img src="../image/under-buttons.jpg" width="770" height="16"/></td>
+        </tr>
+      <tr>
+        <td colspan="2" valign="top"><img src="../image/spacer2.gif" width="766" height="2" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top">
+          <p align="left" class="program-title">Neon to Nature<br />
+            <span class="bullet-text">Escape, Explore, Enjoy</span></p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" valign="top"><p style="margin-left:25px;"><span class="subtitle-tables">Trail Name: Inzalaco Family Park Loop Path</span></p><br /></td>
+      </tr>
+      <tr>
+        <td colspan="2" valign=="top">
+          <table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="380" valign="top">
+                <div id="trail_doc">
+                  <div class="item gradient ui-corner-all shadow-all">
+                    <div id="trail_map"></div>
+                  </div>
+                </div>
+                <fieldset style="border:1px solid #336666; width:92%; padding-left:8px">
+                  <legend class="section-titles"><b>Driving Directions</b></legend>
+                  <div>
+                    Address: <input id="user_address" name="user_address" size="35" /><br />
+                    <button id="btn_dir_to">To Trail</button><button id="btn_dir_from">From Trail</button><button id="btn_reset">Reset Map</button>
+                    <div id="directions_panel"></div>
+                  </div> 
+                </fieldset>
+                <fieldset style="border:1px solid #336666; width:92%; padding-left:8px">
+                  <legend class="section-titles"><b>Trail Facts</b></legend>
+                  <table width="345" border="0">
+                      <tr><th width="110" align="left">Difficulty</th><td width="235" valign="middle"><img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" />  Easy</td></tr>
+                      <tr><th align="left" valign="top">Distance</th><td valign="top">0.29 mi</td></tr>
+                      <!--<tr><th align="left" valign="top">Estimated Time</th><td valign="top">15 minutes</td></tr> -->
+                      <tr><th align="left" valign="top">Trail Surface</th><td valign="top">Concrete</td></tr>
+                      <tr><th align="left" valign="top">Trail Types</th><td valign="top">Park Path</td></tr>
+                      <tr><th align="left" valign="top">Trail Uses</th><td valign="top"><div style="overflow:auto;"><img alt="Bicycling" title="Bicycling" src="icons/bicycling.gif" width="32" height="32" /><img alt="Walking" title="Walking" src="icons/walking.gif" width="32" height="32" /></div></td></tr>
+                      <tr><th align="left" valign="top">Trail Amenities</th><td valign="top"><div style="overflow:auto;"><img alt="Benches" title="Benches" src="icons/bench.gif" width="32" height="32" /><img alt="Drinking Fountains" title="Drinking Fountains" src="icons/drinking-fountain.gif" width="32" height="32" /><img alt="Leashed Pets" title="Leashed Pets" src="icons/leashed-pets.gif" width="32" height="32" /><img alt="Lighting" title="Lighting" src="icons/lighting.gif" width="32" height="32" /><img alt="Parking On-Site" title="Parking On-Site" src="icons/parking.gif" width="32" height="32" /><img alt="Picnic Pavilions" title="Picnic Pavilions" src="icons/picnic-pavilions2.gif" width="32" height="32" /><img alt="Playground" title="Playground" src="icons/playground.gif" width="32" height="32" /><img alt="Residential Access" title="Residential Access" src="icons/residential-access.gif" width="32" height="32" /><img alt="Shade Structure" title="Shade Structure" src="icons/shade-structure.gif" width="32" height="32" /><img alt="Waste Receptacles" title="Waste Receptacles" src="icons/waste-receptacle.gif" width="32" height="32" /></div></td></tr>
+                  </table>
+                  <hr />
+                  <table width="100%" border="0">
+                                        
+                      <tr><th width="110" align="left">Address</th><td>5801 Shinnecock Hills Avenue<br />Las Vegas, NV 89141</td></tr>
+                                          <tr><th align="left">Trailhead Info</th><td>Inzalaco Family Park</td></tr>
+                  </table>
+                </fieldset>
+              </td>
+              <td width="380" valign="top">
+                <fieldset style="border:1px solid #336666; width:370px; padding-left:10px">
+                  <legend class="section-titles"><b>Trail Photos</b></legend>
+                    <ul id="gallery">
+                      <li><img src="photos/340/inzalaco-family-park-loop1.jpg" alt="Photo of Inzalaco Family Park Loop Path" /></li><li><img src="photos/340/inzalaco-family-park-loop2.jpg" alt="Photo of Inzalaco Family Park Loop Path" /></li><li><img src="photos/340/inzalaco-family-park-loop3.jpg" alt="Photo of Inzalaco Family Park Loop Path" /></li><li><img src="photos/340/inzalaco-family-park-loop4.jpg" alt="Photo of Inzalaco Family Park Loop Path" /></li>                    </ul>
+                  <a class="large" style="margin-left:120px;">View Full Size Photos</a>
+                </fieldset><br /><br />
+                <fieldset style="border:1px solid #336666; width:95%; padding-left:8px">
+                  <legend class="section-titles"><b>Trail Notes</b></legend>
+                  The park loop trail is nicely landscaped and runs along the perimeter of this small neighborhood park in the Southern Highlands development.                </fieldset><br /><br />
+                <fieldset style="border:1px solid #336666; width:95%; padding-left:8px">
+                  <legend class="section-titles"><b>Nearby Trails</b></legend>
+                  <div style="width: 100%; overflow: auto">(0.84 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=152">Southern Highlands Parkway Trail</a><br />(0.89 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=103">Goett Family Park Wash Trail</a><br />(1.26 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=146">Somerset Hills Park Loop Trail</a><br />(2.32 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=97">Erie Avenue Trail</a><br />(2.82 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=89">Tenaya Paseo Trail</a><br />(2.82 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=114">LaBaron Paseo Trail</a><br />(2.82 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=98">Exploration Peak Park Loop Trail</a><br />(2.82 mi) - <img alt="Moderate" title="Moderate" src="map-icons/16-3.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=99">Exploration Peak Trail</a><br />(3.43 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=145">Silverado Ranch Park Loop Trail</a><br />(3.44 mi) - <img alt="Easy" title="Easy" src="map-icons/16-1.gif" width="16" height="16" /> - <a href="traildetails.php?trail_id=418">Mountain's Edge Paseo Trail</a><br /></div>
+                </fieldset></td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+      <tr>
+        <td colspan="2"><img src="../image/spacer.gif" width="770" height="2" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="92" class="td-CCCC99" align="center"></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="3"><img src="../image/spacer.gif" width="770" height="2" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="34" colspan="2" class="td-336666"></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="27"><img src="../image/footer.jpg" width="770" height="27" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<div id="events" class="hidden">
+<ul class="v-list">
+	<li>
+		<div class="vevent">
+			<span class="summary">Inzalaco Family Park Loop Path</span>
+			<span class="org hidden">16-1.gif</span>
+			<div class="basictext"><span class="boldtext">Street View</span></div>
+      
+			<span class="location vcard">
+				<span class="address adr hidden">
+					<span class="geo hidden">
+						<abbr title="35.99114738" class="latitude">35.99114738</abbr>
+						<abbr title="-115.22179775" class="longitude">-115.22179775</abbr>
+					</span>
+				</span>
+			</span>
+		</div>
+	</li>
+</ul>  
+</div>	
+</body>
+</html>

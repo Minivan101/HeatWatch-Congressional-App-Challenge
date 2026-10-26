@@ -1,0 +1,134 @@
+{
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "buildingCount": 289,
+  "coverageBounds": {
+    "east": -115.28,
+    "north": 36.193,
+    "south": 36.187,
+    "west": -115.288
+  },
+  "coverageGaps": [],
+  "downloadedAt": "2026-10-04",
+  "heightConfidenceCounts": {
+    "high": 0,
+    "low": 288,
+    "medium": 1
+  },
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "skippedBuildingRelations": 0,
+  "skippedWays": {
+    "invalid": 0,
+    "missing_nodes": 0,
+    "open": 0
+  },
+  "source": "OpenStreetMap",
+  "sourceSha256": "a053abba7af2ff5cdb69a362405936f6065124acdd52d9f3b6dd636eee7ac002",
+  "tileSizeDegrees": 0.002,
+  "tiles": [
+    {
+      "buildingCount": 2,
+      "file": "tile_18093_-57641.json",
+      "key": "18093_-57641"
+    },
+    {
+      "buildingCount": 4,
+      "file": "tile_18093_-57644.json",
+      "key": "18093_-57644"
+    },
+    {
+      "buildingCount": 3,
+      "file": "tile_18093_-57645.json",
+      "key": "18093_-57645"
+    },
+    {
+      "buildingCount": 6,
+      "file": "tile_18094_-57640.json",
+      "key": "18094_-57640"
+    },
+    {
+      "buildingCount": 46,
+      "file": "tile_18094_-57641.json",
+      "key": "18094_-57641"
+    },
+    {
+      "buildingCount": 35,
+      "file": "tile_18094_-57642.json",
+      "key": "18094_-57642"
+    },
+    {
+      "buildingCount": 22,
+      "file": "tile_18094_-57643.json",
+      "key": "18094_-57643"
+    },
+    {
+      "buildingCount": 20,
+      "file": "tile_18094_-57644.json",
+      "key": "18094_-57644"
+    },
+    {
+      "buildingCount": 5,
+      "file": "tile_18094_-57645.json",
+      "key": "18094_-57645"
+    },
+    {
+      "buildingCount": 7,
+      "file": "tile_18095_-57640.json",
+      "key": "18095_-57640"
+    },
+    {
+      "buildingCount": 56,
+      "file": "tile_18095_-57641.json",
+      "key": "18095_-57641"
+    },
+    {
+      "buildingCount": 50,
+      "file": "tile_18095_-57642.json",
+      "key": "18095_-57642"
+    },
+    {
+      "buildingCount": 29,
+      "file": "tile_18095_-57643.json",
+      "key": "18095_-57643"
+    },
+    {
+      "buildingCount": 10,
+      "file": "tile_18095_-57644.json",
+      "key": "18095_-57644"
+    },
+    {
+      "buildingCount": 1,
+      "file": "tile_18095_-57645.json",
+      "key": "18095_-57645"
+    },
+    {
+      "buildingCount": 3,
+      "file": "tile_18096_-57640.json",
+      "key": "18096_-57640"
+    },
+    {
+      "buildingCount": 28,
+      "file": "tile_18096_-57641.json",
+      "key": "18096_-57641"
+    },
+    {
+      "buildingCount": 27,
+      "file": "tile_18096_-57642.json",
+      "key": "18096_-57642"
+    },
+    {
+      "buildingCount": 7,
+      "file": "tile_18096_-57643.json",
+      "key": "18096_-57643"
+    },
+    {
+      "buildingCount": 6,
+      "file": "tile_18096_-57644.json",
+      "key": "18096_-57644"
+    },
+    {
+      "buildingCount": 3,
+      "file": "tile_18096_-57645.json",
+      "key": "18096_-57645"
+    }
+  ]
+}

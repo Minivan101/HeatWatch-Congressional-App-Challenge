@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "440927216737",
+    "project_id": "heatwatch-nv",
+    "storage_bucket": "heatwatch-nv.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440927216737:android:90556ced9bd27f7f5a3620",
+        "android_client_info": {
+          "package_name": "com.ivantrac.heatwatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM5NyPUxn_cd6_JJCaJ8NBeYGUYDo2rvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

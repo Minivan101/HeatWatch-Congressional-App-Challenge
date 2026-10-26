@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "duration": "600s",
+      "distanceMeters": 127,
+      "polyline": {"encodedPolyline": "_p~iF~ps|U_ulLnnqC_mqNvxq`@"}
+    },
+    {
+      "duration": "640s",
+      "distanceMeters": 143,
+      "polyline": {"encodedPolyline": "_p~iF~ps|U_ulLnnqC"}
+    }
+  ]
+}

@@ -1,0 +1,1047 @@
+[
+  {
+    "stationId": "blue-diamond-library",
+    "sourceUrl": "https://thelibrarydistrict.org/locations/BD",
+    "file": "sources/library-BD.html",
+    "sha256": "30bcdcea12afba495dcb6e5437e11ffea574edb8faa46fd331e4728462554653",
+    "retrievedOn": "2026-10-02",
+    "originalStructuredData": {
+      "@context": "http://schema.org",
+      "@type": "Library",
+      "@id": "https://thelibrarydistrict.org/locations/BD",
+      "url": "https://thelibrarydistrict.org/locations/bd/",
+      "name": "Blue Diamond Library",
+      "branchcode": "bd",
+      "address": {
+        "@type": "PostalAddress",
+        "@id": "https://thelibrarydistrict.org/locations/BD",
+        "addressCountry": "US",
+        "addressLocality": "Blue Diamond",
+        "addressRegion": "NV",
+        "postalCode": "89004",
+        "streetAddress": "16A Cottonwood Dr."
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "@id": "https://thelibrarydistrict.org/locations/BD",
+        "latitude": 36.0467649,
+        "longitude": -115.40713289999997
+      },
+      "image": "https://lvccld.bibliocommons.com/events/uploads/images/full/977325040d2f001bcdb4730a237dd864/Blue-Diamond.jpg",
+      "photo": {
+        "@type": "ImageObject",
+        "author": "Las Vegas-Clark County Library District",
+        "contentLocation": "Blue Diamond Library",
+        "contentUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/977325040d2f001bcdb4730a237dd864/Blue-Diamond.jpg",
+        "name": "Blue Diamond Library"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Phone",
+          "telephone": "+1-702-507-4301"
+        }
+      ],
+      "telephone": "+1-702-507-4301",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "00:00:00",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "00:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "13:30:00",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "11:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "14:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "16:30:00",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "12:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "19:00:00",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "17:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "13:30:00",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "11:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "14:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "13:30:00",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "12:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "16:00:00",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "14:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "13:30:00",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "15:00:00",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "14:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "00:00:00",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "00:00:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wi-Fi",
+          "value": true,
+          "url": "https://lvccld.org/wi-fi"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scanners, Copiers, and Fax",
+          "value": true,
+          "url": "https://lvccld.org/business-services/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computers",
+          "value": true,
+          "url": "https://lvccld.org/reserve-computer"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Book Drop",
+          "value": true
+        }
+      ]
+    }
+  },
+  {
+    "stationId": "centennial-hills-library",
+    "sourceUrl": "https://thelibrarydistrict.org/locations/CH",
+    "file": "sources/library-CH.html",
+    "sha256": "8583d0a8ab2257c3f18b247bd03a679db0464c5f9b2358cb571f8762a60641fe",
+    "retrievedOn": "2026-10-02",
+    "originalStructuredData": {
+      "@context": "http://schema.org",
+      "@type": "Library",
+      "@id": "https://thelibrarydistrict.org/locations/CH",
+      "url": "https://thelibrarydistrict.org/locations/ch/",
+      "name": "Centennial Hills Library",
+      "branchcode": "ch",
+      "address": {
+        "@type": "PostalAddress",
+        "@id": "https://thelibrarydistrict.org/locations/CH",
+        "addressCountry": "US",
+        "addressLocality": "Las Vegas",
+        "addressRegion": "NV",
+        "postalCode": "89131",
+        "streetAddress": "6711 N. Buffalo Dr."
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "@id": "https://thelibrarydistrict.org/locations/CH",
+        "latitude": 36.2832026,
+        "longitude": -115.26201789999999
+      },
+      "image": "https://lvccld.bibliocommons.com/events/uploads/images/full/a2a17e585438592b95042727f61b5fd8/Centennial-Hills.jpg",
+      "photo": {
+        "@type": "ImageObject",
+        "author": "Las Vegas-Clark County Library District",
+        "contentLocation": "Centennial Hills Library",
+        "contentUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/a2a17e585438592b95042727f61b5fd8/Centennial-Hills.jpg",
+        "name": "Centennial Hills Library"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Phone",
+          "telephone": "+1-702-507-6100"
+        }
+      ],
+      "telephone": "+1-702-507-6100",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "10:00:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wi-Fi",
+          "value": true,
+          "url": "https://lvccld.org/wi-fi"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Storytimes",
+          "value": true,
+          "url": "https://lvccld.org/storytimes/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Art Galleries",
+          "value": true,
+          "url": "https://lvccld.org/gallery-exhibits/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Meeting Room Rentals",
+          "value": true,
+          "url": "https://lvccld.org/rental-facilities/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "K-12 Homework Help",
+          "value": true,
+          "url": "https://lvccld.org/homeworkhelp/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scanners, Copiers, and Fax",
+          "value": true,
+          "url": "https://lvccld.org/business-services/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Study Rooms",
+          "value": true,
+          "url": "https://thelibrarydistrict.libcal.com/spaces?lid=24253&gid=51542"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computer Centers",
+          "value": true,
+          "url": "https://lvccld.org/reserve-computer/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Curbside Pickup",
+          "value": true,
+          "url": "https://lvccld.org/locations-hours-curbside/#pickup"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Book Drop",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bookstore",
+          "value": true,
+          "url": "https://lvccld.org/foundation/bookstores-donations/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wireless printing",
+          "value": true,
+          "url": "https://lvccld.org/wifiprinting/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Quiet Room",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "3D Printing Workshops for All Ages",
+          "value": true,
+          "url": "https://lvccld.bibliocommons.com/events/search/q=3D&fq=branch_location_id:(CH)"
+        }
+      ]
+    }
+  },
+  {
+    "stationId": "east-las-vegas-library",
+    "sourceUrl": "https://thelibrarydistrict.org/locations/EV",
+    "file": "sources/library-EV.html",
+    "sha256": "ecf5a8ac7c147d715be0edbfe242bbdc2d86982ce45a2f738b1fb3228637792e",
+    "retrievedOn": "2026-10-02",
+    "originalStructuredData": {
+      "@context": "http://schema.org",
+      "@type": "Library",
+      "@id": "https://thelibrarydistrict.org/locations/EV",
+      "url": "https://thelibrarydistrict.org/locations/ev/",
+      "name": "East Las Vegas Library",
+      "branchcode": "ev",
+      "address": {
+        "@type": "PostalAddress",
+        "@id": "https://thelibrarydistrict.org/locations/EV",
+        "addressCountry": "US",
+        "addressLocality": "Las Vegas",
+        "addressRegion": "NV",
+        "postalCode": "89101",
+        "streetAddress": "2851 East Bonanza Road"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "@id": "https://thelibrarydistrict.org/locations/EV",
+        "latitude": 36.173195,
+        "longitude": -115.11060299999997
+      },
+      "image": "https://lvccld.bibliocommons.com/events/uploads/images/full/d22197bbaa90fb7737ff9495f8f83815/East-Las-Vegas.jpg",
+      "photo": {
+        "@type": "ImageObject",
+        "author": "Las Vegas-Clark County Library District",
+        "contentLocation": "East Las Vegas Library",
+        "contentUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/d22197bbaa90fb7737ff9495f8f83815/East-Las-Vegas.jpg",
+        "name": "East Las Vegas Library"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Phone",
+          "telephone": "+1-702-507-3500"
+        }
+      ],
+      "telephone": "+1-702-507-3500",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "10:00:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wi-Fi",
+          "value": true,
+          "url": "https://lvccld.org/wi-fi"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Storytimes",
+          "value": true,
+          "url": "https://lvccld.org/storytimes/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scanners, Copiers, and Fax",
+          "value": true,
+          "url": "https://lvccld.org/business-services/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Meeting Room Rentals",
+          "value": true,
+          "url": "https://lvccld.org/rental-facilities/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computers",
+          "value": true,
+          "url": "https://lvccld.org/reserve-computer"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Art Galleries",
+          "value": true,
+          "url": "https://lvccld.org/gallery-exhibits/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computer Centers",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Curbside Pickup",
+          "value": true,
+          "url": "https://lvccld.org/locations-hours-curbside/#pickup"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Book Drop",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Study Rooms",
+          "value": true,
+          "url": "https://thelibrarydistrict.libcal.com/spaces?lid=24255"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "K-12 Homework Help",
+          "value": true,
+          "url": "https://lvccld.org/homeworkhelp/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bookstore",
+          "value": true,
+          "url": "https://lvccld.org/foundation/bookstores-donations/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Employ NV Career Hub",
+          "value": true,
+          "url": "https://thelibrarydistrict.org/employnv/#careerhub"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Podcast Room",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "DJ Lab",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Legal Kiosk",
+          "value": true,
+          "url": "https://thelibrarydistrict.org/blogs/post/access-free-legal-resources-with-nevada-legal-kiosks/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Adult Learning Program",
+          "value": true,
+          "url": "https://lvccld.org/adult-learning/"
+        }
+      ]
+    }
+  },
+  {
+    "stationId": "enterprise-library",
+    "sourceUrl": "https://thelibrarydistrict.org/locations/EN",
+    "file": "sources/library-EN.html",
+    "sha256": "02f91ff703e1b066a6b928d239c3eca37fe5c29631ae07bec946630131681307",
+    "retrievedOn": "2026-10-02",
+    "originalStructuredData": {
+      "@context": "http://schema.org",
+      "@type": "Library",
+      "@id": "https://thelibrarydistrict.org/locations/EN",
+      "url": "https://thelibrarydistrict.org/locations/en/",
+      "name": "Enterprise Library",
+      "branchcode": "en",
+      "address": {
+        "@type": "PostalAddress",
+        "@id": "https://thelibrarydistrict.org/locations/EN",
+        "addressCountry": "US",
+        "addressLocality": "Las Vegas",
+        "addressRegion": "NV",
+        "postalCode": "89123",
+        "streetAddress": "8310 South Las Vegas Blvd."
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "@id": "https://thelibrarydistrict.org/locations/EN",
+        "latitude": 36.038356,
+        "longitude": -115.171088
+      },
+      "image": "https://lvccld.bibliocommons.com/events/uploads/images/full/b798523d3d619e1f1b5b849d80639c79/Enterprise.jpg",
+      "photo": {
+        "@type": "ImageObject",
+        "author": "Las Vegas-Clark County Library District",
+        "contentLocation": "Enterprise Library",
+        "contentUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/b798523d3d619e1f1b5b849d80639c79/Enterprise.jpg",
+        "name": "Enterprise Library"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Phone",
+          "telephone": "+1-702-507-3760"
+        }
+      ],
+      "telephone": "+1-702-507-3760",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "10:00:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Meeting Room Rentals",
+          "value": true,
+          "url": "https://lvccld.org/rental-facilities/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wi-Fi",
+          "value": true,
+          "url": "https://lvccld.org/wi-fi"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Art Galleries",
+          "value": true,
+          "url": "https://lvccld.org/gallery-exhibits/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Storytimes",
+          "value": true,
+          "url": "https://lvccld.org/storytimes/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Study Rooms",
+          "value": true,
+          "url": "https://thelibrarydistrict.libcal.com/spaces?lid=24256"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scanners, Copiers, and Fax",
+          "value": true,
+          "url": "https://lvccld.org/business-services/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computers",
+          "value": true,
+          "url": "https://lvccld.org/reserve-computer"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Book Drop",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Curbside Pickup",
+          "value": true,
+          "url": "https://lvccld.org/locations-hours-curbside/#pickup"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "K-12 Homework Help",
+          "value": true,
+          "url": "https://lvccld.org/homeworkhelp/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bookstore",
+          "value": true,
+          "url": "https://lvccld.org/foundation/bookstores-donations/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Cox Teen Steam Lab",
+          "value": true,
+          "url": "https://lvccld.org/teen-tech-labs/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "3D Printing Workshops",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Sewing & Knitting Machine",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "DJ Lab",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Cricut & Laser Cutting",
+          "value": true
+        }
+      ]
+    }
+  },
+  {
+    "stationId": "mesquite-library-campus",
+    "sourceUrl": "https://thelibrarydistrict.org/locations/MQ",
+    "file": "sources/library-MQ.html",
+    "sha256": "8c97134e6bb6c0e15a0275830280640c18ec413c99d0e59f1687af6a87686cd4",
+    "retrievedOn": "2026-10-02",
+    "originalStructuredData": {
+      "@context": "http://schema.org",
+      "@type": "Library",
+      "@id": "https://thelibrarydistrict.org/locations/MQ",
+      "url": "https://thelibrarydistrict.org/locations/mq/",
+      "name": "Mesquite Library",
+      "branchcode": "mq",
+      "address": {
+        "@type": "PostalAddress",
+        "@id": "https://thelibrarydistrict.org/locations/MQ",
+        "addressCountry": "US",
+        "addressLocality": "Mesquite",
+        "addressRegion": "NV",
+        "postalCode": "89027",
+        "streetAddress": "160 W. First North St."
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "@id": "https://thelibrarydistrict.org/locations/MQ",
+        "latitude": 36.8056516,
+        "longitude": -114.070674
+      },
+      "image": "https://lvccld.bibliocommons.com/events/uploads/images/full/ff942e12f2c3d868fef0d7977104aa3b/MesquiteLibrary_FreeToBe.jpg",
+      "photo": {
+        "@type": "ImageObject",
+        "author": "Las Vegas-Clark County Library District",
+        "contentLocation": "Mesquite Library",
+        "contentUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/ff942e12f2c3d868fef0d7977104aa3b/MesquiteLibrary_FreeToBe.jpg",
+        "name": "Mesquite Library"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Phone",
+          "telephone": "+1-702-507-4080"
+        }
+      ],
+      "telephone": "+1-702-507-4080",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "19:00:00",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "19:00:00",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "19:00:00",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "19:00:00",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "17:00:00",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "13:00:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wi-Fi",
+          "value": true,
+          "url": "https://lvccld.org/wi-fi"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Storytimes",
+          "value": true,
+          "url": "https://lvccld.org/storytimes/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computers",
+          "value": true,
+          "url": "https://lvccld.org/reserve-computer"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Meeting Room Rentals",
+          "value": true,
+          "url": "https://lvccld.org/rental-facilities/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scanners, Copiers, and Fax",
+          "value": true,
+          "url": "https://lvccld.org/business-services/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Book Drop",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Curbside Pickup",
+          "value": true,
+          "url": "https://lvccld.org/locations-hours-curbside/#pickup"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "K-12 Homework Help",
+          "value": true,
+          "url": "https://lvccld.org/homeworkhelp/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Study Rooms",
+          "value": true,
+          "url": "http://thelibrarydistrict.org/study-rooms/mq"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "3D Printer: All Ages",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Caf\u00e9 -Table of Contents!",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Legal Kiosk",
+          "value": true,
+          "url": "https://thelibrarydistrict.org/blogs/post/access-free-legal-resources-with-nevada-legal-kiosks/"
+        }
+      ]
+    }
+  },
+  {
+    "stationId": "west-las-vegas-library",
+    "sourceUrl": "https://thelibrarydistrict.org/locations/WV",
+    "file": "sources/library-WV.html",
+    "sha256": "26a0c163a7578d55ed7e6d49bbfaaefbb2e8e7a06bfc85a79cf3a6d5f3fc8040",
+    "retrievedOn": "2026-10-02",
+    "originalStructuredData": {
+      "@context": "http://schema.org",
+      "@type": "Library",
+      "@id": "https://thelibrarydistrict.org/locations/WV",
+      "url": "https://thelibrarydistrict.org/locations/wv/",
+      "name": "West Las Vegas Library",
+      "branchcode": "wv",
+      "address": {
+        "@type": "PostalAddress",
+        "@id": "https://thelibrarydistrict.org/locations/WV",
+        "addressCountry": "US",
+        "addressLocality": "Las Vegas",
+        "addressRegion": "NV",
+        "postalCode": "89106",
+        "streetAddress": "1861 N. Martin Luther King Jr. Blvd"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "@id": "https://thelibrarydistrict.org/locations/WV",
+        "latitude": 36.19222,
+        "longitude": -115.161546
+      },
+      "image": "https://lvccld.bibliocommons.com/events/uploads/images/full/f1be8c1588e6cc4dc78576394a196cec/2025-West-Las-Vegas-Library-1200x640.jpg",
+      "photo": {
+        "@type": "ImageObject",
+        "author": "Las Vegas-Clark County Library District",
+        "contentLocation": "West Las Vegas Library",
+        "contentUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/f1be8c1588e6cc4dc78576394a196cec/2025-West-Las-Vegas-Library-1200x640.jpg",
+        "name": "West Las Vegas Library"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Phone",
+          "telephone": "+1-702-507-3980"
+        }
+      ],
+      "telephone": "+1-702-507-3980",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "20:00:00",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "10:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes": "18:00:00",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "10:00:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Art Galleries",
+          "value": true,
+          "url": "https://lvccld.org/gallery-exhibits/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wi-Fi",
+          "value": true,
+          "url": "https://lvccld.org/wi-fi"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Meeting Room Rentals",
+          "value": true,
+          "url": "https://lvccld.org/rental-facilities/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "K-12 Homework Help",
+          "value": true,
+          "url": "https://lvccld.org/homeworkhelp/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scanners, Copiers, and Fax",
+          "value": true,
+          "url": "https://lvccld.org/business-services/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computers",
+          "value": true,
+          "url": "https://lvccld.org/reserve-computer"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Computer Centers",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bookstore",
+          "value": true,
+          "url": "https://lvccld.org/foundation/bookstores-donations/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Book Drop",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Curbside Pickup",
+          "value": true,
+          "url": "https://lvccld.org/locations-hours-curbside/#pickup"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Storytimes",
+          "value": true,
+          "url": "https://lvccld.org/storytimes/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Study Rooms",
+          "value": true,
+          "url": "https://thelibrarydistrict.libcal.com/spaces?lid=24260&gid=51550"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "3D Printing for All Ages",
+          "value": true,
+          "url": "https://lvccld.bibliocommons.com/events/search/q=3d&fq=branch_location_id:(WV)"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Switch Robot Lab",
+          "value": true,
+          "url": "https://lvccld.org/teen-tech-labs"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Employ NV Career Hub",
+          "value": true,
+          "url": "https://thelibrarydistrict.org/employnv/#careerhub"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "African American Special Collection",
+          "value": true,
+          "url": "https://lvccld.org/special-collections/african-american/"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Legal Kiosk",
+          "value": true,
+          "url": "https://thelibrarydistrict.org/blogs/post/access-free-legal-resources-with-nevada-legal-kiosks/"
+        }
+      ]
+    }
+  }
+]

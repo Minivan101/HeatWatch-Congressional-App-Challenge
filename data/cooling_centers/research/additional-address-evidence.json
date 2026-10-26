@@ -1,0 +1,74 @@
+[
+  {
+    "stationId": "american-legion",
+    "sourceUrl": "https://www.nevadalegiond2.org/post-info",
+    "file": "sources/review-legion-district.html",
+    "sha256": "22346c506536c3e45922ba28c0e111f683449765f4eb9e638ee66830331d598d",
+    "retrievedOn": "2026-10-02",
+    "addressAsPublished": "1510 Bruce Woodbury Drive, Laughlin, NV 89029",
+    "publicationDate": null,
+    "scope": "Street-address corroboration only; no coordinate, entrance or cooling activation verification.",
+    "phoneAsPublished": "(702) 299-1510",
+    "phoneCorroborationUrl": "https://richardspringstonpost60.com/"
+  },
+  {
+    "stationId": "colorado-river-food-bank",
+    "sourceUrl": "https://www.threesquare.org/images/documents/Website_TEFAP_Update_-_Last_Updated_1.27.26.pdf",
+    "file": "sources/review-foodbank-partner.pdf",
+    "sha256": "c4d84097685496b9ca26c8891127d68630acbb072b12806685e57d8b15aa0975",
+    "retrievedOn": "2026-10-02",
+    "addressAsPublished": "240 E. Laughlin Civic Drive, Laughlin, NV 89029",
+    "publicationDate": "2026-01-27",
+    "scope": "Street-address corroboration only; no coordinate, entrance or cooling activation verification."
+  },
+  {
+    "stationId": "james-i-gibson-library",
+    "sourceUrl": "https://henderson.communico.co/gibson-library",
+    "file": "sources/review-gibson.html",
+    "sha256": "219a286458d40b73bae6c0be93cf73dd4d6d8bb2415962dc35c055febb0431d0",
+    "retrievedOn": "2026-10-02",
+    "addressAsPublished": "100 W. Lake Mead Pkwy., Henderson, Nevada 89015",
+    "publicationDate": null,
+    "scope": "Street-address corroboration only; no coordinate, entrance or cooling activation verification."
+  },
+  {
+    "stationId": "the-salvation-army-family-services-center",
+    "sourceUrl": "https://www.salvationarmyusa.org/nv/mesquite/",
+    "file": "sources/review-salvation-mesquite.html",
+    "sha256": "5f7083ae54e7f40d514254dd4df0eb5b07d58f308edfe0a172fb09e8bc8f9ca1",
+    "retrievedOn": "2026-10-02",
+    "addressAsPublished": "742 Pioneer Blvd. Ste.D",
+    "publicationDate": null,
+    "scope": "Street-address corroboration only; no coordinate, entrance or cooling activation verification."
+  },
+  {
+    "stationId": "courtyard-homeless-resource-center",
+    "sourceUrl": "https://www.lasvegasnevada.gov/Residents/Resident-Services/Homeless-Services",
+    "file": "sources/review-courtyard.html",
+    "sha256": "04727b35f45a77397887b11eb4dcb62e4bc00017d0d4d1d6c2d2aed9c4082070",
+    "retrievedOn": "2026-10-02",
+    "addressAsPublished": "314 Foremaster Lane",
+    "publicationDate": null,
+    "scope": "Street-address corroboration only; no coordinate, entrance or cooling activation verification."
+  },
+  {
+    "stationId": "the-salvation-army",
+    "sourceUrl": "https://www.salvationarmyusa.org/nv/north-las-vegas/w-owens-ave-4/",
+    "file": "sources/review-salvation-owens.html",
+    "sha256": "317feeee25dea0198f6ec3157aaf6d94f08bad7c9be12d4b426c38061696cc7b",
+    "retrievedOn": "2026-10-02",
+    "addressAsPublished": "35 W Owens Ave, NORTH LAS VEGAS, Nevada 89030",
+    "publicationDate": null,
+    "scope": "Street-address corroboration only; no coordinate, entrance or cooling activation verification."
+  },
+  {
+    "stationId": "west-henderson-library",
+    "sourceUrl": "https://henderson.libnet.info/west-henderson-library",
+    "file": "sources/review-west-henderson.html",
+    "sha256": "3fdb2473029688e5cf334ad186341d2bb95feb88176d8b12ebfe064d2bf7f1dc",
+    "retrievedOn": "2026-10-02",
+    "addressAsPublished": "3243 Bicentennial Pkwy., Henderson, Nevada 89044",
+    "publicationDate": null,
+    "scope": "Street-address corroboration only; no coordinate, entrance or cooling activation verification."
+  }
+]

@@ -1,0 +1,230 @@
+{
+  "buildings": [
+    {
+      "footprint": [
+        {
+          "latitude": 33.9998149,
+          "longitude": -117.9976367
+        },
+        {
+          "latitude": 33.9997934,
+          "longitude": -117.9976449
+        },
+        {
+          "latitude": 33.9998031,
+          "longitude": -117.9976814
+        },
+        {
+          "latitude": 33.9998245,
+          "longitude": -117.9976732
+        },
+        {
+          "latitude": 33.9998322,
+          "longitude": -117.9977021
+        },
+        {
+          "latitude": 33.9998066,
+          "longitude": -117.9977119
+        },
+        {
+          "latitude": 33.9998149,
+          "longitude": -117.9977431
+        },
+        {
+          "latitude": 33.9998405,
+          "longitude": -117.9977334
+        },
+        {
+          "latitude": 33.9998581,
+          "longitude": -117.9978001
+        },
+        {
+          "latitude": 33.9998282,
+          "longitude": -117.9978116
+        },
+        {
+          "latitude": 33.9998709,
+          "longitude": -117.9979727
+        },
+        {
+          "latitude": 33.9999376,
+          "longitude": -117.9979472
+        },
+        {
+          "latitude": 33.9999047,
+          "longitude": -117.9978232
+        },
+        {
+          "latitude": 33.9999671,
+          "longitude": -117.9977994
+        },
+        {
+          "latitude": 33.9999472,
+          "longitude": -117.9977243
+        },
+        {
+          "latitude": 33.9999261,
+          "longitude": -117.9977323
+        },
+        {
+          "latitude": 33.9999161,
+          "longitude": -117.9976946
+        },
+        {
+          "latitude": 33.9998959,
+          "longitude": -117.9977022
+        },
+        {
+          "latitude": 33.999869,
+          "longitude": -117.9976006
+        },
+        {
+          "latitude": 33.999889,
+          "longitude": -117.997593
+        },
+        {
+          "latitude": 33.9998726,
+          "longitude": -117.997531
+        },
+        {
+          "latitude": 33.9997947,
+          "longitude": -117.9975607
+        }
+      ],
+      "heightConfidence": "high",
+      "heightMeters": 3.4,
+      "heightSource": "height",
+      "osmId": "way/470734289",
+      "tags": {
+        "height": "3.4"
+      }
+    },
+    {
+      "footprint": [
+        {
+          "latitude": 33.9979812,
+          "longitude": -117.9977032
+        },
+        {
+          "latitude": 33.9980014,
+          "longitude": -117.9977132
+        },
+        {
+          "latitude": 33.998004,
+          "longitude": -117.9977055
+        },
+        {
+          "latitude": 33.9980312,
+          "longitude": -117.9977189
+        },
+        {
+          "latitude": 33.9980409,
+          "longitude": -117.9976905
+        },
+        {
+          "latitude": 33.9980634,
+          "longitude": -117.9977016
+        },
+        {
+          "latitude": 33.9980843,
+          "longitude": -117.9976404
+        },
+        {
+          "latitude": 33.9980619,
+          "longitude": -117.9976294
+        },
+        {
+          "latitude": 33.9980699,
+          "longitude": -117.997606
+        },
+        {
+          "latitude": 33.9980161,
+          "longitude": -117.9975794
+        },
+        {
+          "latitude": 33.9979793,
+          "longitude": -117.9976869
+        }
+      ],
+      "heightConfidence": "high",
+      "heightMeters": 6.4,
+      "heightSource": "height",
+      "osmId": "way/470734429",
+      "tags": {
+        "height": "6.4"
+      }
+    },
+    {
+      "footprint": [
+        {
+          "latitude": 33.9986099,
+          "longitude": -117.9974748
+        },
+        {
+          "latitude": 33.9986333,
+          "longitude": -117.9974776
+        },
+        {
+          "latitude": 33.9986593,
+          "longitude": -117.9974184
+        },
+        {
+          "latitude": 33.9986492,
+          "longitude": -117.9973512
+        },
+        {
+          "latitude": 33.9986254,
+          "longitude": -117.9973479
+        },
+        {
+          "latitude": 33.9986373,
+          "longitude": -117.997283
+        },
+        {
+          "latitude": 33.9985802,
+          "longitude": -117.9971576
+        },
+        {
+          "latitude": 33.9986604,
+          "longitude": -117.9970035
+        },
+        {
+          "latitude": 33.9985738,
+          "longitude": -117.9969385
+        },
+        {
+          "latitude": 33.9984888,
+          "longitude": -117.9971016
+        },
+        {
+          "latitude": 33.9985758,
+          "longitude": -117.9973006
+        },
+        {
+          "latitude": 33.9985552,
+          "longitude": -117.9975105
+        },
+        {
+          "latitude": 33.9984429,
+          "longitude": -117.997698
+        },
+        {
+          "latitude": 33.9984859,
+          "longitude": -117.9977351
+        },
+        {
+          "latitude": 33.9986049,
+          "longitude": -117.9975362
+        }
+      ],
+      "heightConfidence": "high",
+      "heightMeters": 4.8,
+      "heightSource": "height",
+      "osmId": "way/470734430",
+      "tags": {
+        "height": "4.8"
+      }
+    }
+  ],
+  "tileKey": "16999_-58999"
+}

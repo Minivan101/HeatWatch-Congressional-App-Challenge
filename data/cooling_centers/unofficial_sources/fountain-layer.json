@@ -1,0 +1,811 @@
+{
+ "currentVersion": 10.91,
+ "id": 8,
+ "name": "Drinking Fountains",
+ "type": "Feature Layer",
+ "description": "",
+ "geometryType": "esriGeometryPoint",
+ "sourceSpatialReference": {
+  "wkid": 102707,
+  "latestWkid": 3421
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "TYPE",
+   "field2": null,
+   "field3": null,
+   "defaultSymbol": null,
+   "defaultLabel": null,
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "a5d278a45347a42bbc0f880e2e697be1",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAXdJREFUKJGl0s8rw3Ecx/Hn1/c73xYpXyVLcVDC4SuWH80OVlaSA3ZSlPw4KCnJRU4iSZFJcrH9Bw4W5WAONpoTkguFg2+UHdl3Ux+HZVtqzY/X8f3p86jP5/VW+GeUHOelNputzDCMy18Dalg4zT3fpLE0HAF+CQghsfu4jb29jKG5RfwL3UDg50BYDJrPj3XoTtSx+V7Tv/AC5APx3MCJsHJ3tUqVDoCJNM3WmZ3x1gFgJzdgvs2SMEsoKPqaFKI3TwEhoBR4yQ6EhI3ryAw1jRCPwekBSDI4OkcJvm/gsvYD69mB1ycvRcUqsgKhAMz2JedrhwrN7kVVVTc1TdMza00BWlg0RC/CHnRHciDnp2FZAeghGFsxHFIHGbWmgOj9jY+Kail1qcUN3iPIk0FvS36PYAUYAbqA/TQQjHm4u6insjbjcRawu/gWByFRR5tUDliAhMK5sHB6vIWqwm3WhUvnI76JVrlM9GECWFNokhIk6/lTPgGrYXBT6FfQEgAAAABJRU5ErkJggg==",
+      "contentType": "image/png",
+      "width": 12,
+      "height": 10,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Fountain Drinking",
+     "label": "Drinking Fountain",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "23eb3cff688ccb293445ca6551093a9a",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAXRJREFUKJGl0c8rw3Ecx/Hn1/c730TKV8lSdlDC4SuW0eZAUZKDHydFyY+DkpJclpNIUhZaywX/gQNRDuZgmzghuVA4+EbZkX039XH4ZhatNV7H17v34314K/wzSoZ5id1uLzUM4zJrQBXhZnNrd9IYXjwDsgSEkHjc2aDFWcrs0ALz213AXhZAeNB8fK6hWUedG+sx57dfgFwgnhkQJ3lc3a2gVwBgSkxzGnDSND4AbGYG3kwvZqKYwvyvpgCXPgWEgBLgJT0gQnbOrmeor4JYHA4iIEvQ4R7lPbhOXms/sJoeeHpdo6hQRZFhLwS9Xqs/9Cm0uxZUVfVrmqanvjUJaCJcFw1f9OHWrSJXTjkjA3QTCy4bkruNlLcmgejN/RaV5VJyqb0RjtZAzgGPhZqIZWAE6AT2v4FYsI+Lu1qqHd9XbQq0OvkRNyJUg+QpA2xAQkGc2ziOBFBVuLz9ufA78Q8/Dm2Jh+gE4FOQGhJY7/lTPgGsE3BTv+8XwgAAAABJRU5ErkJggg==",
+      "contentType": "image/png",
+      "width": 12,
+      "height": 10,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Fountain Dog",
+     "label": "Dog Fountain",
+     "description": ""
+    }
+   ],
+   "fieldDelimiter": ","
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": 729171.504218094,
+  "ymin": 2.675511150397961E7,
+  "xmax": 807767.6567367576,
+  "ymax": 2.6820211191693358E7,
+  "spatialReference": {
+   "wkid": 102707,
+   "latestWkid": 3421
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeNone",
+ "displayField": "TYPE",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "ID",
+   "domain": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "Type",
+   "length": 30,
+   "domain": {
+    "type": "codedValue",
+    "name": "Point_Type_44",
+    "description": "Point_Type",
+    "codedValues": [
+     {
+      "name": "Barbeque Grill",
+      "code": "Barbeque Grill"
+     },
+     {
+      "name": "Basketball Hoop",
+      "code": "Basketball Hoop"
+     },
+     {
+      "name": "Bench Concrete",
+      "code": "Bench Concrete"
+     },
+     {
+      "name": "Bench Metal",
+      "code": "Bench Metal"
+     },
+     {
+      "name": "Bleachers",
+      "code": "Bleachers"
+     },
+     {
+      "name": "Bollard",
+      "code": "Bollard"
+     },
+     {
+      "name": "Climbing Wall",
+      "code": "Climbing Wall"
+     },
+     {
+      "name": "Dog Bag Dispenser",
+      "code": "Dog Bag Dispenser"
+     },
+     {
+      "name": "Equestrian Water Trough",
+      "code": "Equestrian Water Trough"
+     },
+     {
+      "name": "Fitness Station",
+      "code": "Fitness Station"
+     },
+     {
+      "name": "Flag Pole",
+      "code": "Flag Pole"
+     },
+     {
+      "name": "Fountain Dog",
+      "code": "Fountain Dog"
+     },
+     {
+      "name": "Fountain Drinking",
+      "code": "Fountain Drinking"
+     },
+     {
+      "name": "Ground Play",
+      "code": "Ground Play"
+     },
+     {
+      "name": "Hitching Station",
+      "code": "Hitching Station"
+     },
+     {
+      "name": "Home Plate",
+      "code": "Home Plate"
+     },
+     {
+      "name": "Park Name Sign",
+      "code": "Park Name Sign"
+     },
+     {
+      "name": "Picnic Table Concrete",
+      "code": "Picnic Table Concrete"
+     },
+     {
+      "name": "Picnic Table Handi Concrete",
+      "code": "Picnic Table Handi Concrete"
+     },
+     {
+      "name": "Picnic Table Handi Metal",
+      "code": "Picnic Table Handi Metal"
+     },
+     {
+      "name": "Picnic Table Metal",
+      "code": "Picnic Table Metal"
+     },
+     {
+      "name": "Playground 2 to 5",
+      "code": "Playground 2 to 5"
+     },
+     {
+      "name": "Playground 5 to 12",
+      "code": "Playground 5 to 12"
+     },
+     {
+      "name": "Playground Equipment",
+      "code": "Playground Equipment"
+     },
+     {
+      "name": "Security Check Point",
+      "code": "Security Check Point"
+     },
+     {
+      "name": "Splash Animals",
+      "code": "Splash Animals"
+     },
+     {
+      "name": "Swings",
+      "code": "Swings"
+     },
+     {
+      "name": "Swings Tot",
+      "code": "Swings Tot"
+     },
+     {
+      "name": "Trash Can Concrete",
+      "code": "Trash Can Concrete"
+     },
+     {
+      "name": "Trash Dumpster",
+      "code": "Trash Dumpster"
+     },
+     {
+      "name": "Trash Can Metal",
+      "code": "Trash Can Metal"
+     },
+     {
+      "name": "Trash In Ground",
+      "code": "Trash In Ground"
+     },
+     {
+      "name": "Water Play Feature",
+      "code": "Water Play Feature"
+     },
+     {
+      "name": "Bike Rack",
+      "code": "Bike Rack"
+     },
+     {
+      "name": "Stool Concrete",
+      "code": "Stool Concrete"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "NOTES",
+   "type": "esriFieldTypeString",
+   "alias": "NOTES",
+   "length": 100,
+   "domain": null
+  },
+  {
+   "name": "CLASS",
+   "type": "esriFieldTypeString",
+   "alias": "Item Class",
+   "length": 50,
+   "domain": {
+    "type": "codedValue",
+    "name": "Class_4",
+    "description": "Class",
+    "codedValues": [
+     {
+      "name": "Building",
+      "code": "Building"
+     },
+     {
+      "name": "City Building",
+      "code": "City Building"
+     },
+     {
+      "name": "Dog",
+      "code": "Dog"
+     },
+     {
+      "name": "Drinking Fountain",
+      "code": "Drinking Fountain"
+     },
+     {
+      "name": "Equestrian",
+      "code": "Equestrian"
+     },
+     {
+      "name": "Fence",
+      "code": "Fence"
+     },
+     {
+      "name": "Flood Control",
+      "code": "Flood Control"
+     },
+     {
+      "name": "Irrigation",
+      "code": "Irrigation"
+     },
+     {
+      "name": "Landscape",
+      "code": "Landscape"
+     },
+     {
+      "name": "Median",
+      "code": "Median"
+     },
+     {
+      "name": "Memorial",
+      "code": "Memorial"
+     },
+     {
+      "name": "Monument",
+      "code": "Monument"
+     },
+     {
+      "name": "Nature",
+      "code": "Nature"
+     },
+     {
+      "name": "Pad",
+      "code": "Pad"
+     },
+     {
+      "name": "Park",
+      "code": "Park"
+     },
+     {
+      "name": "Parking Lot",
+      "code": "Parking Lot"
+     },
+     {
+      "name": "Path",
+      "code": "Path"
+     },
+     {
+      "name": "Picnic",
+      "code": "Picnic"
+     },
+     {
+      "name": "Playground",
+      "code": "Playground"
+     },
+     {
+      "name": "Pool",
+      "code": "Pool"
+     },
+     {
+      "name": "Road",
+      "code": "Road"
+     },
+     {
+      "name": "Security",
+      "code": "Security"
+     },
+     {
+      "name": "Sitting Area",
+      "code": "Sitting Area"
+     },
+     {
+      "name": "Special Events",
+      "code": "Special Events"
+     },
+     {
+      "name": "Sports Court",
+      "code": "Sports Court"
+     },
+     {
+      "name": "Sports Field",
+      "code": "Sports Field"
+     },
+     {
+      "name": "Trash",
+      "code": "Trash"
+     },
+     {
+      "name": "Turf",
+      "code": "Turf"
+     },
+     {
+      "name": "Utilities",
+      "code": "Utilities"
+     },
+     {
+      "name": "Water",
+      "code": "Water"
+     },
+     {
+      "name": "Water Play",
+      "code": "Water Play"
+     },
+     {
+      "name": "Transport",
+      "code": "Transport"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "FAC_NME",
+   "type": "esriFieldTypeString",
+   "alias": "Facility Name",
+   "length": 75,
+   "domain": null
+  },
+  {
+   "name": "FAC_TYP",
+   "type": "esriFieldTypeString",
+   "alias": "Facility Type",
+   "length": 75,
+   "domain": {
+    "type": "codedValue",
+    "name": "Fac_Typ_59",
+    "description": "Facility Type",
+    "codedValues": [
+     {
+      "name": "Facility",
+      "code": "Facility"
+     },
+     {
+      "name": "Median",
+      "code": "Median"
+     },
+     {
+      "name": "Park",
+      "code": "Park"
+     },
+     {
+      "name": "School Site",
+      "code": "School Site"
+     },
+     {
+      "name": "Trail",
+      "code": "Trail"
+     },
+     {
+      "name": "Basin",
+      "code": "Basin"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "FLAG",
+   "type": "esriFieldTypeString",
+   "alias": "Flag",
+   "length": 5,
+   "domain": {
+    "type": "codedValue",
+    "name": "FLAG_86",
+    "description": "Editing Notes",
+    "codedValues": [
+     {
+      "name": "Construction",
+      "code": "C"
+     },
+     {
+      "name": "Verify Item",
+      "code": "V"
+     },
+     {
+      "name": "Existing",
+      "code": "X"
+     },
+     {
+      "name": "Remove",
+      "code": "R"
+     },
+     {
+      "name": "New Value",
+      "code": "NV"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "FLAG_NOTES",
+   "type": "esriFieldTypeString",
+   "alias": "Flag Notes",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "COLLECT_METHOD",
+   "type": "esriFieldTypeString",
+   "alias": "Collection Method",
+   "length": 5,
+   "domain": {
+    "type": "codedValue",
+    "name": "Collect_Method_71",
+    "description": "Collection Method",
+    "codedValues": [
+     {
+      "name": "GPS",
+      "code": "GPS"
+     },
+     {
+      "name": "Visual Inspection",
+      "code": "VI"
+     },
+     {
+      "name": "CLV Digitized from Aerial",
+      "code": "CDA"
+     },
+     {
+      "name": "CLV Digitized from Plans",
+      "code": "CDP"
+     },
+     {
+      "name": "Clark County GPS",
+      "code": "CCGPS"
+     },
+     {
+      "name": "Davey Tree Study",
+      "code": "DVGPS"
+     },
+     {
+      "name": "Urban Forrestry",
+      "code": "UF"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "MFR",
+   "type": "esriFieldTypeString",
+   "alias": "Manufacturer",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "SERIAL",
+   "type": "esriFieldTypeString",
+   "alias": "Serial Number",
+   "length": 15,
+   "domain": null
+  },
+  {
+   "name": "MODEL",
+   "type": "esriFieldTypeString",
+   "alias": "MODEL",
+   "length": 15,
+   "domain": null
+  },
+  {
+   "name": "INSP",
+   "type": "esriFieldTypeDate",
+   "alias": "Inspection Date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "COND",
+   "type": "esriFieldTypeString",
+   "alias": "Condition",
+   "length": 15,
+   "domain": {
+    "type": "codedValue",
+    "name": "Condition",
+    "description": "Condition",
+    "codedValues": [
+     {
+      "name": "Good",
+      "code": "Good"
+     },
+     {
+      "name": "Fair",
+      "code": "Fair"
+     },
+     {
+      "name": "Poor",
+      "code": "Poor"
+     },
+     {
+      "name": "Damaged",
+      "code": "Damaged"
+     },
+     {
+      "name": "Unknown",
+      "code": "Unknown"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "REP_DAT",
+   "type": "esriFieldTypeDate",
+   "alias": "Replacement Date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "INST_DAT",
+   "type": "esriFieldTypeDate",
+   "alias": "Installation Date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "INST_BY",
+   "type": "esriFieldTypeString",
+   "alias": "Installed By",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "SVC_DAT",
+   "type": "esriFieldTypeString",
+   "alias": "Service Date",
+   "length": 15,
+   "domain": null
+  },
+  {
+   "name": "WARRANT_EX",
+   "type": "esriFieldTypeDate",
+   "alias": "Warranty Expiration",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "INSP_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "Inspection Type",
+   "length": 5,
+   "domain": {
+    "type": "codedValue",
+    "name": "Inspection_Type",
+    "description": "Inspection Type",
+    "codedValues": [
+     {
+      "name": "GPS",
+      "code": "GPS"
+     },
+     {
+      "name": "Visual Inspection",
+      "code": "VI"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "COLLECT_DAT",
+   "type": "esriFieldTypeDate",
+   "alias": "Collection Date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "REP_CST_TOT",
+   "type": "esriFieldTypeDouble",
+   "alias": "Replacement Cost Total",
+   "domain": null
+  },
+  {
+   "name": "ORG_CST",
+   "type": "esriFieldTypeDouble",
+   "alias": "Original Cost Total",
+   "domain": null
+  },
+  {
+   "name": "IMAGE_SOURCE",
+   "type": "esriFieldTypeString",
+   "alias": "Image Source",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "ZONE_ID",
+   "type": "esriFieldTypeString",
+   "alias": "Zone ID",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "LAST_UPDAT",
+   "type": "esriFieldTypeDate",
+   "alias": "LAST_UPDAT",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "LAST_EDITOR",
+   "type": "esriFieldTypeString",
+   "alias": "LAST_EDITOR",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "INSP_BY",
+   "type": "esriFieldTypeString",
+   "alias": "Inspected_By",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "SHAPE",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "EntityUID",
+   "type": "esriFieldTypeString",
+   "alias": "EntityUID",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "ConditionDate",
+   "type": "esriFieldTypeString",
+   "alias": "ConditionDate",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "ConditionScore",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "ConditionScore",
+   "domain": null
+  },
+  {
+   "name": "Location",
+   "type": "esriFieldTypeString",
+   "alias": "Location",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "WarrantyDate",
+   "type": "esriFieldTypeString",
+   "alias": "WarrantyDate",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "LegacyID",
+   "type": "esriFieldTypeString",
+   "alias": "LegacyID",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Address",
+   "type": "esriFieldTypeString",
+   "alias": "Address",
+   "length": 255,
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "SHAPE",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_SHAPE",
+   "fields": "SHAPE",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null,
+ "supportsCoordinatesQuantization": true
+}

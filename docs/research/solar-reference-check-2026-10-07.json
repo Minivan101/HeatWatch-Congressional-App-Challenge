@@ -1,0 +1,17 @@
+{
+  "cases": 3170,
+  "maxElevationDifferenceDegrees": 0.5099861508041101,
+  "maxAzimuthDifferenceDegrees": 0.7955353969216787,
+  "maxDirectionDifferenceDegrees": 0.5108262907050646,
+  "geometricHorizonSignDifferences": 46,
+  "signDifferencesOutsideOneDegreeHorizonBand": 0,
+  "referenceCasesWithinOneDegreeOfHorizon": 287,
+  "worstDirectionReferenceCase": [
+    "2024-09-15T23:00:00Z",
+    36.4,
+    -115.04,
+    31.98591626072053,
+    246.71107175365393
+  ],
+  "scope": "Numerical sun geometry; not measured shade accuracy."
+}

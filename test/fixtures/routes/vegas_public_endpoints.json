@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Summerlin Library → Bruce Trent Park",
+    "start": {
+      "latitude": 36.19143950472907,
+      "longitude": -115.30210200475739,
+      "precision": "County GIS facility point; entrance not verified",
+      "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/GISMO/PointOfInterest/MapServer/1",
+      "objectId": 26,
+      "checkedOn": "2026-10-02",
+      "sourceName": "Summerlin Library",
+      "sourceAddress": "1771 Inner Circle Dr",
+      "sourceKind": "county-gis"
+    },
+    "end": {
+      "latitude": 36.18666521197702,
+      "longitude": -115.28702679306085,
+      "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+      "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+    }
+  },
+  {
+    "name": "Centennial Hills Library → Sunny Springs Park",
+    "start": {
+      "latitude": 36.2832026,
+      "longitude": -115.26201789999999,
+      "sourceKind": "official-facility",
+      "sourceUrl": "https://thelibrarydistrict.org/locations/CH",
+      "checkedOn": "2026-10-02",
+      "objectId": null,
+      "featureId": "https://thelibrarydistrict.org/locations/CH",
+      "sourceName": "Centennial Hills Library",
+      "sourceAddress": "6711 N. Buffalo Dr.",
+      "precision": "Official facility-published GeoCoordinates; pedestrian entrance not verified"
+    },
+    "end": {
+      "latitude": 36.29346224317117,
+      "longitude": -115.26285135314276,
+      "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+      "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+    }
+  },
+  {
+    "name": "Clark County Library → Cambridge Recreation Center",
+    "start": {
+      "latitude": 36.113965588302015,
+      "longitude": -115.13498279413714,
+      "precision": "County GIS facility point; entrance not verified",
+      "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/GISMO/PointOfInterest/MapServer/1",
+      "objectId": 14,
+      "checkedOn": "2026-10-02",
+      "sourceName": "Clark County Library",
+      "sourceAddress": "1401 E Flamingo Rd",
+      "sourceKind": "county-gis"
+    },
+    "end": {
+      "latitude": 36.11803959966035,
+      "longitude": -115.14041407794002,
+      "precision": "Approximate county facility polygon bounding-box center; entrance not verified",
+      "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/GISMO/PointOfInterest/MapServer/6",
+      "objectId": 13,
+      "checkedOn": "2026-10-02",
+      "sourceName": "Cambridge Recreation Center",
+      "sourceAddress": "3930 Cambridge St",
+      "sourceKind": "county-gis"
+    }
+  },
+  {
+    "name": "West Charleston Library → Gary Dexter Park",
+    "start": {
+      "latitude": 36.15846756216483,
+      "longitude": -115.23109027812639,
+      "precision": "County GIS facility point; entrance not verified",
+      "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/GISMO/PointOfInterest/MapServer/1",
+      "objectId": 28,
+      "checkedOn": "2026-10-02",
+      "sourceName": "West Charleston Library",
+      "sourceAddress": "6301 W Charleston Blvd",
+      "sourceKind": "county-gis"
+    },
+    "end": {
+      "latitude": 36.16203607488716,
+      "longitude": -115.22051299739037,
+      "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+      "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+    }
+  },
+  {
+    "name": "Windmill Library → Red Ridge Park",
+    "start": {
+      "latitude": 36.042410665501905,
+      "longitude": -115.24639920393716,
+      "precision": "County GIS facility point; entrance not verified",
+      "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/GISMO/PointOfInterest/MapServer/1",
+      "objectId": 30,
+      "checkedOn": "2026-10-02",
+      "sourceName": "Windmill Library",
+      "sourceAddress": "7060 W Windmill Ln",
+      "sourceKind": "county-gis"
+    },
+    "end": {
+      "latitude": 36.05947026,
+      "longitude": -115.28865449,
+      "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=139",
+      "precision": "Health District trailhead point; fountain is within the park."
+    }
+  },
+  {
+    "name": "Sunrise Library → East Las Vegas Library",
+    "start": {
+      "latitude": 36.17820887470259,
+      "longitude": -115.05497188275075,
+      "precision": "County GIS facility point; entrance not verified",
+      "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/GISMO/PointOfInterest/MapServer/1",
+      "objectId": 27,
+      "checkedOn": "2026-10-02",
+      "sourceName": "Sunrise Library",
+      "sourceAddress": "5400 Harris Ave",
+      "sourceKind": "county-gis"
+    },
+    "end": {
+      "latitude": 36.173195,
+      "longitude": -115.11060299999997,
+      "sourceKind": "official-facility",
+      "sourceUrl": "https://thelibrarydistrict.org/locations/EV",
+      "checkedOn": "2026-10-02",
+      "objectId": null,
+      "featureId": "https://thelibrarydistrict.org/locations/EV",
+      "sourceName": "East Las Vegas Library",
+      "sourceAddress": "2851 East Bonanza Road",
+      "precision": "Official facility-published GeoCoordinates; pedestrian entrance not verified"
+    }
+  }
+]

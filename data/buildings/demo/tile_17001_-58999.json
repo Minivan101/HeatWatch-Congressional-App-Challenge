@@ -1,0 +1,72 @@
+{
+  "buildings": [
+    {
+      "footprint": [
+        {
+          "latitude": 34.0024602,
+          "longitude": -117.9965762
+        },
+        {
+          "latitude": 34.0024589,
+          "longitude": -117.9965728
+        },
+        {
+          "latitude": 34.002501,
+          "longitude": -117.9965496
+        },
+        {
+          "latitude": 34.0024714,
+          "longitude": -117.9964722
+        },
+        {
+          "latitude": 34.0024293,
+          "longitude": -117.9964954
+        },
+        {
+          "latitude": 34.0024235,
+          "longitude": -117.9964802
+        },
+        {
+          "latitude": 34.0023412,
+          "longitude": -117.9965256
+        },
+        {
+          "latitude": 34.0023304,
+          "longitude": -117.9964976
+        },
+        {
+          "latitude": 34.0022209,
+          "longitude": -117.9965579
+        },
+        {
+          "latitude": 34.0022738,
+          "longitude": -117.9966961
+        },
+        {
+          "latitude": 34.0023829,
+          "longitude": -117.9966359
+        },
+        {
+          "latitude": 34.0023771,
+          "longitude": -117.9966208
+        },
+        {
+          "latitude": 34.0023845,
+          "longitude": -117.9966166
+        },
+        {
+          "latitude": 34.0023849,
+          "longitude": -117.9966177
+        }
+      ],
+      "heightConfidence": "high",
+      "heightMeters": 7.0,
+      "heightSource": "height",
+      "osmId": "way/470615211",
+      "tags": {
+        "height": "7.0"
+      }
+    }
+  ],
+  "tileKey": "17001_-58999"
+}

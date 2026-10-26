@@ -1,0 +1,91 @@
+{
+  "webPages": [
+    {
+      "id": "county-directory",
+      "url": "https://www.clarkcountynv.gov/government/departments/fire/cooling-stations",
+      "file": "sources/county-directory.html",
+      "retrievedOn": "2026-10-02",
+      "sha256": "ce94c70f86e85c14fae0d5c0473cbbbd4080f909a41e83bbf7b14e8864506961",
+      "authority": "official county webpage",
+      "publicationDate": null
+    },
+    {
+      "id": "september-notice",
+      "url": "https://www.clarkcountynv.gov/news/cooling-stations-activated",
+      "file": "sources/september-notice.html",
+      "retrievedOn": "2026-10-02",
+      "sha256": "0a60b8bab8403b20d6c70a2ca60cf468cb2fe1d6273de6c23a092a197814743c",
+      "authority": "official county webpage",
+      "publicationDate": null
+    },
+    {
+      "id": "stay-cool",
+      "url": "https://allin.clarkcountynv.gov/Initiative/StayCool",
+      "file": "sources/stay-cool.html",
+      "retrievedOn": "2026-10-02",
+      "sha256": "c124ab39f0025346eb422746b116832f7ca1cb6bbd986e47929135d551f52fd5",
+      "authority": "official county webpage",
+      "publicationDate": null
+    },
+    {
+      "id": "september-discovery",
+      "url": "https://www.aol.com/articles/clark-county-activates-cooling-stations-154431000.html",
+      "file": "sources/september-discovery.html",
+      "retrievedOn": "2026-10-02",
+      "sha256": "3070b78a585ba7cb457e3798dfb7ac264b1ec91fad84d3ade12e76779e81d9d5",
+      "authority": "discovery only; not an official source",
+      "publicationDate": null
+    }
+  ],
+  "flyers": [
+    {
+      "id": "aug-en",
+      "file": "sources/county-august-18-21-english.pdf",
+      "language": "en",
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:6d201344-b9fa-49b5-9ebc-51cbc9b34d52/original/as/Cooling-Stations-2026---HeatWarningEng-Aug-18-21.pdf",
+      "hostingProvenance": "county-hosted",
+      "retrievedOn": "2026-10-02",
+      "publicationDate": null,
+      "activationStart": "2026-08-18",
+      "activationEnd": "2026-08-21",
+      "sha256": "060b08a94ffcffa014bae0754d66019237365199e1fa0625586c85de30345e34",
+      "pageCount": 4,
+      "links": []
+    },
+    {
+      "id": "aug-es",
+      "file": "sources/county-august-18-21-spanish.pdf",
+      "language": "es",
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:c55f7239-2f31-4421-827a-b5a04884238d/original/as/Estaciones-De-Enfriamiento-2026---HeatWarning-Aug-18-21.pdf",
+      "hostingProvenance": "county-hosted",
+      "retrievedOn": "2026-10-02",
+      "publicationDate": null,
+      "activationStart": "2026-08-18",
+      "activationEnd": "2026-08-21",
+      "sha256": "3d5004b529ce205c1b73c052dedd7a7be27c130167e7259601b8c2cc4a0015ad",
+      "pageCount": 4,
+      "links": []
+    },
+    {
+      "id": "sep-en",
+      "file": "sources/county-september-9-11-news-copy.pdf",
+      "language": "en",
+      "url": "https://www.8newsnow.com/wp-content/uploads/sites/59/2026/09/Cooling-Stations-2026-9-9-to-9-11.pdf",
+      "hostingProvenance": "news-hosted Help Hope Home flyer; county notice confirms activation dates, not file authenticity",
+      "retrievedOn": "2026-10-02",
+      "publicationDate": null,
+      "activationStart": "2026-09-09",
+      "activationEnd": "2026-09-11",
+      "sha256": "4f82b4fe5b77665f75bf71323b7fbd46fa81c1d38985ce8899f72a39ac56c21e",
+      "pageCount": 4,
+      "links": [
+        {
+          "page": 4,
+          "url": "https://allin.clarkcountynv.gov/Initiative/StayCool"
+        }
+      ]
+    }
+  ],
+  "resourceMapUrl": "https://www.google.com/maps/d/embed?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&ehbc=2E312F",
+  "resourceMapStatus": "All 44 cooling-station name/description panels retrieved; 44/44 match flyer locations after explicit name-alias matching. Dates of current activation unknown."
+}

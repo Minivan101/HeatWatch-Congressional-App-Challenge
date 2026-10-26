@@ -1,0 +1,551 @@
+{
+  "reviewedOn": "2026-10-20",
+  "records": {
+    "miracle-mile": {
+      "source": "https://www.openstreetmap.org/relation/1606512",
+      "response": {
+        "type": "Feature",
+        "properties": {
+          "osm_type": "R",
+          "osm_id": 1606512,
+          "osm_key": "shop",
+          "osm_value": "mall",
+          "type": "house",
+          "housenumber": "3667",
+          "name": "Miracle Mile Shops",
+          "street": "South Las Vegas Boulevard",
+          "city": "Las Vegas",
+          "county": "Clark",
+          "state": "NV",
+          "country": "United States",
+          "postcode": "89109",
+          "countrycode": "US",
+          "extent": [
+            -115.1725995,
+            36.1111893,
+            -115.1685533,
+            36.1082831
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.1716327,
+            36.1097354
+          ]
+        }
+      }
+    },
+    "forum-shops": {
+      "source": "https://www.openstreetmap.org/way/34068416",
+      "response": {
+        "type": "Feature",
+        "properties": {
+          "osm_type": "W",
+          "osm_id": 34068416,
+          "osm_key": "shop",
+          "osm_value": "mall",
+          "type": "house",
+          "name": "The Forum Shops at Caesars",
+          "street": "South Las Vegas Boulevard",
+          "city": "Paradise",
+          "county": "Clark",
+          "state": "Nevada",
+          "country": "United States",
+          "postcode": "89109",
+          "countrycode": "US",
+          "extent": [
+            -115.1787651,
+            36.1197716,
+            -115.1728654,
+            36.118064
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.1764611,
+            36.118919
+          ]
+        }
+      }
+    },
+    "grand-canal": {
+      "source": "https://en.wikipedia.org/wiki/Grand_Canal_Shoppes",
+      "response": {
+        "pageid": 6118251,
+        "ns": 0,
+        "title": "Grand Canal Shoppes",
+        "coordinates": [
+          {
+            "lat": 36.12138889,
+            "lon": -115.16944444,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/3/39/Grand_Canal_Shoppes_%2821305094745%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 4911,
+          "height": 3069
+        }
+      }
+    },
+    "crystals": {
+      "source": "https://www.openstreetmap.org/way/52134608",
+      "response": {
+        "type": "Feature",
+        "properties": {
+          "osm_type": "W",
+          "osm_id": 52134608,
+          "osm_key": "shop",
+          "osm_value": "mall",
+          "type": "house",
+          "housenumber": "3720",
+          "name": "The Shops at Crystals",
+          "street": "South Las Vegas Boulevard",
+          "city": "Las Vegas",
+          "county": "Clark",
+          "state": "NV",
+          "country": "United States",
+          "postcode": "89109",
+          "countrycode": "US",
+          "extent": [
+            -115.1756364,
+            36.1086011,
+            -115.1733658,
+            36.1068923
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.1742962,
+            36.1077414
+          ]
+        }
+      }
+    },
+    "aliante": {
+      "source": "https://en.wikipedia.org/wiki/Aliante_Casino_and_Hotel",
+      "response": {
+        "pageid": 20034457,
+        "ns": 0,
+        "title": "Aliante Casino and Hotel",
+        "coordinates": [
+          {
+            "lat": 36.29111111,
+            "lon": -115.18194444,
+            "primary": "",
+            "globe": "earth"
+          }
+        ],
+        "original": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Aliante_Casino_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "width": 2275,
+          "height": 1805
+        }
+      }
+    },
+    "santa-fe": {
+      "source": "https://www.openstreetmap.org/way/961460045",
+      "response": {
+        "type": "Feature",
+        "properties": {
+          "osm_type": "W",
+          "osm_id": 961460045,
+          "osm_key": "tourism",
+          "osm_value": "hotel",
+          "type": "house",
+          "housenumber": "4949",
+          "name": "Santa Fe Station Hotel and Casino",
+          "street": "North Rancho Drive",
+          "district": "Centennial Hills",
+          "city": "Las Vegas",
+          "county": "Clark",
+          "state": "NV",
+          "country": "United States",
+          "postcode": "89130",
+          "countrycode": "US",
+          "extent": [
+            -115.2461157,
+            36.2510327,
+            -115.2437963,
+            36.2486806
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -115.2448221,
+            36.2498865
+          ]
+        }
+      }
+    },
+    "wetlands": {
+      "source": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7050%20Wetlands%20Park%20Lane%20Las%20Vegas%20NV%2089122&benchmark=Public_AR_Current&format=json",
+      "response": {
+        "result": {
+          "input": {
+            "address": {
+              "address": "7050 Wetlands Park Lane Las Vegas NV 89122"
+            },
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            }
+          },
+          "addressMatches": [
+            {
+              "tigerLine": {
+                "side": "L",
+                "tigerLineId": "629120157"
+              },
+              "coordinates": {
+                "x": -115.024969707607,
+                "y": 36.100208759324
+              },
+              "addressComponents": {
+                "zip": "89122",
+                "streetName": "WETLANDS PARK",
+                "preType": "",
+                "city": "LAS VEGAS",
+                "preDirection": "",
+                "suffixDirection": "",
+                "fromAddress": "6700",
+                "state": "NV",
+                "suffixType": "LN",
+                "toAddress": "7098",
+                "suffixQualifier": "",
+                "preQualifier": ""
+              },
+              "matchedAddress": "7050 WETLANDS PARK LN, LAS VEGAS, NV, 89122"
+            }
+          ]
+        }
+      }
+    },
+    "desert-breeze": {
+      "source": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+      "feature": {
+        "attributes": {
+          "PARCEL": "16316201001",
+          "FAC_NAME": "Desert Breeze Community Center",
+          "FAC_ADD": "8275 Spring Mountain Rd",
+          "OBJECTID": 34,
+          "Location": "Clark County",
+          "Shape.STArea()": 786456.2097633983,
+          "Shape.STLength()": 3548.6974920062266
+        },
+        "geometry": {
+          "rings": [
+            [
+              [
+                -115.27000143329954,
+                36.1232927029972
+              ],
+              [
+                -115.2730118719724,
+                36.12334823443994
+              ],
+              [
+                -115.27300144163652,
+                36.125784883274896
+              ],
+              [
+                -115.27290645117188,
+                36.12578277145606
+              ],
+              [
+                -115.27013345082833,
+                36.12572108854313
+              ],
+              [
+                -115.26999358147005,
+                36.125720774133
+              ],
+              [
+                -115.27000143329954,
+                36.1232927029972
+              ]
+            ]
+          ]
+        }
+      },
+      "calculation": "Signed-area centroid of the first published parcel ring in WGS84; representative site point only."
+    },
+    "silverado-ranch": {
+      "source": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+      "feature": {
+        "attributes": {
+          "PARCEL": "17728101020",
+          "FAC_NAME": "Silverado Ranch Community Center",
+          "FAC_ADD": "9855 Gilespie St",
+          "OBJECTID": 43,
+          "Location": "Clark County",
+          "Shape.STArea()": 1574893.6526985255,
+          "Shape.STLength()": 5844.434132234643
+        },
+        "geometry": {
+          "rings": [
+            [
+              [
+                -115.16343603465182,
+                36.01349257382202
+              ],
+              [
+                -115.16345383098292,
+                36.01259383266838
+              ],
+              [
+                -115.1634538446334,
+                36.012593141407876
+              ],
+              [
+                -115.16358903395387,
+                36.01259730277751
+              ],
+              [
+                -115.16456116833473,
+                36.01262721943849
+              ],
+              [
+                -115.1645877874258,
+                36.011769841242824
+              ],
+              [
+                -115.16360581725115,
+                36.01175010771045
+              ],
+              [
+                -115.1634706006412,
+                36.01174739017434
+              ],
+              [
+                -115.16347067487293,
+                36.01174364276763
+              ],
+              [
+                -115.16348776057173,
+                36.01088123897093
+              ],
+              [
+                -115.16348788792297,
+                36.01087479591691
+              ],
+              [
+                -115.16350517357445,
+                36.010002209635324
+              ],
+              [
+                -115.16350522668495,
+                36.00999951579076
+              ],
+              [
+                -115.16353723915051,
+                36.00999986578489
+              ],
+              [
+                -115.16364621730959,
+                36.01000105743799
+              ],
+              [
+                -115.16460845617763,
+                36.010011571545846
+              ],
+              [
+                -115.16464236329055,
+                36.01001194228034
+              ],
+              [
+                -115.16571632286771,
+                36.0100236675499
+              ],
+              [
+                -115.1657176074032,
+                36.01002368193685
+              ],
+              [
+                -115.16574015336826,
+                36.01002392717843
+              ],
+              [
+                -115.16683026104906,
+                36.0100358194709
+              ],
+              [
+                -115.16683792945305,
+                36.01003590288217
+              ],
+              [
+                -115.16772773832221,
+                36.010045602350324
+              ],
+              [
+                -115.1677695202031,
+                36.01004605807243
+              ],
+              [
+                -115.16784074330809,
+                36.01004683388899
+              ],
+              [
+                -115.16793570597028,
+                36.010047868540596
+              ],
+              [
+                -115.16793561114575,
+                36.01005092997969
+              ],
+              [
+                -115.16790793951456,
+                36.010943438891715
+              ],
+              [
+                -115.16788026827327,
+                36.01183594676306
+              ],
+              [
+                -115.16785259519841,
+                36.01272845448731
+              ],
+              [
+                -115.16782492401536,
+                36.01362088636696
+              ],
+              [
+                -115.16782353084022,
+                36.01362084548791
+              ],
+              [
+                -115.16674214143156,
+                36.01358759515034
+              ],
+              [
+                -115.16672777166401,
+                36.013587152264506
+              ],
+              [
+                -115.16563456729851,
+                36.01355345432473
+              ],
+              [
+                -115.16563062405653,
+                36.01355333603937
+              ],
+              [
+                -115.16453343875794,
+                36.01352032984484
+              ],
+              [
+                -115.16453337220558,
+                36.01352032780984
+              ],
+              [
+                -115.16449570680741,
+                36.013519194923326
+              ],
+              [
+                -115.16343603465182,
+                36.01349257382202
+              ]
+            ]
+          ]
+        }
+      },
+      "calculation": "Signed-area centroid of the first published parcel ring in WGS84; representative site point only."
+    },
+    "mountain-crest": {
+      "source": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+      "feature": {
+        "attributes": {
+          "PARCEL": "13805501014",
+          "FAC_NAME": "Mountain Crest Community Center",
+          "FAC_ADD": "4701 N Durango Dr",
+          "OBJECTID": 9,
+          "Location": "Clark County",
+          "Shape.STArea()": 1676681.0822748875,
+          "Shape.STLength()": 5349.376233252153
+        },
+        "geometry": {
+          "rings": [
+            [
+              [
+                -115.28145999845619,
+                36.244673632884215
+              ],
+              [
+                -115.28373179526739,
+                36.244659075769675
+              ],
+              [
+                -115.28373806323405,
+                36.246448903909965
+              ],
+              [
+                -115.28373799650537,
+                36.24815363905596
+              ],
+              [
+                -115.28373799065558,
+                36.24829101167192
+              ],
+              [
+                -115.28259821077556,
+                36.24830066609224
+              ],
+              [
+                -115.28145176836037,
+                36.24830844160465
+              ],
+              [
+                -115.28031331817553,
+                36.24832056514951
+              ],
+              [
+                -115.27916206515246,
+                36.248330341628176
+              ],
+              [
+                -115.27916193846565,
+                36.24828637132721
+              ],
+              [
+                -115.27916163942031,
+                36.248192988663
+              ],
+              [
+                -115.27915719483936,
+                36.2465065761767
+              ],
+              [
+                -115.27915456326296,
+                36.245594694545844
+              ],
+              [
+                -115.28030202055778,
+                36.24558242089025
+              ],
+              [
+                -115.28028863340143,
+                36.24475027544105
+              ],
+              [
+                -115.28028752066677,
+                36.244681127970836
+              ],
+              [
+                -115.28145999845619,
+                36.244673632884215
+              ]
+            ]
+          ]
+        }
+      },
+      "calculation": "Signed-area centroid of the first published parcel ring in WGS84; representative site point only."
+    }
+  }
+}

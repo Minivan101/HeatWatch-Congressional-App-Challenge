@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TWSR89GRXK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TWSR89GRXK');
+    </script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Stay Cool - All In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/site.css?v=wc-mIlxI6R7hAOSjb5YNEgHGOefTv8iWRejBFc9WrYo" />
+    <link rel="stylesheet" href="/css/swiper.css?v=nTwvYse3OgQBYvcSzxzeLUfYjSHEv-JSERqj9i-0cAI" />
+    <link rel="stylesheet" href="/css/imageOverlay.css?v=JTjpXMxeyiJSeRAivw4_LBTO5Fp_JV1qqq5lYT8LvT4" />
+    <link rel="stylesheet" href="/css/imageModal.css?v=K4sTgOuM66F_jD8N4vAVyR6QGWSlUPPoAF-g3zS8ikk" />
+    <link rel="stylesheet" href="/allinclarkcounty.styles.css?v=oAYAk92Wn-fd5PZbkR1T0cK4m9aLMryslkLy2Ano0as" />
+    <link rel="stylesheet" href="/css/animations.css?v=UK3Q348FSDa_syaW4xyQMwFguKJmLlelNhR6rqohWIE" />
+
+    <!-- DM Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.2.0/swiper-bundle.min.css" />
+</head>
+<body id="pageBody">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark fixed-top container bg-transparent">
+            <div class="container-fluid background-on-scroll position-relative" id="navDiv">
+                <a class="navbar-brand" href="/"><img src="/assets/imgs/allin_logo.png" class="allinLogo" alt="All-In" width="60" height="60" /></a>
+                <div>
+                    <button type="button" id="mobileSearchBtn" class="btn d-lg-none searchBtn mix-blend-mode-difference bg-transparent" 
+                        onclick="$(this).toggleClass('d-none'); $('#mobileCloseSearchBtn').toggleClass('d-none'); onclickSearchBtn()">
+                        <i data-feather="search"></i>
+                    </button>
+                    <button type="button" id="mobileCloseSearchBtn" class="btn mix-blend-mode-difference d-none d-lg-none bg-transparent text-white" 
+                        onclick="$(this).toggleClass('d-none'); $('#mobileSearchBtn').toggleClass('d-none'); onclickSearchBtn()">
+                        <i data-feather="x"></i>
+                    </button>
+                    <button class="navbar-toggler mix-blend-mode-difference text-white" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggle" onclick="closeSearchBar()">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+                <div class="navbar-collapse d-lg-inline-flex justify-content-between collapse" id="main-nav-tabs">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center flex-wrap">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Plan/ThePlans">Plans</a>
+                        </li>
+                        <li class="nav-item">
+				<a class="nav-link" href="https://rcc.clarkcountynv.gov/the-regional-climate-collaborative" target="_blank">Dashboard</a>
+                        </li>
+                        <li class="nav-item dropdown" onclick="closeSearchBar()">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <!-- Formerly "Initiatives" (4/17/23) -->
+                                Actions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Initiative/StayCool">Stay Cool Clark County</a></li>
+                                <li><a class="dropdown-item" href="/Initiative/CleanCitiesCoalition">Clean Cities Coalition</a></li>
+                                <li><a class="dropdown-item" href="/Initiative/ElectricVehicles">Electric Vehicles</a></li>
+                                <li><a class="dropdown-item" href="/Initiative/KeepClarkCountyClean">Keep Clark County Clean</a></li>
+                                <li><a class="dropdown-item" href="/sun">Switch Together Clark County</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" onclick="closeSearchBar()">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/Resource/ResourceCenter">Resource Center</a></li>
+                                <li><a class="dropdown-item" href="/Resource/CommunityToolkit">Take Action Toolkits</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="/Education">Learn</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" onclick="closeSearchBar()">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/About/DepartmentOfEnvironmentAndSustainability">Department of Environment and Sustainability</a></li>
+                                <li><a class="dropdown-item" href="/About/WhosAllIn">Who's All-In</a></li>
+                                <li><a class="dropdown-item" href="/About/WhyWereAllIn">Why We're All-In</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown" onclick="closeSearchBar()">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Involvement
+                            </a>
+                            <ul class="dropdown-menu mb-3">
+                                <li><a class="dropdown-item" href="/Involvement/GetInvolved">Get Involved</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="/Media">Media</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/Careers">Careers</a>
+                                </li>                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Events">Events</a>
+                        </li>
+                    </ul>
+                </div>
+                <i data-feather="search" class="d-none d-lg-block searchBtn" id="searchBtn" onclick="onclickSearchBtn(); "></i>
+                <span class="d-none d-lg-block">
+                    <i data-feather="x" class="d-none closeSearchBtn" id="searchCloseBtn" onclick="onclickSearchBtn();"></i>
+                </span>
+                <div class="position-absolute shadow" id="searchDiv">
+                    <div class="gcse-search" id="gsce"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        
+<link rel="stylesheet" href="/css/initiative.css?v=eUgDnfd4mC4CZU-ewSBcrXtms3KCFxT-vETL-zQRA0w" />
+<link rel="stylesheet" href="/css/customAdminView.css?v=SkqbUEf6gwE_EgsEtvu1r_UEtvNwdL8ERLOmMCB9rlQ" />
+
+<script src="/js/initiative/staycool.js" defer></script>
+
+
+<div class="container-fluid pt-7 bg-dark text-white position-relative" id="stayCool">
+    <div class="container py-5">
+        <div class="row row-gap-1rem">
+            <div class="col-lg-6 my-auto">
+                <div class="position-relative over-image-text">
+                    <h1 id="stayCool_title" class="animate-slide-up"><b>Stay Cool Clark County</b></h1>
+                    <p id="stayCool_content" class="animate-slide-up animation-delay-2">
+                        Even though summers are getting hotter in Clark County, we want you to Stay Cool! Check out the useful tips and resources to help you turn down the heat.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex position-relative bookmarks" id="sc_bookmarks">
+                <img src="/pages/3/Thumbnail/staycool2025.png" loading="lazy" alt="" style="max-height: 25rem" class="animate-slide-up animation-delay-3">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="w-100 bg-body-tertiary">
+    <div class="container py-5 page-content"><div style="width: 100%; text-align: center;" data-mce-style="width: 100%; text-align: center;"></div><div style="width: 100%; text-align: center;" data-mce-style="width: 100%; text-align: center;"><br data-mce-bogus="1"></div><div style="width: 100%; text-align: left;" data-mce-style="width: 100%; text-align: left;"><table style="border-collapse: collapse; width: 99.989%; height: 161.438px;" border="1" data-mce-style="border-collapse: collapse; width: 99.989%; height: 161.438px;"><colgroup><col style="width: 32.7815%;" data-mce-style="width: 32.7815%;"><col style="width: 32.7815%;" data-mce-style="width: 32.7815%;"><col style="width: 32.7815%;" data-mce-style="width: 32.7815%;"></colgroup><tbody><tr style="height: 161.438px;" data-mce-style="height: 161.438px;"><td style="height: 161.438px;" data-mce-style="height: 161.438px;"><table style="border-collapse: collapse; width: 100.114%;" border="1" data-mce-style="border-collapse: collapse; width: 100.114%;"><colgroup><col style="width: 97.2696%;" data-mce-style="width: 97.2696%;"></colgroup><tbody><tr><td style="background-color: rgb(0, 59, 79); color: white; text-align: center;" data-mce-style="background-color: rgb(0, 59, 79); color: white; text-align: center;"><h3><span style="color: rgb(255, 255, 255);" data-mce-style="color: rgb(255, 255, 255);"><a style="color: rgb(255, 255, 255);" href="https://helphopehome.org/get-help/" target="_blank" rel="noopener" data-mce-style="color: rgb(255, 255, 255);" data-mce-href="https://helphopehome.org/get-help/">Active Cooling Stations</a></span></h3></td></tr></tbody></table></td><td style="height: 161.438px;" data-mce-style="height: 161.438px;"><table style="border-collapse: collapse; width: 100.114%; height: 80.625px;" border="1" data-mce-style="border-collapse: collapse; width: 100.114%; height: 80.625px;"><colgroup><col style="width: 97.2696%;" data-mce-style="width: 97.2696%;"></colgroup><tbody><tr style="height: 80.625px;" data-mce-style="height: 80.625px;"><td style="background-color: rgb(0, 59, 79); text-align: center; height: 80.625px;" data-mce-style="background-color: rgb(0, 59, 79); text-align: center; height: 80.625px;"><h3><a style="color: white;" href="#tips" data-mce-style="color: white;" data-mce-href="#tips">Tips to Stay Cool at Home and More</a></h3></td></tr></tbody></table></td><td style="height: 161.438px;" data-mce-style="height: 161.438px;"><table style="border-collapse: collapse; width: 100.275%; height: 80.625px;" border="1" data-mce-style="border-collapse: collapse; width: 100.275%; height: 80.625px;"><colgroup><col style="width: 100%;" data-mce-style="width: 100%;"></colgroup><tbody><tr style="height: 80.625px;" data-mce-style="height: 80.625px;"><td style="background-color: rgb(0, 59, 79); color: white; text-align: center; height: 80.625px;" data-mce-style="background-color: rgb(0, 59, 79); color: white; text-align: center; height: 80.625px;"><h3><span style="color: rgb(255, 255, 255);" data-mce-style="color: rgb(255, 255, 255);"><a style="color: rgb(255, 255, 255);" href="#community-canopy" data-mce-style="color: rgb(255, 255, 255);" data-mce-href="#community-canopy">Community Canopy Project</a></span></h3></td></tr></tbody></table></td></tr></tbody></table><strong>What Is a Cooling Station?</strong> Cooling stations are public, air-conditioned spaces that provide a safe place to cool off during extreme heat. They offer a comfortable, welcoming environment with water and hydration support to help protect community members from dangerous temperatures.</div><div style="width: 100%; text-align: left;" data-mce-style="width: 100%; text-align: left;"><br data-mce-bogus="1"></div><div style="width: 100%; text-align: left;" data-mce-style="width: 100%; text-align: left;"><strong>Why They Are Important:</strong> Clark County has experienced more than 40 days above 106°F in recent years, and the Urban Heat Island effect can make some neighborhoods significantly hotter than others. Extreme heat can affect anyone, making cooling stations an important resource for staying safe and preventing heat-related illness.</div><div style="width: 100%; text-align: center;" data-mce-style="width: 100%; text-align: center;"><br data-mce-bogus="1"></div><div style="width: 100%; text-align: left;" data-mce-style="width: 100%; text-align: left;">Stay cool this summer! Access the <strong><a href="../Resource/ResourceItem/88" data-mce-href="../Resource/ResourceItem/88">Stay Cool Clark County Resource Center</a></strong> for flyers, social media images, and other outreach materials to help spread the word about heat safety and available community resources.</div><div style="width: 100%; text-align: center;" data-mce-style="width: 100%; text-align: center;"><br data-mce-bogus="1"></div><div style="width: 100%;" data-mce-style="width: 100%;"><br data-mce-bogus="1"></div><div style="width: 100%;" data-mce-style="width: 100%;"><table style="border-collapse: collapse; width: 99.989%;" border="1" data-mce-style="border-collapse: collapse; width: 99.989%;"><colgroup><col style="width: 100%;" data-mce-style="width: 100%;"></colgroup><tbody><tr><td><table style="border-collapse: collapse; width: 100%; height: 904px;" border="1" data-mce-style="border-collapse: collapse; width: 100%; height: 904px;"><colgroup><col style="width: 100%;" data-mce-style="width: 100%;"></colgroup><tbody><tr style="height: 67.8333px;" data-mce-style="height: 67.8333px;"><td style="background-color: rgb(0, 59, 79); color: white; height: 67.8333px;" data-mce-style="background-color: rgb(0, 59, 79); color: white; height: 67.8333px;"><h2 style="text-align: center;" data-mce-style="text-align: center;"><span style="color: rgb(236, 240, 241);" data-mce-style="color: rgb(236, 240, 241);">Southern Nevada Heat Resource Map</span></h2></td></tr><tr><td><p><!-- [if !supportLists]-->“Where can I go with my dog to cool down?” “Which library is closest to me?” “Where’s the nearest splash pad?” “Is there a public pool nearby where I can take a dip to stay cool?”</p><p>With triple-digit weather already here, Our interactive, Stay Cool Clark County map is your best resource for up-to-date information on where you can find a little shelter from the sun.</p><h4><strong>How to Open the Map Menu</strong></h4><p>Hey! Trying to see the full list of spots to cool down on the map? Opening the side menu is super easy:</p><ul><li>Look at the dark bar at the top of the embedded map.</li><li>Find the little square icon with an arrow pointing right, located in the top left corner next to the map's title. <img style="position: relative; height: initial; width: initial; object-fit: none;" src="../pages/3/Assets/back-arrow-icon.png" alt="back arrow icon" width="35" height="35" data-mce-style="position: relative; height: initial; width: initial; object-fit: none;" data-mce-src="../pages/3/Assets/back-arrow-icon.png">&nbsp;</li><li>Just click that icon!</li><li>A sidebar will instantly slide out, showing you all the different categories you can check out, like cooling stations, splash pads, and libraries.</li></ul><p>Stay cool out there!</p></td></tr><tr style="height: 596.333px;" data-mce-style="height: 596.333px;"><td style="height: 596.333px;" data-mce-style="height: 596.333px;"><h2 style="text-align: center;" data-mce-style="text-align: center;"><span style="color: rgb(236, 240, 241);" data-mce-style="color: rgb(236, 240, 241);"><span class="mce-preview-object mce-object-iframe" contenteditable="false" data-mce-object="iframe" data-mce-p-src="https://www.google.com/maps/d/embed?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&amp;ehbc=2E312F"><iframe src="https://www.google.com/maps/d/embed?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&amp;ehbc=2E312F" width="100%" height="650" frameborder="0" data-mce-src="https://www.google.com/maps/d/embed?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&amp;ehbc=2E312F"></iframe><span class="mce-shim"></span></span></span></h2><table style="border-collapse: collapse; width: 99.9844%; height: 126px;" border="1" data-mce-style="border-collapse: collapse; width: 99.9844%; height: 126px;"><colgroup><col style="width: 49.2958%;" data-mce-style="width: 49.2958%;"><col style="width: 49.2958%;" data-mce-style="width: 49.2958%;"></colgroup><tbody><tr style="height: 126px;" data-mce-style="height: 126px;"><td style="height: 350px;" data-mce-style="height: 350px;"><p><img style="width: 100%; object-fit: contain;" src="../pages/3/Assets/legend-v2.png" alt="" width="1024" height="390" data-mce-style="width: 100%; object-fit: contain;" data-mce-src="../pages/3/Assets/legend-v2.png"></p></td><td style="height: 126px;" data-mce-style="height: 126px;"><p><span data-teams="true">Southern Nevada faces some of the most extreme heat in the country, with summer temperatures often rising above 100°F. This map showcases community facilities and resources that provide cool, safe places to escape the heat, along with splash pads and open pools. Select any icon on the map to see details about each location.</span></p><p><span data-teams="true"><a href="../resources/ID_88/Documents/Bus%20Pass%20Program%20Overview%20Flyer%20-%20Stay%20Cool%20CC.pdf" data-mce-href="../resources/ID_88/Documents/Bus%20Pass%20Program%20Overview%20Flyer%20-%20Stay%20Cool%20CC.pdf"><strong>Free Bus Passes:</strong></a> Free 24-hour bus passes are available for individuals affected by extreme heat who need transportation to safely reach cooling stations and do not have other transportation options. Passes may be distributed at any time (not just during heat activations), with one pass available per visitor per visit; use the map to find participating libraries that distribute passes.</span></p></td></tr></tbody></table></td></tr></tbody></table><table id="community-canopy" style="border-collapse: collapse; width: 99.989%;" border="1" data-mce-style="border-collapse: collapse; width: 99.989%;"><colgroup><col style="width: 100%;" data-mce-style="width: 100%;"></colgroup><tbody><tr><td><table style="border-collapse: collapse; width: 100%; height: 118.25px;" border="1" data-mce-style="border-collapse: collapse; width: 100%; height: 118.25px;"><colgroup><col style="width: 100%;" data-mce-style="width: 100%;"></colgroup><tbody><tr style="height: 118.25px;" data-mce-style="height: 118.25px;"><td style="background-color: rgb(0, 59, 79); color: white; height: 118.25px;" data-mce-style="background-color: rgb(0, 59, 79); color: white; height: 118.25px;"><h2 style="text-align: center;" data-mce-style="text-align: center;">The Community Canopy Project</h2><h4 style="text-align: center;" data-mce-style="text-align: center;">Put Down Roots in Your Neighborhood. Plant a Tree!</h4></td></tr></tbody></table><table style="border-collapse: collapse; width: 99.9758%; height: 722.531px;" border="1" data-mce-style="border-collapse: collapse; width: 99.9758%; height: 722.531px;"><colgroup><col style="width: 49.7743%;" data-mce-style="width: 49.7743%;"><col style="width: 49.7743%;" data-mce-style="width: 49.7743%;"></colgroup><tbody><tr style="height: 722.531px;" data-mce-style="height: 722.531px;"><td style="height: 722.531px;" data-mce-style="height: 722.531px;"><h4 class="MsoNormal"><strong>Click&nbsp;</strong><strong><a href="https://get.arborday.org/clarkcountydes" target="_blank" rel="noopener" data-mce-href="https://get.arborday.org/clarkcountydes">here</a> to register for a tree on the upcoming Fall Community Canopy Program!</strong></h4><p class="MsoNormal"><em>Put down roots in your community. Plant a tree!</em></p><p class="MsoNormal">We’re building an “urban forest” in Clark County to combat the urban heat island effect. And we’re doing it with your help. Since fall 2024, we’ve given away 4,500 trees annually to people in Clark County to plant trees on their property.</p><p class="MsoNormal">The trees will:</p><p class="MsoListParagraphCxSpFirst" style="margin-left: .5in; mso-add-space: auto; text-indent: -.25in; line-height: 107%; mso-list: l0 level1 lfo1;" data-mce-style="margin-left: .5in; mso-add-space: auto; text-indent: -.25in; line-height: 107%; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;" data-mce-style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;" data-mce-style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';" data-mce-style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Create shade that will reduce air temperature by 12°F or more.</p><p class="MsoListParagraphCxSpMiddle" style="margin-left: .5in; mso-add-space: auto; text-indent: -.25in; line-height: 107%; mso-list: l0 level1 lfo1;" data-mce-style="margin-left: .5in; mso-add-space: auto; text-indent: -.25in; line-height: 107%; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;" data-mce-style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;" data-mce-style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';" data-mce-style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Potentially help people reduce home energy costs by shading HVAC units and windows.</p><p class="MsoListParagraphCxSpLast" style="margin-left: .5in; mso-add-space: auto; text-indent: -.25in; line-height: 107%; mso-list: l0 level1 lfo1;" data-mce-style="margin-left: .5in; mso-add-space: auto; text-indent: -.25in; line-height: 107%; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;" data-mce-style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol;"><span style="mso-list: Ignore;" data-mce-style="mso-list: Ignore;">·<span style="font: 7.0pt 'Times New Roman';" data-mce-style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]-->Help clean the air by absorbing pollutants.</p><p class="MsoNormal"><br data-mce-bogus="1"></p><p class="MsoNormal"><span style="font-family: 'Aptos Display',sans-serif; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin; mso-bidi-font-family: 'Segoe UI Emoji';" data-mce-style="font-family: 'Aptos Display',sans-serif; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin; mso-bidi-font-family: 'Segoe UI Emoji';"><span data-teams="true"><span style="font-size: inherit;" data-mce-style="font-size: inherit;">Registration is now open to<strong> ALL Clark County residents</strong> until the trees are all reserved.</span></span></span></p><p class="MsoNormal"><br data-mce-bogus="1"></p><p class="MsoNormal"><span data-teams="true">Check out this&nbsp;<a href="https://www.youtube.com/watch?v=oIHDGgsHhHM" data-mce-href="https://www.youtube.com/watch?v=oIHDGgsHhHM">video tutorial</a> for a step-by-step guide on how to register for your free tree through the Community Canopy Program!</span></p><p class="MsoNormal"><span data-teams="true">¡Mira este <a data-mce-href="https://youtu.be/VUBgzizGiHs" href="https://youtu.be/VUBgzizGiHs">video tutorial </a>para obtener una guía paso a paso sobre cómo registrarte para recibir tu árbol gratis a través del Programa de Bosques Comunitarios!</span></p><p class="MsoNormal">Resources for tree care:</p><ul><li><a href="https://www.snwa.com/landscapes/installing-and-maintaining/index.html" target="_blank" rel="noopener" data-mce-href="https://www.snwa.com/landscapes/installing-and-maintaining/index.html">SNWA Installing your landscape</a></li><li><a href="https://www.snwa.com/landscapes/how-and-when-to-water/index.html#tree-maintenance" target="_blank" rel="noopener" data-mce-href="https://www.snwa.com/landscapes/how-and-when-to-water/index.html#tree-maintenance">SNWA watering &amp; maintaining your landscape</a></li><li><a href="https://www.snwa.com/espanol/jardines/plantando-arboles-plantas-mulch.html" target="_blank" rel="noopener" data-mce-href="https://www.snwa.com/espanol/jardines/plantando-arboles-plantas-mulch.html"><span data-olk-copy-source="MessageBody">SNWA Plantando árboles, plantas y materia orgánica (mulch)</span></a></li><li><a href="https://www.snwa.com/espanol/jardines/como-y-cuando-regar-su-jardin.html" target="_blank" rel="noopener" data-mce-href="https://www.snwa.com/espanol/jardines/como-y-cuando-regar-su-jardin.html"><span data-olk-copy-source="MessageBody"> SNWA Encuentre sus días de riego y proveedor</span></a></li></ul><p class="MsoNormal">For more:</p><ul><li><a href="https://get.arborday.org/clarkcountydes" data-mce-href="https://get.arborday.org/clarkcountydes">Be the first to know when fall trees are available!</a></li></ul><p><span data-olk-copy-source="MessageBody"><strong>Remember…</strong><br>For those in HOA communities, please keep any species guidelines in mind when making your selection.<br></span></p></td><td style="height: 722.531px;" data-mce-style="height: 722.531px;"><p class="MsoNormal"><em><img style="object-fit: contain; min-height: 250px; position: unset;" src="../pages/3/Assets/community-canopy-2026.jpg" alt="" width="732" height="949" data-mce-style="object-fit: contain; min-height: 250px; position: unset;" data-mce-src="../pages/3/Assets/community-canopy-2026.jpg"></em></p></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr style="height: 67.8333px;" data-mce-style="height: 67.8333px;"><td style="background-color: rgb(0, 59, 79); color: white; height: 67.8333px;" data-mce-style="background-color: rgb(0, 59, 79); color: white; height: 67.8333px;"><h2 style="text-align: center;" data-mce-style="text-align: center;"><span style="color: rgb(236, 240, 241);" data-mce-style="color: rgb(236, 240, 241);">Extreme Heat</span></h2></td></tr><tr style="height: 172px;" data-mce-style="height: 172px;"><td style="height: 172px;" data-mce-style="height: 172px;"><p>Extreme heat days—days with temperatures exceeding 106° F—are projected to increase in Clark County. Currently, we experience about four extreme heat days per year. By 2064, that number could increase to 23 – 30 extreme heat days.</p><p>Staying cool in Clark County can be challenging, especially because not everyone experiences heat the same way. Due to the Urban Heat Island (UHI) effect, some of our neighborhoods are hotter than others. Although our extreme temperatures impact our vulnerable residents the most, everyone is exposed to extreme heat here in Clark County.</p><p><a href="../pages/3/Assets/Stay%20Cool%20Tips%20flier%20-%20all.pdf" data-mce-href="../pages/3/Assets/Stay%20Cool%20Tips%20flier%20-%20all.pdf">Download</a> our Summer Heat Health Tips flier for more ways to Stay Cool!</p></td></tr></tbody></table></div><div><div><br data-mce-bogus="1"></div><div><br data-mce-bogus="1"></div><table id="tips" style="border-collapse: collapse; width: 100.006%;" border="1" data-mce-style="border-collapse: collapse; width: 100.006%;"><colgroup><col style="width: 49.434%;" data-mce-style="width: 49.434%;"><col style="width: 49.434%;" data-mce-style="width: 49.434%;"></colgroup><tbody><tr><td><table style="border-collapse: collapse; width: 99.9812%; height: 101.283px;" border="1" data-mce-style="border-collapse: collapse; width: 99.9812%; height: 101.283px;"><colgroup><col style="width: 98.1941%;" data-mce-style="width: 98.1941%;"></colgroup><tbody><tr><td style="background-color: rgb(0, 59, 79); color: white;" data-mce-style="background-color: rgb(0, 59, 79); color: white;"><h3 style="text-align: center;" data-mce-style="text-align: center;">Health and Well-Being Benefits of Trees in Desert Climates</h3></td></tr><tr><td style="color: white;" data-mce-style="color: white;"><ul><li style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);">Shade and Cooling: Reduce heat stress, lower temperatures, and provide comfortable outdoor spaces</span></li><li style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);">Encouragement of Activity: Make walking and outdoor exercise more pleasant and safe.</span></li><li style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);">Cleaner Air: Filter dust, pollutants, and improve overall air quality.</span></li><li style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);">Mental Health: Green spaces reduce stress, promote relaxation, and enhance mood.</span></li><li style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);">Food and Nutrition: Fruit-bearing trees provide fresh, local produce.</span></li><li style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);">Community and Social Spaces: Shaded areas foster gatherings and social connections.</span></li><li style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);" data-mce-style="color: rgb(0, 0, 0);">Biodiversity: Support birds and pollinators, enriching the local environment.<br></span></li></ul></td></tr><tr style="height: 101.283px;" data-mce-style="height: 101.283px;"><td style="background-color: rgb(0, 59, 79); color: white; height: 101.283px;" data-mce-style="background-color: rgb(0, 59, 79); color: white; height: 101.283px;"><h3 style="text-align: center;" data-mce-style="text-align: center;">Summer Heat Health Tips</h3><h4 style="text-align: center;" data-mce-style="text-align: center;">Tips to Stay Cool at Home</h4></td></tr></tbody></table><table style="border-collapse: collapse; width: 99.9812%; height: 233.438px;" border="1" data-mce-style="border-collapse: collapse; width: 99.9812%; height: 233.438px;"><colgroup><col style="width: 98.1941%;" data-mce-style="width: 98.1941%;"></colgroup><tbody><tr style="height: 174px;" data-mce-style="height: 174px;"><td style="height: 174px;" data-mce-style="height: 174px;"><ul style="margin-top: 0in;" type="disc" data-mce-style="margin-top: 0in;"><li class="MsoNormal" style="mso-list: l0 level1 lfo1; tab-stops: list .5in;" data-mce-style="mso-list: l0 level1 lfo1; tab-stops: list .5in;">Nevada Housing Division's&nbsp;<a href="https://housing.nv.gov/programs/Weatherization/" data-mce-href="https://housing.nv.gov/programs/Weatherization/">Weatherization Assistance Program</a></li></ul><ul style="margin-top: 0in;" type="disc" data-mce-style="margin-top: 0in;"><li class="MsoNormal" style="mso-list: l2 level1 lfo2; tab-stops: list .5in;" data-mce-style="mso-list: l2 level1 lfo2; tab-stops: list .5in;">Division of Welfare and Supportive Services&nbsp;<a href="https://dwss.nv.gov/Energy/1_Energy_Assistance/" data-mce-href="https://dwss.nv.gov/Energy/1_Energy_Assistance/">Energy Assistance Program</a></li><li class="MsoNormal" style="mso-list: l2 level1 lfo2; tab-stops: list .5in;" data-mce-style="mso-list: l2 level1 lfo2; tab-stops: list .5in;">NV Energy&nbsp;<a href="https://www.nvenergy.com/account-services/assistance-programs" data-mce-href="https://www.nvenergy.com/account-services/assistance-programs">Assistance Programs</a></li></ul><ul style="margin-top: 0in;" type="disc" data-mce-style="margin-top: 0in;"><li class="MsoNormal" style="mso-list: l1 level1 lfo3; tab-stops: list .5in;" data-mce-style="mso-list: l1 level1 lfo3; tab-stops: list .5in;">Rebuilding Together Southern Nevada&nbsp;<a href="https://rtsnv.org/programs-services.html" data-mce-href="https://rtsnv.org/programs-services.html">Programs and Services</a> (Toolkits for Renters and Homeowners)</li></ul></td></tr><tr style="height: 59.4375px;" data-mce-style="height: 59.4375px;"><td style="height: 59.4375px; background-color: rgb(0, 59, 79);" data-mce-style="height: 59.4375px; background-color: rgb(0, 59, 79);"><div><h3 style="text-align: center;" data-mce-style="text-align: center;"><span style="color: rgb(255, 255, 255);" data-mce-style="color: rgb(255, 255, 255);">Hazard Preparedness Resources Handbook</span></h3></div></td></tr></tbody></table><table style="border-collapse: collapse; width: 99.9812%; height: 233.438px;" border="1" data-mce-style="border-collapse: collapse; width: 99.9812%; height: 233.438px;"><colgroup><col style="width: 98.1941%;" data-mce-style="width: 98.1941%;"></colgroup><tbody><tr style="height: 174px;" data-mce-style="height: 174px;"><td style="height: 174px;" data-mce-style="height: 174px;"><p>The All-In Clark County Hazard Preparedness Guides offers practical tools, helpful tips, and local resources to support residents in preparing for, responding to, and recovering from hazards most likely to occur in Southern Nevada: extreme heat, flooding, wildfires, earthquakes, and power outages.</p><p>Establishing an emergency kit and reviewing it regularly with family members ensures everyone knows how to respond when an emergency occurs. Please review this handbook for more guidance!<br></p><p><a href="/pages/3/Assets/Final_Preparedness_Resources_Handbook.pdf" target="_blank" rel="noopener" data-mce-href="../pages/3/Assets/Final_Preparedness_Resources_Handbook.pdf">Preparedness Resources Handbook</a></p></td></tr></tbody></table></td><td><table style="border-collapse: collapse; width: 99.985%;" border="1" data-mce-style="border-collapse: collapse; width: 99.985%;"><colgroup><col style="width: 98.1941%;" data-mce-style="width: 98.1941%;"></colgroup><tbody><tr><td style="background-color: rgb(0, 59, 79); color: white;" data-mce-style="background-color: rgb(0, 59, 79); color: white;"><h3 style="text-align: center;" data-mce-style="text-align: center;">Community Resources</h3></td></tr></tbody></table><table style="border-collapse: collapse; width: 100%; height: 1187.06px;" border="1" data-mce-style="border-collapse: collapse; width: 100%; height: 1187.06px;"><colgroup><col style="width: 99.8971%;" data-mce-style="width: 99.8971%;"></colgroup><tbody><tr style="height: 548.719px;" data-mce-style="height: 548.719px;"><td style="height: 548.719px;" data-mce-style="height: 548.719px;"><div><h5>Weatherization Resources</h5><ul><li>Nevada Housing Division's&nbsp;<a href="https://housing.nv.gov/programs/Weatherization/" data-mce-href="https://housing.nv.gov/programs/Weatherization/">Weatherization Assistance Program</a></li></ul></div><div><h5>Utilities Assistance Resources</h5><ul><li>Division of Welfare and Supportive Services&nbsp;<a href="https://dwss.nv.gov/Energy/1_Energy_Assistance/" data-mce-href="https://dwss.nv.gov/Energy/1_Energy_Assistance/">Energy Assistance Program</a></li><li>NV Energy&nbsp;<a href="https://www.nvenergy.com/account-services/assistance-programs" data-mce-href="https://www.nvenergy.com/account-services/assistance-programs">Assistance Programs</a></li></ul></div><div><h5>Toolkits for Renters and Homeowners</h5><ul><li>Rebuilding Together Southern Nevada&nbsp;<a href="https://rtsnv.org/programs-services.html" data-mce-href="https://rtsnv.org/programs-services.html">Programs and Services</a></li></ul><h5>All-In Clark County&nbsp;</h5><ul><li><a href="../Resource/CommunityToolkit" data-mce-href="../Resource/CommunityToolkit">Take Action Toolkit</a></li><li><br data-mce-bogus="1"></li></ul><h5>Additional Resources</h5><ul><li><a href="https://helphopehome.org/get-help/" data-mce-href="https://helphopehome.org/get-help/">Find a Cooling Station Near You</a></li><li><a href="https://www.southernnevadahealthdistrict.org/programs/beattheheatsnv/" data-mce-href="https://www.southernnevadahealthdistrict.org/programs/beattheheatsnv/">Beat the Heat Southern Nevada</a></li><li><!--[endif]--><a href="https://www.dri.edu/" data-mce-href="https://www.dri.edu/">Desert Research Institute</a></li><li><a href="https://www.weather.gov/vef/" data-mce-href="https://www.weather.gov/vef/">National Weather Service Las Vegas</a></li><li><span style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-weight: bold;" data-mce-style="font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol; mso-bidi-font-weight: bold;"><span style="mso-list: Ignore;" data-mce-style="mso-list: Ignore;"><span style="font: 7.0pt 'Times New Roman';" data-mce-style="font: 7.0pt 'Times New Roman';"> </span></span></span><a href="https://www.cdc.gov/climate-health/php/resources/protect-yourself-from-the-dangers-of-extreme-heat.html" data-mce-href="https://www.cdc.gov/climate-health/php/resources/protect-yourself-from-the-dangers-of-extreme-heat.html">Stay Cool Tips from the CDC</a></li></ul></div></td></tr><tr style="height: 59.3438px;" data-mce-style="height: 59.3438px;"><td style="height: 59.3438px; background-color: rgb(0, 59, 79);" data-mce-style="height: 59.3438px; background-color: rgb(0, 59, 79);"><div><h3 style="text-align: center;" data-mce-style="text-align: center;"><span style="color: rgb(255, 255, 255);" data-mce-style="color: rgb(255, 255, 255);">Subscribe to Our Newsletter</span></h3></div></td></tr><tr style="height: 579px;" data-mce-style="height: 579px;"><td style="height: 579px;" data-mce-style="height: 579px;"><span contenteditable="false" style="width: 100%;" data-mce-object="iframe" class="mce-preview-object mce-object-iframe" data-mce-p-scrolling="yes" data-mce-p-frameborder="0" data-mce-p-src="https://publicinput.com/display/?assetId=165854&amp;embedId=87174" data-mce-p-id="embed87174" data-mce-style="width: 100%;"><iframe height="425" src="https://publicinput.com/display/?assetId=165854&amp;embedId=87174" style="width: 100%;" frameborder="0" data-mce-style="width: 100%;" data-mce-src="https://publicinput.com/display/?assetId=165854&amp;embedId=87174"></iframe><span class="mce-shim"></span></span></td></tr></tbody></table></td></tr></tbody></table><div style="position: sticky; bottom: 16px; display: grid; place-items: center; padding-top: 16px;" data-mce-style="position: sticky; bottom: 16px; display: grid; place-items: center; padding-top: 16px;"><a href="#" data-mce-href="#"><button style="border-radius: 9999px; color: rgb(0, 59, 79); border-color: rgb(0, 59, 79); background-color: white; padding: 4px 16px;" data-mce-style="border-radius: 9999px; color: rgb(0, 59, 79); border-color: rgb(0, 59, 79); background-color: white; padding: 4px 16px;">Back to Top</button></a></div></div></div>
+</div>
+
+<div id="imageModal" class="image-modal">
+    <span class="close" onclick="closeModal()"><i data-feather="minimize-2"></i></span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+</div>
+    </main>
+
+    <footer class="bg-cc-primary text-light py-5" style="opacity: .9">
+        <div class="container">
+            <div class="col-lg-12 pb-5 text-center">
+                <span>
+                    <a class="navbar-brand" href="/"><img src="/assets/imgs/allin_logo.png" alt="All-In" width="50" height="50" class="allinLogo" /></a>
+                    <b class="text-uppercase">All-In Clark County</b>
+                </span>
+            </div>
+            <div class="row py-5" style="row-gap: 2rem">
+                <div class="col-lg-2 col-6">
+                    <div class="list-group list-group-transparent list-group-flush">
+                        <div class="list-group-item"><h4>Socialize</h4></div>
+                        <a class="list-group-item" href="/#events">Join Events</a>
+                        <a class="list-group-item" href="/Involvement/GetInvolved#climatePledge">Take the Climate Pledge!</a>
+                        <a class="list-group-item" href="/About/WhosAllIn#">Who's All-In?</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="list-group list-group-transparent list-group-flush">
+                        <div class="list-group-item"><h4>Take Actions</h4></div>
+                        <a class="list-group-item" href="/Resource/CommunityToolkit">Be more "All-In" with our toolkit!</a>
+                        <a class="list-group-item" href="/Initiative/CleanCitiesCoalition">Clean Cities Coalition</a>
+                        <a class="list-group-item" href="/Events">Education Program</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="list-group list-group-transparent list-group-flush">
+                        <div class="list-group-item"><h4>Explore</h4></div>
+                        <a href="https://www.clarkcountynv.gov/government/departments/parks___recreation/parks___trails/park_locator_tool.php" class="list-group-item">Locate a County Park</a>
+                        <a class="list-group-item" href="/Initiative/StayCool#heatResourcesMap">Find a Cooling Center</a>
+                        <a class="list-group-item" href="/Initiative/ElectricVehicles#findAChargingStation">Need a charging station?</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5 offset-lg-1 mb-3">
+                    <iframe id="embed597382" src="//publicinput.com/Emails/SignupEmbed/?id=260998&embedId=597382" signup-name="Sign Up Here!"  height="425" frameborder="0" style="width: 100%;" scrolling="yes"></iframe><script type="text/javascript">(function (c, i, t, y, z, e, n, x) { x = c.createElement(y), n = c.getElementsByTagName(y)[0]; x.async = 1; x.src = t; n.parentNode.insertBefore(x, n); })(document, window, "https://publicinput.com/Link?embedId=597382", "script");</script>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-md-between border-top row-gap-1rem my-4 py-4">
+                <div class="d-flex flex-column d-sm-block row-gap-1rem text-center">
+                    &copy; 2026 All-In Clark County
+                    <a class="text-decoration-none text-light" href="/Executive/Collaborative">
+                        <i data-feather="link" class="ms-2"></i>
+                        Collaborative
+                    </a>
+                    <a class="text-decoration-none text-light" href="/Home/Privacy">
+                        <i data-feather="lock" class="ms-2"></i>
+                        Privacy
+                    </a>
+                </div>
+                
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-light" href="https://x.com/clarkcountydes" target="_blank"><img height="24" width="24" src="https://cdn.simpleicons.org/x/white" /></a></li>
+                    <li class="ms-3"><a class="text-light" href="https://www.facebook.com/clarkcountydes" target="_blank"><i data-feather="facebook"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="https://www.instagram.com/clarkcountydes/" target="_blank"><i data-feather="instagram"></i></a></li>                    
+                    <li class="ms-3"><a class="text-light" href="https://www.youtube.com/@clarkcountydes/streams" target="_blank"><i data-feather="youtube"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="https://www.linkedin.com/company/clark-county-des/" target="_blank"><i data-feather="linkedin"></i></a></li>
+                    <li class="ms-3"><a class="text-light" href="mailto:allin@clarkcountynv.gov" target="_blank"><i data-feather="mail"></i></a></li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <a href="#" class="btn btn-link bg-blur rounded-pill text-decoration-none text-white" style="width: fit-content">Back To The Top <i data-feather="arrow-up"></i></a>
+            </div>
+
+        </div>
+    </footer>
+    
+    <!-- Phosphor icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>feather.replace()</script>
+
+    <!-- Twitter Widget -->
+    <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!-- Swiper -->
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@14.2.0/swiper-bundle.min.js "></script>
+
+    <!-- Google Custom Search Engine -->
+    <script defer src="https://cse.google.com/cse.js?cx=1432147d6868d4a6a"></script>
+
+    <!-- Google Translate -->
+    <script defer src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="/js/translate.js?v=sauY442jTjPCojQx28CxL91peb9oI9eFA0kPbKq3hQQ"></script>
+    <script src="/js/site.js?v=sdtafxov98grm_etgiUj54nQfob2gUIpxuY_k2goEKk"></script>
+    <script src="/js/navbar.js?v=H4m_7a1po8E-e9_pX3XwgyNleAYk9S6KG9UXFi1F--k"></script>
+    <script src="/js/imageModal.js?v=H1RphFMKlDjSSBSnSU4iVeke0_1DCm5stuc_U0B1K_A"></script>
+    <script src="/js/search.js"></script>
+
+    <!-- Required to be on layout (needs jquery and/or swiper) -->
+    <script src="/js/about/whosallin.js?v=T3THEE_VRQG28ArpDwDaIp1fudFLIiTYQeufN-xslcA"></script>
+    <script src="/js/about/des.js?v=h6M9uYrhxENtw2eVCniZSt6G6L5yot3t-UsW2AdtW4c"></script>
+
+
+    
+</body>
+</html>

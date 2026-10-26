@@ -1,0 +1,34 @@
+{
+  "retrievedAt": "2026-10-11T04:44:55.370200+00:00",
+  "sources": [
+    {
+      "name": "City of Las Vegas",
+      "url": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/AdministrativeBoundaries/City_and_County_Limits_Shaded/MapServer/0/query?objectIds=5&returnExtentOnly=true&outSR=4326&f=pjson",
+      "extent": {
+        "xmin": -115.4065751915266,
+        "ymin": 36.1295582523453,
+        "xmax": -115.06207757707904,
+        "ymax": 36.40149282841097,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "name": "City Limits feature 2 (larger city polygon, ambiguous symbol attributes)",
+      "url": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ReferenceInformation/CityLimits/MapServer/0/query?objectIds=2&returnExtentOnly=true&outSR=4326&f=pjson",
+      "extent": {
+        "xmin": -115.40657518818557,
+        "ymin": 36.1295582496386,
+        "xmax": -115.06207756397531,
+        "ymax": 36.40149283562836,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    }
+  ],
+  "scope": "Public geographic envelope snapshots. Neither current physical shade nor routing accessibility is established."
+}

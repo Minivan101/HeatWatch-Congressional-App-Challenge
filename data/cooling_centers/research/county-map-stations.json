@@ -1,0 +1,468 @@
+{
+  "researchOnly": true,
+  "sourceUrl": "https://www.google.com/maps/d/embed?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&ehbc=2E312F",
+  "linkedFrom": "https://allin.clarkcountynv.gov/Initiative/StayCool",
+  "ownerAsDisplayed": "Clark County DES",
+  "publishedLabelAsDisplayed": "Published on September 8",
+  "publicationYear": null,
+  "retrievedOn": "2026-10-02",
+  "layer": "Extreme Heat Cooling Stations (Free)",
+  "stationCount": 44,
+  "otherLayersExcluded": [
+    "Splash Pads (Free)",
+    "Summer Open Pools (Required Fee)"
+  ],
+  "legendAsDisplayed": [
+    "Orange/thermometer icons: Community/Rec centers (Cooling Stations)",
+    "Purple/Book icons: Libraries (Cooling Stations)",
+    "Yellow/Book icons: Libraries (Cooling Stations with a Limited Quantity of Free Bus Passes first come first serve)",
+    "Green/Dog Paw icons: Cooling Stations that accept pets (No size restriction)",
+    "Light Blue/Swimming icons: Public Pools (Fees apply)",
+    "Dark Blue/Cascade icons: Splash Pads (FREE)"
+  ],
+  "activationCautionAsDisplayed": "REMEMBER: Cooling stations are only active during high heat events",
+  "availabilityCautionAsDisplayed": "Please note: Cooling station locations do change periodically, and while every effort will be made to update locations as needed, contacting a location to confirm its availability is highly recommended.",
+  "extractionMethod": "Read all 44 station detail panels through the public UI. County-authored name and description fields only; Google-generated place details, reviews, photos and coordinates excluded.",
+  "records": [
+    {
+      "stationId": "centennial-hills-library",
+      "nameAsDisplayed": "Centennial Hills Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.\n\n*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*",
+      "rawPanelText": "Centennial Hills Library\nname\nCentennial Hills Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.\n\n*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "east-las-vegas-library",
+      "nameAsDisplayed": "East Las Vegas Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "East Las Vegas Library\nname\nEast Las Vegas Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "rainbow-library",
+      "nameAsDisplayed": "Rainbow Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed. \n\n*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*",
+      "rawPanelText": "Rainbow Library\nname\nRainbow Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed. \n\n*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "clark-county-library",
+      "nameAsDisplayed": "Clark County Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Clark County Library\nname\nClark County Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "enterprise-library",
+      "nameAsDisplayed": "Enterprise Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Enterprise Library\nname\nEnterprise Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "sahara-west-library",
+      "nameAsDisplayed": "Sahara West Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Sahara West Library\nname\nSahara West Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "spring-valley-library",
+      "nameAsDisplayed": "Spring Valley Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Spring Valley Library\nname\nSpring Valley Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "summerlin-library",
+      "nameAsDisplayed": "Summerlin Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Summerlin Library\nname\nSummerlin Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "sunrise-library",
+      "nameAsDisplayed": "Sunrise Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Sunrise Library\nname\nSunrise Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "west-charleston-library",
+      "nameAsDisplayed": "West Charleston Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "West Charleston Library\nname\nWest Charleston Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "west-las-vegas-library",
+      "nameAsDisplayed": "West Las Vegas Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "West Las Vegas Library\nname\nWest Las Vegas Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "windmill-library",
+      "nameAsDisplayed": "Windmill Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Windmill Library\nname\nWindmill Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "whitney-library",
+      "nameAsDisplayed": "Whitney Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Whitney Library\nname\nWhitney Library\ndescription\nHours:\nMon-Thu 10:00am – 8:00pm\nFri-Sun 10:00am – 6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "bunkerville-library",
+      "nameAsDisplayed": "Bunkerville Library",
+      "descriptionAsDisplayed": "Hours:\nMon: 11:00am-7:00pm\nTue-Thu: 11:00am-5:00pm\nSat: 10:00am-3:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Bunkerville Library\nname\nBunkerville Library\ndescription\nHours:\nMon: 11:00am-7:00pm\nTue-Thu: 11:00am-5:00pm\nSat: 10:00am-3:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "blue-diamond-library",
+      "nameAsDisplayed": "Blue Diamond Library",
+      "descriptionAsDisplayed": "Hours:\nTue: 11:00am-6:00pm\nWed: 12:00pm-4:00pm\nThu: 11:00am-6:00pm\nFri: 12:00pm-4:00pm\nSat: 10:00am-3:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Blue Diamond Library\nname\nBlue Diamond Library\ndescription\nHours:\nTue: 11:00am-6:00pm\nWed: 12:00pm-4:00pm\nThu: 11:00am-6:00pm\nFri: 12:00pm-4:00pm\nSat: 10:00am-3:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "indian-springs-library",
+      "nameAsDisplayed": "Indian Springs Library",
+      "descriptionAsDisplayed": "Hours:\nTue-Thu: 11:00am-7:00pm\nSat: 10:00am-4:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Indian Springs Library\nname\nIndian Springs Library\ndescription\nHours:\nTue-Thu: 11:00am-7:00pm\nSat: 10:00am-4:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "goodsprings-library",
+      "nameAsDisplayed": "Goodsprings Library",
+      "descriptionAsDisplayed": "Hours:\nTue-Thu: 1:00pm-7:00pm\nFri-Sat: 10:00am-3:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Goodsprings Library\nname\nGoodsprings Library\ndescription\nHours:\nTue-Thu: 1:00pm-7:00pm\nFri-Sat: 10:00am-3:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "searchlight-library",
+      "nameAsDisplayed": "Searchlight Library",
+      "descriptionAsDisplayed": "Hours:\nTue-Wed: 11:00am-6:00pm\nThu 11:00am-7:00pm\nFri-Sat 10:00am-2:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Searchlight Library\nname\nSearchlight Library\ndescription\nHours:\nTue-Wed: 11:00am-6:00pm\nThu 11:00am-7:00pm\nFri-Sat 10:00am-2:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "mesquite-library-campus",
+      "nameAsDisplayed": "Mesquite Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu: 10:00am-7:00pm\nFri-Sat: 10:00am-6:00pm\nSun 1:00pm-5:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Mesquite Library\nname\nMesquite Library\ndescription\nHours:\nMon-Thu: 10:00am-7:00pm\nFri-Sat: 10:00am-6:00pm\nSun 1:00pm-5:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "moapa-valley-library",
+      "nameAsDisplayed": "Moapa Valley Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Wed 10:00am-6:00pm\nThu: 10:00am-7:00pm\nFri-Sat: 10:00am-6:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Moapa Valley Library\nname\nMoapa Valley Library\ndescription\nHours:\nMon-Wed 10:00am-6:00pm\nThu: 10:00am-7:00pm\nFri-Sat: 10:00am-6:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "moapa-town-library",
+      "nameAsDisplayed": "Moapa Town Library",
+      "descriptionAsDisplayed": "Hours:\nTue: 11:00am – 7:00pm\nWed – Thu: 10:00am-6:00pm\nSat: 11:00am – 5:00pm\nUnless otherwise listed.",
+      "rawPanelText": "Moapa Town Library\nname\nMoapa Town Library\ndescription\nHours:\nTue: 11:00am – 7:00pm\nWed – Thu: 10:00am-6:00pm\nSat: 11:00am – 5:00pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "sandy-valley-library",
+      "nameAsDisplayed": "Sandy Valley Library",
+      "descriptionAsDisplayed": "Hours:\nTue – Wed, Fri: 1:00pm-7:00pm\nThu: 12:00pm-7:00pm\nSat: 10:00am-6:00 pm\nUnless otherwise listed.",
+      "rawPanelText": "Sandy Valley Library\nname\nSandy Valley Library\ndescription\nHours:\nTue – Wed, Fri: 1:00pm-7:00pm\nThu: 12:00pm-7:00pm\nSat: 10:00am-6:00 pm\nUnless otherwise listed.",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "mt-charleston-library",
+      "nameAsDisplayed": "Mount Charleston Library",
+      "descriptionAsDisplayed": "Hours:\nTue: 11:00am-7:00pm\nWed – Thu: 10:00am-6:00pm\nFri: 10:00am-4:00pm\nSat: 12:00pm-5:00pm\nUnless otherwise listed",
+      "rawPanelText": "Mount Charleston Library\nname\nMount Charleston Library\ndescription\nHours:\nTue: 11:00am-7:00pm\nWed – Thu: 10:00am-6:00pm\nFri: 10:00am-4:00pm\nSat: 12:00pm-5:00pm\nUnless otherwise listed",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "alexander-library",
+      "nameAsDisplayed": "Alexander Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Tue: 10:30am-8:00pm\nWed-Thu: 9:00am-9:00pm\nFri-Sat: 9:00am-6:00pm",
+      "rawPanelText": "Alexander Library\nname\nAlexander Library\ndescription\nHours:\nMon-Tue: 10:30am-8:00pm\nWed-Thu: 9:00am-9:00pm\nFri-Sat: 9:00am-6:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "cambridge-recreation-center",
+      "nameAsDisplayed": "Cambridge Recreation Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 07:00am-8:00 pm\nClosed Weekends",
+      "rawPanelText": "Cambridge Recreation Center\nname\nCambridge Recreation Center\ndescription\nHours:\nMon-Fri: 07:00am-8:00 pm\nClosed Weekends",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "silver-mesa-recreation-center",
+      "nameAsDisplayed": "Silver Mesa Recreation Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 09:00am-6:45 pm\nSat:  09:00am-2:00 pm",
+      "rawPanelText": "Silver Mesa Recreation Center\nname\nSilver Mesa Recreation Center\ndescription\nHours:\nMon-Fri: 09:00am-6:45 pm\nSat:  09:00am-2:00 pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "american-legion",
+      "nameAsDisplayed": "American Legion",
+      "descriptionAsDisplayed": "Hours:\nMon-Sat 9:00am-9:00pm\n\n*Cooling Station accept pets on leash when active*",
+      "rawPanelText": "American Legion\nname\nAmerican Legion\ndescription\nHours:\nMon-Sat 9:00am-9:00pm\n\n*Cooling Station accept pets on leash when active*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "west-henderson-library",
+      "nameAsDisplayed": "West Henderson Library",
+      "descriptionAsDisplayed": "Hours:\nTue-Thu: 10:00am-6:00pm\nFri-Sat: 10:00am-5:00pm",
+      "rawPanelText": "West Henderson Library\nname\nWest Henderson Library\ndescription\nHours:\nTue-Thu: 10:00am-6:00pm\nFri-Sat: 10:00am-5:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "green-valley-library",
+      "nameAsDisplayed": "Green Valley Library",
+      "descriptionAsDisplayed": "Hours:\nTue-Thu: 10:00am-6:00pm\nFri-Sat: 10:00am-5:00pm",
+      "rawPanelText": "Green Valley Library\nname\nGreen Valley Library\ndescription\nHours:\nTue-Thu: 10:00am-6:00pm\nFri-Sat: 10:00am-5:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "courtyard-homeless-resource-center",
+      "nameAsDisplayed": "The Courtyard Homeless Resource Center",
+      "descriptionAsDisplayed": "Hours:\nDaily: 24 hours\n\n*Cooling Station accept pets on leash when active*",
+      "rawPanelText": "The Courtyard Homeless Resource Center\nname\nThe Courtyard Homeless Resource Center\ndescription\nHours:\nDaily: 24 hours\n\n*Cooling Station accept pets on leash when active*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "downtown-senior-center",
+      "nameAsDisplayed": "Downtown Senior Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 9:00am-3:00 pm \nClosed Weekends",
+      "rawPanelText": "Downtown Senior Center\nname\nDowntown Senior Center\ndescription\nHours:\nMon-Fri: 9:00am-3:00 pm \nClosed Weekends",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "the-salvation-army",
+      "nameAsDisplayed": "The Salvation Army",
+      "descriptionAsDisplayed": "Hours:\nDaily: 8:00am-4:00pm\n\n*Cooling Station accept pets on leash when active*",
+      "rawPanelText": "The Salvation Army\nname\nThe Salvation Army\ndescription\nHours:\nDaily: 8:00am-4:00pm\n\n*Cooling Station accept pets on leash when active*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "whitney-recreation-center",
+      "nameAsDisplayed": "Whitney Recreation Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 8:00am-6:00pm\nClosed Weekends",
+      "rawPanelText": "Whitney Recreation Center\nname\nWhitney Recreation Center\ndescription\nHours:\nMon-Fri: 8:00am-6:00pm\nClosed Weekends",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "the-salvation-army-family-services-center",
+      "nameAsDisplayed": "Salvation Army Family Service Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 8:00am-3:00pm\nClosed Weekends",
+      "rawPanelText": "Salvation Army Family Service Center\nname\nSalvation Army Family Service Center\ndescription\nHours:\nMon-Fri: 8:00am-3:00pm\nClosed Weekends",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "paseo-verde-library",
+      "nameAsDisplayed": "Paseo Verde Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu: 9:00am-7:00pm\nFri-Sat: 9:00am-5:00pm\n\n*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*",
+      "rawPanelText": "Paseo Verde Library\nname\nPaseo Verde Library\ndescription\nHours:\nMon-Thu: 9:00am-7:00pm\nFri-Sat: 9:00am-5:00pm\n\n*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "colorado-river-food-bank",
+      "nameAsDisplayed": "Colorado River Food Bank",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 8:00am-3:00pm\nClosed Weekends\n\n*Cooling Station accept pets on leash when active*",
+      "rawPanelText": "Colorado River Food Bank\nname\nColorado River Food Bank\ndescription\nHours:\nMon-Fri: 8:00am-3:00pm\nClosed Weekends\n\n*Cooling Station accept pets on leash when active*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "james-i-gibson-library",
+      "nameAsDisplayed": "James I Gibson Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu: 9:00am-7:00pm\nFri-Sat: 9:00am-5:00pm",
+      "rawPanelText": "James I Gibson Library\nname\nJames I Gibson Library\ndescription\nHours:\nMon-Thu: 9:00am-7:00pm\nFri-Sat: 9:00am-5:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "neighborhood-recreation-center",
+      "nameAsDisplayed": "Neighborhood Recreation Center",
+      "descriptionAsDisplayed": "Hours:\n Mon-Fri 8:00am-6:45pm",
+      "rawPanelText": "Neighborhood Recreation Center\nname\nNeighborhood Recreation Center\ndescription\nHours:\n Mon-Fri 8:00am-6:45pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "hollywood-recreation-center",
+      "nameAsDisplayed": "Hollywood Recreation Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 6:00am-8:00pm\nSat 8:30am-3:00pm",
+      "rawPanelText": "Hollywood Recreation Center\nname\nHollywood Recreation Center\ndescription\nHours:\nMon-Fri: 6:00am-8:00pm\nSat 8:30am-3:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "pearson-community-center",
+      "nameAsDisplayed": "Pearson Community Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 9:00am-6:00pm\nSat 8:00am-5:00pm",
+      "rawPanelText": "Pearson Community Center\nname\nPearson Community Center\ndescription\nHours:\nMon-Fri: 9:00am-6:00pm\nSat 8:00am-5:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "walnut-recreation-center",
+      "nameAsDisplayed": "Walnut Recreation Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 7:00am-8:00 pm \nSat 9:00am-2:00pm",
+      "rawPanelText": "Walnut Recreation Center\nname\nWalnut Recreation Center\ndescription\nHours:\nMon-Fri: 7:00am-8:00 pm \nSat 9:00am-2:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "boulder-city-library",
+      "nameAsDisplayed": "Boulder City Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu: 10:00am-8:00pm\nFri-Sun: 10:00am-5:00pm \n\n*Cooling Station accept pets on leash when active*",
+      "rawPanelText": "Boulder City Library\nname\nBoulder City Library\ndescription\nHours:\nMon-Thu: 10:00am-8:00pm\nFri-Sun: 10:00am-5:00pm \n\n*Cooling Station accept pets on leash when active*",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "skyview-multi-generational-center",
+      "nameAsDisplayed": "SkyView Multi-Generational Center",
+      "descriptionAsDisplayed": "Hours:\nMon-Fri: 8:00am-7:00pm\nSat: 8:00am-2:00pm",
+      "rawPanelText": "SkyView Multi-Generational Center\nname\nSkyView Multi-Generational Center\ndescription\nHours:\nMon-Fri: 8:00am-7:00pm\nSat: 8:00am-2:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    },
+    {
+      "stationId": "laughlin-library",
+      "nameAsDisplayed": "Laughlin Library",
+      "descriptionAsDisplayed": "Hours:\nMon-Thu: 10:00am-7:00pm\nFri-Sat: 10:00am-6:00pm\nSun: 1:00pm-5:00pm",
+      "rawPanelText": "Laughlin Library\nname\nLaughlin Library\ndescription\nHours:\nMon-Thu: 10:00am-7:00pm\nFri-Sat: 10:00am-6:00pm\nSun: 1:00pm-5:00pm",
+      "sourceId": "county-resource-map",
+      "activationStart": null,
+      "activationEnd": null,
+      "currentOpenStatus": "unknown"
+    }
+  ]
+}

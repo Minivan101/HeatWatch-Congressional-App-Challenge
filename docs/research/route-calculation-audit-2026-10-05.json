@@ -1,0 +1,43 @@
+{
+  "routeSource": "https://routing.openstreetmap.de/about.html",
+  "morning": {
+    "distance": 3179.092171050928,
+    "duration": 2540.9,
+    "shade": 0.17262373430583525,
+    "coverage": 0.9713901624091015,
+    "departure": "2026-06-21T15:00:00.000Z",
+    "arrival": "2026-06-21T15:42:20.900Z",
+    "sunAtDeparture": {
+      "elevation": 28.7266541939694,
+      "azimuth": 80.71723501801706
+    },
+    "sunAtArrival": {
+      "elevation": 37.21415042157131,
+      "azimuth": 86.36269327587681
+    },
+    "totals": {
+      "building": 0.0,
+      "canopy": 548.7867622692568,
+      "open": 2539.35209808141,
+      "unknown": 90.95331070026404,
+      "night": 0.0
+    }
+  },
+  "noon": {
+    "shade": 0.1193778832429228,
+    "coverage": 1.0,
+    "sunAtDeparture": {
+      "elevation": 76.71143525801278,
+      "azimuth": 197.67402308800422
+    },
+    "sunAtArrival": {
+      "elevation": 71.8568041941306,
+      "azimuth": 229.47188588914432
+    }
+  },
+  "night": {
+    "shade": null,
+    "night": 3179.0921710509265,
+    "distance": 3179.092171050928
+  }
+}

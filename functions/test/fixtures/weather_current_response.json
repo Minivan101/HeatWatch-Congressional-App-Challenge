@@ -1,0 +1,7 @@
+{
+  "currentTime": "2026-06-21T16:00:00Z",
+  "temperature": {"degrees": 32, "unit": "CELSIUS"},
+  "feelsLikeTemperature": {"degrees": 36, "unit": "CELSIUS"},
+  "relativeHumidity": 42,
+  "uvIndex": 8
+}

@@ -1,0 +1,4351 @@
+{
+  "checkedAt": "2026-10-12T01:37:00.308543Z",
+  "scope": "Six public endpoint pairs, returned candidates and four instants; not all possible routes or physical shade accuracy.",
+  "cases": [
+    {
+      "name": "Summerlin Library \u2192 Bruce Trent Park",
+      "start": {
+        "latitude": 36.19143950472907,
+        "longitude": -115.30210200475739
+      },
+      "end": {
+        "latitude": 36.18666521197702,
+        "longitude": -115.28702679306085
+      },
+      "routes": [
+        {
+          "distanceMeters": 3721.840676106127,
+          "durationSeconds": 2658.457625790091,
+          "geometryPoints": 213,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.713364399555307,
+                "azimuth": 80.70620548370822
+              },
+              "sunAtArrival": {
+                "elevation": 37.60314906874334,
+                "azimuth": 86.61718413934946
+              },
+              "shade": 0.250899841288202,
+              "buildingShade": 0.0020814453355274026,
+              "canopyShade": 0.24881839595267458,
+              "coverage": 0.9985403143409671,
+              "night": 0.0,
+              "distance": 3717.6590097229196,
+              "heights": 8073,
+              "footprints": 8139,
+              "duration": 2658.457625790091,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:44:18.458Z",
+              "totals": {
+                "building": 7.738104004869193,
+                "canopy": 925.0219514982654,
+                "open": 2779.4723406781177,
+                "unknown": 5.4266135416669075,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 5.533434224898037,
+                "canopy": 661.4731621572456,
+                "open": 1987.5705169364385,
+                "unknown": 3.8805124715123824,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.72042648627217,
+                "azimuth": 197.62103068971243
+              },
+              "sunAtArrival": {
+                "elevation": 71.56846089200312,
+                "azimuth": 230.55771694862082
+              },
+              "shade": 0.2140922183116444,
+              "buildingShade": 0.0,
+              "canopyShade": 0.2140922183116444,
+              "coverage": 0.992648145564432,
+              "night": 0.0,
+              "distance": 3717.6590097229196,
+              "heights": 8073,
+              "footprints": 8139,
+              "duration": 2658.457625790091,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:44:18.458Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 795.9218643178508,
+                "open": 2894.405457524507,
+                "unknown": 27.331687880560764,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 569.1550903929079,
+                "open": 2069.7579419092513,
+                "unknown": 19.54459348793444,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.96661936224487,
+                "azimuth": 169.26910358844822
+              },
+              "sunAtArrival": {
+                "elevation": 48.34282928931474,
+                "azimuth": 185.84804792596992
+              },
+              "shade": 0.2981322830162562,
+              "buildingShade": 0.0,
+              "canopyShade": 0.2981322830162562,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 3717.6590097229196,
+              "heights": 8073,
+              "footprints": 8139,
+              "duration": 2658.457625790091,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:44:18.458Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 1108.354168044649,
+                "open": 2609.304841678273,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 792.5720412787767,
+                "open": 1865.8855845113183,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.16410358282621,
+                "azimuth": 321.22412528733736
+              },
+              "sunAtArrival": {
+                "elevation": -57.66141454649504,
+                "azimuth": 339.07122238213475
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 3717.659009722915,
+              "distance": 3717.6590097229196,
+              "heights": 8073,
+              "footprints": 8139,
+              "duration": 2658.457625790091,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:44:18.458Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 3717.659009722915
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 2658.4576257900935
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 4282.119539853035,
+          "durationSeconds": 3058.6568141807397,
+          "geometryPoints": 245,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.713364399555307,
+                "azimuth": 80.70620548370822
+              },
+              "sunAtArrival": {
+                "elevation": 38.946359381447955,
+                "azimuth": 87.5470571432732
+              },
+              "shade": 0.13479347895716265,
+              "buildingShade": 0.0018091059445582709,
+              "canopyShade": 0.13298437301260438,
+              "coverage": 0.9928469035248392,
+              "night": 0.0,
+              "distance": 4277.3083733128815,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3058.6568141807397,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:50:58.657Z",
+              "totals": {
+                "building": 7.738104004869193,
+                "canopy": 568.8151722065757,
+                "open": 3670.159097653112,
+                "unknown": 30.59599944832012,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 5.533434224898032,
+                "canopy": 406.7535586945552,
+                "open": 2624.490953985045,
+                "unknown": 21.878867276242794,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.72042648627217,
+                "azimuth": 197.62103068971243
+              },
+              "sunAtArrival": {
+                "elevation": 70.50482229368608,
+                "azimuth": 233.93837041813035
+              },
+              "shade": 0.08648350405912036,
+              "buildingShade": 0.0,
+              "canopyShade": 0.08648350405912036,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 4277.3083733128815,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3058.6568141807397,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:50:58.657Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 369.91661606551395,
+                "open": 3907.391757247366,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 264.52335900465613,
+                "open": 2794.133455176084,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.96661936224487,
+                "azimuth": 169.26910358844822
+              },
+              "sunAtArrival": {
+                "elevation": 48.1750166265951,
+                "azimuth": 188.32852573258813
+              },
+              "shade": 0.17724672935488694,
+              "buildingShade": 0.0,
+              "canopyShade": 0.17724672935488694,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 4277.3083733128815,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3058.6568141807397,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:50:58.657Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 758.1389196119794,
+                "open": 3519.1694537008984,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 542.1369165325741,
+                "open": 2516.519897648171,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.16410358282621,
+                "azimuth": 321.22412528733736
+              },
+              "sunAtArrival": {
+                "elevation": -58.110685997436754,
+                "azimuth": 342.0763684884133
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 4277.308373312876,
+              "distance": 4277.3083733128815,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3058.6568141807397,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:50:58.657Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 4277.308373312876
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 3058.6568141807447
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 4296.521183848678,
+          "durationSeconds": 3068.9437027490562,
+          "geometryPoints": 251,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.713364399555307,
+                "azimuth": 80.70620548370822
+              },
+              "sunAtArrival": {
+                "elevation": 38.97995311958363,
+                "azimuth": 87.57049516121303
+              },
+              "shade": 0.1991695883189592,
+              "buildingShade": 0.001803041945650995,
+              "canopyShade": 0.1973665463733082,
+              "coverage": 0.9968960172942535,
+              "night": 0.0,
+              "distance": 4291.693836371239,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3068.9437027490562,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:51:08.944Z",
+              "totals": {
+                "building": 7.738104004869193,
+                "canopy": 847.0367905762063,
+                "open": 3423.5975983437143,
+                "unknown": 13.32134344645528,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 5.533434224898036,
+                "canopy": 605.706819625695,
+                "open": 2448.177500720227,
+                "unknown": 9.525948178242775,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.72042648627217,
+                "azimuth": 197.62103068971243
+              },
+              "sunAtArrival": {
+                "elevation": 70.47762771166865,
+                "azimuth": 234.01878092428876
+              },
+              "shade": 0.11474188926073979,
+              "buildingShade": 0.0,
+              "canopyShade": 0.11474188926073979,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 4291.693836371239,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3068.9437027490562,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:51:08.944Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 492.43705891390937,
+                "open": 3799.2567774573395,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 352.13639848827796,
+                "open": 2716.8073042607857,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.96661936224487,
+                "azimuth": 169.26910358844822
+              },
+              "sunAtArrival": {
+                "elevation": 48.17008245560704,
+                "azimuth": 188.39030765906548
+              },
+              "shade": 0.18169351365490935,
+              "buildingShade": 0.0,
+              "canopyShade": 0.18169351365490935,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 4291.693836371239,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3068.9437027490562,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:51:08.944Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 779.7729326614093,
+                "open": 3511.9209037098367,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 557.6071645615853,
+                "open": 2511.3365381874783,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.16410358282621,
+                "azimuth": 321.22412528733736
+              },
+              "sunAtArrival": {
+                "elevation": -58.12105909560253,
+                "azimuth": 342.15241147706547
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 4291.693836371244,
+              "distance": 4291.693836371239,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3068.9437027490562,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:51:08.944Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 4291.693836371244
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 3068.943702749066
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 4574.808147253107,
+          "durationSeconds": 3267.7201051807906,
+          "geometryPoints": 215,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.713364399555307,
+                "azimuth": 80.70620548370822
+              },
+              "sunAtArrival": {
+                "elevation": 39.64858267772192,
+                "azimuth": 88.03897700216545
+              },
+              "shade": 0.18143304842436425,
+              "buildingShade": 0.0049655602045997,
+              "canopyShade": 0.17646748821976455,
+              "coverage": 0.9970848335011497,
+              "night": 0.0,
+              "distance": 4569.668131034306,
+              "heights": 14794,
+              "footprints": 15009,
+              "duration": 3267.7201051807906,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:54:27.720Z",
+              "totals": {
+                "building": 22.690962219691492,
+                "canopy": 806.3978570815319,
+                "open": 3727.2579682866385,
+                "unknown": 13.32134344645528,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 16.226060914056124,
+                "canopy": 576.6463591664808,
+                "open": 2665.321736922013,
+                "unknown": 9.52594817824277,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.72042648627217,
+                "azimuth": 197.62103068971243
+              },
+              "sunAtArrival": {
+                "elevation": 69.93085000951734,
+                "azimuth": 235.5799032523009
+              },
+              "shade": 0.10307888810778493,
+              "buildingShade": 0.0,
+              "canopyShade": 0.10307888810778493,
+              "coverage": 0.9785258533600556,
+              "night": 0.0,
+              "distance": 4569.668131034306,
+              "heights": 14794,
+              "footprints": 15009,
+              "duration": 3267.7201051807906,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:54:27.720Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 471.03630996859687,
+                "open": 4000.5020975240072,
+                "unknown": 98.12972354171185,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 336.8329550894908,
+                "open": 2860.7156493743555,
+                "unknown": 70.17150071694721,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.96661936224487,
+                "azimuth": 169.26910358844822
+              },
+              "sunAtArrival": {
+                "elevation": 48.06445002310142,
+                "azimuth": 189.61707081986643
+              },
+              "shade": 0.17333942504183994,
+              "buildingShade": 0.0,
+              "canopyShade": 0.17333942504183994,
+              "coverage": 0.9883270857988117,
+              "night": 0.0,
+              "distance": 4569.668131034306,
+              "heights": 14794,
+              "footprints": 15009,
+              "duration": 3267.7201051807906,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:54:27.720Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 792.1036464655076,
+                "open": 3724.2231405473403,
+                "unknown": 53.3413440214679,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 566.4247242297004,
+                "open": 2663.151564529819,
+                "unknown": 38.14381642127334,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.16410358282621,
+                "azimuth": 321.22412528733736
+              },
+              "sunAtArrival": {
+                "elevation": -58.31859263706358,
+                "azimuth": 343.6743934634756
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 4569.668131034314,
+              "distance": 4569.668131034306,
+              "heights": 14794,
+              "footprints": 15009,
+              "duration": 3267.7201051807906,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:54:27.720Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 4569.668131034314
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 3267.7201051807997
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 4585.271993817529,
+          "durationSeconds": 3275.194281298235,
+          "geometryPoints": 317,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.713364399555307,
+                "azimuth": 80.70620548370822
+              },
+              "sunAtArrival": {
+                "elevation": 39.67546647756663,
+                "azimuth": 88.05789452064417
+              },
+              "shade": 0.377441914816527,
+              "buildingShade": 0.0240851696819927,
+              "canopyShade": 0.35335674513453424,
+              "coverage": 0.9987527336587514,
+              "night": 0.0,
+              "distance": 4580.120220965591,
+              "heights": 11307,
+              "footprints": 11443,
+              "duration": 3275.194281298235,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:54:35.194Z",
+              "totals": {
+                "building": 110.31297268588231,
+                "canopy": 1618.4163736052674,
+                "open": 2845.678244883966,
+                "unknown": 5.71262979048204,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 78.88361000656022,
+                "canopy": 1157.3119909227844,
+                "open": 2034.9136407807723,
+                "unknown": 4.085039588112871,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.72042648627217,
+                "azimuth": 197.62103068971243
+              },
+              "sunAtArrival": {
+                "elevation": 69.90865265127056,
+                "azimuth": 235.6411430969326
+              },
+              "shade": 0.2520729790699816,
+              "buildingShade": 0.0,
+              "canopyShade": 0.2520729790699816,
+              "coverage": 0.9955243309947684,
+              "night": 0.0,
+              "distance": 4580.120220965591,
+              "heights": 11307,
+              "footprints": 11443,
+              "duration": 3275.194281298235,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:54:35.194Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 1154.5245485974594,
+                "open": 3405.096570254924,
+                "unknown": 20.49910211320958,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 825.587979519814,
+                "open": 2434.9476162474994,
+                "unknown": 14.658685530917854,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.96661936224487,
+                "azimuth": 169.26910358844822
+              },
+              "sunAtArrival": {
+                "elevation": 48.05990799079704,
+                "azimuth": 189.66627549697748
+              },
+              "shade": 0.3482773609097822,
+              "buildingShade": 0.0,
+              "canopyShade": 0.3482773609097822,
+              "coverage": 0.9987527336587514,
+              "night": 0.0,
+              "distance": 4580.120220965591,
+              "heights": 11307,
+              "footprints": 11443,
+              "duration": 3275.194281298235,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:54:35.194Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 1595.1521832074263,
+                "open": 2979.255407967688,
+                "unknown": 5.71262979048204,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 1140.6760207573604,
+                "open": 2130.4332209527574,
+                "unknown": 4.085039588112871,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.16410358282621,
+                "azimuth": 321.22412528733736
+              },
+              "sunAtArrival": {
+                "elevation": -58.326177221992836,
+                "azimuth": 343.7359177515934
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 4580.120220965584,
+              "distance": 4580.120220965591,
+              "heights": 11307,
+              "footprints": 11443,
+              "duration": 3275.194281298235,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:54:35.194Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 4580.120220965584
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 3275.194281298235
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 5144.249696147546,
+          "durationSeconds": 3674.464068676819,
+          "geometryPoints": 223,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.713364399555307,
+                "azimuth": 80.70620548370822
+              },
+              "sunAtArrival": {
+                "elevation": 41.016618697826935,
+                "azimuth": 89.01017396107436
+              },
+              "shade": 0.3868297109123043,
+              "buildingShade": 0.00674648575175686,
+              "canopyShade": 0.3800832251605474,
+              "coverage": 0.9826702380893321,
+              "night": 0.0,
+              "distance": 5138.469885055877,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3674.464068676819,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T16:01:14.464Z",
+              "totals": {
+                "building": 34.66661386536123,
+                "canopy": 1953.0462063023874,
+                "open": 3061.708605194979,
+                "unknown": 89.04845969315518,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 24.789719484670734,
+                "canopy": 1396.602153959232,
+                "open": 2189.3946077734395,
+                "unknown": 63.67758745947318,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.72042648627217,
+                "azimuth": 197.62103068971243
+              },
+              "sunAtArrival": {
+                "elevation": 68.78209302344132,
+                "azimuth": 238.55601249615535
+              },
+              "shade": 0.2794741705207585,
+              "buildingShade": 0.0,
+              "canopyShade": 0.2794741705207585,
+              "coverage": 0.995782814088051,
+              "night": 0.0,
+              "distance": 5138.469885055877,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3674.464068676819,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T21:01:14.464Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 1436.0696088718923,
+                "open": 3680.730393375767,
+                "unknown": 21.669882808231343,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 1026.9177977017862,
+                "open": 2632.0503728706517,
+                "unknown": 15.495898104386328,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.96661936224487,
+                "azimuth": 169.26910358844822
+              },
+              "sunAtArrival": {
+                "elevation": 47.80464415530438,
+                "azimuth": 192.10798821512506
+              },
+              "shade": 0.3889737535350587,
+              "buildingShade": 0.0,
+              "canopyShade": 0.3889737535350587,
+              "coverage": 0.9688452894521565,
+              "night": 0.0,
+              "distance": 5138.469885055877,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3674.464068676819,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T20:01:14.464Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 1998.7299186170487,
+                "open": 2979.6524245111086,
+                "unknown": 160.0875419277262,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 1429.2700810229258,
+                "open": 2130.7171231758125,
+                "unknown": 114.47686447807739,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.16410358282621,
+                "azimuth": 321.22412528733736
+              },
+              "sunAtArrival": {
+                "elevation": -58.66886513983048,
+                "azimuth": 346.8352427284342
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 5138.469885055897,
+              "distance": 5138.469885055877,
+              "heights": 11560,
+              "footprints": 11705,
+              "duration": 3674.464068676819,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T07:01:14.464Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 5138.469885055897
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 3674.464068676838
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        }
+      ],
+      "status": "passed",
+      "elapsedMilliseconds": 8926
+    },
+    {
+      "name": "Centennial Hills Library \u2192 Sunny Springs Park",
+      "start": {
+        "latitude": 36.2832026,
+        "longitude": -115.26201789999999
+      },
+      "end": {
+        "latitude": 36.29346224317117,
+        "longitude": -115.26285135314276
+      },
+      "routes": [
+        {
+          "distanceMeters": 1582.0254322417777,
+          "durationSeconds": 1130.0181658869842,
+          "geometryPoints": 160,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.76047459019424,
+                "azimuth": 80.77691007567749
+              },
+              "sunAtArrival": {
+                "elevation": 32.51871969005477,
+                "azimuth": 83.25747334313354
+              },
+              "shade": 0.23029632515714704,
+              "buildingShade": 0.0,
+              "canopyShade": 0.23029632515714704,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1580.24795084397,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1130.0181658869842,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:18:50.018Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 363.9252959164787,
+                "open": 1216.3226549274934,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 260.2390309645921,
+                "open": 869.7791349223916,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.62322006874598,
+                "azimuth": 197.6598983741448
+              },
+              "sunAtArrival": {
+                "elevation": 74.9504835553094,
+                "azimuth": 213.9486211685038
+              },
+              "shade": 0.17505561663258593,
+              "buildingShade": 0.0,
+              "canopyShade": 0.17505561663258593,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1580.24795084397,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1130.0181658869842,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:18:50.018Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 276.6312794673717,
+                "open": 1303.6166713765995,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 197.81602683536985,
+                "open": 932.202139051613,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.88272397622201,
+                "azimuth": 169.3476701786945
+              },
+              "sunAtArrival": {
+                "elevation": 48.340621824071945,
+                "azimuth": 176.3381788248834
+              },
+              "shade": 0.21948509677349287,
+              "buildingShade": 0.0,
+              "canopyShade": 0.21948509677349287,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1580.24795084397,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1130.0181658869842,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:18:50.018Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 346.8408744171029,
+                "open": 1233.4070764268686,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 248.02214649550987,
+                "open": 881.9960193914734,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.113162101542486,
+                "azimuth": 321.3586867871012
+              },
+              "sunAtArrival": {
+                "elevation": -55.292677955306345,
+                "azimuth": 328.4590122318863
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1580.2479508439712,
+              "distance": 1580.24795084397,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1130.0181658869842,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:18:50.018Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1580.2479508439712
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1130.0181658869853
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1697.0421627431026,
+          "durationSeconds": 1212.1729733879306,
+          "geometryPoints": 200,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.76047459019424,
+                "azimuth": 80.77691007567749
+              },
+              "sunAtArrival": {
+                "elevation": 32.792209000360884,
+                "azimuth": 83.43923651510559
+              },
+              "shade": 0.22860287055945847,
+              "buildingShade": 0.0,
+              "canopyShade": 0.22860287055945847,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1695.1354545359548,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1212.1729733879306,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:20:12.173Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 387.51283089403194,
+                "open": 1307.622623641924,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 277.1062213310753,
+                "open": 935.0667520568555,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.62322006874598,
+                "azimuth": 197.6598983741448
+              },
+              "sunAtArrival": {
+                "elevation": 74.79464920608034,
+                "azimuth": 214.99053955022907
+              },
+              "shade": 0.17943502172821618,
+              "buildingShade": 0.0,
+              "canopyShade": 0.17943502172821618,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1695.1354545359548,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1212.1729733879306,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:20:12.173Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 304.1666671169287,
+                "open": 1390.9687874190263,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 217.50628381821988,
+                "open": 994.6666895697107,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.88272397622201,
+                "azimuth": 169.3476701786945
+              },
+              "sunAtArrival": {
+                "elevation": 48.356622469719234,
+                "azimuth": 176.84961255343043
+              },
+              "shade": 0.23118788324510028,
+              "buildingShade": 0.0,
+              "canopyShade": 0.23118788324510028,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1695.1354545359548,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1212.1729733879306,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:20:12.173Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 391.89477754788857,
+                "open": 1303.2406769880672,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 280.23970384447534,
+                "open": 931.9332695434554,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.113162101542486,
+                "azimuth": 321.3586867871012
+              },
+              "sunAtArrival": {
+                "elevation": -55.435978491848026,
+                "azimuth": 329.00183851647694
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1695.135454535956,
+              "distance": 1695.1354545359548,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1212.1729733879306,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:20:12.173Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1695.135454535956
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1212.1729733879326
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1739.734982806836,
+          "durationSeconds": 1242.6678448620257,
+          "geometryPoints": 170,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.76047459019424,
+                "azimuth": 80.77691007567749
+              },
+              "sunAtArrival": {
+                "elevation": 32.89229115791162,
+                "azimuth": 83.50582133502698
+              },
+              "shade": 0.12369260248114759,
+              "buildingShade": 0.0,
+              "canopyShade": 0.12369260248114759,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1737.7803071701294,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1242.6678448620257,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:20:42.668Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 214.95056873436135,
+                "open": 1522.829738435768,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 153.70881975062278,
+                "open": 1088.9590251114023,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.62322006874598,
+                "azimuth": 197.6598983741448
+              },
+              "sunAtArrival": {
+                "elevation": 74.73661455579905,
+                "azimuth": 215.36685182195805
+              },
+              "shade": 0.06938841029328391,
+              "buildingShade": 0.0,
+              "canopyShade": 0.06938841029328391,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1737.7803071701294,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1242.6678448620257,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:20:42.668Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 120.58181295350987,
+                "open": 1617.1984942166193,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 86.22674627755713,
+                "open": 1156.4410985844684,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.88272397622201,
+                "azimuth": 169.3476701786945
+              },
+              "sunAtArrival": {
+                "elevation": 48.36186292973131,
+                "azimuth": 177.03680226113025
+              },
+              "shade": 0.08036803834380817,
+              "buildingShade": 0.0,
+              "canopyShade": 0.08036803834380817,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1737.7803071701294,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1242.6678448620257,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:20:42.668Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 139.6619943597637,
+                "open": 1598.1183128103658,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 99.87077700448874,
+                "open": 1142.797067857537,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.113162101542486,
+                "azimuth": 321.3586867871012
+              },
+              "sunAtArrival": {
+                "elevation": -55.48784646783121,
+                "azimuth": 329.20137883430505
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1737.7803071701298,
+              "distance": 1737.7803071701294,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1242.6678448620257,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:20:42.668Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1737.7803071701298
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1242.6678448620253
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1760.6567113885515,
+          "durationSeconds": 1257.6119367061083,
+          "geometryPoints": 91,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.76047459019424,
+                "azimuth": 80.77691007567749
+              },
+              "sunAtArrival": {
+                "elevation": 32.942337211128475,
+                "azimuth": 83.53913134263914
+              },
+              "shade": 0.07590342708413257,
+              "buildingShade": 0.0,
+              "canopyShade": 0.07590342708413257,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1758.6785291870287,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1257.6119367061083,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:20:57.612Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 133.48972750457708,
+                "open": 1625.1888016824507,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 95.45705593790676,
+                "open": 1162.1548807682025,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.62322006874598,
+                "azimuth": 197.6598983741448
+              },
+              "sunAtArrival": {
+                "elevation": 74.70739521946334,
+                "azimuth": 215.55403087356194
+              },
+              "shade": 0.045136190612765865,
+              "buildingShade": 0.0,
+              "canopyShade": 0.045136190612765865,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1758.6785291870287,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1257.6119367061083,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:20:57.612Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 79.3800493199644,
+                "open": 1679.2984798670632,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 56.76381209205651,
+                "open": 1200.8481246140523,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.88272397622201,
+                "azimuth": 169.3476701786945
+              },
+              "sunAtArrival": {
+                "elevation": 48.36435985566728,
+                "azimuth": 177.1304118257034
+              },
+              "shade": 0.060727644049334804,
+              "buildingShade": 0.0,
+              "canopyShade": 0.060727644049334804,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1758.6785291870287,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1257.6119367061083,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:20:57.612Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 106.80040371767748,
+                "open": 1651.8781254693502,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 76.37181004448307,
+                "open": 1181.240126661626,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.113162101542486,
+                "azimuth": 321.3586867871012
+              },
+              "sunAtArrival": {
+                "elevation": -55.51366741060331,
+                "azimuth": 329.3013385917644
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1758.6785291870276,
+              "distance": 1758.6785291870287,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1257.6119367061083,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:20:57.612Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1758.6785291870276
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1257.6119367061087
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1819.3480955990963,
+          "durationSeconds": 1299.5343539993546,
+          "geometryPoints": 117,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.76047459019424,
+                "azimuth": 80.77691007567749
+              },
+              "sunAtArrival": {
+                "elevation": 33.082483640853624,
+                "azimuth": 83.6324625138469
+              },
+              "shade": 0.17483584798564544,
+              "buildingShade": 0.0,
+              "canopyShade": 0.17483584798564544,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1817.3039708144015,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1299.5343539993546,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:21:39.534Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 317.72988078501646,
+                "open": 1499.5740900293845,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 227.2051907679549,
+                "open": 1072.3291632314001,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.62322006874598,
+                "azimuth": 197.6598983741448
+              },
+              "sunAtArrival": {
+                "elevation": 74.6248726064456,
+                "azimuth": 216.074674694304
+              },
+              "shade": 0.10873329299581255,
+              "buildingShade": 0.0,
+              "canopyShade": 0.10873329299581255,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1817.3039708144015,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1299.5343539993546,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:21:39.534Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 197.60144512101581,
+                "open": 1619.7025256933848,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 141.30264967153576,
+                "open": 1158.2317043278204,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.88272397622201,
+                "azimuth": 169.3476701786945
+              },
+              "sunAtArrival": {
+                "elevation": 48.37091377544706,
+                "azimuth": 177.39256756173836
+              },
+              "shade": 0.13660610564434025,
+              "buildingShade": 0.0,
+              "canopyShade": 0.13660610564434025,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1817.3039708144015,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1299.5343539993546,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:21:39.534Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 248.2548182249511,
+                "open": 1569.0491525894497,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 177.52432725088528,
+                "open": 1122.0100267484706,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.113162101542486,
+                "azimuth": 321.3586867871012
+              },
+              "sunAtArrival": {
+                "elevation": -55.58556332772939,
+                "azimuth": 329.581897523199
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1817.303970814401,
+              "distance": 1817.3039708144015,
+              "heights": 9159,
+              "footprints": 9425,
+              "duration": 1299.5343539993546,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:21:39.534Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1817.303970814401
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1299.534353999356
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1912.5658620528627,
+          "durationSeconds": 1366.118472894902,
+          "geometryPoints": 221,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.76047459019424,
+                "azimuth": 80.77691007567749
+              },
+              "sunAtArrival": {
+                "elevation": 33.30610318452362,
+                "azimuth": 83.78154382063381
+              },
+              "shade": 0.13123778533613664,
+              "buildingShade": 0.011772334375605407,
+              "canopyShade": 0.11946545096053124,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1910.4170026397348,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1366.118472894902,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:22:46.118Z",
+              "totals": {
+                "building": 22.490067751916776,
+                "canopy": 228.22882874302212,
+                "open": 1659.6981061447943,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 16.0824034596102,
+                "canopy": 163.2039594299016,
+                "open": 1186.8321100053904,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.62322006874598,
+                "azimuth": 197.6598983741448
+              },
+              "sunAtArrival": {
+                "elevation": 74.49110265018089,
+                "azimuth": 216.89471691040418
+              },
+              "shade": 0.08435025575560984,
+              "buildingShade": 0.0,
+              "canopyShade": 0.08435025575560984,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1910.4170026397348,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1366.118472894902,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:22:46.118Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 161.144162772527,
+                "open": 1749.272839867206,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 115.23244258114796,
+                "open": 1250.8860303137537,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 47.88272397622201,
+                "azimuth": 169.3476701786945
+              },
+              "sunAtArrival": {
+                "elevation": 48.38003369347045,
+                "azimuth": 177.810903698648
+              },
+              "shade": 0.10259418077754494,
+              "buildingShade": 0.0,
+              "canopyShade": 0.10259418077754494,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1910.4170026397348,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1366.118472894902,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:22:46.118Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 195.99766732931633,
+                "open": 1714.4193353104167,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 140.15580557172308,
+                "open": 1225.9626673231792,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.113162101542486,
+                "azimuth": 321.3586867871012
+              },
+              "sunAtArrival": {
+                "elevation": -55.69901813274994,
+                "azimuth": 330.0315006842376
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1910.4170026397328,
+              "distance": 1910.4170026397348,
+              "heights": 5382,
+              "footprints": 5601,
+              "duration": 1366.118472894902,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:22:46.118Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1910.4170026397328
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1366.118472894902
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        }
+      ],
+      "status": "passed",
+      "elapsedMilliseconds": 3470
+    },
+    {
+      "name": "Clark County Library \u2192 Cambridge Recreation Center",
+      "start": {
+        "latitude": 36.113965588302015,
+        "longitude": -115.13498279413714
+      },
+      "end": {
+        "latitude": 36.11803959966035,
+        "longitude": -115.14041407794002
+      },
+      "routes": [
+        {
+          "distanceMeters": 1197.0370599629116,
+          "durationSeconds": 855.0264714020798,
+          "geometryPoints": 41,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.83481845066272,
+                "azimuth": 80.7513683294482
+              },
+              "sunAtArrival": {
+                "elevation": 31.67779334648679,
+                "azimuth": 82.60750091206596
+              },
+              "shade": 0.07770401145226953,
+              "buildingShade": 0.05285496742816,
+              "canopyShade": 0.024849044024109538,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1195.6921314534152,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 855.0264714020798,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:14:15.026Z",
+              "totals": {
+                "building": 63.19826866207747,
+                "canopy": 29.71180641376728,
+                "open": 1102.7820563775704,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 45.192396296171495,
+                "canopy": 21.246590429649313,
+                "open": 788.5874846762592,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.75216882243265,
+                "azimuth": 198.3692376748242
+              },
+              "sunAtArrival": {
+                "elevation": 75.54235090701373,
+                "azimuth": 211.05852689721803
+              },
+              "shade": 0.0061449771410976945,
+              "buildingShade": 0.0,
+              "canopyShade": 0.0061449771410976945,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1195.6921314534152,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 855.0264714020798,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:14:15.026Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 7.3475008155716175,
+                "open": 1188.3446306378437,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 5.254118121799203,
+                "open": 849.7723532802813,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.06774738140684,
+                "azimuth": 169.50062347470342
+              },
+              "sunAtArrival": {
+                "elevation": 48.4530916138164,
+                "azimuth": 174.79077681100847
+              },
+              "shade": 0.018296408627354484,
+              "buildingShade": 0.0,
+              "canopyShade": 0.018296408627354484,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1195.6921314534152,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 855.0264714020798,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:14:15.026Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 21.876871829584136,
+                "open": 1173.815259623831,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 15.643913707977473,
+                "open": 839.3825576941031,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30938842087819,
+                "azimuth": 321.4002546296279
+              },
+              "sunAtArrival": {
+                "elevation": -54.99716745401581,
+                "azimuth": 326.7189628109491
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1195.6921314534154,
+              "distance": 1195.6921314534152,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 855.0264714020798,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:14:15.026Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1195.6921314534154
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 855.0264714020806
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1224.9421463929323,
+          "durationSeconds": 874.9586759949517,
+          "geometryPoints": 54,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.83481845066272,
+                "azimuth": 80.7513683294482
+              },
+              "sunAtArrival": {
+                "elevation": 31.741207128067757,
+                "azimuth": 82.64908820234959
+              },
+              "shade": 0.040001720196791525,
+              "buildingShade": 0.02198675012123501,
+              "canopyShade": 0.018014970075556518,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1223.5658651813726,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 874.9586759949517,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:14:34.959Z",
+              "totals": {
+                "building": 26.90223693461557,
+                "canopy": 22.042502446714852,
+                "open": 1174.6211258000424,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 19.23749777550763,
+                "canopy": 15.76235436539761,
+                "open": 839.9588238540478,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.75216882243265,
+                "azimuth": 198.3692376748242
+              },
+              "sunAtArrival": {
+                "elevation": 75.50923989392604,
+                "azimuth": 211.31709078008276
+              },
+              "shade": 0.006004990025185503,
+              "buildingShade": 0.0,
+              "canopyShade": 0.006004990025185503,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1223.5658651813726,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 874.9586759949517,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:14:34.959Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 7.3475008155716175,
+                "open": 1216.2183643658018,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 5.254118121799203,
+                "open": 869.704557873154,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.06774738140684,
+                "azimuth": 169.50062347470342
+              },
+              "sunAtArrival": {
+                "elevation": 48.458748997331156,
+                "azimuth": 174.9093551090314
+              },
+              "shade": 0.01787960293117629,
+              "buildingShade": 0.0,
+              "canopyShade": 0.01787960293117629,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1223.5658651813726,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 874.9586759949517,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:14:34.959Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 21.876871829584136,
+                "open": 1201.6889933517891,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 15.643913707977473,
+                "open": 859.3147622869758,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30938842087819,
+                "azimuth": 321.4002546296279
+              },
+              "sunAtArrival": {
+                "elevation": -55.03228557389878,
+                "azimuth": 326.8420346512464
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1223.5658651813735,
+              "distance": 1223.5658651813726,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 874.9586759949517,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:14:34.959Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1223.5658651813735
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 874.9586759949533
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1243.9798215228823,
+          "durationSeconds": 888.5570153734874,
+          "geometryPoints": 50,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.83481845066272,
+                "azimuth": 80.7513683294482
+              },
+              "sunAtArrival": {
+                "elevation": 31.787936874367947,
+                "azimuth": 82.67974167308714
+              },
+              "shade": 0.08599002403882466,
+              "buildingShade": 0.035822282334779236,
+              "canopyShade": 0.05016774170404542,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1242.5821505708607,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 888.5570153734874,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:14:48.557Z",
+              "totals": {
+                "building": 44.512128621906534,
+                "canopy": 62.33754037589621,
+                "open": 1135.7324815730578,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 31.830140275257843,
+                "canopy": 44.57689883657463,
+                "open": 812.1499762616563,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.75216882243265,
+                "azimuth": 198.3692376748242
+              },
+              "sunAtArrival": {
+                "elevation": 75.48468479738577,
+                "azimuth": 211.5069171892092
+              },
+              "shade": 0.025971232316610363,
+              "buildingShade": 0.0,
+              "canopyShade": 0.025971232316610363,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1242.5821505708607,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 888.5570153734874,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:14:48.557Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 32.27138970494917,
+                "open": 1210.3107608659127,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 23.076920672818787,
+                "open": 865.4800947006707,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.06774738140684,
+                "azimuth": 169.50062347470342
+              },
+              "sunAtArrival": {
+                "elevation": 48.4628332086625,
+                "azimuth": 174.99674602244096
+              },
+              "shade": 0.04834374048127237,
+              "buildingShade": 0.0,
+              "canopyShade": 0.04834374048127237,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1242.5821505708607,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 888.5570153734874,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:14:48.557Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 60.071069013859045,
+                "open": 1182.5110815570026,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 42.956169754029865,
+                "open": 845.6008456194596,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30938842087819,
+                "azimuth": 321.4002546296279
+              },
+              "sunAtArrival": {
+                "elevation": -55.058088478367516,
+                "azimuth": 326.93285191949803
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1242.5821505708623,
+              "distance": 1242.5821505708607,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 888.5570153734874,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:14:48.557Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1242.5821505708623
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 888.5570153734897
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1312.8694276832964,
+          "durationSeconds": 937.7638769166404,
+          "geometryPoints": 69,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.83481845066272,
+                "azimuth": 80.7513683294482
+              },
+              "sunAtArrival": {
+                "elevation": 31.95151619887773,
+                "azimuth": 82.78709784305231
+              },
+              "shade": 0.05873639907148006,
+              "buildingShade": 0.02051422351515646,
+              "canopyShade": 0.0382221755563236,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1311.3943559569518,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 937.7638769166404,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:15:37.764Z",
+              "totals": {
+                "building": 26.90223693461557,
+                "canopy": 50.124345296958545,
+                "open": 1234.367773725378,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 19.237497775507634,
+                "canopy": 35.843375533886466,
+                "open": 882.6830036072465,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.75216882243265,
+                "azimuth": 198.3692376748242
+              },
+              "sunAtArrival": {
+                "elevation": 75.39770001452717,
+                "azimuth": 212.16666743738705
+              },
+              "shade": 0.015225250708657993,
+              "buildingShade": 0.0,
+              "canopyShade": 0.015225250708657993,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1311.3943559569518,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 937.7638769166404,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:15:37.764Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 19.966307847363677,
+                "open": 1291.4280481095884,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 14.277690131578948,
+                "open": 923.4861867850614,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.06774738140684,
+                "azimuth": 169.50062347470342
+              },
+              "sunAtArrival": {
+                "elevation": 48.47656376122635,
+                "azimuth": 175.30272680591588
+              },
+              "shade": 0.05833637603331727,
+              "buildingShade": 0.0,
+              "canopyShade": 0.05833637603331727,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1311.3943559569518,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 937.7638769166404,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:15:37.764Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 76.50199427707466,
+                "open": 1234.8923616798772,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 54.705746154270585,
+                "open": 883.05813076237,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30938842087819,
+                "azimuth": 321.4002546296279
+              },
+              "sunAtArrival": {
+                "elevation": -55.147904640668635,
+                "azimuth": 327.25159909930767
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1311.3943559569518,
+              "distance": 1311.3943559569518,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 937.7638769166404,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:15:37.764Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1311.3943559569518
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 937.7638769166402
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1447.7298468368183,
+          "durationSeconds": 1034.0927477405846,
+          "geometryPoints": 75,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.83481845066272,
+                "azimuth": 80.7513683294482
+              },
+              "sunAtArrival": {
+                "elevation": 32.27545044101002,
+                "azimuth": 82.99994346217005
+              },
+              "shade": 0.08331848829141625,
+              "buildingShade": 0.018603261474891986,
+              "canopyShade": 0.06471522681652425,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1446.1032529658482,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 1034.0927477405846,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:17:14.093Z",
+              "totals": {
+                "building": 26.90223693461557,
+                "canopy": 93.58490001579851,
+                "open": 1325.6161160154354,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 19.23749777550763,
+                "canopy": 66.92154671935481,
+                "open": 947.933703245722,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.75216882243265,
+                "azimuth": 198.3692376748242
+              },
+              "sunAtArrival": {
+                "elevation": 75.22081907563569,
+                "azimuth": 213.45140208720267
+              },
+              "shade": 0.03240298217221297,
+              "buildingShade": 0.0,
+              "canopyShade": 0.03240298217221297,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1446.1032529658482,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 1034.0927477405846,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:17:14.093Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 46.85805792503162,
+                "open": 1399.2451950408185,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 33.507688869452934,
+                "open": 1000.5850588711315,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.06774738140684,
+                "azimuth": 169.50062347470342
+              },
+              "sunAtArrival": {
+                "elevation": 48.50115359690972,
+                "azimuth": 175.9089254933063
+              },
+              "shade": 0.0473165759765581,
+              "buildingShade": 0.0,
+              "canopyShade": 0.0473165759765581,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1446.1032529658482,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 1034.0927477405846,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:17:14.093Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 68.42465443890644,
+                "open": 1377.6785985269435,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 48.929728065275135,
+                "open": 985.1630196753093,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30938842087819,
+                "azimuth": 321.4002546296279
+              },
+              "sunAtArrival": {
+                "elevation": -55.323418059730145,
+                "azimuth": 327.8866529988586
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1446.1032529658505,
+              "distance": 1446.1032529658482,
+              "heights": 4411,
+              "footprints": 4414,
+              "duration": 1034.0927477405846,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:17:14.093Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1446.1032529658505
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1034.0927477405846
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1598.0730330787512,
+          "durationSeconds": 1141.4807379133938,
+          "geometryPoints": 63,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.83481845066272,
+                "azimuth": 80.7513683294482
+              },
+              "sunAtArrival": {
+                "elevation": 32.63295139264023,
+                "azimuth": 83.23525031728131
+              },
+              "shade": 0.1259753555211283,
+              "buildingShade": 0.12123935347454287,
+              "canopyShade": 0.0047360020465854035,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1596.277521432261,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 1141.4807379133938,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:19:01.481Z",
+              "totals": {
+                "building": 193.53165466439305,
+                "canopy": 7.559973608421463,
+                "open": 1395.1858931594463,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 138.392386668264,
+                "canopy": 5.40605511089565,
+                "open": 997.6822961342357,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.75216882243265,
+                "azimuth": 198.3692376748242
+              },
+              "sunAtArrival": {
+                "elevation": 75.01870536714009,
+                "azimuth": 214.83580486188842
+              },
+              "shade": 0.004736002046585408,
+              "buildingShade": 0.0,
+              "canopyShade": 0.004736002046585408,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1596.277521432261,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 1141.4807379133938,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:19:01.481Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 7.559973608421463,
+                "open": 1588.717547823838,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 5.40605511089565,
+                "open": 1136.0746828024992,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.06774738140684,
+                "azimuth": 169.50062347470342
+              },
+              "sunAtArrival": {
+                "elevation": 48.524278687394926,
+                "azimuth": 176.5782757814256
+              },
+              "shade": 0.013838035257562435,
+              "buildingShade": 0.0,
+              "canopyShade": 0.013838035257562435,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 1596.277521432261,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 1141.4807379133938,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:19:01.481Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 22.08934462243398,
+                "open": 1574.1881768098253,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 15.795850697073913,
+                "open": 1125.6848872163207,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30938842087819,
+                "azimuth": 321.4002546296279
+              },
+              "sunAtArrival": {
+                "elevation": -55.513454428359026,
+                "azimuth": 328.59342987621056
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1596.2775214322594,
+              "distance": 1596.277521432261,
+              "heights": 5906,
+              "footprints": 5910,
+              "duration": 1141.4807379133938,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:19:01.481Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1596.2775214322594
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1141.4807379133947
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        }
+      ],
+      "status": "passed",
+      "elapsedMilliseconds": 4751
+    },
+    {
+      "name": "West Charleston Library \u2192 Gary Dexter Park",
+      "start": {
+        "latitude": 36.15846756216483,
+        "longitude": -115.23109027812639
+      },
+      "end": {
+        "latitude": 36.16203607488716,
+        "longitude": -115.22051299739037
+      },
+      "routes": [
+        {
+          "distanceMeters": 1740.7363159104284,
+          "durationSeconds": 1243.383082793163,
+          "geometryPoints": 159,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.764808066587356,
+                "azimuth": 80.72527841512434
+              },
+              "sunAtArrival": {
+                "elevation": 32.914634670641846,
+                "azimuth": 83.4460339530645
+              },
+              "shade": 0.14807496919439328,
+              "buildingShade": 0.05177895651358308,
+              "canopyShade": 0.09629601268081019,
+              "coverage": 0.9930090089230699,
+              "night": 0.0,
+              "distance": 1738.7805152279866,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1243.383082793163,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:20:43.383Z",
+              "totals": {
+                "building": 90.03224068465549,
+                "canopy": 167.43763054353985,
+                "open": 1469.1548449330921,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 64.38107857367204,
+                "canopy": 119.73283310775528,
+                "open": 1050.576691074723,
+                "unknown": 8.692480037012846,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.7343673944822,
+                "azimuth": 197.93820316836528
+              },
+              "sunAtArrival": {
+                "elevation": 74.82172273829626,
+                "azimuth": 215.78767311010435
+              },
+              "shade": 0.03218080736798855,
+              "buildingShade": 0.0,
+              "canopyShade": 0.03218080736798855,
+              "coverage": 0.9712314119275777,
+              "night": 0.0,
+              "distance": 1738.7805152279866,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1243.383082793163,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:20:43.383Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 55.955360815763726,
+                "open": 1632.8028940212748,
+                "unknown": 50.0222603909483,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 40.01307147198254,
+                "open": 1167.5996355960847,
+                "unknown": 35.77037572509516,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.00980088101361,
+                "azimuth": 169.3671325362211
+              },
+              "sunAtArrival": {
+                "elevation": 48.495089980115075,
+                "azimuth": 177.09896760206803
+              },
+              "shade": 0.043114610292555484,
+              "buildingShade": 0.011757703263924614,
+              "canopyShade": 0.03135690702863087,
+              "coverage": 0.9930090089230699,
+              "night": 0.0,
+              "distance": 1738.7805152279866,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1243.383082793163,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:20:43.383Z",
+              "totals": {
+                "building": 20.444065339144625,
+                "canopy": 54.522778959198874,
+                "open": 1651.6578718629448,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 14.619329330865826,
+                "canopy": 38.98864772811767,
+                "open": 1181.082625697166,
+                "unknown": 8.692480037012846,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.22591850854119,
+                "azimuth": 321.29850145403327
+              },
+              "sunAtArrival": {
+                "elevation": -55.619999000533156,
+                "azimuth": 329.1776725471429
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1738.7805152279866,
+              "distance": 1738.7805152279866,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1243.383082793163,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:20:43.383Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1738.7805152279866
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1243.3830827931624
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1796.351333579259,
+          "durationSeconds": 1283.1080954137565,
+          "geometryPoints": 146,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.764808066587356,
+                "azimuth": 80.72527841512434
+              },
+              "sunAtArrival": {
+                "elevation": 33.0483067957187,
+                "azimuth": 83.5344627520981
+              },
+              "shade": 0.13584643878623684,
+              "buildingShade": 0.04090299984491084,
+              "canopyShade": 0.09494343894132601,
+              "coverage": 0.984347692730125,
+              "night": 0.0,
+              "distance": 1794.3330467589012,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1283.1080954137565,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:21:23.108Z",
+              "totals": {
+                "building": 73.39360433329782,
+                "canopy": 170.3601500653574,
+                "open": 1522.4938401678867,
+                "unknown": 28.085452192361323,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 52.48297022771276,
+                "canopy": 121.82269511203724,
+                "open": 1088.7188279041275,
+                "unknown": 20.083602169880212,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.7343673944822,
+                "azimuth": 197.93820316836528
+              },
+              "sunAtArrival": {
+                "elevation": 74.74257457071785,
+                "azimuth": 216.28594008208873
+              },
+              "shade": 0.029962849550635738,
+              "buildingShade": 0.0,
+              "canopyShade": 0.029962849550635738,
+              "coverage": 0.9932254499304598,
+              "night": 0.0,
+              "distance": 1794.3330467589012,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1283.1080954137565,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:21:23.108Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 53.763331123770854,
+                "open": 1728.4139165684333,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 38.445574820085184,
+                "open": 1235.9700405566596,
+                "unknown": 8.69248003701285,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.00980088101361,
+                "azimuth": 169.3671325362211
+              },
+              "sunAtArrival": {
+                "elevation": 48.50143028710023,
+                "azimuth": 177.34927679156428
+              },
+              "shade": 0.038505380426437155,
+              "buildingShade": 0.011393684899284814,
+              "canopyShade": 0.027111695527152337,
+              "coverage": 0.9932254499304598,
+              "night": 0.0,
+              "distance": 1794.3330467589012,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1283.1080954137565,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:21:23.108Z",
+              "totals": {
+                "building": 20.444065339144625,
+                "canopy": 48.64741123803498,
+                "open": 1713.0857711150245,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 14.619329330865831,
+                "canopy": 34.78723601128213,
+                "open": 1225.0090500345968,
+                "unknown": 8.69248003701285,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.22591850854119,
+                "azimuth": 321.29850145403327
+              },
+              "sunAtArrival": {
+                "elevation": -55.68884911725323,
+                "azimuth": 329.44528201702326
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1794.333046758903,
+              "distance": 1794.3330467589012,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1283.1080954137565,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:21:23.108Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1794.333046758903
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1283.1080954137576
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 1805.4092581674463,
+          "durationSeconds": 1289.578041548176,
+          "geometryPoints": 118,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.764808066587356,
+                "azimuth": 80.72527841512434
+              },
+              "sunAtArrival": {
+                "elevation": 33.06835963922098,
+                "azimuth": 83.54773428243222
+              },
+              "shade": 0.08322887896674924,
+              "buildingShade": 0.036912336891029934,
+              "canopyShade": 0.046316542075719294,
+              "coverage": 0.9932594385473738,
+              "night": 0.0,
+              "distance": 1803.3807943346785,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1289.578041548176,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:21:29.578Z",
+              "totals": {
+                "building": 66.56699942329486,
+                "canopy": 83.52636243934626,
+                "open": 1641.1316334053395,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 47.601339116900895,
+                "canopy": 59.72879562128981,
+                "open": 1173.555426772972,
+                "unknown": 8.692480037012846,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.7343673944822,
+                "azimuth": 197.93820316836528
+              },
+              "sunAtArrival": {
+                "elevation": 74.73062102225371,
+                "azimuth": 216.36027409005175
+              },
+              "shade": 0.020388588646414636,
+              "buildingShade": 0.0,
+              "canopyShade": 0.020388588646414636,
+              "coverage": 0.9803318126996758,
+              "night": 0.0,
+              "distance": 1803.3807943346785,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1289.578041548176,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:21:29.578Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 36.768389188534265,
+                "open": 1731.143173909364,
+                "unknown": 35.469231236781695,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 26.292676216574787,
+                "open": 1237.9217028720466,
+                "unknown": 25.36366245955465,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.00980088101361,
+                "azimuth": 169.3671325362211
+              },
+              "sunAtArrival": {
+                "elevation": 48.50233067327611,
+                "azimuth": 177.3868286736697
+              },
+              "shade": 0.046119826729452466,
+              "buildingShade": 0.01133652160617971,
+              "canopyShade": 0.034783305123272754,
+              "coverage": 0.9932594385473738,
+              "night": 0.0,
+              "distance": 1803.3807943346785,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1289.578041548176,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:21:29.578Z",
+              "totals": {
+                "building": 20.444065339144625,
+                "canopy": 62.72754442279316,
+                "open": 1708.0533855060432,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 14.619329330865826,
+                "canopy": 44.85578649944275,
+                "open": 1221.4104456808545,
+                "unknown": 8.692480037012846,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.22591850854119,
+                "azimuth": 321.29850145403327
+              },
+              "sunAtArrival": {
+                "elevation": -55.69912997097387,
+                "azimuth": 329.4855016568561
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 1803.3807943346796,
+              "distance": 1803.3807943346785,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1289.578041548176,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:21:29.578Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1803.3807943346796
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1289.5780415481768
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 2010.366987897835,
+          "durationSeconds": 1435.976419927025,
+          "geometryPoints": 155,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.764808066587356,
+                "azimuth": 80.72527841512434
+              },
+              "sunAtArrival": {
+                "elevation": 33.55647167013315,
+                "azimuth": 83.87126979190758
+              },
+              "shade": 0.153106357374681,
+              "buildingShade": 0.04032474021456555,
+              "canopyShade": 0.11278161716011545,
+              "coverage": 0.9939466415211368,
+              "night": 0.0,
+              "distance": 2008.1082442323257,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1435.976419927025,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:23:55.976Z",
+              "totals": {
+                "building": 80.97644327139592,
+                "canopy": 226.47769521708187,
+                "open": 1688.49830667715,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 57.90537608779919,
+                "canopy": 161.95174284316298,
+                "open": 1207.42682095905,
+                "unknown": 8.692480037012839,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.7343673944822,
+                "azimuth": 197.93820316836528
+              },
+              "sunAtArrival": {
+                "elevation": 74.4333762937575,
+                "azimuth": 218.13663935106803
+              },
+              "shade": 0.05565881749502478,
+              "buildingShade": 0.0,
+              "canopyShade": 0.05565881749502478,
+              "coverage": 0.9899794735820728,
+              "night": 0.0,
+              "distance": 2008.1082442323257,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1435.976419927025,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:23:55.976Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 111.76893027598172,
+                "open": 1876.2170122449577,
+                "unknown": 20.122301711387227,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 79.92474948387738,
+                "open": 1341.6624307917511,
+                "unknown": 14.389239651399135,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.00980088101361,
+                "azimuth": 169.3671325362211
+              },
+              "sunAtArrival": {
+                "elevation": 48.52016401885933,
+                "azimuth": 178.30096686389322
+              },
+              "shade": 0.08361668453589073,
+              "buildingShade": 0.010180758630847673,
+              "canopyShade": 0.07343592590504305,
+              "coverage": 0.9939466415211368,
+              "night": 0.0,
+              "distance": 2008.1082442323257,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1435.976419927025,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:23:55.976Z",
+              "totals": {
+                "building": 20.444065339144625,
+                "canopy": 147.46728823275126,
+                "open": 1828.041091593732,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 14.61932933086581,
+                "canopy": 105.45225797515002,
+                "open": 1307.2123525839984,
+                "unknown": 8.692480037012839,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.22591850854119,
+                "azimuth": 321.29850145403327
+              },
+              "sunAtArrival": {
+                "elevation": -55.945508403212216,
+                "azimuth": 330.47044970130673
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 2008.1082442323275,
+              "distance": 2008.1082442323257,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1435.976419927025,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:23:55.976Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 2008.1082442323275
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1435.9764199270282
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 2021.267864907173,
+          "durationSeconds": 1443.7627606479807,
+          "geometryPoints": 170,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.764808066587356,
+                "azimuth": 80.72527841512434
+              },
+              "sunAtArrival": {
+                "elevation": 33.583226237030004,
+                "azimuth": 83.88903150150578
+              },
+              "shade": 0.09375654075571,
+              "buildingShade": 0.04409845239122663,
+              "canopyShade": 0.04965808836448338,
+              "coverage": 0.9939792878207279,
+              "night": 0.0,
+              "distance": 2018.996873583874,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1443.7627606479807,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:24:03.763Z",
+              "totals": {
+                "building": 89.03463750777395,
+                "canopy": 100.25952515604376,
+                "open": 1817.5469118533592,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 63.66770336466092,
+                "canopy": 71.69449874560796,
+                "open": 1299.7080785006988,
+                "unknown": 8.69248003701285,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.7343673944822,
+                "azimuth": 197.93820316836528
+              },
+              "sunAtArrival": {
+                "elevation": 74.41674248530349,
+                "azimuth": 218.23218541246075
+              },
+              "shade": 0.02033668590572555,
+              "buildingShade": 0.0,
+              "canopyShade": 0.02033668590572555,
+              "coverage": 0.9939792878207279,
+              "night": 0.0,
+              "distance": 2018.996873583874,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1443.7627606479807,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:24:03.763Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 41.05970526271715,
+                "open": 1965.7813692544596,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 29.36134978568122,
+                "open": 1405.7089308252862,
+                "unknown": 8.69248003701285,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.00980088101361,
+                "azimuth": 169.3671325362211
+              },
+              "sunAtArrival": {
+                "elevation": 48.52091479559163,
+                "azimuth": 178.35107438986768
+              },
+              "shade": 0.027928646871073704,
+              "buildingShade": 0.01012585289587637,
+              "canopyShade": 0.017802793975197333,
+              "coverage": 0.9939792878207279,
+              "night": 0.0,
+              "distance": 2018.996873583874,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1443.7627606479807,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:24:03.763Z",
+              "totals": {
+                "building": 20.444065339144625,
+                "canopy": 35.943785376981275,
+                "open": 1950.4532238010509,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 14.619329330865831,
+                "canopy": 25.703010976878165,
+                "open": 1394.7479403032232,
+                "unknown": 8.69248003701285,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.22591850854119,
+                "azimuth": 321.29850145403327
+              },
+              "sunAtArrival": {
+                "elevation": -55.95879653271314,
+                "azimuth": 330.5247665756617
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 2018.996873583875,
+              "distance": 2018.996873583874,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1443.7627606479807,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:24:03.763Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 2018.996873583875
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1443.7627606479803
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 2212.3183833909206,
+          "durationSeconds": 1580.2274167078006,
+          "geometryPoints": 155,
+          "sourceUrl": "https://www.openstreetmap.org",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.764808066587356,
+                "azimuth": 80.72527841512434
+              },
+              "sunAtArrival": {
+                "elevation": 34.04153401004584,
+                "azimuth": 84.19376579664828
+              },
+              "shade": 0.13683558864223552,
+              "buildingShade": 0.03695996525832421,
+              "canopyShade": 0.09987562338391132,
+              "coverage": 0.994499222108725,
+              "night": 0.0,
+              "distance": 2209.832737653273,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1580.2274167078006,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T15:26:20.227Z",
+              "totals": {
+                "building": 81.67534121037245,
+                "canopy": 220.70842224729603,
+                "open": 1895.2931751289061,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 58.40515042177171,
+                "canopy": 157.82619833203944,
+                "open": 1355.3035879169747,
+                "unknown": 8.69248003701284,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.7343673944822,
+                "azimuth": 197.93820316836528
+              },
+              "sunAtArrival": {
+                "elevation": 74.12651809982995,
+                "azimuth": 219.83994226551764
+              },
+              "shade": 0.042279894752335886,
+              "buildingShade": 0.0,
+              "canopyShade": 0.042279894752335886,
+              "coverage": 0.994499222108725,
+              "night": 0.0,
+              "distance": 2209.832737653273,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1580.2274167078006,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T20:26:20.227Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 93.43149556824665,
+                "open": 2104.245443018327,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 66.81184886316142,
+                "open": 1504.7230878076248,
+                "unknown": 8.69248003701284,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.00980088101361,
+                "azimuth": 169.3671325362211
+              },
+              "sunAtArrival": {
+                "elevation": 48.53011896251486,
+                "azimuth": 179.20936115285366
+              },
+              "shade": 0.0526580744653889,
+              "buildingShade": 0.00925140848481372,
+              "canopyShade": 0.043406665980575174,
+              "coverage": 0.994499222108725,
+              "night": 0.0,
+              "distance": 2209.832737653273,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1580.2274167078006,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T19:26:20.227Z",
+              "totals": {
+                "building": 20.444065339144625,
+                "canopy": 95.92147151625565,
+                "open": 2081.311401731174,
+                "unknown": 12.155799066698783,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 14.619329330865817,
+                "canopy": 68.5924036503827,
+                "open": 1488.3232036895379,
+                "unknown": 8.69248003701284,
+                "night": 0.0
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.22591850854119,
+                "azimuth": 321.29850145403327
+              },
+              "sunAtArrival": {
+                "elevation": -56.18288637929166,
+                "azimuth": 331.46050774913533
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 2209.832737653273,
+              "distance": 2209.832737653273,
+              "heights": 3027,
+              "footprints": 3096,
+              "duration": 1580.2274167078006,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T06:26:20.227Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 2209.832737653273
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 1580.2274167077987
+              },
+              "timingModel": "uniform-average-pace",
+              "cappedShadows": false
+            }
+          ]
+        }
+      ],
+      "status": "passed",
+      "elapsedMilliseconds": 4867
+    },
+    {
+      "name": "Windmill Library \u2192 Red Ridge Park",
+      "start": {
+        "latitude": 36.042410665501905,
+        "longitude": -115.24639920393716
+      },
+      "end": {
+        "latitude": 36.05947026,
+        "longitude": -115.28865449
+      },
+      "routes": [
+        {
+          "distanceMeters": 5980.7,
+          "durationSeconds": 4786.0,
+          "geometryPoints": 373,
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.733889933218173,
+                "azimuth": 80.65451643218009
+              },
+              "sunAtArrival": {
+                "elevation": 44.75779976229896,
+                "azimuth": 91.64287127931951
+              },
+              "shade": 0.16572576442697112,
+              "buildingShade": 0.020762833316036042,
+              "canopyShade": 0.14496293111093506,
+              "coverage": 0.9551252095587427,
+              "night": 0.0,
+              "distance": 5976.21790212752,
+              "heights": 15434,
+              "footprints": 17089,
+              "duration": 4786.0,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T16:19:46.000Z",
+              "totals": {
+                "building": 124.08321616218436,
+                "canopy": 866.3300640500489,
+                "open": 4717.6230959260265,
+                "unknown": 268.18152598926264,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 99.158103400223,
+                "canopy": 693.5629996454654,
+                "open": 3778.582035391963,
+                "unknown": 214.69686156235082,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.8486570843688,
+                "azimuth": 198.03229083316054
+              },
+              "sunAtArrival": {
+                "elevation": 65.53219505910744,
+                "azimuth": 245.70752523056393
+              },
+              "shade": 0.10854495502420834,
+              "buildingShade": 0.0,
+              "canopyShade": 0.10854495502420834,
+              "coverage": 0.8821350921447669,
+              "night": 0.0,
+              "distance": 5976.21790212752,
+              "heights": 15434,
+              "footprints": 17089,
+              "duration": 4786.0,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T21:19:46.000Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 648.6883034013009,
+                "open": 4623.1432263691695,
+                "unknown": 704.3863723570549,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 519.1239084760987,
+                "open": 3702.4778287982485,
+                "unknown": 564.3982627256521,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.12169849913434,
+                "azimuth": 169.3208200132582
+              },
+              "sunAtArrival": {
+                "elevation": 46.92468394551187,
+                "azimuth": 198.79476813813062
+              },
+              "shade": 0.1295010731540165,
+              "buildingShade": 0.001858458777165373,
+              "canopyShade": 0.1276426143768511,
+              "coverage": 0.911491584246013,
+              "night": 0.0,
+              "distance": 5976.21790212752,
+              "heights": 15434,
+              "footprints": 17089,
+              "duration": 4786.0,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T20:19:46.000Z",
+              "totals": {
+                "building": 11.106554614461729,
+                "canopy": 762.8200771132977,
+                "open": 4673.345691681841,
+                "unknown": 528.9455787179227,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 8.870373467112598,
+                "canopy": 610.520710897076,
+                "open": 3742.1809505119477,
+                "unknown": 424.42796512385695,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30881398481455,
+                "azimuth": 321.1792423586195
+              },
+              "sunAtArrival": {
+                "elevation": -59.36881545050382,
+                "azimuth": 355.69889148430104
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 5976.217902127536,
+              "distance": 5976.21790212752,
+              "heights": 15434,
+              "footprints": 17089,
+              "duration": 4786.0,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T07:19:46.000Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 5976.217902127536
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 4785.999999999963
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            }
+          ]
+        },
+        {
+          "distanceMeters": 6154.4,
+          "durationSeconds": 4930.2,
+          "geometryPoints": 380,
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.733889933218173,
+                "azimuth": 80.65451643218009
+              },
+              "sunAtArrival": {
+                "elevation": 45.2425270177579,
+                "azimuth": 92.01144567002017
+              },
+              "shade": 0.1836862805943371,
+              "buildingShade": 0.03963507292405123,
+              "canopyShade": 0.14405120767028584,
+              "coverage": 0.915243335811665,
+              "night": 0.0,
+              "distance": 6150.447622939466,
+              "heights": 15917,
+              "footprints": 17620,
+              "duration": 4930.2,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T16:22:10.200Z",
+              "totals": {
+                "building": 243.7734400507624,
+                "canopy": 885.9794077972656,
+                "open": 4499.403351305993,
+                "unknown": 521.291423785422,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 194.92581910179382,
+                "canopy": 710.023788361168,
+                "open": 3608.11259415568,
+                "unknown": 417.13779838135605,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.8486570843688,
+                "azimuth": 198.03229083316054
+              },
+              "sunAtArrival": {
+                "elevation": 65.08881818142623,
+                "azimuth": 246.48808980734623
+              },
+              "shade": 0.11976458620869607,
+              "buildingShade": 0.0,
+              "canopyShade": 0.11976458620869607,
+              "coverage": 0.910557528171801,
+              "night": 0.0,
+              "distance": 6150.447622939466,
+              "heights": 15917,
+              "footprints": 17620,
+              "duration": 4930.2,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T21:22:10.200Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 736.6058145596029,
+                "open": 4863.730570134283,
+                "unknown": 550.1112382455758,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 590.1360013972613,
+                "open": 3899.264965164768,
+                "unknown": 440.7990334379682,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.12169849913434,
+                "azimuth": 169.3208200132582
+              },
+              "sunAtArrival": {
+                "elevation": 46.76439408841943,
+                "azimuth": 199.63637072207456
+              },
+              "shade": 0.1409482786261905,
+              "buildingShade": 0.0018058124051064759,
+              "canopyShade": 0.139142466221084,
+              "coverage": 0.9489638467114572,
+              "night": 0.0,
+              "distance": 6150.447622939466,
+              "heights": 15917,
+              "footprints": 17620,
+              "duration": 4930.2,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T20:22:10.200Z",
+              "totals": {
+                "building": 11.106554614461729,
+                "canopy": 855.7884506194015,
+                "open": 4969.657430028113,
+                "unknown": 313.89518767749246,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 8.877470452053132,
+                "canopy": 685.5666131022884,
+                "open": 3983.6691149422168,
+                "unknown": 252.0868015034357,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.30881398481455,
+                "azimuth": 321.1792423586195
+              },
+              "sunAtArrival": {
+                "elevation": -59.40089226123456,
+                "azimuth": 356.87019220270656
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 6150.447622939464,
+              "distance": 6150.447622939466,
+              "heights": 15917,
+              "footprints": 17620,
+              "duration": 4930.2,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T07:22:10.200Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 6150.447622939464
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 4930.200000000001
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            }
+          ]
+        }
+      ],
+      "status": "passed",
+      "elapsedMilliseconds": 16414
+    },
+    {
+      "name": "Sunrise Library \u2192 East Las Vegas Library",
+      "start": {
+        "latitude": 36.17820887470259,
+        "longitude": -115.05497188275075
+      },
+      "end": {
+        "latitude": 36.173195,
+        "longitude": -115.11060299999997
+      },
+      "routes": [
+        {
+          "distanceMeters": 5597.8,
+          "durationSeconds": 4486.5,
+          "geometryPoints": 184,
+          "sourceUrl": "https://routing.openstreetmap.de/about.html",
+          "accessReviewed": false,
+          "shadeChecks": [
+            {
+              "sunAtDeparture": {
+                "elevation": 28.908729355681388,
+                "azimuth": 80.82773334421704
+              },
+              "sunAtArrival": {
+                "elevation": 43.889535177391615,
+                "azimuth": 91.10153071218008
+              },
+              "shade": 0.08189622217402907,
+              "buildingShade": 0.0013001663039899705,
+              "canopyShade": 0.0805960558700391,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 5587.590447159254,
+              "heights": 13933,
+              "footprints": 13979,
+              "duration": 4486.5,
+              "departure": "2026-06-21T15:00:00.000Z",
+              "arrival": "2026-06-21T16:14:46.500Z",
+              "totals": {
+                "building": 7.264796819892701,
+                "canopy": 450.3377518581432,
+                "open": 5129.987898481208,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 5.810360611811991,
+                "canopy": 361.48425493229536,
+                "open": 4119.205384455905,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 76.67079922612855,
+                "azimuth": 198.58894022742666
+              },
+              "sunAtArrival": {
+                "elevation": 66.26791606167617,
+                "azimuth": 244.02436079633122
+              },
+              "shade": 0.05318149557378914,
+              "buildingShade": 0.0,
+              "canopyShade": 0.05318149557378914,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 5587.590447159254,
+              "heights": 13933,
+              "footprints": 13979,
+              "duration": 4486.5,
+              "departure": "2026-06-21T20:00:00.000Z",
+              "arrival": "2026-06-21T21:14:46.500Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 297.1564166337458,
+                "open": 5290.434030525497,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 238.6270499928227,
+                "open": 4247.872950007187,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": 48.01623147940615,
+                "azimuth": 169.63115643823886
+              },
+              "sunAtArrival": {
+                "elevation": 47.086167206518496,
+                "azimuth": 197.24220696877921
+              },
+              "shade": 0.08071990533652107,
+              "buildingShade": 0.0,
+              "canopyShade": 0.08071990533652107,
+              "coverage": 1.0,
+              "night": 0.0,
+              "distance": 5587.590447159254,
+              "heights": 13933,
+              "footprints": 13979,
+              "duration": 4486.5,
+              "departure": "2026-10-07T19:00:00.000Z",
+              "arrival": "2026-10-07T20:14:46.500Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 451.02977195394357,
+                "open": 5136.560675205299,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 362.22544117412485,
+                "open": 4124.274558825886,
+                "unknown": 0.0,
+                "night": 0.0
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            },
+            {
+              "sunAtDeparture": {
+                "elevation": -53.29925467659518,
+                "azimuth": 321.5686987668423
+              },
+              "sunAtArrival": {
+                "elevation": -59.174157117611884,
+                "azimuth": 353.6339554012736
+              },
+              "shade": null,
+              "buildingShade": null,
+              "canopyShade": null,
+              "coverage": null,
+              "night": 5587.59044715924,
+              "distance": 5587.590447159254,
+              "heights": 13933,
+              "footprints": 13979,
+              "duration": 4486.5,
+              "departure": "2026-10-08T06:00:00.000Z",
+              "arrival": "2026-10-08T07:14:46.500Z",
+              "totals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 5587.59044715924
+              },
+              "timeTotals": {
+                "building": 0.0,
+                "canopy": 0.0,
+                "open": 0.0,
+                "unknown": 0.0,
+                "night": 4486.500000000005
+              },
+              "timingModel": "provider-segment-proportions",
+              "cappedShadows": false
+            }
+          ]
+        }
+      ],
+      "status": "passed",
+      "elapsedMilliseconds": 569
+    }
+  ],
+  "typedSearch": [
+    {
+      "query": "The Meadows School",
+      "matches": 5,
+      "firstName": "Meadows School",
+      "latitude": 36.194683,
+      "longitude": -115.2828654
+    },
+    {
+      "query": "Montagna Drive",
+      "matches": 1,
+      "firstName": "Montagna Drive",
+      "latitude": 36.1939558,
+      "longitude": -115.2883911
+    }
+  ]
+}

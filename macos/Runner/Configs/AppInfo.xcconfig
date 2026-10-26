@@ -1,0 +1,8 @@
+
+
+PRODUCT_NAME = heatwatch
+
+PRODUCT_BUNDLE_IDENTIFIER = com.ivantrac.heatwatch
+
+// The copyright displayed in application information
+PRODUCT_COPYRIGHT = Copyright © 2026 com.ivantrac. All rights reserved.

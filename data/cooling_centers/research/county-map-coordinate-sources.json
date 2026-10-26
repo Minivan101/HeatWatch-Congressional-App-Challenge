@@ -1,0 +1,316 @@
+{
+  "sourceUrl": "https://www.google.com/maps/d/kml?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&forcekml=1",
+  "file": "county-resource-map.kml",
+  "sha256": "3cd3518fab13422e2733cc05815aaecf2966d1b64fb42b145346384e2b391bfa",
+  "retrievedOn": "2026-10-02",
+  "records": [
+    {
+      "stationId": "centennial-hills-library",
+      "name": "Centennial Hills Library",
+      "longitude": -115.2620179,
+      "latitude": 36.2832025,
+      "descriptionHtml": "Hours: <br>Mon-Thu 10:00am \u2013 8:00pm<br> Fri-Sun 10:00am \u2013 6:00pm <br>Unless otherwise listed.<br><br> *This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*"
+    },
+    {
+      "stationId": "east-las-vegas-library",
+      "name": "East Las Vegas Library",
+      "longitude": -115.1104179,
+      "latitude": 36.1735018,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "rainbow-library",
+      "name": "Rainbow Library",
+      "longitude": -115.2594225,
+      "latitude": 36.2173063,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed.\u00a0<br><br>*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*"
+    },
+    {
+      "stationId": "clark-county-library",
+      "name": "Clark County Library",
+      "longitude": -115.1350864,
+      "latitude": 36.1141081,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "enterprise-library",
+      "name": "Enterprise Library",
+      "longitude": -115.1710813,
+      "latitude": 36.0384107,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "sahara-west-library",
+      "name": "Sahara West Library",
+      "longitude": -115.3053056,
+      "latitude": 36.1451944,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "spring-valley-library",
+      "name": "Spring Valley Library",
+      "longitude": -115.224237,
+      "latitude": 36.111408,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "summerlin-library",
+      "name": "Summerlin Library",
+      "longitude": -115.3018914,
+      "latitude": 36.1911372,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "sunrise-library",
+      "name": "Sunrise Library",
+      "longitude": -115.0548272,
+      "latitude": 36.1783425,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "west-charleston-library",
+      "name": "West Charleston Library",
+      "longitude": -115.2311566,
+      "latitude": 36.1582708,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "west-las-vegas-library",
+      "name": "West Las Vegas Library",
+      "longitude": -115.161546,
+      "latitude": 36.19222,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "windmill-library",
+      "name": "Windmill Library",
+      "longitude": -115.24635,
+      "latitude": 36.0424909,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "whitney-library",
+      "name": "Whitney Library",
+      "longitude": -115.0603783,
+      "latitude": 36.0999295,
+      "descriptionHtml": "Hours:<br>Mon-Thu 10:00am \u2013 8:00pm<br>Fri-Sun 10:00am \u2013 6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "bunkerville-library",
+      "name": "Bunkerville Library",
+      "longitude": -114.1287637,
+      "latitude": 36.7730572,
+      "descriptionHtml": "Hours:<br>Mon: 11:00am-7:00pm<br>Tue-Thu: 11:00am-5:00pm<br>Sat: 10:00am-3:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "blue-diamond-library",
+      "name": "Blue Diamond Library",
+      "longitude": -115.4071102,
+      "latitude": 36.0469569,
+      "descriptionHtml": "Hours:<br>Tue: 11:00am-6:00pm <br>Wed: 12:00pm-4:00pm<br>Thu: 11:00am-6:00pm <br>Fri: 12:00pm-4:00pm<br>Sat: 10:00am-3:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "indian-springs-library",
+      "name": "Indian Springs Library",
+      "longitude": -115.6769183,
+      "latitude": 36.5697522,
+      "descriptionHtml": "Hours:<br>Tue-Thu: 11:00am-7:00pm<br>Sat: 10:00am-4:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "goodsprings-library",
+      "name": "Goodsprings Library",
+      "longitude": -115.4352073,
+      "latitude": 35.8316059,
+      "descriptionHtml": "Hours:<br>Tue-Thu: 1:00pm-7:00pm<br>Fri-Sat: 10:00am-3:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "searchlight-library",
+      "name": "Searchlight Library",
+      "longitude": -114.9069135,
+      "latitude": 35.4681642,
+      "descriptionHtml": "Hours:<br>Tue-Wed: 11:00am-6:00pm<br>Thu 11:00am-7:00pm<br>Fri-Sat 10:00am-2:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "mesquite-library-campus",
+      "name": "Mesquite Library",
+      "longitude": -114.0704839,
+      "latitude": 36.8049765,
+      "descriptionHtml": "Hours:<br>Mon-Thu: 10:00am-7:00pm<br>Fri-Sat: 10:00am-6:00pm<br>Sun 1:00pm-5:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "moapa-valley-library",
+      "name": "Moapa Valley Library",
+      "longitude": -114.4461319,
+      "latitude": 36.5461088,
+      "descriptionHtml": "Hours:<br>Mon-Wed 10:00am-6:00pm<br>Thu: 10:00am-7:00pm<br>Fri-Sat: 10:00am-6:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "moapa-town-library",
+      "name": "Moapa Town Library",
+      "longitude": -114.5901097,
+      "latitude": 36.6711515,
+      "descriptionHtml": "Hours:<br>Tue: 11:00am \u2013 7:00pm<br>Wed \u2013 Thu: 10:00am-6:00pm<br>Sat: 11:00am \u2013 5:00pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "sandy-valley-library",
+      "name": "Sandy Valley Library",
+      "longitude": -115.6457796,
+      "latitude": 35.8096859,
+      "descriptionHtml": "Hours:<br>Tue \u2013 Wed, Fri: 1:00pm-7:00pm<br>Thu: 12:00pm-7:00pm<br>Sat: 10:00am-6:00 pm<br>Unless otherwise listed."
+    },
+    {
+      "stationId": "mt-charleston-library",
+      "name": "Mount Charleston Library",
+      "longitude": -115.6461086,
+      "latitude": 36.2593107,
+      "descriptionHtml": "Hours:<br>Tue: 11:00am-7:00pm<br>Wed \u2013 Thu: 10:00am-6:00pm<br>Fri: 10:00am-4:00pm<br>Sat: 12:00pm-5:00pm<br>Unless otherwise listed"
+    },
+    {
+      "stationId": "alexander-library",
+      "name": "Alexander Library",
+      "longitude": -115.1648661,
+      "latitude": 36.2314746,
+      "descriptionHtml": "Hours:<br>Mon-Tue: 10:30am-8:00pm<br>Wed-Thu: 9:00am-9:00pm<br>Fri-Sat: 9:00am-6:00pm\u00a0"
+    },
+    {
+      "stationId": "cambridge-recreation-center",
+      "name": "Cambridge Recreation Center",
+      "longitude": -115.1410289,
+      "latitude": 36.1181297,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 07:00am-8:00 pm<br>Closed Weekends"
+    },
+    {
+      "stationId": "silver-mesa-recreation-center",
+      "name": "Silver Mesa Recreation Center",
+      "longitude": -115.1900787,
+      "latitude": 36.2326927,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 09:00am-6:45 pm<br> Sat:\u00a0 09:00am-2:00 pm"
+    },
+    {
+      "stationId": "american-legion",
+      "name": "American Legion",
+      "longitude": -114.6148155,
+      "latitude": 35.1541642,
+      "descriptionHtml": "Hours:<br>Mon-Sat 9:00am-9:00pm <br><br>*Cooling Station accept pets on leash when active*"
+    },
+    {
+      "stationId": "west-henderson-library",
+      "name": "West Henderson Library",
+      "longitude": -115.1304541,
+      "latitude": 35.9397822,
+      "descriptionHtml": "Hours:<br>Tue-Thu: 10:00am-6:00pm<br>Fri-Sat: 10:00am-5:00pm\u00a0"
+    },
+    {
+      "stationId": "green-valley-library",
+      "name": "Green Valley Library",
+      "longitude": -115.0832367,
+      "latitude": 36.0702719,
+      "descriptionHtml": "Hours:<br>Tue-Thu: 10:00am-6:00pm<br>Fri-Sat: 10:00am-5:00pm"
+    },
+    {
+      "stationId": "courtyard-homeless-resource-center",
+      "name": "The Courtyard Homeless Resource Center",
+      "longitude": -115.1343732,
+      "latitude": 36.1858302,
+      "descriptionHtml": "Hours:<br>Daily: 24 hours<br><br>*Cooling Station accept pets on leash when active*"
+    },
+    {
+      "stationId": "downtown-senior-center",
+      "name": "Downtown Senior Center",
+      "longitude": -114.9825063,
+      "latitude": 36.033566,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 9:00am-3:00 pm\u00a0<br>Closed Weekends"
+    },
+    {
+      "stationId": "the-salvation-army",
+      "name": "The Salvation Army",
+      "longitude": -115.1408604,
+      "latitude": 36.1881326,
+      "descriptionHtml": "Hours:<br>Daily: 8:00am-4:00pm<br><br>*Cooling Station accept pets on leash when active*"
+    },
+    {
+      "stationId": "whitney-recreation-center",
+      "name": "Whitney Recreation Center",
+      "longitude": -115.0479818,
+      "latitude": 36.0958809,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 8:00am-6:00pm<br>Closed Weekends\u00a0"
+    },
+    {
+      "stationId": "the-salvation-army-family-services-center",
+      "name": "Salvation Army Family Service Center",
+      "longitude": -114.0908891,
+      "latitude": 36.8103129,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 8:00am-3:00pm<br>Closed Weekends"
+    },
+    {
+      "stationId": "paseo-verde-library",
+      "name": "Paseo Verde Library",
+      "longitude": -115.0801182,
+      "latitude": 36.0174533,
+      "descriptionHtml": "Hours:<br>Mon-Thu: 9:00am-7:00pm<br>Fri-Sat: 9:00am-5:00pm<br><br>*This location has a limited quantity of free bus passes that are for individuals that need transportation to cooling stations during high heat events. These are on a first come first serve basis*"
+    },
+    {
+      "stationId": "colorado-river-food-bank",
+      "name": "Colorado River Food Bank",
+      "longitude": -114.5737751,
+      "latitude": 35.1687438,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 8:00am-3:00pm<br>Closed Weekends<br><br>*Cooling Station accept pets on leash when active*"
+    },
+    {
+      "stationId": "james-i-gibson-library",
+      "name": "James I Gibson Library",
+      "longitude": -114.9888889,
+      "latitude": 36.0397222,
+      "descriptionHtml": "Hours:<br>Mon-Thu: 9:00am-7:00pm<br>Fri-Sat: 9:00am-5:00pm\u00a0"
+    },
+    {
+      "stationId": "neighborhood-recreation-center",
+      "name": "Neighborhood Recreation Center",
+      "longitude": -115.124181,
+      "latitude": 36.1902132,
+      "descriptionHtml": "Hours:<br>\u00a0Mon-Fri 8:00am-6:45pm"
+    },
+    {
+      "stationId": "hollywood-recreation-center",
+      "name": "Hollywood Recreation Center",
+      "longitude": -115.0255976,
+      "latitude": 36.1525619,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 6:00am-8:00pm<br>Sat 8:30am-3:00pm\u00a0"
+    },
+    {
+      "stationId": "pearson-community-center",
+      "name": "Pearson Community Center",
+      "longitude": -115.1629216,
+      "latitude": 36.2014399,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 9:00am-6:00pm<br>Sat 8:00am-5:00pm\u00a0"
+    },
+    {
+      "stationId": "walnut-recreation-center",
+      "name": "Walnut Recreation Center",
+      "longitude": -115.0902126,
+      "latitude": 36.2150928,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 7:00am-8:00 pm\u00a0<br>Sat 9:00am-2:00pm"
+    },
+    {
+      "stationId": "boulder-city-library",
+      "name": "Boulder City Library",
+      "longitude": -114.8295426,
+      "latitude": 35.9688218,
+      "descriptionHtml": "Hours:<br>Mon-Thu: 10:00am-8:00pm<br>Fri-Sun: 10:00am-5:00pm\u00a0<br><br>*Cooling Station accept pets on leash when active*"
+    },
+    {
+      "stationId": "skyview-multi-generational-center",
+      "name": "SkyView Multi-Generational Center",
+      "longitude": -115.1066116,
+      "latitude": 36.277418,
+      "descriptionHtml": "Hours:<br>Mon-Fri: 8:00am-7:00pm<br>Sat: 8:00am-2:00pm"
+    },
+    {
+      "stationId": "laughlin-library",
+      "name": "Laughlin Library",
+      "longitude": -114.6248513,
+      "latitude": 35.1454878,
+      "descriptionHtml": "Hours:<br>Mon-Thu: 10:00am-7:00pm <br>Fri-Sat: 10:00am-6:00pm <br>Sun: 1:00pm-5:00pm\u00a0"
+    }
+  ]
+}

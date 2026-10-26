@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-10",
+  "sources": [
+    {
+      "id": "indoor-fashion-show-1",
+      "title": "Fashion Show Las Vegas — operator information",
+      "url": "https://www.fslv.com/"
+    },
+    {
+      "id": "indoor-fashion-show-2",
+      "title": "Fashion Show Las Vegas — facility evidence 1",
+      "url": "https://www.fslv.com/en/visit/"
+    },
+    {
+      "id": "indoor-fashion-show-3",
+      "title": "Fashion Show Las Vegas — facility evidence 2",
+      "url": "https://www.fslv.com/en/directory/?category=food"
+    },
+    {
+      "id": "indoor-meadows-1",
+      "title": "Meadows Mall — operator information",
+      "url": "https://www.meadowsmall.com/en/visit/"
+    },
+    {
+      "id": "indoor-meadows-2",
+      "title": "Meadows Mall — facility evidence 1",
+      "url": "https://www.meadowsmall.com/en/directory/?category=food"
+    },
+    {
+      "id": "indoor-meadows-3",
+      "title": "Meadows Mall — facility evidence 2",
+      "url": "https://www.openstreetmap.org/way/27550235"
+    },
+    {
+      "id": "indoor-galleria-1",
+      "title": "Galleria at Sunset — operator information",
+      "url": "https://www.galleriaatsunset.com/"
+    },
+    {
+      "id": "indoor-galleria-2",
+      "title": "Galleria at Sunset — facility evidence 1",
+      "url": "https://www.galleriaatsunset.com/location"
+    },
+    {
+      "id": "indoor-galleria-3",
+      "title": "Galleria at Sunset — facility evidence 2",
+      "url": "https://www.galleriaatsunset.com/events/breakfast-bingo-5-bfb97-jzys8-67ppe-wwd67-8a4kz"
+    },
+    {
+      "id": "indoor-galleria-4",
+      "title": "Galleria at Sunset — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/27738434"
+    },
+    {
+      "id": "indoor-boulevard-1",
+      "title": "Boulevard Mall — operator information",
+      "url": "https://boulevardmall.com/"
+    },
+    {
+      "id": "indoor-boulevard-2",
+      "title": "Boulevard Mall — facility evidence 1",
+      "url": "https://boulevardmall.com/mercado/?lang=es"
+    },
+    {
+      "id": "indoor-boulevard-3",
+      "title": "Boulevard Mall — facility evidence 2",
+      "url": "https://www.openstreetmap.org/way/135692590"
+    },
+    {
+      "id": "indoor-red-rock-1",
+      "title": "Red Rock Resort — operator information",
+      "url": "https://redrockresort.com/"
+    },
+    {
+      "id": "indoor-red-rock-2",
+      "title": "Red Rock Resort — facility evidence 1",
+      "url": "https://redrockresort.com/wp-content/uploads/2024/10/Red-Rock-Sales-Kit-10142024.pdf"
+    },
+    {
+      "id": "indoor-red-rock-3",
+      "title": "Red Rock Resort — facility evidence 2",
+      "url": "https://redrockresort.com/eat-and-drink/restaurants/"
+    },
+    {
+      "id": "indoor-red-rock-4",
+      "title": "Red Rock Resort — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/316302054"
+    },
+    {
+      "id": "indoor-green-valley-1",
+      "title": "Green Valley Ranch Resort — operator information",
+      "url": "https://greenvalleyranch.com/"
+    },
+    {
+      "id": "indoor-green-valley-2",
+      "title": "Green Valley Ranch Resort — facility evidence 1",
+      "url": "https://greenvalleyranch.com/wp-content/uploads/2025/09/Green-Valley-Ranch-Sales-Kit-09162025.pdf"
+    },
+    {
+      "id": "indoor-green-valley-3",
+      "title": "Green Valley Ranch Resort — facility evidence 2",
+      "url": "https://greenvalleyranch.com/eat-and-drink/quick-eats/"
+    },
+    {
+      "id": "indoor-green-valley-4",
+      "title": "Green Valley Ranch Resort — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/341326765"
+    },
+    {
+      "id": "indoor-sunset-station-1",
+      "title": "Sunset Station — operator information",
+      "url": "https://sunsetstation.com/stay/"
+    },
+    {
+      "id": "indoor-sunset-station-2",
+      "title": "Sunset Station — facility evidence 1",
+      "url": "https://sunsetstation.com/see-and-do/"
+    },
+    {
+      "id": "indoor-sunset-station-3",
+      "title": "Sunset Station — facility evidence 2",
+      "url": "https://sunsetstation.com/eat-and-drink/"
+    },
+    {
+      "id": "indoor-sunset-station-4",
+      "title": "Sunset Station — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/27738460"
+    },
+    {
+      "id": "indoor-durango-1",
+      "title": "Durango Resort — operator information",
+      "url": "https://durangoresort.com/"
+    },
+    {
+      "id": "indoor-durango-2",
+      "title": "Durango Resort — facility evidence 1",
+      "url": "https://durangoresort.com/durango-concierge-property-map/"
+    },
+    {
+      "id": "indoor-durango-3",
+      "title": "Durango Resort — facility evidence 2",
+      "url": "https://durangoresort.com/eat-and-drink/vesta-coffee/"
+    },
+    {
+      "id": "indoor-durango-4",
+      "title": "Durango Resort — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/1086573564"
+    },
+    {
+      "id": "indoor-town-square-1",
+      "title": "Town Square Las Vegas — operator information",
+      "url": "https://mytownsquarelasvegas.com/"
+    },
+    {
+      "id": "indoor-town-square-2",
+      "title": "Town Square Las Vegas — facility evidence 1",
+      "url": "https://www.fairbourne.com/town-square"
+    },
+    {
+      "id": "indoor-town-square-3",
+      "title": "Town Square Las Vegas — facility evidence 2",
+      "url": "https://tslv.com/about"
+    },
+    {
+      "id": "indoor-summerlin-1",
+      "title": "Downtown Summerlin — operator information",
+      "url": "https://summerlin.com/experience/"
+    },
+    {
+      "id": "indoor-summerlin-2",
+      "title": "Downtown Summerlin — facility evidence 1",
+      "url": "https://summerlin.com/experience/concierge/"
+    },
+    {
+      "id": "indoor-summerlin-3",
+      "title": "Downtown Summerlin — facility evidence 2",
+      "url": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf"
+    },
+    {
+      "id": "indoor-summerlin-4",
+      "title": "Downtown Summerlin — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/179893580"
+    }
+  ],
+  "places": [
+    {
+      "id": "community-indoor-fashion-show",
+      "name": "Fashion Show Las Vegas",
+      "aliases": [],
+      "address": "3200 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.127457,
+        "longitude": -115.171341,
+        "sourceUrl": "https://www.fslv.com/",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-fashion-show-1",
+        "indoor-fashion-show-2",
+        "indoor-fashion-show-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://www.fslv.com/en/visit/",
+        "amenitySources": {
+          "food": "https://www.fslv.com/en/directory/?category=food"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-meadows",
+      "name": "Meadows Mall",
+      "aliases": [],
+      "address": "4300 Meadows Ln, Las Vegas, NV 89107",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1722623,
+        "longitude": -115.1973085,
+        "sourceUrl": "https://www.openstreetmap.org/way/27550235",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-meadows-1",
+        "indoor-meadows-2",
+        "indoor-meadows-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://www.meadowsmall.com/en/visit/",
+        "amenitySources": {
+          "food": "https://www.meadowsmall.com/en/directory/?category=food",
+          "restrooms": "https://www.meadowsmall.com/en/visit/"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-galleria",
+      "name": "Galleria at Sunset",
+      "aliases": [],
+      "address": "1300 W Sunset Rd, Henderson, NV 89014",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.0673523,
+        "longitude": -115.0426491,
+        "sourceUrl": "https://www.openstreetmap.org/way/27738434",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-galleria-1",
+        "indoor-galleria-2",
+        "indoor-galleria-3",
+        "indoor-galleria-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://www.galleriaatsunset.com/location",
+        "amenitySources": {
+          "food": "https://www.galleriaatsunset.com/events/breakfast-bingo-5-bfb97-jzys8-67ppe-wwd67-8a4kz"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-boulevard",
+      "name": "Boulevard Mall",
+      "aliases": [],
+      "address": "3528 S Maryland Pkwy, Las Vegas, NV 89169",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1245499,
+        "longitude": -115.1352369,
+        "sourceUrl": "https://www.openstreetmap.org/way/135692590",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-boulevard-1",
+        "indoor-boulevard-2",
+        "indoor-boulevard-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://boulevardmall.com/mercado/?lang=es",
+        "amenitySources": {
+          "food": "https://boulevardmall.com/mercado/?lang=es"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-red-rock",
+      "name": "Red Rock Resort",
+      "aliases": [],
+      "address": "11011 W Charleston Blvd, Las Vegas, NV 89135",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Hotel lobby · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1563373,
+        "longitude": -115.3335352,
+        "sourceUrl": "https://www.openstreetmap.org/way/316302054",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-red-rock-1",
+        "indoor-red-rock-2",
+        "indoor-red-rock-3",
+        "indoor-red-rock-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Hotel lobby · non-gaming areas",
+        "scopeSource": "https://redrockresort.com/wp-content/uploads/2024/10/Red-Rock-Sales-Kit-10142024.pdf",
+        "amenitySources": {
+          "food": "https://redrockresort.com/eat-and-drink/restaurants/",
+          "restrooms": "https://redrockresort.com/wp-content/uploads/2024/10/Red-Rock-Sales-Kit-10142024.pdf"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-green-valley",
+      "name": "Green Valley Ranch Resort",
+      "aliases": [],
+      "address": "2300 Paseo Verde Pkwy, Henderson, NV 89052",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Hotel lobby · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.020683,
+        "longitude": -115.0896973,
+        "sourceUrl": "https://www.openstreetmap.org/way/341326765",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-green-valley-1",
+        "indoor-green-valley-2",
+        "indoor-green-valley-3",
+        "indoor-green-valley-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Hotel lobby · non-gaming areas",
+        "scopeSource": "https://greenvalleyranch.com/wp-content/uploads/2025/09/Green-Valley-Ranch-Sales-Kit-09162025.pdf",
+        "amenitySources": {
+          "food": "https://greenvalleyranch.com/eat-and-drink/quick-eats/",
+          "seating": "https://greenvalleyranch.com/wp-content/uploads/2025/09/Green-Valley-Ranch-Sales-Kit-09162025.pdf"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-sunset-station",
+      "name": "Sunset Station",
+      "aliases": [],
+      "address": "1301 W Sunset Rd, Henderson, NV 89014",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Hotel lobby · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.0604183,
+        "longitude": -115.0408078,
+        "sourceUrl": "https://www.openstreetmap.org/way/27738460",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-sunset-station-1",
+        "indoor-sunset-station-2",
+        "indoor-sunset-station-3",
+        "indoor-sunset-station-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Hotel lobby · non-gaming areas",
+        "scopeSource": "https://sunsetstation.com/see-and-do/",
+        "amenitySources": {
+          "food": "https://sunsetstation.com/eat-and-drink/"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-durango",
+      "name": "Durango Resort",
+      "aliases": [],
+      "address": "6915 S Durango Dr, Las Vegas, NV 89113",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Lobby & food hall · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.06407,
+        "longitude": -115.2820561,
+        "sourceUrl": "https://www.openstreetmap.org/way/1086573564",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-durango-1",
+        "indoor-durango-2",
+        "indoor-durango-3",
+        "indoor-durango-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Lobby & food hall · non-gaming areas",
+        "scopeSource": "https://durangoresort.com/durango-concierge-property-map/",
+        "amenitySources": {
+          "food": "https://durangoresort.com/eat-and-drink/vesta-coffee/",
+          "restrooms": "https://durangoresort.com/durango-concierge-property-map/"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-town-square",
+      "name": "Town Square Las Vegas",
+      "aliases": [],
+      "address": "6605 Las Vegas Blvd S, Las Vegas, NV 89119",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "indoorVenues"
+      ],
+      "scopeLabel": "Indoor venues · outdoor walkways",
+      "access": "Outdoor paths connect indoor venues. Visitor access is set by each venue; use an indoor visitor area only where permitted.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.068372,
+        "longitude": -115.177523,
+        "sourceUrl": "https://mytownsquarelasvegas.com/",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-town-square-1",
+        "indoor-town-square-2",
+        "indoor-town-square-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Indoor venues · outdoor walkways",
+        "scopeSource": "https://www.fairbourne.com/town-square",
+        "amenitySources": {
+          "food": "https://tslv.com/about"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "indoorVenues": "Operator documents indoor entertainment venues within an open-air district. This record does not establish an enclosed public cooling common area."
+      }
+    },
+    {
+      "id": "community-indoor-summerlin",
+      "name": "Downtown Summerlin",
+      "aliases": [],
+      "address": "1980 Festival Plaza Dr, Las Vegas, NV 89135",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "indoorVenues"
+      ],
+      "scopeLabel": "Indoor venues · outdoor walkways",
+      "access": "Outdoor paths connect indoor venues. Visitor access is set by each venue; use an indoor visitor area only where permitted.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1497659,
+        "longitude": -115.3335469,
+        "sourceUrl": "https://www.openstreetmap.org/way/179893580",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-summerlin-1",
+        "indoor-summerlin-2",
+        "indoor-summerlin-3",
+        "indoor-summerlin-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Indoor venues · outdoor walkways",
+        "scopeSource": "https://summerlin.com/experience/concierge/",
+        "amenitySources": {
+          "food": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf",
+          "restrooms": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "indoorVenues": "Operator documents indoor entertainment venues within an open-air district. This record does not establish an enclosed public cooling common area."
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "sourceId": "aug-en",
+    "sourceFile": "sources/county-august-18-21-english.pdf",
+    "sourceSha256": "060b08a94ffcffa014bae0754d66019237365199e1fa0625586c85de30345e34",
+    "sourcePage": 4,
+    "payload": "https://flowcode.com/p/eP1Dvza0vX",
+    "bounds": [
+      0.36375640004808346,
+      0.4466800368594802,
+      0.31525698726213575,
+      0.24413841581505158
+    ],
+    "decoder": "macOS Vision VNDetectBarcodesRequest; CPU",
+    "visuallyReviewed": true,
+    "context": "Cooling station locator/directions",
+    "resolvedUrl": "https://experience.arcgis.com/experience/b48c8acd2629459680735491401c020b",
+    "retrievedAt": "2026-10-03T03:38:15.942440+00:00",
+    "targetStatus": 200
+  },
+  {
+    "sourceId": "aug-es",
+    "sourceFile": "sources/county-august-18-21-spanish.pdf",
+    "sourceSha256": "3d5004b529ce205c1b73c052dedd7a7be27c130167e7259601b8c2cc4a0015ad",
+    "sourcePage": 4,
+    "payload": "https://flowcode.com/p/eP1Dvza0vX",
+    "bounds": [
+      0.36031499459592864,
+      0.41663214172979796,
+      0.3147296448418777,
+      0.2439016733908092
+    ],
+    "decoder": "macOS Vision VNDetectBarcodesRequest; CPU",
+    "visuallyReviewed": true,
+    "context": "Cooling station locator/directions",
+    "resolvedUrl": "https://experience.arcgis.com/experience/b48c8acd2629459680735491401c020b",
+    "retrievedAt": "2026-10-03T03:38:15.942440+00:00",
+    "targetStatus": 200
+  },
+  {
+    "sourceId": "sep-en",
+    "sourceFile": "sources/county-september-9-11-news-copy.pdf",
+    "sourceSha256": "4f82b4fe5b77665f75bf71323b7fbd46fa81c1d38985ce8899f72a39ac56c21e",
+    "sourcePage": 4,
+    "payload": "https://allin.clarkcountynv.gov/Initiative/StayCool",
+    "bounds": [
+      0.08597401803874762,
+      0.37465999102351644,
+      0.2139644415030552,
+      0.16455535374907926
+    ],
+    "decoder": "macOS Vision VNDetectBarcodesRequest; CPU",
+    "visuallyReviewed": true,
+    "context": "Southern Nevada heat resources including pools and splash pads",
+    "resolvedUrl": "https://allin.clarkcountynv.gov/Initiative/StayCool",
+    "retrievedAt": "2026-10-03T03:38:16.103009+00:00",
+    "targetStatus": 200
+  },
+  {
+    "sourceId": "sep-en",
+    "sourceFile": "sources/county-september-9-11-news-copy.pdf",
+    "sourceSha256": "4f82b4fe5b77665f75bf71323b7fbd46fa81c1d38985ce8899f72a39ac56c21e",
+    "sourcePage": 4,
+    "payload": "https://flowcode.com/p/eP1Dvza0vX",
+    "bounds": [
+      0.7066356517650463,
+      0.6392777311280119,
+      0.16730201737813177,
+      0.13044189042113852
+    ],
+    "decoder": "macOS Vision VNDetectBarcodesRequest; CPU",
+    "visuallyReviewed": true,
+    "context": "Cooling station locator/directions",
+    "resolvedUrl": "https://experience.arcgis.com/experience/b48c8acd2629459680735491401c020b",
+    "retrievedAt": "2026-10-03T03:38:15.942440+00:00",
+    "targetStatus": 200
+  }
+]

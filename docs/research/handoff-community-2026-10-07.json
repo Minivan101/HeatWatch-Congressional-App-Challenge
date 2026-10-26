@@ -1,0 +1,24 @@
+{
+  "checkedOn": "2026-10-07",
+  "snapshotHashes": 17,
+  "hashMismatches": 0,
+  "places": 50,
+  "reproducedAllFields": true,
+  "physicalAmenityOperationVerified": false,
+  "operatorReview": {
+    "sourceUrl": "https://www.premiumoutlets.com/outlet/las-vegas-south/about",
+    "reviewedOn": "2026-10-05",
+    "method": "Browser source review; terminal HTML unavailable",
+    "facts": {
+      "name": "Las Vegas South Premium Outlets",
+      "address": "7400 Las Vegas Blvd S, Las Vegas, NV 89123",
+      "climateControlledIndoorMall": true,
+      "mallWalkersWelcome": true,
+      "managementPhone": "702-896-2247",
+      "freeWaterEstablished": false,
+      "foodAndDrinksCostExtra": true
+    },
+    "hours": null,
+    "currentAccessConfirmed": false
+  }
+}

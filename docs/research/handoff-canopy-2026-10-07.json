@@ -1,0 +1,52 @@
+{
+  "checkedOn": "2026-10-07",
+  "method": "Independent direct source-raster lookup at 64 deterministic destination cell centers per tile, respecting original nodata and extraction bounds; no importer reproject function used.",
+  "samplesChecked": 28224,
+  "knownSourceSamples": 25758,
+  "unknownOrOutsideSamples": 2466,
+  "mismatchCount": 0,
+  "mismatches": [],
+  "sources": [
+    {
+      "file": "0230130111.tif",
+      "crs": "EPSG:3857",
+      "nodata": null,
+      "dtype": "uint8",
+      "pixelSizeProjectedMeters": [
+        1.1943285669559032,
+        1.1943285669559316
+      ]
+    },
+    {
+      "file": "0230130113.tif",
+      "crs": "EPSG:3857",
+      "nodata": null,
+      "dtype": "uint8",
+      "pixelSizeProjectedMeters": [
+        1.1943285669559032,
+        1.1943285669557895
+      ]
+    },
+    {
+      "file": "0230131000.tif",
+      "crs": "EPSG:3857",
+      "nodata": null,
+      "dtype": "uint8",
+      "pixelSizeProjectedMeters": [
+        1.1943285669558463,
+        1.1943285669559316
+      ]
+    },
+    {
+      "file": "0230131002.tif",
+      "crs": "EPSG:3857",
+      "nodata": null,
+      "dtype": "uint8",
+      "pixelSizeProjectedMeters": [
+        1.1943285669558463,
+        1.1943285669557895
+      ]
+    }
+  ],
+  "physicalAccuracyVerified": false
+}

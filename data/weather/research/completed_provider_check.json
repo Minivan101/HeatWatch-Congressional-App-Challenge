@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-03T00:55:04.284680Z",
+  "place": "Saved Las Vegas map area",
+  "weatherReceived": true,
+  "currentValidAt": "2026-10-03T00:45:00.000Z",
+  "temperatureC": 32.0,
+  "feelsLikeC": 29.7,
+  "humidityPercent": 19.0,
+  "forecastUvAtCheckTime": 2.1,
+  "hourlyForecastTemperatureC": 33.2,
+  "hourlyForecastFeelsLikeC": 30.7,
+  "hourlyForecastHumidityPercent": 18.0,
+  "forecastUvHour": "2026-10-03T00:00:00.000Z",
+  "currentFresh": true,
+  "weatherIssues": [],
+  "weatherError": null,
+  "nwsChecked": true,
+  "nwsRecordsReturned": 0,
+  "nwsError": null,
+  "note": "One free-service check for this point/time, not evidence of weather everywhere or future availability."
+}

@@ -1,0 +1,1080 @@
+{
+  "blue-diamond-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/977325040d2f001bcdb4730a237dd864/Blue-Diamond.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/blue-diamond-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "16A Cottonwood Dr., Blue Diamond, NV 89004",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "bunkerville-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/d95791a8b17c9d0150cce361b459b485/Bunkerville.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/bunkerville-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "150 West Virgin St., Bunkerville, NV 89007",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "centennial-hills-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/a2a17e585438592b95042727f61b5fd8/Centennial-Hills.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/centennial-hills-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "6711 N. Buffalo Dr., Las Vegas, NV 89131",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "clark-county-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/3ebd0eef931ffc69f25948f6984adbe4/Clark-County.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/clark-county-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "1401 E. Flamingo Rd., Las Vegas, NV 89119",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "east-las-vegas-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/d22197bbaa90fb7737ff9495f8f83815/East-Las-Vegas.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/east-las-vegas-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "2851 East Bonanza Road, Las Vegas, NV 89101",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "enterprise-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/b798523d3d619e1f1b5b849d80639c79/Enterprise.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/enterprise-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "8310 South Las Vegas Blvd., Las Vegas, NV 89123",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "goodsprings-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/ae98396ac603ae59899833e141fefcd9/Goodsprings.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/goodsprings-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "365 West San Pedro Ave., Goodsprings, NV 89019",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "indian-springs-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/382400639f8b21f72fe670c3e756a796/Indian-Springs.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/indian-springs-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "715 Gretta Ln., Indian Springs, NV 89018",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "laughlin-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/c1c1e11b28ae0db4924f0202ade8a47b/Laughlin.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/laughlin-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "2840 South Needles Hwy., Laughlin, NV 89029",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "meadows-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/106f91c122606bacbf545610fa8b6dcf/Meadows.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/meadows-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "251 W. Boston Ave., Las Vegas, NV 89102",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "mesquite-library-campus": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/ff942e12f2c3d868fef0d7977104aa3b/MesquiteLibrary_FreeToBe.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/mesquite-library-campus.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "moapa-town-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/a40b0fa8e288661d374ca51542ee16af/Moapa-Town.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/moapa-town-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "1340 East Highway 168, Moapa, NV 89025",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "moapa-valley-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/bfc25593492a887e3fb6e5590f476a08/Moapa-Valley.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/moapa-valley-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "350 N. Moapa Valley Blvd., Overton, NV 89040",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "rainbow-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/dd39e4b0d456e3275c7d696ea3535611/Rainbow.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/rainbow-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "3150 N. Buffalo Dr., Las Vegas, NV 89128",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "sahara-west-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/4d4cbbc5b2b9bf1b87973918280da50d/Sahara-West.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/sahara-west-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "9600 W. Sahara Ave., Las Vegas, NV 89117",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "sandy-valley-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/92243d8cf18aef669491f28c6f2a989a/Sandy-Valley.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/sandy-valley-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "650 West Quartz Ave., Sandy Valley, NV 89019",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "searchlight-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/74d32ebe5f822a62028842d3046d4334/Searchlight.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/searchlight-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "200 Michael Wendell Way, Searchlight, NV 89046",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "spring-valley-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/90bf4cce041456aa653b8913da0f969b/Spring-Valley.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/spring-valley-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "4280 S. Jones Blvd., Las Vegas, NV 89103",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "summerlin-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/8114c2dc9848e44d7616b3508a6dbdc1/Summerlin.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/summerlin-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "1771 Inner Circle Dr., Las Vegas, NV 89134",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "sunrise-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/f54cbbafa23226cc473d8b9dfcceddcb/Sunrise.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/sunrise-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "5400 Harris Ave., Las Vegas, NV 89110",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "west-charleston-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/144c5110b814df2d8118374de944bf44/West-Charleston.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/west-charleston-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "6301 W. Charleston Blvd., Las Vegas, NV 89146",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "west-las-vegas-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/f1be8c1588e6cc4dc78576394a196cec/2025-West-Las-Vegas-Library-1200x640.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/west-las-vegas-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "1861 N. Martin Luther King Jr. Blvd, Las Vegas, NV 89106",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "whitney-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/a5201aebb7db40b097967ec5c32ac95e/Whitney.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/whitney-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "5175 E. Tropicana Ave., Las Vegas, NV 89122",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "windmill-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/c9cc47a1926feb5f67e4a151a970472a/Windmill.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/windmill-library.jpg",
+    "amenities": [
+      "wifi"
+    ],
+    "amenitySource": "https://lvccld.bibliocommons.com/v2/locations",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "7060 W. Windmill Ln., Las Vegas, NV 89113",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "community-city-182": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-AnsanSisterCity.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Ansan-Sister-City-Park",
+    "asset": "assets/cool_spots/community-city-182.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-165": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Aloha%20Shores_09222021-45.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Aloha-Shores-Park",
+    "asset": "assets/cool_spots/community-city-165.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-181": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-AngelPark.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Angel-Park",
+    "asset": "assets/cool_spots/community-city-181.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-226": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-BettyeWilson.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Bettye-Wilson-Soccer-Complex",
+    "asset": "assets/cool_spots/community-city-226.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-188": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-BobBaskin.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Bob-Baskin-Park",
+    "asset": "assets/cool_spots/community-city-188.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-179": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-BillBriarePark.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Bill-Briare-Park",
+    "asset": "assets/cool_spots/community-city-179.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-172": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-BruceTrent.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Bruce-Trent-Park",
+    "asset": "assets/cool_spots/community-city-172.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-166": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-CameronCommunityPark.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Cameron-Community-Park",
+    "asset": "assets/cool_spots/community-city-166.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-196": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-DocRomeo.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Doc-Romeo-Park",
+    "asset": "assets/cool_spots/community-city-196.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-158": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-CimarronRose.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Cimarron-Rose-Park",
+    "asset": "assets/cool_spots/community-city-158.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-174": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-ColemanPark.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Coleman-Park",
+    "asset": "assets/cool_spots/community-city-174.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-164": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-DurangoHills.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Durango-Hills-Park",
+    "asset": "assets/cool_spots/community-city-164.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-157": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-EstelleNeal.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Estelle-Neal-Park",
+    "asset": "assets/cool_spots/community-city-157.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-177": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-EthelPearson.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Ethel-Pearson-Park",
+    "asset": "assets/cool_spots/community-city-177.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-199": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-EdFountain.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Ed-Fountain-Park",
+    "asset": "assets/cool_spots/community-city-199.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-206": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-GaryDexter.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Gary-Dexter-Park",
+    "asset": "assets/cool_spots/community-city-206.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-201": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-kelloggzahersportscomplex.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Kellogg-Zaher-Sports-Complex",
+    "asset": "assets/cool_spots/community-city-201.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-197": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-HeersPark.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Heers-Park",
+    "asset": "assets/cool_spots/community-city-197.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-155": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-gilcreasebrotherspark.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Gilcrease-Brothers-Park",
+    "asset": "assets/cool_spots/community-city-155.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-223": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-MayfairPlace.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Mayfair-Place-Park",
+    "asset": "assets/cool_spots/community-city-223.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-210": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Mountain%20Ridge%20Park.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Mountain-Ridge-Park",
+    "asset": "assets/cool_spots/community-city-210.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-214": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Mirabelli.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Mirabelli-Park",
+    "asset": "assets/cool_spots/community-city-214.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-234": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Pioneer%20Park.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Pioneer-Park",
+    "asset": "assets/cool_spots/community-city-234.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-193": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Police%20Memorial%20Park.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Police-Memorial-Park",
+    "asset": "assets/cool_spots/community-city-193.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-205": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Rafael%20Rivera.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Rafael-Rivera-Park",
+    "asset": "assets/cool_spots/community-city-205.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-392": {
+    "asset": "assets/cool_spots/community-snhd-392.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/rainbow-family-park-loop1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=392",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=392",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-185": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Rotary%20Park.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Rotary-Park",
+    "asset": "assets/cool_spots/community-city-185.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-156": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Sunny%20Springs%20Park.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Sunny-Springs-Park",
+    "asset": "assets/cool_spots/community-city-156.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-151": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Teton%20Trails.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Teton-Trails-Park",
+    "asset": "assets/cool_spots/community-city-151.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-229": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Hero-Trigono-Hills.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Trigono-Hills",
+    "asset": "assets/cool_spots/community-city-229.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-161": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Wayne%20Bunker.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/W-Wayne-Bunker-Family-Park",
+    "asset": "assets/cool_spots/community-city-161.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-169": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Wildwood%20Park.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Wildwood-Park",
+    "asset": "assets/cool_spots/community-city-169.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "pearson-community-center": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:111b75e8-02ef-4cbc-910d-5caf13f1240b/as/cc-center-pearson.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/community-centers",
+    "asset": "assets/cool_spots/pearson-community-center.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "cambridge-recreation-center": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:f03cac0d-2c0d-454c-9092-1b84bf23bd90/as/cc-center-cambridge.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/community-centers",
+    "asset": "assets/cool_spots/cambridge-recreation-center.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "walnut-recreation-center": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:a5343ada-bc44-4fcd-a90f-dfab56f9762e/as/cc-center-walnut.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/community-centers",
+    "asset": "assets/cool_spots/walnut-recreation-center.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-south-premium-outlets": {
+    "photoUrl": "https://assets.simon.com/propertyimages/886/las-vegas-premium-outlets-south-01.jpg",
+    "photoSource": "https://www.premiumoutlets.com/outlet/las-vegas-south/about",
+    "asset": "assets/cool_spots/community-south-premium-outlets.jpg",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food"
+    ],
+    "amenitySource": "https://www.premiumoutlets.com/outlet/las-vegas-south/stores/south-food-court/1000"
+  },
+  "whitney-recreation-center": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:c7ae52f8-2e7d-4276-b508-a272c2b863e6/as/cc-center-whitney.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/community-centers",
+    "asset": "assets/cool_spots/whitney-recreation-center.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "hollywood-recreation-center": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:86d3c97b-e728-4d87-af28-03575b34bcc3/as/cc-center-hollywood.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/community-centers",
+    "asset": "assets/cool_spots/hollywood-recreation-center.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "mt-charleston-library": {
+    "photoUrl": "https://lvccld.bibliocommons.com/events/uploads/images/full/a3f9d811b23bdde7e2b1d31577864268/Mt-Charleston.jpg",
+    "photoSource": "https://lvccld.bibliocommons.com/v2/locations",
+    "asset": "assets/cool_spots/mt-charleston-library.jpg",
+    "retrievedOn": "2026-10-10",
+    "displayAddress": "75 Ski Chalet Pl., Las Vegas, NV 89124",
+    "addressSource": "https://lvccld.bibliocommons.com/v2/locations"
+  },
+  "community-snhd-96": {
+    "asset": "assets/cool_spots/community-snhd-96.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/duck-creek1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=96",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=96",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-93": {
+    "asset": "assets/cool_spots/community-snhd-93.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/davis-park-loop1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=93",
+    "amenities": [
+      "shade",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=93",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-95": {
+    "asset": "assets/cool_spots/community-snhd-95.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/desert-breeze-south2.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=95",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=95",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-138": {
+    "asset": "assets/cool_spots/community-snhd-138.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/prosperity-park-path1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=138",
+    "amenities": [
+      "shade",
+      "seating"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=138",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-112": {
+    "asset": "assets/cool_spots/community-snhd-112.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/inzalaco-family-park-loop1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=112",
+    "amenities": [
+      "shade",
+      "seating"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=112",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-139": {
+    "asset": "assets/cool_spots/community-snhd-139.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/red-ridge-park-loop1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=139",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=139",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-142": {
+    "asset": "assets/cool_spots/community-snhd-142.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/ridgebrook-park-loop3-1425341064.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=142",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=142",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-153": {
+    "asset": "assets/cool_spots/community-snhd-153.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/spring-valley-community-loop1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=153",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=153",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-225": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-HualapaiPark.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Hualapai-Park",
+    "asset": "assets/cool_spots/community-city-225.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-194": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Viper%20Lacrosse%20fields.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Viper-Lacrosse-Fields",
+    "asset": "assets/cool_spots/community-city-194.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-202": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-Veterans%20Memorial.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Veterans-Memorial-Park",
+    "asset": "assets/cool_spots/community-city-202.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-184": {
+    "photoUrl": "https://sawebfilesprod001.blob.core.windows.net/images/Residents-Parks&Facilities-W.%20Charleston-Essex%20Circle%20Park.jpg",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Essex-Circle-Park",
+    "asset": "assets/cool_spots/community-city-184.jpg",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-440": {
+    "asset": "assets/cool_spots/community-snhd-440.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/charlie-frias-park-lower-loop1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=440",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=440",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-snhd-98": {
+    "asset": "assets/cool_spots/community-snhd-98.jpg",
+    "photoUrl": "https://app.gethealthyclarkcounty.org/neon2nature/photos/340/exploration-peak-park-loop1.jpg",
+    "photoSource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=98",
+    "amenities": [
+      "shade",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySource": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=98",
+    "retrievedOn": "2026-10-10"
+  },
+  "west-henderson-library": {
+    "asset": "assets/cool_spots/west-henderson-library.png",
+    "photoUrl": "https://henderson.libnet.info/images/locations/henderson/WestHenderson-branch-view-new.png",
+    "photoSource": "https://hendersonlibraries.com/locations",
+    "retrievedOn": "2026-10-10"
+  },
+  "paseo-verde-library": {
+    "asset": "assets/cool_spots/paseo-verde-library.png",
+    "photoUrl": "https://henderson.libnet.info/images/locations/henderson/paseo-verde-2024.png",
+    "photoSource": "https://hendersonlibraries.com/locations",
+    "retrievedOn": "2026-10-10"
+  },
+  "james-i-gibson-library": {
+    "asset": "assets/cool_spots/james-i-gibson-library.png",
+    "photoUrl": "https://henderson.libnet.info/images/locations/henderson/gibson-library-2024.png",
+    "photoSource": "https://hendersonlibraries.com/locations",
+    "retrievedOn": "2026-10-10"
+  },
+  "green-valley-library": {
+    "asset": "assets/cool_spots/green-valley-library.png",
+    "photoUrl": "https://henderson.libnet.info/images/locations/henderson/green-valley.png",
+    "photoSource": "https://hendersonlibraries.com/locations",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-170": {
+    "asset": "assets/cool_spots/community-city-170.jpg",
+    "photoUrl": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=WR8gKFCa7ug%3d&portalid=0",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Woofter-Park",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-162": {
+    "asset": "assets/cool_spots/community-city-162.jpg",
+    "photoUrl": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=hHIXscZEYsY%3d&portalid=0",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Garehime-Heights-Park",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-city-207": {
+    "asset": "assets/cool_spots/community-city-207.jpg",
+    "photoUrl": "https://www.lasvegasnevada.gov/LinkClick.aspx?fileticket=pnNUQoTY4A0%3d&portalid=0",
+    "photoSource": "https://www.lasvegasnevada.gov/Residents/Parks-Facilities/All-American-Park",
+    "retrievedOn": "2026-10-10"
+  },
+  "neighborhood-recreation-center": {
+    "asset": "assets/cool_spots/neighborhood-recreation-center.jpg",
+    "photoUrl": "https://www.cityofnorthlasvegas.com/home/showpublishedimage/5863/638773747656970000",
+    "photoSource": "https://www.cityofnorthlasvegas.com/things-to-do/recreation-centers",
+    "retrievedOn": "2026-10-10"
+  },
+  "silver-mesa-recreation-center": {
+    "asset": "assets/cool_spots/silver-mesa-recreation-center.jpg",
+    "photoUrl": "https://www.cityofnorthlasvegas.com/home/showpublishedimage/5865/638773747665900000",
+    "photoSource": "https://www.cityofnorthlasvegas.com/things-to-do/recreation-centers",
+    "retrievedOn": "2026-10-10"
+  },
+  "skyview-multi-generational-center": {
+    "asset": "assets/cool_spots/skyview-multi-generational-center.jpg",
+    "photoUrl": "https://www.cityofnorthlasvegas.com/home/showpublishedimage/8059/639184908376730000",
+    "photoSource": "https://www.cityofnorthlasvegas.com/things-to-do/recreation-centers",
+    "retrievedOn": "2026-10-10"
+  },
+  "alexander-library": {
+    "asset": "assets/cool_spots/alexander-library.jpg",
+    "photoUrl": "https://www.cityofnorthlasvegas.com/home/showpublishedimage/2824/638204270073000000",
+    "photoSource": "https://www.cityofnorthlasvegas.com/Home/Components/FacilityDirectory/FacilityDirectory/115/680",
+    "retrievedOn": "2026-10-10"
+  },
+  "downtown-senior-center": {
+    "asset": "assets/cool_spots/downtown-senior-center.jpg",
+    "photoUrl": "https://www.cityofhenderson.com/home/showpublishedimage/4290/637476856885670000",
+    "photoSource": "https://www.cityofhenderson.com/Home/Components/FacilityDirectory/FacilityDirectory/160/784",
+    "retrievedOn": "2026-10-10"
+  },
+  "boulder-city-library": {
+    "asset": "assets/cool_spots/boulder-city-library.jpg",
+    "photoUrl": "https://bclibrary.org/images/locations/bclibrary/20211223_145031.jpg",
+    "photoSource": "https://bclibrary.org/location-11172/location/boulder",
+    "retrievedOn": "2026-10-10"
+  },
+  "community-indoor-fashion-show": {
+    "asset": "assets/cool_spots/community-indoor-fashion-show.jpg",
+    "photoUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/brookfieldproperties/VIJP6YZCTVBORIGF35BCRPH74Y.jpg",
+    "photoSource": "https://www.fslv.com/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food"
+    ],
+    "amenitySource": "https://www.fslv.com/en/directory/?category=food",
+    "amenitySources": {
+      "food": "https://www.fslv.com/en/directory/?category=food"
+    }
+  },
+  "community-indoor-meadows": {
+    "asset": "assets/cool_spots/community-indoor-meadows.jpg",
+    "photoUrl": "https://images.squarespace-cdn.com/content/v1/5759f132f850825cdd4e15c4/1466537101037-KIAIDW9ZLZEBVOT7HYCE/tumblr_mjco89cUVY1rkz363o1_1280.jpg",
+    "photoSource": "https://www.okeefearchitect.org/projects",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food",
+      "restrooms"
+    ],
+    "amenitySource": "https://www.meadowsmall.com/en/directory/?category=food",
+    "amenitySources": {
+      "food": "https://www.meadowsmall.com/en/directory/?category=food",
+      "restrooms": "https://www.meadowsmall.com/en/visit/"
+    }
+  },
+  "community-indoor-galleria": {
+    "asset": "assets/cool_spots/community-indoor-galleria.jpg",
+    "photoUrl": "https://images.squarespace-cdn.com/content/v1/6647cb1f8a70895927d0f256/4ad314f6-0011-425f-9e05-18c129f1a8e3/DSC00717-%281%29.jpg",
+    "photoSource": "https://www.galleriaatsunset.com/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food"
+    ],
+    "amenitySource": "https://www.galleriaatsunset.com/events/breakfast-bingo-5-bfb97-jzys8-67ppe-wwd67-8a4kz",
+    "amenitySources": {
+      "food": "https://www.galleriaatsunset.com/events/breakfast-bingo-5-bfb97-jzys8-67ppe-wwd67-8a4kz"
+    }
+  },
+  "community-indoor-boulevard": {
+    "asset": "assets/cool_spots/community-indoor-boulevard.jpg",
+    "photoUrl": "https://boulevardmall.com/wp-content/uploads/2023/06/Boulevard-1-2smaller-e1685716351129.jpg",
+    "photoSource": "https://boulevardmall.com/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food"
+    ],
+    "amenitySource": "https://boulevardmall.com/mercado/?lang=es",
+    "amenitySources": {
+      "food": "https://boulevardmall.com/mercado/?lang=es"
+    }
+  },
+  "community-indoor-red-rock": {
+    "asset": "assets/cool_spots/community-indoor-red-rock.jpg",
+    "photoUrl": "https://redrockresort.com/wp-content/uploads/2025/08/Hotel-Lobby.jpg",
+    "photoSource": "https://redrockresort.com/stay/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food",
+      "restrooms"
+    ],
+    "amenitySource": "https://redrockresort.com/eat-and-drink/restaurants/",
+    "amenitySources": {
+      "food": "https://redrockresort.com/eat-and-drink/restaurants/",
+      "restrooms": "https://redrockresort.com/wp-content/uploads/2024/10/Red-Rock-Sales-Kit-10142024.pdf"
+    }
+  },
+  "community-indoor-green-valley": {
+    "asset": "assets/cool_spots/community-indoor-green-valley.jpg",
+    "photoUrl": "https://greenvalleyranch.com/wp-content/uploads/2025/10/Green-Valley-Ranch-Hero-10312025.jpg",
+    "photoSource": "https://greenvalleyranch.com/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food",
+      "seating"
+    ],
+    "amenitySource": "https://greenvalleyranch.com/eat-and-drink/quick-eats/",
+    "amenitySources": {
+      "food": "https://greenvalleyranch.com/eat-and-drink/quick-eats/",
+      "seating": "https://greenvalleyranch.com/wp-content/uploads/2025/09/Green-Valley-Ranch-Sales-Kit-09162025.pdf"
+    }
+  },
+  "community-indoor-sunset-station": {
+    "asset": "assets/cool_spots/community-indoor-sunset-station.jpg",
+    "photoUrl": "https://sunsetstation.com/wp-content/uploads/2020/05/Sunsetexthero-2.jpg",
+    "photoSource": "https://sunsetstation.com/stay/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food"
+    ],
+    "amenitySource": "https://sunsetstation.com/eat-and-drink/",
+    "amenitySources": {
+      "food": "https://sunsetstation.com/eat-and-drink/"
+    }
+  },
+  "community-indoor-durango": {
+    "asset": "assets/cool_spots/community-indoor-durango.jpg",
+    "photoUrl": "https://durangoresort.com/wp-content/uploads/2023/12/Eat-Your-Heart-Out.jpg",
+    "photoSource": "https://durangoresort.com/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food",
+      "restrooms"
+    ],
+    "amenitySource": "https://durangoresort.com/eat-and-drink/vesta-coffee/",
+    "amenitySources": {
+      "food": "https://durangoresort.com/eat-and-drink/vesta-coffee/",
+      "restrooms": "https://durangoresort.com/durango-concierge-property-map/"
+    }
+  },
+  "community-indoor-town-square": {
+    "asset": "assets/cool_spots/community-indoor-town-square.jpg",
+    "photoUrl": "https://s3.amazonaws.com/cloconnect-townsquare/images/b4e12c43755081357e546cf75729d6c8.jpg",
+    "photoSource": "https://mytownsquarelasvegas.com/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food"
+    ],
+    "amenitySource": "https://tslv.com/about",
+    "amenitySources": {
+      "food": "https://tslv.com/about"
+    }
+  },
+  "community-indoor-summerlin": {
+    "asset": "assets/cool_spots/community-indoor-summerlin.jpg",
+    "photoUrl": "https://summerlin.com/wp-content/uploads/2026/05/Summerlin_Experience-Marquee-Panorama-scaled.webp",
+    "photoSource": "https://summerlin.com/experience/",
+    "retrievedOn": "2026-10-10",
+    "amenities": [
+      "food",
+      "restrooms"
+    ],
+    "amenitySource": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf",
+    "amenitySources": {
+      "food": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf",
+      "restrooms": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf"
+    }
+  },
+  "community-added-miracle-mile": {
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Miricle_mile_shops_door.JPG",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Miricle_mile_shops_door.JPG",
+    "asset": "assets/cool_spots/added-miracle-mile.jpg",
+    "amenities": [
+      "food"
+    ],
+    "amenitySources": {
+      "food": "https://www.miraclemileshopslv.com/"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "addressSource": "https://www.miraclemileshopslv.com/",
+    "sha256": "5becd4aaf92eb90df1be3a639ee9b83f9c6e42c0696f870abfca6328b939064d",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "SchnitzelMannGreek.",
+    "photoLicense": "CC BY-SA 3.0",
+    "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "community-added-forum-shops": {
+    "photoUrl": "https://assets.simon.com/content/SEARCH/224.jpg",
+    "photoSource": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+    "asset": "assets/cool_spots/added-forum-shops.jpg",
+    "amenities": [
+      "food",
+      "wifi",
+      "restrooms"
+    ],
+    "amenitySources": {
+      "food": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+      "wifi": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+      "restrooms": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "3500 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "addressSource": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+    "sha256": "c16e66cd5a6ed7284b7304d13a4b90635c35a6021b8f211628b62036d9aac1da",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Simon Property Group",
+    "photoLicense": "Operator/municipal photograph; rights retained by source. Public redistribution requires review."
+  },
+  "community-added-grand-canal": {
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Grand_Canal_Shoppes_%2821305094745%29.jpg",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Grand_Canal_Shoppes_(21305094745).jpg",
+    "asset": "assets/cool_spots/added-grand-canal.jpg",
+    "amenities": [
+      "food",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySources": {
+      "food": "https://www.grandcanalshoppes.com/en/visit/",
+      "seating": "https://www.grandcanalshoppes.com/en/visit/",
+      "restrooms": "https://www.grandcanalshoppes.com/en/visit/"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "3377 Las Vegas Blvd S, Las Vegas, NV 89109",
+    "addressSource": "https://www.grandcanalshoppes.com/en/visit/",
+    "sha256": "177896efe4ecdfac2119bc898bc5c0d8112fcdd4104c82a2b872a41ebaa28b43",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Tony Webster from San Francisco, California",
+    "photoLicense": "CC BY 2.0",
+    "photoLicenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "community-added-crystals": {
+    "photoUrl": "https://assets.simon.com/content/SEARCH/1387.jpg",
+    "photoSource": "https://www.simon.com/mall/the-shops-at-crystals",
+    "asset": "assets/cool_spots/added-crystals.jpg",
+    "amenities": [
+      "food",
+      "wifi",
+      "restrooms"
+    ],
+    "amenitySources": {
+      "food": "https://www.simon.com/mall/the-shops-at-crystals",
+      "wifi": "https://www.simon.com/mall/the-shops-at-crystals",
+      "restrooms": "https://www.simon.com/mall/the-shops-at-crystals"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "3720 S Las Vegas Blvd, Las Vegas, NV 89158",
+    "addressSource": "https://www.simon.com/mall/the-shops-at-crystals",
+    "sha256": "6087a13e7393dd5cc43e2e7a653df9f2630e0af63f5b16ee21a27a4471516238",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Simon Property Group",
+    "photoLicense": "Operator/municipal photograph; rights retained by source. Public redistribution requires review."
+  },
+  "community-added-aliante": {
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Aliante_Casino_2.jpg",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Aliante_Casino_2.jpg",
+    "asset": "assets/cool_spots/added-aliante.jpg",
+    "amenities": [
+      "food"
+    ],
+    "amenitySources": {
+      "food": "https://www.boydgaming.com/locations"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "7300 Aliante Pkwy, North Las Vegas, NV 89084",
+    "addressSource": "https://aliante.boydgaming.com/contact-us",
+    "sha256": "16d2f32ee30f4446d4a4240d8abbd3171d4ca20058949f2e890440293a1ba1c3",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "AJFU",
+    "photoLicense": "CC BY-SA 4.0",
+    "photoLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "community-added-santa-fe": {
+    "photoUrl": "https://i0.wp.com/santafestation.com/wp-content/uploads/2022/12/Santa-Fe-Station-Property-Hero-Shot-2.jpg?resize=1080%2C608&ssl=1",
+    "photoSource": "https://santafestation.com/stay/",
+    "asset": "assets/cool_spots/added-santa-fe.jpg",
+    "amenities": [
+      "food"
+    ],
+    "amenitySources": {
+      "food": "https://santafestation.com/stay/"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "4949 N Rancho Dr, Las Vegas, NV 89130",
+    "addressSource": "https://santafestation.com/stay/",
+    "sha256": "d1ec37a5df84e800661e1e42dc661837903273e6486223058fafa907e86d2e84",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Station Casinos",
+    "photoLicense": "Operator/municipal photograph; rights retained by source. Public redistribution requires review."
+  },
+  "community-added-wetlands": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:30f8e018-8c16-4533-9fdc-595daf8b54ad/as/cafe.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+    "asset": "assets/cool_spots/added-wetlands.jpg",
+    "amenities": [
+      "food",
+      "seating",
+      "restrooms"
+    ],
+    "amenitySources": {
+      "food": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+      "seating": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+      "restrooms": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "7050 Wetlands Park Ln, Las Vegas, NV 89122",
+    "addressSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+    "sha256": "5e4fbe202c50079376c68aa060ae81cb024a58bfdb2a68c51a5e7b22ba4c3d44",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Clark County",
+    "photoLicense": "Operator/municipal photograph; rights retained by source. Public redistribution requires review."
+  },
+  "community-added-desert-breeze": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:84de23d2-c054-4033-850d-1966d018b8a2/as/desert-breeze.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/desert-breeze-community-center",
+    "asset": "assets/cool_spots/added-desert-breeze.jpg",
+    "amenities": [],
+    "amenitySources": {},
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "8275 Spring Mountain Rd, Las Vegas, NV 89117",
+    "addressSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/desert-breeze-community-center",
+    "sha256": "459d7d0835235c6e786a198774425e704f27c6158a3e19cf78d0017e240132fd",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Clark County",
+    "photoLicense": "Operator/municipal photograph; rights retained by source. Public redistribution requires review."
+  },
+  "community-added-silverado-ranch": {
+    "photoUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:e61f3514-78ac-4654-b1ec-3f72574eb2bd/as/silverado-ranch.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/silverado-ranch-community-center",
+    "asset": "assets/cool_spots/added-silverado-ranch.jpg",
+    "amenities": [],
+    "amenitySources": {},
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "9855 Gilespie St, Las Vegas, NV 89183",
+    "addressSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/silverado-ranch-community-center",
+    "sha256": "09608a0cfa6fa052de93c1e4521f5ca5e8510915fb5e396e8e7f8cc620678e08",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Clark County",
+    "photoLicense": "Operator/municipal photograph; rights retained by source. Public redistribution requires review."
+  },
+  "community-added-mountain-crest": {
+    "photoUrl": "https://www.clarkcountynv.gov/assets/images/general/mountain-crest.jpg",
+    "photoSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest",
+    "asset": "assets/cool_spots/added-mountain-crest.jpg",
+    "amenities": [
+      "restrooms"
+    ],
+    "amenitySources": {
+      "restrooms": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest"
+    },
+    "retrievedOn": "2026-10-20",
+    "displayAddress": "4701 N Durango Dr, Las Vegas, NV 89129",
+    "addressSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest",
+    "sha256": "13bf4ff297a0dfc37136b8641962612fa8c57cef197c6b739b9b92a3d6da63b5",
+    "modifications": "Resized to at most 960 pixels; JPEG compression; no content changes.",
+    "photoCredit": "Clark County",
+    "photoLicense": "Operator/municipal photograph; rights retained by source. Public redistribution requires review."
+  }
+}

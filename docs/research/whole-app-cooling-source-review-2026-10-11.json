@@ -1,0 +1,291 @@
+{
+  "checkedAt": "2026-10-12T01:58:42.725730+00:00",
+  "cadence": "weekly",
+  "nextCheckDue": "2026-10-19T01:58:42.725730+00:00",
+  "currentActivationConfirmed": false,
+  "results": [
+    {
+      "id": "aug-en",
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:6d201344-b9fa-49b5-9ebc-51cbc9b34d52/original/as/Cooling-Stations-2026---HeatWarningEng-Aug-18-21.pdf",
+      "baselineSha256": "060b08a94ffcffa014bae0754d66019237365199e1fa0625586c85de30345e34",
+      "downloadSha256": "060b08a94ffcffa014bae0754d66019237365199e1fa0625586c85de30345e34",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "aug-en.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "aug-es",
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:c55f7239-2f31-4421-827a-b5a04884238d/original/as/Estaciones-De-Enfriamiento-2026---HeatWarning-Aug-18-21.pdf",
+      "baselineSha256": "3d5004b529ce205c1b73c052dedd7a7be27c130167e7259601b8c2cc4a0015ad",
+      "downloadSha256": "3d5004b529ce205c1b73c052dedd7a7be27c130167e7259601b8c2cc4a0015ad",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "aug-es.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "sep-en",
+      "url": "https://www.8newsnow.com/wp-content/uploads/sites/59/2026/09/Cooling-Stations-2026-9-9-to-9-11.pdf",
+      "status": "unavailable",
+      "error": "CalledProcessError",
+      "reviewDisposition": "Historical September English endpoint unavailable; preserved already-hashed source and records."
+    },
+    {
+      "id": "county-resource-map-kml",
+      "url": "https://www.google.com/maps/d/kml?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&forcekml=1",
+      "baselineSha256": "3cd3518fab13422e2733cc05815aaecf2966d1b64fb42b145346384e2b391bfa",
+      "downloadSha256": "042eee627f0399b04feb4a5de22a66da673a2110448c4e3684292feefc04b8a5",
+      "status": "needs-review",
+      "newPdfLinks": [],
+      "downloadFile": "county-resource-map-kml.download",
+      "reviewDisposition": "Reviewed all 44 names/coordinates against October 2 KML. Four bus-pass description/style changes preserved as a new dated map source; no source record overwritten."
+    },
+    {
+      "id": "blue-diamond-library-facility",
+      "url": "https://thelibrarydistrict.org/locations/BD",
+      "baselineSha256": "30bcdcea12afba495dcb6e5437e11ffea574edb8faa46fd331e4728462554653",
+      "downloadSha256": "b659c59d1ed326557c6f69c48b9b089eaca6adfd7eb292b5f08105a04b447684",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "blue-diamond-library-facility.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "centennial-hills-library-facility",
+      "url": "https://thelibrarydistrict.org/locations/CH",
+      "baselineSha256": "8583d0a8ab2257c3f18b247bd03a679db0464c5f9b2358cb571f8762a60641fe",
+      "downloadSha256": "a0c45a405124be438d0193362d5f9cb5d56da42458373ef1c4527cc1fc536442",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "centennial-hills-library-facility.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "east-las-vegas-library-facility",
+      "url": "https://thelibrarydistrict.org/locations/EV",
+      "baselineSha256": "ecf5a8ac7c147d715be0edbfe242bbdc2d86982ce45a2f738b1fb3228637792e",
+      "downloadSha256": "d71bf40dc0226d45112632a75724ea0313a7bf31ae66a45dc625b9be5628764f",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "east-las-vegas-library-facility.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "enterprise-library-facility",
+      "url": "https://thelibrarydistrict.org/locations/EN",
+      "baselineSha256": "02f91ff703e1b066a6b928d239c3eca37fe5c29631ae07bec946630131681307",
+      "downloadSha256": "c9709cc2e082817ad58ab5ea070fd8071d8b47e845da028e80adb488bd060a2a",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "enterprise-library-facility.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "mesquite-library-campus-facility",
+      "url": "https://thelibrarydistrict.org/locations/MQ",
+      "baselineSha256": "8c97134e6bb6c0e15a0275830280640c18ec413c99d0e59f1687af6a87686cd4",
+      "downloadSha256": "e1a2ce746e63039bfe0dfe7133e41faa40e1a1c4fa43d91e752facf49e7f1656",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "mesquite-library-campus-facility.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "west-las-vegas-library-facility",
+      "url": "https://thelibrarydistrict.org/locations/WV",
+      "baselineSha256": "26a0c163a7578d55ed7e6d49bbfaaefbb2e8e7a06bfc85a79cf3a6d5f3fc8040",
+      "downloadSha256": "0b4c26996ac3924c1c1f9a6407d1882c6164538617a27258dc747becd29ce940",
+      "status": "needs-review",
+      "newPdfLinks": [],
+      "downloadFile": "west-las-vegas-library-facility.download",
+      "reviewDisposition": "Address/phone/geo and facility hours unchanged. Amenity catalog removes Switch Robot Lab and adds Multimedia Lab; no cooling capability inferred."
+    },
+    {
+      "id": "county-directory",
+      "url": "https://www.clarkcountynv.gov/government/departments/fire/cooling-stations",
+      "baselineSha256": "ce94c70f86e85c14fae0d5c0473cbbbd4080f909a41e83bbf7b14e8864506961",
+      "downloadSha256": "ce94c70f86e85c14fae0d5c0473cbbbd4080f909a41e83bbf7b14e8864506961",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "county-directory.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "county-activation-notice",
+      "url": "https://www.clarkcountynv.gov/news/cooling-stations-activated",
+      "baselineSha256": "0a60b8bab8403b20d6c70a2ca60cf468cb2fe1d6273de6c23a092a197814743c",
+      "downloadSha256": "0a60b8bab8403b20d6c70a2ca60cf468cb2fe1d6273de6c23a092a197814743c",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "county-activation-notice.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "county-stay-cool",
+      "url": "https://allin.clarkcountynv.gov/Initiative/StayCool",
+      "baselineSha256": "c124ab39f0025346eb422746b116832f7ca1cb6bbd986e47929135d551f52fd5",
+      "downloadSha256": "c124ab39f0025346eb422746b116832f7ca1cb6bbd986e47929135d551f52fd5",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "county-stay-cool.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "qr-arcgis-metadata",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/b48c8acd2629459680735491401c020b?f=json",
+      "baselineSha256": "eb4a28fcb148273f05fce32e34ab8d6a4ea5dc4b97ce36005b4ed601932756bb",
+      "downloadSha256": "6aa0758e557dce7b32fdb8533487f6cf839806d7f8bc34d3865851f68f115672",
+      "status": "needs-review",
+      "newPdfLinks": [],
+      "downloadFile": "qr-arcgis-metadata.download",
+      "reviewDisposition": "View/timestamp/version metadata changed; no station geometry or names changed in the separately unchanged county layer records."
+    },
+    {
+      "id": "qr-arcgis-config",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/b48c8acd2629459680735491401c020b/data?f=json",
+      "baselineSha256": "75821b037d8056c62d7e8d6e355f36d0ab7102ce3137bb85bd6ac8eed26f388c",
+      "downloadSha256": "f19cbf95314e2285377ff39820f075dee066082232097adf685937d2af822f39",
+      "status": "needs-review",
+      "newPdfLinks": [],
+      "downloadFile": "qr-arcgis-config.download",
+      "reviewDisposition": "English/Spanish PDF URLs changed. Retrieved/decompressed PDFs, reviewed all four rendered pages each and all 88 facility entries. Integrated new undated records with no activation inference."
+    },
+    {
+      "id": "qr-arcgis-webmap",
+      "url": "https://ccgismo.maps.arcgis.com/sharing/rest/content/items/95cdf2fc16f747359750a5d3c04b9366/data?f=json",
+      "baselineSha256": "ea35ebe5aff890980a1eb07bf0bd798e1a6785794f465c2e4d5748ee5e433a00",
+      "downloadSha256": "9582836d5ea954f2df52151a89025078ffbff419ae4049e814ef6f9520513309",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "qr-arcgis-webmap.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "qr-county-layer-metadata",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0?f=json",
+      "baselineSha256": "24e65ee6afd31356af26b0883be6b64e989a979588fec43454287ed5a3b8720e",
+      "downloadSha256": "24e65ee6afd31356af26b0883be6b64e989a979588fec43454287ed5a3b8720e",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "qr-county-layer-metadata.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "qr-county-layer-records",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "baselineSha256": "1db5f78c6fd69185065e73de6b50bb726eeaa96fb0ebb52db3ddb97e9e8aa305",
+      "downloadSha256": "1db5f78c6fd69185065e73de6b50bb726eeaa96fb0ebb52db3ddb97e9e8aa305",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "qr-county-layer-records.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "qr-county-layer-ids",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0/query?where=1%3D1&returnIdsOnly=true&f=json",
+      "baselineSha256": "048ce39edf3604f95c5bca880a134f13e0ec63e55b00e90702841ee82056aedf",
+      "downloadSha256": "048ce39edf3604f95c5bca880a134f13e0ec63e55b00e90702841ee82056aedf",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "qr-county-layer-ids.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "american-legion-address-evidence",
+      "url": "https://www.nevadalegiond2.org/post-info",
+      "baselineSha256": "22346c506536c3e45922ba28c0e111f683449765f4eb9e638ee66830331d598d",
+      "downloadSha256": "ef069eb6943dea0c73f0fcdb466d33a427b63fe3129cba99995d14f12c4d7a44",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "american-legion-address-evidence.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "colorado-river-food-bank-address-evidence",
+      "url": "https://www.threesquare.org/images/documents/Website_TEFAP_Update_-_Last_Updated_1.27.26.pdf",
+      "baselineSha256": "c4d84097685496b9ca26c8891127d68630acbb072b12806685e57d8b15aa0975",
+      "downloadSha256": "c4d84097685496b9ca26c8891127d68630acbb072b12806685e57d8b15aa0975",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "colorado-river-food-bank-address-evidence.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "james-i-gibson-library-address-evidence",
+      "url": "https://henderson.communico.co/gibson-library",
+      "baselineSha256": "219a286458d40b73bae6c0be93cf73dd4d6d8bb2415962dc35c055febb0431d0",
+      "downloadSha256": "ca5c16e35185f932158121984bdc282f1c5a0c3ccc6bc00818575b46f529e4ba",
+      "status": "needs-review",
+      "newPdfLinks": [],
+      "downloadFile": "james-i-gibson-library-address-evidence.download",
+      "reviewDisposition": "Same address and phone; current operator page explicitly notes October 16, 2026 Staff Day closure. Saved current HTML/hash and source-difference note."
+    },
+    {
+      "id": "the-salvation-army-family-services-center-address-evidence",
+      "url": "https://www.salvationarmyusa.org/nv/mesquite/",
+      "baselineSha256": "5f7083ae54e7f40d514254dd4df0eb5b07d58f308edfe0a172fb09e8bc8f9ca1",
+      "downloadSha256": "b393f8d420eac329f984e9b6c1efd8aa438c481aa000a02ca542cd2136091ac5",
+      "status": "needs-review",
+      "newPdfLinks": [],
+      "downloadFile": "the-salvation-army-family-services-center-address-evidence.download",
+      "reviewDisposition": "Same street address, newly expanded template. Current page says hours and phone unavailable; retain sourced historical flyer phone without asserting current operation."
+    },
+    {
+      "id": "courtyard-homeless-resource-center-address-evidence",
+      "url": "https://www.lasvegasnevada.gov/Residents/Resident-Services/Homeless-Services",
+      "baselineSha256": "04727b35f45a77397887b11eb4dcb62e4bc00017d0d4d1d6c2d2aed9c4082070",
+      "downloadSha256": "212a13e9fbe98fb55bdd30c8fa4e9a7282a2ac0ef101127df2721ccc99f7de31",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "courtyard-homeless-resource-center-address-evidence.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "the-salvation-army-address-evidence",
+      "url": "https://www.salvationarmyusa.org/nv/north-las-vegas/w-owens-ave-4/",
+      "baselineSha256": "317feeee25dea0198f6ec3157aaf6d94f08bad7c9be12d4b426c38061696cc7b",
+      "downloadSha256": "83d9bdfa3d7a946fe2b67d835929bc2592393aa9359e1675d2d3f9a0287bd99e",
+      "status": "unchanged",
+      "newPdfLinks": [],
+      "downloadFile": "the-salvation-army-address-evidence.download",
+      "reviewDisposition": "Source comparison unchanged; this does not confirm present opening."
+    },
+    {
+      "id": "west-henderson-library-address-evidence",
+      "url": "https://henderson.libnet.info/west-henderson-library",
+      "baselineSha256": "3fdb2473029688e5cf334ad186341d2bb95feb88176d8b12ebfe064d2bf7f1dc",
+      "downloadSha256": "32448f6aab2b851ddcb29413b8b78d0c04a4346c91b8f780a83a1bb648762f83",
+      "status": "needs-review",
+      "newPdfLinks": [],
+      "downloadFile": "west-henderson-library-address-evidence.download",
+      "reviewDisposition": "Same address and phone; current operator page explicitly notes October 16, 2026 Staff Day closure. Saved current HTML/hash and source-difference note."
+    }
+  ],
+  "integratedRevision": 5,
+  "newSources": [
+    {
+      "id": "updated-2026-en",
+      "url": "https://www.clarkcountynv.gov/assets/documents/government/departments/information_technology/cooling-stations-2026-updated-locations.pdf",
+      "sha256": "947024990445111e51447c251ef53a9aa3ccd7a2361cd0e7647d241b77445435",
+      "retrievedOn": "2026-10-11"
+    },
+    {
+      "id": "updated-2026-es",
+      "url": "https://www.clarkcountynv.gov/assets/documents/government/departments/information_technology/estaciones-de-enfriamiento-2026-updated-locations.pdf",
+      "sha256": "e5c88bf08ebfe56d15917f639181524fd9e566b05c43018df2176891079e4ee3",
+      "retrievedOn": "2026-10-11"
+    },
+    {
+      "id": "county-resource-map-2026-10-11",
+      "url": "https://www.google.com/maps/d/kml?mid=1rjsD7_vY0rikYkT6Krk1iTFwoaVGG9E&forcekml=1",
+      "sha256": "042eee627f0399b04feb4a5de22a66da673a2110448c4e3684292feefc04b8a5",
+      "retrievedOn": "2026-10-11"
+    }
+  ],
+  "notes": [
+    "45 saved unique places retained; new English/Spanish PDFs each list 44. Meadows omission is preserved as a conflict with existing county GIS, not inferred closure.",
+    "English/Spanish hours conflicts remain in source records.",
+    "Updated PDF transport arrived gzip without an ordinary PDF header; decompressed before parsing, visual review and hashing."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0",
+  "queryUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "retrievedOn": "2026-10-02",
+  "recordsFile": "sources/qr-county-layer-records.json",
+  "snapshots": [
+    {
+      "file": "sources/qr-arcgis-metadata.json",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/b48c8acd2629459680735491401c020b?f=json",
+      "sha256": "eb4a28fcb148273f05fce32e34ab8d6a4ea5dc4b97ce36005b4ed601932756bb"
+    },
+    {
+      "file": "sources/qr-arcgis-config.json",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/b48c8acd2629459680735491401c020b/data?f=json",
+      "sha256": "75821b037d8056c62d7e8d6e355f36d0ab7102ce3137bb85bd6ac8eed26f388c"
+    },
+    {
+      "file": "sources/qr-arcgis-webmap.json",
+      "url": "https://ccgismo.maps.arcgis.com/sharing/rest/content/items/95cdf2fc16f747359750a5d3c04b9366/data?f=json",
+      "sha256": "ea35ebe5aff890980a1eb07bf0bd798e1a6785794f465c2e4d5748ee5e433a00"
+    },
+    {
+      "file": "sources/qr-county-layer-metadata.json",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0?f=json",
+      "sha256": "24e65ee6afd31356af26b0883be6b64e989a979588fec43454287ed5a3b8720e"
+    },
+    {
+      "file": "sources/qr-county-layer-records.json",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+      "sha256": "1db5f78c6fd69185065e73de6b50bb726eeaa96fb0ebb52db3ddb97e9e8aa305"
+    },
+    {
+      "file": "sources/qr-county-layer-ids.json",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/SocialServices/Cooling_Stations/MapServer/0/query?where=1%3D1&returnIdsOnly=true&f=json",
+      "sha256": "048ce39edf3604f95c5bca880a134f13e0ec63e55b00e90702841ee82056aedf"
+    }
+  ],
+  "provenance": "Flyer QR -> Flowcode redirect -> public ArcGIS experience -> county GIS web map -> county SocialServices Cooling_Stations layer. No activation dates supplied.",
+  "completeObjectIdCount": 45
+}

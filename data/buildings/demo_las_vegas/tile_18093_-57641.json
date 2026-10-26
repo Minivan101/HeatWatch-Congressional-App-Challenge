@@ -1,0 +1,95 @@
+{
+  "buildings": [
+    {
+      "footprint": [
+        {
+          "latitude": 36.1870338,
+          "longitude": -115.2814141
+        },
+        {
+          "latitude": 36.1870028,
+          "longitude": -115.2813856
+        },
+        {
+          "latitude": 36.1869809,
+          "longitude": -115.2814222
+        },
+        {
+          "latitude": 36.1870119,
+          "longitude": -115.2814507
+        }
+      ],
+      "heightConfidence": "low",
+      "heightMeters": 9.0,
+      "heightSource": "assumed",
+      "osmId": "way/1018338480",
+      "tags": {}
+    },
+    {
+      "footprint": [
+        {
+          "latitude": 36.1881815,
+          "longitude": -115.2806383
+        },
+        {
+          "latitude": 36.1879794,
+          "longitude": -115.2806368
+        },
+        {
+          "latitude": 36.18798,
+          "longitude": -115.2804973
+        },
+        {
+          "latitude": 36.1879628,
+          "longitude": -115.2804972
+        },
+        {
+          "latitude": 36.1879635,
+          "longitude": -115.2803561
+        },
+        {
+          "latitude": 36.1879896,
+          "longitude": -115.2803563
+        },
+        {
+          "latitude": 36.1879914,
+          "longitude": -115.2800019
+        },
+        {
+          "latitude": 36.1881774,
+          "longitude": -115.2800033
+        },
+        {
+          "latitude": 36.1881772,
+          "longitude": -115.2800529
+        },
+        {
+          "latitude": 36.1881858,
+          "longitude": -115.280053
+        },
+        {
+          "latitude": 36.1881847,
+          "longitude": -115.2802776
+        },
+        {
+          "latitude": 36.1882087,
+          "longitude": -115.2802777
+        },
+        {
+          "latitude": 36.1882083,
+          "longitude": -115.2803605
+        },
+        {
+          "latitude": 36.1881829,
+          "longitude": -115.2803603
+        }
+      ],
+      "heightConfidence": "low",
+      "heightMeters": 9.0,
+      "heightSource": "assumed",
+      "osmId": "way/616653975",
+      "tags": {}
+    }
+  ],
+  "tileKey": "18093_-57641"
+}

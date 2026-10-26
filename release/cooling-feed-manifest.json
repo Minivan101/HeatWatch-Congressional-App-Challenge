@@ -1,0 +1,14 @@
+{
+  "revision": 5,
+  "stationCount": 45,
+  "assertionCount": 353,
+  "published": false,
+  "files": {
+    "official-directory.json": "88f42491b2759f704893850aaedacf8f28d0c95ddb35d92663e1babc828ac9ff",
+    "_headers": "c72e55f694a0ac3cd89da77ebaf21172ca34d0968c62426b9eead72c80db22a4",
+    "index.html": "e5281a098c654a6a220abb4a5fad95b57ef6c315159f49bd166b142fe24b42af",
+    "README.txt": "4f40281def231c0a9af2c581627359ae97030ea6952b3969cc3ba7315185cff9"
+  },
+  "zipSha256": "764cb6987ec0232e1f045dcc0dae62ac049b705c950d135ea4520896a27e9471",
+  "scope": "Public static files only; no Functions, paid resources or secret files."
+}

@@ -1,0 +1,38 @@
+{
+  "officialCenters": [
+    {
+      "id": "fictional-center",
+      "name": "Fictional Community Center",
+      "location": {
+        "latitude": 36.118134,
+        "longitude": -115.143604
+      },
+      "address": "Invented address for interface testing",
+      "category": "OFFICIAL_COOLING_CENTER",
+      "sourceAgency": "Fictional Example Agency",
+      "sourceUrl": "https://example.com/",
+      "validFrom": "2026-06-01",
+      "validUntil": "2026-09-30",
+      "lastVerifiedAt": "2026-06-20T12:00:00Z",
+      "hours": "Example hours only"
+    }
+  ],
+  "indoorPlaces": [
+    {
+      "placeId": "fictional-cafe",
+      "name": "Fictional Cafe",
+      "location": {
+        "latitude": 36.1186,
+        "longitude": -115.1443
+      },
+      "address": "Invented address for interface testing",
+      "category": "INDOOR_PLACE",
+      "openNow": null,
+      "distanceMeters": 82,
+      "source": "FICTIONAL_FIXTURE"
+    }
+  ],
+  "checkedAt": "2026-06-21T16:00:00.000Z",
+  "sampleOnly": true,
+  "description": "Fictional interface examples. Not real or verified places."
+}

@@ -1,0 +1,43 @@
+{
+  "datasetId": "clark-county-june-2026-archived",
+  "region": "Clark County, Nevada",
+  "sourceAgency": "Clark County, Nevada",
+  "sourceUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:69256abb-d1ef-4bc7-a11a-4a2102985f1a/original/as/Cooling-Stations-2026-June-4-5-2026.pdf",
+  "sourceCheckedAt": "2026-09-28T04:10:39Z",
+  "timeZoneId": "America/Los_Angeles",
+  "sampleReference": {
+    "label": "Cambridge area example point",
+    "location": {"latitude": 36.1179, "longitude": -115.1428}
+  },
+  "note": "Historical county activation only. Coordinates are approximate map centers from county event pages. No current opening is verified.",
+  "centers": [
+    {
+      "id": "cc-cambridge-june-2026",
+      "name": "Cambridge Recreation Center",
+      "location": {"latitude": 36.118134, "longitude": -115.143604},
+      "address": "3930 Cambridge St., Las Vegas, NV 89119",
+      "category": "OFFICIAL_COOLING_CENTER",
+      "sourceAgency": "Clark County, Nevada",
+      "sourceUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:69256abb-d1ef-4bc7-a11a-4a2102985f1a/original/as/Cooling-Stations-2026-June-4-5-2026.pdf",
+      "locationSourceUrl": "https://www.clarkcountynv.gov/calendar/parks-and-recreation/080925-bts-fest-cambridge",
+      "validFrom": "2026-06-04",
+      "validUntil": "2026-06-05",
+      "lastVerifiedAt": "2026-09-28T04:10:39Z",
+      "hours": "Mon-Fri 7:00 am-8:00 pm; weekends closed"
+    },
+    {
+      "id": "cc-whitney-june-2026",
+      "name": "Whitney Recreation Center",
+      "location": {"latitude": 36.096142, "longitude": -115.048073},
+      "address": "5712 E. Missouri Avenue, Las Vegas, NV 89122",
+      "category": "OFFICIAL_COOLING_CENTER",
+      "sourceAgency": "Clark County, Nevada",
+      "sourceUrl": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:69256abb-d1ef-4bc7-a11a-4a2102985f1a/original/as/Cooling-Stations-2026-June-4-5-2026.pdf",
+      "locationSourceUrl": "https://www.clarkcountynv.gov/calendar/county-commissioners-district-g/080925-bts-whitney-rec-center",
+      "validFrom": "2026-06-04",
+      "validUntil": "2026-06-05",
+      "lastVerifiedAt": "2026-09-28T04:10:39Z",
+      "hours": "Mon-Fri 8:00 am-6:00 pm; weekends closed"
+    }
+  ]
+}

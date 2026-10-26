@@ -1,0 +1,3678 @@
+{
+  "schemaVersion": 1,
+  "bounds": {
+    "south": 36.036,
+    "north": 36.404,
+    "west": -115.504,
+    "east": -115.036
+  },
+  "crs": "EPSG:3857",
+  "cellMeters": 5,
+  "tilePixels": 512,
+  "shadowLimitMeters": 250,
+  "canopyMinimumMeters": 2,
+  "retrievedAt": "2026-10-06T02:52:40.915666+00:00",
+  "buildingCounts": {
+    "footprints": 520114,
+    "heights": 502930,
+    "missingHeights": 17184,
+    "invalid": 3
+  },
+  "canopyValidCells": 105815364,
+  "canopyCellsAtLeast2m": 5283416,
+  "coverageGaps": [
+    [
+      -115.28507673095997,
+      36.08619305861901,
+      -115.28497885308944,
+      36.08623096035338
+    ],
+    [
+      -115.16778673917577,
+      36.19348999013738,
+      -115.165590032973,
+      36.19425913221994
+    ],
+    [
+      -115.24779184162328,
+      36.198348739516966,
+      -115.24753175351864,
+      36.19862108976924
+    ]
+  ],
+  "sources": [
+    {
+      "url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=023013011/part-00093-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+      "bytes": 7763683,
+      "sha256": "d9cbc7ea5a8a1977672d21e39bfbae7634c05a50f834152d895e9215177986d0",
+      "kind": "Microsoft buildings"
+    },
+    {
+      "url": "https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=UnitedStates/quadkey=023013100/part-00181-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz",
+      "bytes": 60242900,
+      "sha256": "cc9c393ab621bf3d2d98d3c751016b1ab01cddd895847afb0bf723622f17dad7",
+      "kind": "Microsoft buildings"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/0230130111.tif",
+      "bytes": 28069610,
+      "sha256": "daee2b0bb445c818b33b39b27da082e7edd3c00f90d04ea2ac71b78014453bf4",
+      "kind": "Meta WRI CHMv2"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/metadata/0230130111.geojson",
+      "bytes": 15433239,
+      "sha256": "90174e804bbae3f215848b84c8a928bf1f915b1f02212a0681d469e6c08eaae2",
+      "kind": "Canopy observation dates"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/0230130113.tif",
+      "bytes": 92438208,
+      "sha256": "4c553b7248162f1c165e9e05d8ae56c70872312a50e330dae2db69d2a96961ab",
+      "kind": "Meta WRI CHMv2"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/metadata/0230130113.geojson",
+      "bytes": 13519239,
+      "sha256": "535a8b0ff23c80de727b204c32cc0626d149c4a578161abeaf2a2d37b1aae93d",
+      "kind": "Canopy observation dates"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/0230131000.tif",
+      "bytes": 35465662,
+      "sha256": "039a6305d0cc1780880a0d7c7e38b47077fc2958f1804936e44ae9bc856ac024",
+      "kind": "Meta WRI CHMv2"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/metadata/0230131000.geojson",
+      "bytes": 14967647,
+      "sha256": "a495fcc5aa17f7957c2016959a903f4ca208a726fb73ec7a3d17901648b3641d",
+      "kind": "Canopy observation dates"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/0230131002.tif",
+      "bytes": 74324929,
+      "sha256": "e024caeff8ac73299696f46f00d1ece8d3b5058014db512a5131b358e441cb93",
+      "kind": "Meta WRI CHMv2"
+    },
+    {
+      "url": "https://dataforgood-fb-data.s3.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/metadata/0230131002.geojson",
+      "bytes": 13049487,
+      "sha256": "35f3b67c0b2c767f06904754267f706ecbe4797ce22a85d844ba363c8a1a9b4c",
+      "kind": "Canopy observation dates"
+    }
+  ],
+  "tiles": {
+    "-5023_1681": {
+      "x": -12858880,
+      "y": 4305920,
+      "buildings": "-5023_1681.buildings.json.gz",
+      "canopy": "-5023_1681.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "30d7dd61c2e51fc6138faae64a84272e8e8eef3b0ce96e8783ef8406ed995d80"
+    },
+    "-5023_1682": {
+      "x": -12858880,
+      "y": 4308480,
+      "buildings": "-5023_1682.buildings.json.gz",
+      "canopy": "-5023_1682.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "b6e3016feea54302a6eac8df13fd1d433124578ed37e5cb5ddb28f02a7287b79"
+    },
+    "-5023_1683": {
+      "x": -12858880,
+      "y": 4311040,
+      "buildings": "-5023_1683.buildings.json.gz",
+      "canopy": "-5023_1683.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "832b665264b5cc4192efd9fa413d7231c5e2aa7434fc28f7a35fc96e46f942af"
+    },
+    "-5023_1684": {
+      "x": -12858880,
+      "y": 4313600,
+      "buildings": "-5023_1684.buildings.json.gz",
+      "canopy": "-5023_1684.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "9c26c6c567f61976de0bb617ecbebefcd33ffbbae4d6066bc791bb5fb5096344"
+    },
+    "-5023_1685": {
+      "x": -12858880,
+      "y": 4316160,
+      "buildings": "-5023_1685.buildings.json.gz",
+      "canopy": "-5023_1685.canopy.bin.gz",
+      "buildingSha256": "4118375d72984fe06dde18e476703bf21e1456272f6b18d9b5ef06e76fbe91ea",
+      "canopySha256": "f8fb4fcba837d8babb70b4a76e78ba2ecc4111443197ac0a3f4ce6ad22b6dd6d"
+    },
+    "-5023_1686": {
+      "x": -12858880,
+      "y": 4318720,
+      "buildings": "-5023_1686.buildings.json.gz",
+      "canopy": "-5023_1686.canopy.bin.gz",
+      "buildingSha256": "945d8c25d43c86198af4d01eb9b7c639e509cf0ec7c660ba707c0b111c3950a6",
+      "canopySha256": "e869f3ce5baab31320fe7be3cadac75c473a576f1566219cc65d3bbb9194e3dd"
+    },
+    "-5023_1687": {
+      "x": -12858880,
+      "y": 4321280,
+      "buildings": "-5023_1687.buildings.json.gz",
+      "canopy": "-5023_1687.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "7cebd2ff0cc50559d077b5f49a48325ef84667a35f030ada11ee01038fbf12e6"
+    },
+    "-5023_1688": {
+      "x": -12858880,
+      "y": 4323840,
+      "buildings": "-5023_1688.buildings.json.gz",
+      "canopy": "-5023_1688.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "0817924fb2154cac6b73b3b6d3ad28a0edf04f8d08b5aaea45b1b08ea3e3ac4a"
+    },
+    "-5023_1689": {
+      "x": -12858880,
+      "y": 4326400,
+      "buildings": "-5023_1689.buildings.json.gz",
+      "canopy": "-5023_1689.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "df64208de7921fe5295b78503d12564231391accce9c51cbc9aea417d8e60f8f"
+    },
+    "-5023_1690": {
+      "x": -12858880,
+      "y": 4328960,
+      "buildings": "-5023_1690.buildings.json.gz",
+      "canopy": "-5023_1690.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6aedefc662ad615e4d3e9f27e5d8a7056c89b2670a98d4fe868a87b6ad91b94c"
+    },
+    "-5023_1691": {
+      "x": -12858880,
+      "y": 4331520,
+      "buildings": "-5023_1691.buildings.json.gz",
+      "canopy": "-5023_1691.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "392ab3c813661972db26001614757450a535f6b7d2b44703bed26627be5d1a9d"
+    },
+    "-5023_1692": {
+      "x": -12858880,
+      "y": 4334080,
+      "buildings": "-5023_1692.buildings.json.gz",
+      "canopy": "-5023_1692.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "13b72b14d677f434267d93bde63862a0aa5650fc51880dc8e9a03485f7818a6d"
+    },
+    "-5023_1693": {
+      "x": -12858880,
+      "y": 4336640,
+      "buildings": "-5023_1693.buildings.json.gz",
+      "canopy": "-5023_1693.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "a98a6d7aaebbde63f41d7d3ec2095bcec76adfab0390edf79ba37200f9bf4c42"
+    },
+    "-5023_1694": {
+      "x": -12858880,
+      "y": 4339200,
+      "buildings": "-5023_1694.buildings.json.gz",
+      "canopy": "-5023_1694.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e0e0a119c1ba48753af2b01b350859dfb71652416900d35378e5af010e8cecde"
+    },
+    "-5023_1695": {
+      "x": -12858880,
+      "y": 4341760,
+      "buildings": "-5023_1695.buildings.json.gz",
+      "canopy": "-5023_1695.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "bdf5f32658b9519d1a448cba2ebb77bdef01fce58bc400ed8cea08b79899cf66"
+    },
+    "-5023_1696": {
+      "x": -12858880,
+      "y": 4344320,
+      "buildings": "-5023_1696.buildings.json.gz",
+      "canopy": "-5023_1696.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6d395d5d8659006e4704802c33f57b28d7ec349627c3c6269291db5743a75ebd"
+    },
+    "-5023_1697": {
+      "x": -12858880,
+      "y": 4346880,
+      "buildings": "-5023_1697.buildings.json.gz",
+      "canopy": "-5023_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "5647ff6d2de913c50d20c988527848e9c4e31acc78f882b825d3fafcbd5bc621"
+    },
+    "-5023_1698": {
+      "x": -12858880,
+      "y": 4349440,
+      "buildings": "-5023_1698.buildings.json.gz",
+      "canopy": "-5023_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "695af2dead38557fb0cbe652b2795737d33760af38708d5945f368a740fe4954"
+    },
+    "-5023_1699": {
+      "x": -12858880,
+      "y": 4352000,
+      "buildings": "-5023_1699.buildings.json.gz",
+      "canopy": "-5023_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c2f2f04a847d16d50a24cb18ef9557c67a4ef89d267e271692d4dedf9675734b"
+    },
+    "-5023_1700": {
+      "x": -12858880,
+      "y": 4354560,
+      "buildings": "-5023_1700.buildings.json.gz",
+      "canopy": "-5023_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e915cb3c287cd77dcf268a77f9c40f5d02fe0606757b9d461ee42c466f75e505"
+    },
+    "-5023_1701": {
+      "x": -12858880,
+      "y": 4357120,
+      "buildings": "-5023_1701.buildings.json.gz",
+      "canopy": "-5023_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "61c3ed07605a34fabf7abd52b6bb83e6082a0b239375d7fc6cd285b5e915b81d"
+    },
+    "-5022_1681": {
+      "x": -12856320,
+      "y": 4305920,
+      "buildings": "-5022_1681.buildings.json.gz",
+      "canopy": "-5022_1681.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "9d063bd9070cdaa837bdc4ae9e0b6f37f8a3154bbe982536d78a099da87c784d"
+    },
+    "-5022_1682": {
+      "x": -12856320,
+      "y": 4308480,
+      "buildings": "-5022_1682.buildings.json.gz",
+      "canopy": "-5022_1682.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "cea1673ce040c85f176e9e639fae073e356133e40078fb9aaba5cb3953aefcb6"
+    },
+    "-5022_1683": {
+      "x": -12856320,
+      "y": 4311040,
+      "buildings": "-5022_1683.buildings.json.gz",
+      "canopy": "-5022_1683.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "0c147530b43b201c3a392d7d708059e75c37313f7fe9bdad881ebe2e9e0b9a41"
+    },
+    "-5022_1684": {
+      "x": -12856320,
+      "y": 4313600,
+      "buildings": "-5022_1684.buildings.json.gz",
+      "canopy": "-5022_1684.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "cda596e1fa80f7cc59275e1129f7d748d250788cc88d936081fa35dfdcde9c89"
+    },
+    "-5022_1685": {
+      "x": -12856320,
+      "y": 4316160,
+      "buildings": "-5022_1685.buildings.json.gz",
+      "canopy": "-5022_1685.canopy.bin.gz",
+      "buildingSha256": "dba057d6120b32676b54bb174b32d2af36cf30805c9c2666ab992d45a7bf3d2d",
+      "canopySha256": "96827dfca5d6dfb39d27c4e8b1422ba164fc7deaff27f03b943552647ec546d3"
+    },
+    "-5022_1686": {
+      "x": -12856320,
+      "y": 4318720,
+      "buildings": "-5022_1686.buildings.json.gz",
+      "canopy": "-5022_1686.canopy.bin.gz",
+      "buildingSha256": "3bf0434b22aebc71fb0a98ad6af6f866604f5c06cdfe6bc27b6807bcdd5fe5ed",
+      "canopySha256": "7ea9e3f4b543a844b8395d07c87dacc95cb062c14bf3fdef234843fad7c4f826"
+    },
+    "-5022_1687": {
+      "x": -12856320,
+      "y": 4321280,
+      "buildings": "-5022_1687.buildings.json.gz",
+      "canopy": "-5022_1687.canopy.bin.gz",
+      "buildingSha256": "fe97ca78ef9190313ce8355813566b6b053232725eb2a62685441b7a337a82d6",
+      "canopySha256": "37e6844cf55dee480fb0824968f8776e69ed278ea387c3ee4419a1ab879ad72d"
+    },
+    "-5022_1688": {
+      "x": -12856320,
+      "y": 4323840,
+      "buildings": "-5022_1688.buildings.json.gz",
+      "canopy": "-5022_1688.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "81868a12f8966b1e3505753ba9b296faf44342fba83b2dba134a760a1f0419bc"
+    },
+    "-5022_1689": {
+      "x": -12856320,
+      "y": 4326400,
+      "buildings": "-5022_1689.buildings.json.gz",
+      "canopy": "-5022_1689.canopy.bin.gz",
+      "buildingSha256": "12059a7d8793b3ce710f4c86f749fdbefb13a9e7a4b23c1c9181b8c82f124ffb",
+      "canopySha256": "433f1742b83893a4641a57e910d3c71ff98e0865a9aabea2ca5a6933eb43a751"
+    },
+    "-5022_1690": {
+      "x": -12856320,
+      "y": 4328960,
+      "buildings": "-5022_1690.buildings.json.gz",
+      "canopy": "-5022_1690.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "274248e8b5908aadaa669026c34e32941aef7b9b8ddee225f19804595b7d01f0"
+    },
+    "-5022_1691": {
+      "x": -12856320,
+      "y": 4331520,
+      "buildings": "-5022_1691.buildings.json.gz",
+      "canopy": "-5022_1691.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "002e488b61ab5a6ef6ca60a106f218412f5137863830d6e73db9ce593029246f"
+    },
+    "-5022_1692": {
+      "x": -12856320,
+      "y": 4334080,
+      "buildings": "-5022_1692.buildings.json.gz",
+      "canopy": "-5022_1692.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "1f8aeb2de25fcd02afbb37d8fcecf999741747316ca758dbcb91e77af5812235"
+    },
+    "-5022_1693": {
+      "x": -12856320,
+      "y": 4336640,
+      "buildings": "-5022_1693.buildings.json.gz",
+      "canopy": "-5022_1693.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "3335a943f8e3b78f9b3be77c078e72514f47735d1529d7e42d9997552f8eaa68"
+    },
+    "-5022_1694": {
+      "x": -12856320,
+      "y": 4339200,
+      "buildings": "-5022_1694.buildings.json.gz",
+      "canopy": "-5022_1694.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e41440e1dce0abbb09afce1df22a8005bd484c861ff6ba37700ce0c5262d97a4"
+    },
+    "-5022_1695": {
+      "x": -12856320,
+      "y": 4341760,
+      "buildings": "-5022_1695.buildings.json.gz",
+      "canopy": "-5022_1695.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "3744b836bd2d0fae4523d17f1ee16918b39aba55838a95553aedea031b5b082c"
+    },
+    "-5022_1696": {
+      "x": -12856320,
+      "y": 4344320,
+      "buildings": "-5022_1696.buildings.json.gz",
+      "canopy": "-5022_1696.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "a3c2bab797edc007b1dc72281ac814d0bf968f701c1e1a43760876fb2a07a504"
+    },
+    "-5022_1697": {
+      "x": -12856320,
+      "y": 4346880,
+      "buildings": "-5022_1697.buildings.json.gz",
+      "canopy": "-5022_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6209e78ffae0297fc7e1753f769ac3b85567cb6cd2c4220dc32ccfc1ccca5323"
+    },
+    "-5022_1698": {
+      "x": -12856320,
+      "y": 4349440,
+      "buildings": "-5022_1698.buildings.json.gz",
+      "canopy": "-5022_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "f53b404b4fa8918bc93cdebcd2250275664f9349f121e9efbbc8434398e984b1"
+    },
+    "-5022_1699": {
+      "x": -12856320,
+      "y": 4352000,
+      "buildings": "-5022_1699.buildings.json.gz",
+      "canopy": "-5022_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "2e7c69e09a17cc545eb81e2fa8eea37feb1e1e6b0c5eee2a2e1335c33db2e107"
+    },
+    "-5022_1700": {
+      "x": -12856320,
+      "y": 4354560,
+      "buildings": "-5022_1700.buildings.json.gz",
+      "canopy": "-5022_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "39fd7bd1555c2a870e311567287ad781863bd35aa6cdd787e95ceed5405fd205"
+    },
+    "-5022_1701": {
+      "x": -12856320,
+      "y": 4357120,
+      "buildings": "-5022_1701.buildings.json.gz",
+      "canopy": "-5022_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "5a037e5c826593c7097f0c2513bdc9e1b043ae8a67ddd825825e8d85bc9c4aee"
+    },
+    "-5021_1681": {
+      "x": -12853760,
+      "y": 4305920,
+      "buildings": "-5021_1681.buildings.json.gz",
+      "canopy": "-5021_1681.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "968c3cce3459192669da6b7baeb2e0271babd8d4578ac31c2fd7f3d8c46b6c3f"
+    },
+    "-5021_1682": {
+      "x": -12853760,
+      "y": 4308480,
+      "buildings": "-5021_1682.buildings.json.gz",
+      "canopy": "-5021_1682.canopy.bin.gz",
+      "buildingSha256": "592d76a1a164244b3533a8389c77c519cf1951b5b5486873b29c0c7b72d55b1c",
+      "canopySha256": "f91de0ec33ee48ce61f824d394a72c006c6988ca50dfba1ed3ada90642e10fe8"
+    },
+    "-5021_1683": {
+      "x": -12853760,
+      "y": 4311040,
+      "buildings": "-5021_1683.buildings.json.gz",
+      "canopy": "-5021_1683.canopy.bin.gz",
+      "buildingSha256": "d2f4860db9bbbaaffcc23d969debf17ab17ea65bd0abe7307b64a2842574f331",
+      "canopySha256": "57b2a6b06eb9fac8c20f9465c74abb5d52f33da97428745fea812a648c3b0b80"
+    },
+    "-5021_1684": {
+      "x": -12853760,
+      "y": 4313600,
+      "buildings": "-5021_1684.buildings.json.gz",
+      "canopy": "-5021_1684.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "2362a50a3e761c56abf9a0b3d57a5da3f16d12fbcf4101e9afb331774ece203e"
+    },
+    "-5021_1685": {
+      "x": -12853760,
+      "y": 4316160,
+      "buildings": "-5021_1685.buildings.json.gz",
+      "canopy": "-5021_1685.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "eba1d92086de2dc92f7dc0d2f087170fd27e1fac17cecd5357554dbecb4c0fa7"
+    },
+    "-5021_1686": {
+      "x": -12853760,
+      "y": 4318720,
+      "buildings": "-5021_1686.buildings.json.gz",
+      "canopy": "-5021_1686.canopy.bin.gz",
+      "buildingSha256": "0957e510d8919bf768fc4aa773961a009d95f23c88ab22ba6c1ab9771695c3d4",
+      "canopySha256": "70d34ac2a10e919e67214bd9b63a3d0bdfdcf18dad79d80f1f0caeaf6bb13349"
+    },
+    "-5021_1687": {
+      "x": -12853760,
+      "y": 4321280,
+      "buildings": "-5021_1687.buildings.json.gz",
+      "canopy": "-5021_1687.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "31a15ee567100820a26e3db8151f1f207e7072409d60d85acbeb64cf206c1274"
+    },
+    "-5021_1688": {
+      "x": -12853760,
+      "y": 4323840,
+      "buildings": "-5021_1688.buildings.json.gz",
+      "canopy": "-5021_1688.canopy.bin.gz",
+      "buildingSha256": "c508def6df5e4e5b0c568ec941e9c277a1c959e721edee71f5bc8d4d54b6bf6e",
+      "canopySha256": "00964e0d5172e25fbb46bb65494b2d3842eed32de10c73e4f5c26af50cbf2224"
+    },
+    "-5021_1689": {
+      "x": -12853760,
+      "y": 4326400,
+      "buildings": "-5021_1689.buildings.json.gz",
+      "canopy": "-5021_1689.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "96bdade1a5a74540ff74b3ded6c9a1eeb72bced9988a19b5bf54edbcbe20fcb4"
+    },
+    "-5021_1690": {
+      "x": -12853760,
+      "y": 4328960,
+      "buildings": "-5021_1690.buildings.json.gz",
+      "canopy": "-5021_1690.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "b649ac7dcd9dad1679cf89e30d7b7e235bebe9d109a54b09e0b4cb118b9ab33d"
+    },
+    "-5021_1691": {
+      "x": -12853760,
+      "y": 4331520,
+      "buildings": "-5021_1691.buildings.json.gz",
+      "canopy": "-5021_1691.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "247eccc14c70dc9edd9e439a49ebb24c6b324d2ae307152b00479ab2d7b29cce"
+    },
+    "-5021_1692": {
+      "x": -12853760,
+      "y": 4334080,
+      "buildings": "-5021_1692.buildings.json.gz",
+      "canopy": "-5021_1692.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "96d6eb7b5a25933f17d35f977e7f592a18ad7511dea9e198837d3771b0bf54f2"
+    },
+    "-5021_1693": {
+      "x": -12853760,
+      "y": 4336640,
+      "buildings": "-5021_1693.buildings.json.gz",
+      "canopy": "-5021_1693.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "f63ac9dfc4539b6e406e6b1304107973dbd930d7971c995ead94304065885ac1"
+    },
+    "-5021_1694": {
+      "x": -12853760,
+      "y": 4339200,
+      "buildings": "-5021_1694.buildings.json.gz",
+      "canopy": "-5021_1694.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "49dedbd03fe5684d825432580ac9c472b5ecc8ca5ae7fb6e0876408446a143b6"
+    },
+    "-5021_1695": {
+      "x": -12853760,
+      "y": 4341760,
+      "buildings": "-5021_1695.buildings.json.gz",
+      "canopy": "-5021_1695.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "d928e40a95c3bcad16388f0418e94d42d288957b0944325dabe56ac46864cfbf"
+    },
+    "-5021_1696": {
+      "x": -12853760,
+      "y": 4344320,
+      "buildings": "-5021_1696.buildings.json.gz",
+      "canopy": "-5021_1696.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c478d8a34827444a4865f3eb315c65d060daf64c62158345e3bf37ae31ea50c6"
+    },
+    "-5021_1697": {
+      "x": -12853760,
+      "y": 4346880,
+      "buildings": "-5021_1697.buildings.json.gz",
+      "canopy": "-5021_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "17a21cd52bbbac75b03b91272d862e7e1f07154e8bb55f57ee14fb5156f68422"
+    },
+    "-5021_1698": {
+      "x": -12853760,
+      "y": 4349440,
+      "buildings": "-5021_1698.buildings.json.gz",
+      "canopy": "-5021_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c0dd398cfa44182d5c433d6809dc8a7bfb717c610db539cf72f441a1eb88f91d"
+    },
+    "-5021_1699": {
+      "x": -12853760,
+      "y": 4352000,
+      "buildings": "-5021_1699.buildings.json.gz",
+      "canopy": "-5021_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "4ffd0c3bc140cb4934f69f3b475c5c4ba5f8444c22153c3598ad521e03eb9c21"
+    },
+    "-5021_1700": {
+      "x": -12853760,
+      "y": 4354560,
+      "buildings": "-5021_1700.buildings.json.gz",
+      "canopy": "-5021_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "2a8a78df921e561376e911adb3f7c5c13bd4863a92dc544bda00355d86c1d04b"
+    },
+    "-5021_1701": {
+      "x": -12853760,
+      "y": 4357120,
+      "buildings": "-5021_1701.buildings.json.gz",
+      "canopy": "-5021_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "d19400dfa4966699e696b65c98d6bbcd8285939b94bf32a06098bec23ce7bcc6"
+    },
+    "-5020_1681": {
+      "x": -12851200,
+      "y": 4305920,
+      "buildings": "-5020_1681.buildings.json.gz",
+      "canopy": "-5020_1681.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c1a48993ae09ddd4d4576ff387715e66907bf4ef944f13acdabab6b1b48ee66e"
+    },
+    "-5020_1682": {
+      "x": -12851200,
+      "y": 4308480,
+      "buildings": "-5020_1682.buildings.json.gz",
+      "canopy": "-5020_1682.canopy.bin.gz",
+      "buildingSha256": "b600b626e92eae7d5441559cd49375d06f3a1b73022b5d4d8c13b988c0950038",
+      "canopySha256": "42b1b38841cc64e5d221712890524d57f82c60fe88ec3910f44c1b34f2187d1f"
+    },
+    "-5020_1683": {
+      "x": -12851200,
+      "y": 4311040,
+      "buildings": "-5020_1683.buildings.json.gz",
+      "canopy": "-5020_1683.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "cbba4736ae34acf0f4fc53945621cb2b3d6d9006436c91ca6e90dec1b5e01afa"
+    },
+    "-5020_1684": {
+      "x": -12851200,
+      "y": 4313600,
+      "buildings": "-5020_1684.buildings.json.gz",
+      "canopy": "-5020_1684.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "b2ec79e4744d705a142ba3e26ecafd6a7eda0a2238ca2d8da094ddf53a1f7f2b"
+    },
+    "-5020_1685": {
+      "x": -12851200,
+      "y": 4316160,
+      "buildings": "-5020_1685.buildings.json.gz",
+      "canopy": "-5020_1685.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "faa4fb7563f4c5210db1220ae2e9f1a3393e3c55f98b6271cc4735d539d1de74"
+    },
+    "-5020_1686": {
+      "x": -12851200,
+      "y": 4318720,
+      "buildings": "-5020_1686.buildings.json.gz",
+      "canopy": "-5020_1686.canopy.bin.gz",
+      "buildingSha256": "4eac971370baecae4073856bf4359a0633815a5a42f59a304dda2bc157d4849d",
+      "canopySha256": "e05e845312269170165dde0bd9c7bcf7f5864593cecd487f25daf60575da4856"
+    },
+    "-5020_1687": {
+      "x": -12851200,
+      "y": 4321280,
+      "buildings": "-5020_1687.buildings.json.gz",
+      "canopy": "-5020_1687.canopy.bin.gz",
+      "buildingSha256": "e1e3fbc6dd2ef862bdd3b5a2cd8c89382a549340969730e517ef6b191263fc9b",
+      "canopySha256": "f26ed60bff9032c7f6378bcfabd27fc948fa68c746a299dcfd665ac72f7ce6a8"
+    },
+    "-5020_1688": {
+      "x": -12851200,
+      "y": 4323840,
+      "buildings": "-5020_1688.buildings.json.gz",
+      "canopy": "-5020_1688.canopy.bin.gz",
+      "buildingSha256": "484ca5531e4a90d157bd1c67cb887d6c1d9df8702a458c8409eab5aa3d3fb2cf",
+      "canopySha256": "330ef504e989c8e8f14b54dbd860a4a5d9787d6f2f17a5ee7a78257048c2d337"
+    },
+    "-5020_1689": {
+      "x": -12851200,
+      "y": 4326400,
+      "buildings": "-5020_1689.buildings.json.gz",
+      "canopy": "-5020_1689.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "dfb23919484f3b5eb66fe0975db788f86008b49f54d77984983d6c05692b4554"
+    },
+    "-5020_1690": {
+      "x": -12851200,
+      "y": 4328960,
+      "buildings": "-5020_1690.buildings.json.gz",
+      "canopy": "-5020_1690.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "20f0077b1e5c3986e6f7270381d8d4a24149741bebf19d5e0c0d813e7f7e43cf"
+    },
+    "-5020_1691": {
+      "x": -12851200,
+      "y": 4331520,
+      "buildings": "-5020_1691.buildings.json.gz",
+      "canopy": "-5020_1691.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "cdbcd888ce3f24233f71fde0fe0b1b062133d39f5ddbd21f7e1e6385d2512946"
+    },
+    "-5020_1692": {
+      "x": -12851200,
+      "y": 4334080,
+      "buildings": "-5020_1692.buildings.json.gz",
+      "canopy": "-5020_1692.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "49dc96e4056b8a1fa8eec892e558f6d787bf4140b06f1bd35f082929f9416326"
+    },
+    "-5020_1693": {
+      "x": -12851200,
+      "y": 4336640,
+      "buildings": "-5020_1693.buildings.json.gz",
+      "canopy": "-5020_1693.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "276b54d1e15b45289eb4031cf6c065779e9bdf89843458c64741ffd9ae63c98f"
+    },
+    "-5020_1694": {
+      "x": -12851200,
+      "y": 4339200,
+      "buildings": "-5020_1694.buildings.json.gz",
+      "canopy": "-5020_1694.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "bcab05f826b6b41cd9c8044d6fe2d68b646d53e92501428b5cbf6c2b6b6e6d60"
+    },
+    "-5020_1695": {
+      "x": -12851200,
+      "y": 4341760,
+      "buildings": "-5020_1695.buildings.json.gz",
+      "canopy": "-5020_1695.canopy.bin.gz",
+      "buildingSha256": "4a3099889c45d1d7a82cf8516aefb49e45e97c2270c5bb2ba244f0bc25af3b7f",
+      "canopySha256": "24b014bfe19a1acc4f2ff917f44786f51a2bb411dd2310d30fd2b997b71148d2"
+    },
+    "-5020_1696": {
+      "x": -12851200,
+      "y": 4344320,
+      "buildings": "-5020_1696.buildings.json.gz",
+      "canopy": "-5020_1696.canopy.bin.gz",
+      "buildingSha256": "1304115de7dce2c7d24d33e4eb3dff846b8623de920318851559ceedd26bd513",
+      "canopySha256": "dfcc83b9e1a8d60df6ba14ca44cf8aa104be7be765b461178628fbbbff5b5439"
+    },
+    "-5020_1697": {
+      "x": -12851200,
+      "y": 4346880,
+      "buildings": "-5020_1697.buildings.json.gz",
+      "canopy": "-5020_1697.canopy.bin.gz",
+      "buildingSha256": "3739cc5b988525f4a7ec197deddf0eca9d4ab68bdf16981ece1d52ee42f61641",
+      "canopySha256": "809829c693e099c682a5f9dc3e18f34d85bab7a187dce347ef09e04bbe3c7362"
+    },
+    "-5020_1698": {
+      "x": -12851200,
+      "y": 4349440,
+      "buildings": "-5020_1698.buildings.json.gz",
+      "canopy": "-5020_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "db37f316a19b91c72c134dfc5fb47279e814f4f6e1f9a00c32c1d455e0529598"
+    },
+    "-5020_1699": {
+      "x": -12851200,
+      "y": 4352000,
+      "buildings": "-5020_1699.buildings.json.gz",
+      "canopy": "-5020_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "254997e2e03588b3fcff8f9bad3446ba769a13b228c4868f9a4ae260c7c4bc85"
+    },
+    "-5020_1700": {
+      "x": -12851200,
+      "y": 4354560,
+      "buildings": "-5020_1700.buildings.json.gz",
+      "canopy": "-5020_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "a0dfbf80d7c594060b43f2f9345a09cf7aabf5a2937a8289b0a985bc6e1967e5"
+    },
+    "-5020_1701": {
+      "x": -12851200,
+      "y": 4357120,
+      "buildings": "-5020_1701.buildings.json.gz",
+      "canopy": "-5020_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "0a69839397184a451f639fa297e3b7d801a236ce4914eab63b0ee4dda8ad088a"
+    },
+    "-5019_1681": {
+      "x": -12848640,
+      "y": 4305920,
+      "buildings": "-5019_1681.buildings.json.gz",
+      "canopy": "-5019_1681.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "af2c70fc689fdce76cec849c084720c86b1e3e975b7d5772ae7e594deb2c9130"
+    },
+    "-5019_1682": {
+      "x": -12848640,
+      "y": 4308480,
+      "buildings": "-5019_1682.buildings.json.gz",
+      "canopy": "-5019_1682.canopy.bin.gz",
+      "buildingSha256": "c2a42ebba1b8c1ad10afd3cdb8e8f81fb05fb078347b038e0c291dced5e60092",
+      "canopySha256": "f25b6df77a37457f94a5c4d8fa7e41d3c44e076676183496508eef9ad877b0d4"
+    },
+    "-5019_1683": {
+      "x": -12848640,
+      "y": 4311040,
+      "buildings": "-5019_1683.buildings.json.gz",
+      "canopy": "-5019_1683.canopy.bin.gz",
+      "buildingSha256": "a53b5e9a11344300378f8c96e106bcc091a077eee31924c68a01fc55783f5b91",
+      "canopySha256": "e1957a7ba35ff95593df2d80a236868ce8899d117e97028189fd1ff5c32d6324"
+    },
+    "-5019_1684": {
+      "x": -12848640,
+      "y": 4313600,
+      "buildings": "-5019_1684.buildings.json.gz",
+      "canopy": "-5019_1684.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6322dd5fb1e24e9595f4423f967d1088b2f8c57d1bb8d950369226b20e14439c"
+    },
+    "-5019_1685": {
+      "x": -12848640,
+      "y": 4316160,
+      "buildings": "-5019_1685.buildings.json.gz",
+      "canopy": "-5019_1685.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "badac9de113b8a7242089fb7934f57ab95cd4e60ea7af5b6fbc10f7bc9eba439"
+    },
+    "-5019_1686": {
+      "x": -12848640,
+      "y": 4318720,
+      "buildings": "-5019_1686.buildings.json.gz",
+      "canopy": "-5019_1686.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6b35cdae7c38b1140f9301b118ef224302c9f451e319b39e03b1d8976efe062e"
+    },
+    "-5019_1687": {
+      "x": -12848640,
+      "y": 4321280,
+      "buildings": "-5019_1687.buildings.json.gz",
+      "canopy": "-5019_1687.canopy.bin.gz",
+      "buildingSha256": "096be506798a5e5f32791b7a1c5972b8050d3fb1d5e9b4e2887c59be4c5baed2",
+      "canopySha256": "6eee6a70139d026c4e3812207148c5cd65da7e72310821d9d3fc36921fa9223f"
+    },
+    "-5019_1688": {
+      "x": -12848640,
+      "y": 4323840,
+      "buildings": "-5019_1688.buildings.json.gz",
+      "canopy": "-5019_1688.canopy.bin.gz",
+      "buildingSha256": "b98a2fc026b9f16a1352da36c7d253f0eaed45dfbe1e3dee0b6081b40205451c",
+      "canopySha256": "569f24f2c96b3f2b920b5b3e1a54c072da5f875e8e80084a31cf3686d828099a"
+    },
+    "-5019_1689": {
+      "x": -12848640,
+      "y": 4326400,
+      "buildings": "-5019_1689.buildings.json.gz",
+      "canopy": "-5019_1689.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6ad0d44c96dc2bc825836d281d4b99db57165d52395e8514e55cfa3e821a4974"
+    },
+    "-5019_1690": {
+      "x": -12848640,
+      "y": 4328960,
+      "buildings": "-5019_1690.buildings.json.gz",
+      "canopy": "-5019_1690.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "223a1b5186ab44fffc57b6b42ad94b9bb24b764965b74dbe477d64f2608254b5"
+    },
+    "-5019_1691": {
+      "x": -12848640,
+      "y": 4331520,
+      "buildings": "-5019_1691.buildings.json.gz",
+      "canopy": "-5019_1691.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "20af808abe93233216c13331bd69a6f9bed9bfc488478069e377b7cc4dd21abf"
+    },
+    "-5019_1692": {
+      "x": -12848640,
+      "y": 4334080,
+      "buildings": "-5019_1692.buildings.json.gz",
+      "canopy": "-5019_1692.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "821c2c275eba1375bb51fc9b653d607bf512dc8c1a7577d1ccd5a18074af01a0"
+    },
+    "-5019_1693": {
+      "x": -12848640,
+      "y": 4336640,
+      "buildings": "-5019_1693.buildings.json.gz",
+      "canopy": "-5019_1693.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "58382b6a8a65b79559a35f9ef875d9e0ac0b97ff21e5f693180989c82fb5fdf0"
+    },
+    "-5019_1694": {
+      "x": -12848640,
+      "y": 4339200,
+      "buildings": "-5019_1694.buildings.json.gz",
+      "canopy": "-5019_1694.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e5c08610cb97fc881f3f6ce04947c02099f7c3e618760520784c1957255c3971"
+    },
+    "-5019_1695": {
+      "x": -12848640,
+      "y": 4341760,
+      "buildings": "-5019_1695.buildings.json.gz",
+      "canopy": "-5019_1695.canopy.bin.gz",
+      "buildingSha256": "9764f7786dc4bd63d8d394a0eb10091f3beadf0453210cfeeacc2edfd2bd44f5",
+      "canopySha256": "4534fae265ca8d8cc7db98bec65723f29b09b4e6b8f68966ba9c8dbb067529d9"
+    },
+    "-5019_1696": {
+      "x": -12848640,
+      "y": 4344320,
+      "buildings": "-5019_1696.buildings.json.gz",
+      "canopy": "-5019_1696.canopy.bin.gz",
+      "buildingSha256": "80233256230d55911ca11287687e1f87370aa992ed063923a6003c722b6e90dd",
+      "canopySha256": "fc4f392046f11a6f504488c4d98a052fdf798a88a4d95ccbf06cbd196c7f1064"
+    },
+    "-5019_1697": {
+      "x": -12848640,
+      "y": 4346880,
+      "buildings": "-5019_1697.buildings.json.gz",
+      "canopy": "-5019_1697.canopy.bin.gz",
+      "buildingSha256": "964b7f96f41323d10d0490146ccfeb5d1165309a39a42fce9efcf49b8d7809dd",
+      "canopySha256": "2e77613530a7f7dc57c4c1a2e485952f26fb27b20d8d5b90264c51c0c25b8edb"
+    },
+    "-5019_1698": {
+      "x": -12848640,
+      "y": 4349440,
+      "buildings": "-5019_1698.buildings.json.gz",
+      "canopy": "-5019_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e6eae0b06ff52fc33fcfae4a739f6b1d6983e1099f65048f1676d15669ea4da4"
+    },
+    "-5019_1699": {
+      "x": -12848640,
+      "y": 4352000,
+      "buildings": "-5019_1699.buildings.json.gz",
+      "canopy": "-5019_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "3f398368ef597678565562fdda7dbe901f291dacb3b5926088f8b6183b04612e"
+    },
+    "-5019_1700": {
+      "x": -12848640,
+      "y": 4354560,
+      "buildings": "-5019_1700.buildings.json.gz",
+      "canopy": "-5019_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "767e1fb2a01f144c372c47e454e7197a1ec223cd7b15331e9c0020cacf761792"
+    },
+    "-5019_1701": {
+      "x": -12848640,
+      "y": 4357120,
+      "buildings": "-5019_1701.buildings.json.gz",
+      "canopy": "-5019_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "d2639533fbf31ef6579caae48f4e9a66bf82f3ed5f806b570ef7b753d2837403"
+    },
+    "-5018_1681": {
+      "x": -12846080,
+      "y": 4305920,
+      "buildings": "-5018_1681.buildings.json.gz",
+      "canopy": "-5018_1681.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "1a310a06fea6f38227106889be6a28687d975920a5635e63aaac39e217493691"
+    },
+    "-5018_1682": {
+      "x": -12846080,
+      "y": 4308480,
+      "buildings": "-5018_1682.buildings.json.gz",
+      "canopy": "-5018_1682.canopy.bin.gz",
+      "buildingSha256": "1e8889439371233af6619551b1d00e493b7c3f6a9196a76a0d594661932dd156",
+      "canopySha256": "e2e1f98b15a6526d7a964effeff21fe8c0c3c28779b9290fdec61c653d20d6ec"
+    },
+    "-5018_1683": {
+      "x": -12846080,
+      "y": 4311040,
+      "buildings": "-5018_1683.buildings.json.gz",
+      "canopy": "-5018_1683.canopy.bin.gz",
+      "buildingSha256": "33ee0315a50b2e4baab3488af88d26233d47fbfd472fbdc41277a027fb36abf8",
+      "canopySha256": "ed614c6f4fe3b07714e9de5b8533c324647ed0eec3b0aab2ba53d1e6b5f5f9be"
+    },
+    "-5018_1684": {
+      "x": -12846080,
+      "y": 4313600,
+      "buildings": "-5018_1684.buildings.json.gz",
+      "canopy": "-5018_1684.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "84293781d4866465c194d26a23c4c7a710e3f2fbe2b4dfd766116a287fdc066b"
+    },
+    "-5018_1685": {
+      "x": -12846080,
+      "y": 4316160,
+      "buildings": "-5018_1685.buildings.json.gz",
+      "canopy": "-5018_1685.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "8477462b14a54c3ebd30cd2589db062720b2a977ddb5654860fd2c27c526b307"
+    },
+    "-5018_1686": {
+      "x": -12846080,
+      "y": 4318720,
+      "buildings": "-5018_1686.buildings.json.gz",
+      "canopy": "-5018_1686.canopy.bin.gz",
+      "buildingSha256": "2805b8f54a4fee1aa6068296932cddddb7290303cbff43ca179351f016640af5",
+      "canopySha256": "cb718606783705c25b0e08c33b6277cc69656e259a4cd6f47642a5a5206122a5"
+    },
+    "-5018_1687": {
+      "x": -12846080,
+      "y": 4321280,
+      "buildings": "-5018_1687.buildings.json.gz",
+      "canopy": "-5018_1687.canopy.bin.gz",
+      "buildingSha256": "b699c8b92482754573100c144bc7c225627a0e92d3adf7913cddb5651bdbe2a2",
+      "canopySha256": "ca4dc4e81b6db05c057faf61039d29e3d255a1c4de3cdbb00a85baea17bd5a98"
+    },
+    "-5018_1688": {
+      "x": -12846080,
+      "y": 4323840,
+      "buildings": "-5018_1688.buildings.json.gz",
+      "canopy": "-5018_1688.canopy.bin.gz",
+      "buildingSha256": "11d6d325df08064523eb0f43b4a71b601674026f1b6bb4698f5985718963796f",
+      "canopySha256": "e6eca2a780e7eb18ec0cd2ef8be73db0c7a6c0980bfd6e71b02f2487ffb8d983"
+    },
+    "-5018_1689": {
+      "x": -12846080,
+      "y": 4326400,
+      "buildings": "-5018_1689.buildings.json.gz",
+      "canopy": "-5018_1689.canopy.bin.gz",
+      "buildingSha256": "979bcedda11a0fe5d2f100b2969ff82b02e4828ef0bcc23398b996b4498251be",
+      "canopySha256": "e74799c0dedb938b4bbc7451d477b586d108033688dd4080d6b66a78b7ac3167"
+    },
+    "-5018_1690": {
+      "x": -12846080,
+      "y": 4328960,
+      "buildings": "-5018_1690.buildings.json.gz",
+      "canopy": "-5018_1690.canopy.bin.gz",
+      "buildingSha256": "d9ba191979ca6e0b3de7f49e1b23783eae4941bd856a544a77140c0e60c597f4",
+      "canopySha256": "915e6c536717e7f44b2382a9e45ec53be216d3e929f65fa9953365b99e7d1295"
+    },
+    "-5018_1691": {
+      "x": -12846080,
+      "y": 4331520,
+      "buildings": "-5018_1691.buildings.json.gz",
+      "canopy": "-5018_1691.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "48a90b83dbe9b86ee030ac21194166bbf3fa612f98abb740283245c8e4923bc1"
+    },
+    "-5018_1692": {
+      "x": -12846080,
+      "y": 4334080,
+      "buildings": "-5018_1692.buildings.json.gz",
+      "canopy": "-5018_1692.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "9e8f34a0a7ff7d209f29c5bc29955e1ffbaa66451cc065d948791750f5800788"
+    },
+    "-5018_1693": {
+      "x": -12846080,
+      "y": 4336640,
+      "buildings": "-5018_1693.buildings.json.gz",
+      "canopy": "-5018_1693.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c06e9b7b9526c702ea4dbed175f6651b3cfb17166e343b088565f978cc89e247"
+    },
+    "-5018_1694": {
+      "x": -12846080,
+      "y": 4339200,
+      "buildings": "-5018_1694.buildings.json.gz",
+      "canopy": "-5018_1694.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e4d7cb5f7d343423e47e8f378d032690c0fc91a543ba63a3006c78c33cf804ea"
+    },
+    "-5018_1695": {
+      "x": -12846080,
+      "y": 4341760,
+      "buildings": "-5018_1695.buildings.json.gz",
+      "canopy": "-5018_1695.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "89888635ecec3353d4170433a482ba0c95f3b9c6d14abc757efeca20b3182bd5"
+    },
+    "-5018_1696": {
+      "x": -12846080,
+      "y": 4344320,
+      "buildings": "-5018_1696.buildings.json.gz",
+      "canopy": "-5018_1696.canopy.bin.gz",
+      "buildingSha256": "d7f868058552f329148dfb5222bcb744415efd139cb5eb56bcef87f8180fc0a1",
+      "canopySha256": "152a4ecb2755ab432eb7effdf2b5b23f4df36c462ccf5b03ca6fb4ed9b90b486"
+    },
+    "-5018_1697": {
+      "x": -12846080,
+      "y": 4346880,
+      "buildings": "-5018_1697.buildings.json.gz",
+      "canopy": "-5018_1697.canopy.bin.gz",
+      "buildingSha256": "c39fb42666fa6514fd795ea16b0041acb559118295f3220064020b5b9936d7be",
+      "canopySha256": "848580f76721ddf52366b3e38679ca293b8915021b2f0da775cead1abcb7e89e"
+    },
+    "-5018_1698": {
+      "x": -12846080,
+      "y": 4349440,
+      "buildings": "-5018_1698.buildings.json.gz",
+      "canopy": "-5018_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e02ea65c5c2a0a00af48b85e0a3eb4f74a8ca59e035c53b3ac75b34822d68d41"
+    },
+    "-5018_1699": {
+      "x": -12846080,
+      "y": 4352000,
+      "buildings": "-5018_1699.buildings.json.gz",
+      "canopy": "-5018_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "242fda860a4ccb65c5d84bcb6bc8dd39c312ba48853a6f5e4c801c1e53758598"
+    },
+    "-5018_1700": {
+      "x": -12846080,
+      "y": 4354560,
+      "buildings": "-5018_1700.buildings.json.gz",
+      "canopy": "-5018_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "8e621783485152cf04e81af05d44c4c7f85e834325a4de2ef877dba6eb116233"
+    },
+    "-5018_1701": {
+      "x": -12846080,
+      "y": 4357120,
+      "buildings": "-5018_1701.buildings.json.gz",
+      "canopy": "-5018_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6eb3376cdbe1e9348d3c5c2e9d5f00ce3562363b81bcc19e25e0b65d2e246db1"
+    },
+    "-5017_1681": {
+      "x": -12843520,
+      "y": 4305920,
+      "buildings": "-5017_1681.buildings.json.gz",
+      "canopy": "-5017_1681.canopy.bin.gz",
+      "buildingSha256": "b807f1fc180820f3de46ca316056b407a839a679b52b06fb900190fcd2d3e040",
+      "canopySha256": "dfb3e03bac12bc25fd3028f96096c06ff99bc77ba5f07791d22bf64bab214448"
+    },
+    "-5017_1682": {
+      "x": -12843520,
+      "y": 4308480,
+      "buildings": "-5017_1682.buildings.json.gz",
+      "canopy": "-5017_1682.canopy.bin.gz",
+      "buildingSha256": "07a913e5a5d133f55373012185998194ff972ed89d20e41584ecc254c1ecb538",
+      "canopySha256": "bd6da27c7bf6a3652760a66533f87be4135a742a93514354de9f7229defe8ba9"
+    },
+    "-5017_1683": {
+      "x": -12843520,
+      "y": 4311040,
+      "buildings": "-5017_1683.buildings.json.gz",
+      "canopy": "-5017_1683.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5017_1684": {
+      "x": -12843520,
+      "y": 4313600,
+      "buildings": "-5017_1684.buildings.json.gz",
+      "canopy": "-5017_1684.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "14db32ba0516f8c39630612f67143b22b2613f42f065da50b3d883c696a0011f"
+    },
+    "-5017_1685": {
+      "x": -12843520,
+      "y": 4316160,
+      "buildings": "-5017_1685.buildings.json.gz",
+      "canopy": "-5017_1685.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5017_1686": {
+      "x": -12843520,
+      "y": 4318720,
+      "buildings": "-5017_1686.buildings.json.gz",
+      "canopy": "-5017_1686.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "76e1b5cd8e110e3514d0533572445e1ee00d243d22a5678450ba9fc0625da3d0"
+    },
+    "-5017_1687": {
+      "x": -12843520,
+      "y": 4321280,
+      "buildings": "-5017_1687.buildings.json.gz",
+      "canopy": "-5017_1687.canopy.bin.gz",
+      "buildingSha256": "dbff946e8f6d03c1a5e0834939464d05faee4c1170dec183d00150cfb58bb46b",
+      "canopySha256": "3b96dff210902ff3fa9ab69709ba757ed6cdee862c322ffed63094a3d13b56ed"
+    },
+    "-5017_1688": {
+      "x": -12843520,
+      "y": 4323840,
+      "buildings": "-5017_1688.buildings.json.gz",
+      "canopy": "-5017_1688.canopy.bin.gz",
+      "buildingSha256": "772e0a50bb15ae67fa6a1759aa976bb38e908488e78fb77762e1e7da92e6530f",
+      "canopySha256": "2964df47132d10b09662fba3d7a609a617f2464176a5794f108a7dd3bc82cbf7"
+    },
+    "-5017_1689": {
+      "x": -12843520,
+      "y": 4326400,
+      "buildings": "-5017_1689.buildings.json.gz",
+      "canopy": "-5017_1689.canopy.bin.gz",
+      "buildingSha256": "3e4113b0b15c81c93ac02de9857625667d81aa20108832c3f8f7626c5f2a4759",
+      "canopySha256": "8533f58bbbf2b273d12a641d4452f949f7c6aa7313014fa73f85e653aef26327"
+    },
+    "-5017_1690": {
+      "x": -12843520,
+      "y": 4328960,
+      "buildings": "-5017_1690.buildings.json.gz",
+      "canopy": "-5017_1690.canopy.bin.gz",
+      "buildingSha256": "935d2eca92484d95ff315292c0d6e2d65de23c1b9cac3387f692a75327307edf",
+      "canopySha256": "66c47713a4f3ad29f68d4ffc4f75101fdc07d91ba265e19737afc118db862e74"
+    },
+    "-5017_1691": {
+      "x": -12843520,
+      "y": 4331520,
+      "buildings": "-5017_1691.buildings.json.gz",
+      "canopy": "-5017_1691.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "233237caaaafdeb9b2a82a20e99106f57aab7aab5aa6985b14feb2ba50f6c11e"
+    },
+    "-5017_1692": {
+      "x": -12843520,
+      "y": 4334080,
+      "buildings": "-5017_1692.buildings.json.gz",
+      "canopy": "-5017_1692.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "805862890fd3ffb45bc46ff5bb811d7cfd69a8bc71e1e8c32b7bd17cd7efc461"
+    },
+    "-5017_1693": {
+      "x": -12843520,
+      "y": 4336640,
+      "buildings": "-5017_1693.buildings.json.gz",
+      "canopy": "-5017_1693.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "f689bd289d5aa67bc15ca10d4f6ac82127b515172bf60dcdc88999cd240b5900"
+    },
+    "-5017_1694": {
+      "x": -12843520,
+      "y": 4339200,
+      "buildings": "-5017_1694.buildings.json.gz",
+      "canopy": "-5017_1694.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "3e9f485f4340a8e90b76bf5aa3074e549ed95c27bbe3462eac301a581433429e"
+    },
+    "-5017_1695": {
+      "x": -12843520,
+      "y": 4341760,
+      "buildings": "-5017_1695.buildings.json.gz",
+      "canopy": "-5017_1695.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "465127112446e7996eadeaf44fc087c306f05ec7101ec7c6480303ad166789d8"
+    },
+    "-5017_1696": {
+      "x": -12843520,
+      "y": 4344320,
+      "buildings": "-5017_1696.buildings.json.gz",
+      "canopy": "-5017_1696.canopy.bin.gz",
+      "buildingSha256": "ed391f2bbcfb7a07ff58e6d8810b08c6b81e9edeb10575fdbc9fdeae191e40ec",
+      "canopySha256": "ac0dab9874cd079e6e1ebe37889a10fda3375524361974e7ff1b871df000dde7"
+    },
+    "-5017_1697": {
+      "x": -12843520,
+      "y": 4346880,
+      "buildings": "-5017_1697.buildings.json.gz",
+      "canopy": "-5017_1697.canopy.bin.gz",
+      "buildingSha256": "5ddb38321ce2a5f89fd17934d73e1842b3a44b21ac3abb2a1287617077b2339f",
+      "canopySha256": "4dce6938ce1106f70024417231966543e420f8a094afcafd2c57b827a78fa106"
+    },
+    "-5017_1698": {
+      "x": -12843520,
+      "y": 4349440,
+      "buildings": "-5017_1698.buildings.json.gz",
+      "canopy": "-5017_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "1ea1640378fb7d63fe1d05ca595d96acb15301e9db76e28133a8cd0c667d200f"
+    },
+    "-5017_1699": {
+      "x": -12843520,
+      "y": 4352000,
+      "buildings": "-5017_1699.buildings.json.gz",
+      "canopy": "-5017_1699.canopy.bin.gz",
+      "buildingSha256": "1f69f163f5073ed964240383a5a97bb11d6c7a832ce8d4f8eb37db2248038093",
+      "canopySha256": "6afefe11bc78c90d6b862e00bbc0a1267462f60a21110ea523912a29f9e853e7"
+    },
+    "-5017_1700": {
+      "x": -12843520,
+      "y": 4354560,
+      "buildings": "-5017_1700.buildings.json.gz",
+      "canopy": "-5017_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "f5219040c290b4b4a4b9d4b1af58281f7b332dbc5156332af3df99f451925fe3"
+    },
+    "-5017_1701": {
+      "x": -12843520,
+      "y": 4357120,
+      "buildings": "-5017_1701.buildings.json.gz",
+      "canopy": "-5017_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "820f7600cf2dc8e4c1b4acb70f84ee042f69d2e1f311bb2be23a6b1ccd6c1d5b"
+    },
+    "-5016_1681": {
+      "x": -12840960,
+      "y": 4305920,
+      "buildings": "-5016_1681.buildings.json.gz",
+      "canopy": "-5016_1681.canopy.bin.gz",
+      "buildingSha256": "3977e62064fb09837ed55bf672ae76c5660a49762b32a0c8f5397c1dedfe1116",
+      "canopySha256": "aadf5eecefefc747c407597adbf27248dfd1957598f23768804d27c12501e18a"
+    },
+    "-5016_1682": {
+      "x": -12840960,
+      "y": 4308480,
+      "buildings": "-5016_1682.buildings.json.gz",
+      "canopy": "-5016_1682.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "490277cdce1d333ac8177b44f7e9a37aba28bbae0250525da16cb8e4fe81d3b7"
+    },
+    "-5016_1683": {
+      "x": -12840960,
+      "y": 4311040,
+      "buildings": "-5016_1683.buildings.json.gz",
+      "canopy": "-5016_1683.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "e09f7cbcb5a4964018fd3a2acc3919c0d1384d50a69c02d0f4d1b1fb83750b12"
+    },
+    "-5016_1684": {
+      "x": -12840960,
+      "y": 4313600,
+      "buildings": "-5016_1684.buildings.json.gz",
+      "canopy": "-5016_1684.canopy.bin.gz",
+      "buildingSha256": "65eeb3c7ee3dd45179a51dca98414980df39b8d7f89e940696c0056d4f4a5f2c",
+      "canopySha256": "88ff2f5f0c3f9d50bcc1829e665489a72f4f19b6bb17d0a4d5deed6ad3adf26f"
+    },
+    "-5016_1685": {
+      "x": -12840960,
+      "y": 4316160,
+      "buildings": "-5016_1685.buildings.json.gz",
+      "canopy": "-5016_1685.canopy.bin.gz",
+      "buildingSha256": "d2af29a3820c1255ef06a812138c3d1369ac154d226f95b936848f53c484a5fe",
+      "canopySha256": "93e28b7300cc1339e41841951d09ef9dbada5bfc65b167fe51fccc65838680c7"
+    },
+    "-5016_1686": {
+      "x": -12840960,
+      "y": 4318720,
+      "buildings": "-5016_1686.buildings.json.gz",
+      "canopy": "-5016_1686.canopy.bin.gz",
+      "buildingSha256": "8b01610ccc7f5296de6a1cfc07a39a5d99c39085636aac4493ae807dc7faa8a4",
+      "canopySha256": "7e5b6981f163359abbc6a6e3a18fd5c2a8060364475b2430ae76ace2f111c90d"
+    },
+    "-5016_1687": {
+      "x": -12840960,
+      "y": 4321280,
+      "buildings": "-5016_1687.buildings.json.gz",
+      "canopy": "-5016_1687.canopy.bin.gz",
+      "buildingSha256": "861eb192903a991dc17840548686c3e63ab27b89b899d7f84b981ad7144c3755",
+      "canopySha256": "4cc1e6b4a813330c910066efe3ef91b3cb5fb8e906d0ca04b43334fb07b0a589"
+    },
+    "-5016_1688": {
+      "x": -12840960,
+      "y": 4323840,
+      "buildings": "-5016_1688.buildings.json.gz",
+      "canopy": "-5016_1688.canopy.bin.gz",
+      "buildingSha256": "b99557195ef85c3c6a14526f26a4d1138a256075ac45d4ab15b491da602a808d",
+      "canopySha256": "1e19b08ee936029e0b48f51f3d022fcd792e1f4fad41a7169314094aa162d05b"
+    },
+    "-5016_1689": {
+      "x": -12840960,
+      "y": 4326400,
+      "buildings": "-5016_1689.buildings.json.gz",
+      "canopy": "-5016_1689.canopy.bin.gz",
+      "buildingSha256": "2eae111ede8410bc0e5dff3097655621492d58e6088ceaa11b31be145992f570",
+      "canopySha256": "6fa45a4beb02fb34d3e3397e263006cc99f8ca4d344aba98f0f9237ffe1cafe8"
+    },
+    "-5016_1690": {
+      "x": -12840960,
+      "y": 4328960,
+      "buildings": "-5016_1690.buildings.json.gz",
+      "canopy": "-5016_1690.canopy.bin.gz",
+      "buildingSha256": "39fda77577fb41e8ec3cdffc82318f69ab2b641671ba9a982ea97571bae911a7",
+      "canopySha256": "700c2aa5a25d5fc2e60fb7e04904fb3ebaacc7f1e6f2de8aad22245038c46cf4"
+    },
+    "-5016_1691": {
+      "x": -12840960,
+      "y": 4331520,
+      "buildings": "-5016_1691.buildings.json.gz",
+      "canopy": "-5016_1691.canopy.bin.gz",
+      "buildingSha256": "379914f159e141e326cf28cd4cec0bae40021e93ebe2f047b0f997870fb36954",
+      "canopySha256": "062157a8e7902ee274aa4ee9d390096a4a3be9a4a0c29209ade1594441f7e575"
+    },
+    "-5016_1692": {
+      "x": -12840960,
+      "y": 4334080,
+      "buildings": "-5016_1692.buildings.json.gz",
+      "canopy": "-5016_1692.canopy.bin.gz",
+      "buildingSha256": "d823e228e494cd68b07857806d0144c4d39de51d7e442cc1d5bdaf9e7ad00132",
+      "canopySha256": "775c15e2febd0f7b2af5e278ae8cc73fb2351ecc0818792533c477f26b6a0bdd"
+    },
+    "-5016_1693": {
+      "x": -12840960,
+      "y": 4336640,
+      "buildings": "-5016_1693.buildings.json.gz",
+      "canopy": "-5016_1693.canopy.bin.gz",
+      "buildingSha256": "060408564af207121bd4ba752f439ec8c5ac6e25f2e5af570430f998413053df",
+      "canopySha256": "49cf9ec7d1fcbf506ba38ba5a5d0f29386bdb6a8ad21fdff24879201dd7ebd64"
+    },
+    "-5016_1694": {
+      "x": -12840960,
+      "y": 4339200,
+      "buildings": "-5016_1694.buildings.json.gz",
+      "canopy": "-5016_1694.canopy.bin.gz",
+      "buildingSha256": "b8057962100eae431e35f57e17d88c43f97214bd7d14e72c2f80579b8c0dfc58",
+      "canopySha256": "600ef637a033b662ec8c58eadb8a3579e507f3d5daec1529383d83f59b0d3416"
+    },
+    "-5016_1695": {
+      "x": -12840960,
+      "y": 4341760,
+      "buildings": "-5016_1695.buildings.json.gz",
+      "canopy": "-5016_1695.canopy.bin.gz",
+      "buildingSha256": "d178580dbac845e352443bb2c66c0eea9cd9bf930060dc21d98f2f2c26f0e0b4",
+      "canopySha256": "82bc0102a1ddc53dbdcac9faa58a7391318586ab1fe21db80c226cee8f274eff"
+    },
+    "-5016_1696": {
+      "x": -12840960,
+      "y": 4344320,
+      "buildings": "-5016_1696.buildings.json.gz",
+      "canopy": "-5016_1696.canopy.bin.gz",
+      "buildingSha256": "daa8f4f971b252c3ebc0090d3067ead6b7e006aa955eec85b1140ee4e0617b0e",
+      "canopySha256": "b66a54ea5c7ac8a46ee1ff271b7cf91b22bffdb88a5a6c61313b5a41af39fafc"
+    },
+    "-5016_1697": {
+      "x": -12840960,
+      "y": 4346880,
+      "buildings": "-5016_1697.buildings.json.gz",
+      "canopy": "-5016_1697.canopy.bin.gz",
+      "buildingSha256": "519db3f7bd19165e161773400bbd4cb6ee458f25a4d8629028a6e4db2820e486",
+      "canopySha256": "9a66cd77f87e8d4d673a1a7105752f34dcc433834d90b50352375f9260d69fa3"
+    },
+    "-5016_1698": {
+      "x": -12840960,
+      "y": 4349440,
+      "buildings": "-5016_1698.buildings.json.gz",
+      "canopy": "-5016_1698.canopy.bin.gz",
+      "buildingSha256": "216f8ea4aaeb53e1d4c9d511202114dd49f05d50e657055f01c31f45b6748a37",
+      "canopySha256": "f0d11d92f026130e6f82c4149679ff0e85952de4ff74fb534796b9a684a08b4d"
+    },
+    "-5016_1699": {
+      "x": -12840960,
+      "y": 4352000,
+      "buildings": "-5016_1699.buildings.json.gz",
+      "canopy": "-5016_1699.canopy.bin.gz",
+      "buildingSha256": "41b10922d4bcb373680d0d98b766083d53bae34a4c35850d51bb8a79069ae325",
+      "canopySha256": "5b2f191e31b6e973480d68ca8d0767dd89fa01c1de488a126f36f54fb9161938"
+    },
+    "-5016_1700": {
+      "x": -12840960,
+      "y": 4354560,
+      "buildings": "-5016_1700.buildings.json.gz",
+      "canopy": "-5016_1700.canopy.bin.gz",
+      "buildingSha256": "9c2ecc785ccb85d611349fc0da0067ae5ed0325c144b634f8e1ddb094e38803b",
+      "canopySha256": "709f0fd5949e2c7959b059638cce664c58c6b9647cee961c76a4475f923d53c5"
+    },
+    "-5016_1701": {
+      "x": -12840960,
+      "y": 4357120,
+      "buildings": "-5016_1701.buildings.json.gz",
+      "canopy": "-5016_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c89de93b5b512bffc41f1b52f8d820ac6c8474127bc6c3a881fc09cb151099df"
+    },
+    "-5015_1681": {
+      "x": -12838400,
+      "y": 4305920,
+      "buildings": "-5015_1681.buildings.json.gz",
+      "canopy": "-5015_1681.canopy.bin.gz",
+      "buildingSha256": "b00c2d5dbfe392cd3835de109fc8667f29b6404f3c8ef8d8f9767d4831708ad8",
+      "canopySha256": "8eebf3db58ea764d75a17a3b2430194efd1e0e4d2e9e9e890fbe348762be124a"
+    },
+    "-5015_1682": {
+      "x": -12838400,
+      "y": 4308480,
+      "buildings": "-5015_1682.buildings.json.gz",
+      "canopy": "-5015_1682.canopy.bin.gz",
+      "buildingSha256": "046c66021ec77d3d3ca045cf3d3198d474de325566b003b1ce7ef43b08d594e8",
+      "canopySha256": "4cf3aa5bbddbf6176dc8127b5badb7c492301f78759b7bfae89c6de8fb55a4d2"
+    },
+    "-5015_1683": {
+      "x": -12838400,
+      "y": 4311040,
+      "buildings": "-5015_1683.buildings.json.gz",
+      "canopy": "-5015_1683.canopy.bin.gz",
+      "buildingSha256": "189682dc81fdb95fc846723036d8ee7d86f59b8858a18d4bc42b53924625572b",
+      "canopySha256": "8a03267516c01be0da84eb6ae568df75aed867d6256218f40c9a138ba34d207e"
+    },
+    "-5015_1684": {
+      "x": -12838400,
+      "y": 4313600,
+      "buildings": "-5015_1684.buildings.json.gz",
+      "canopy": "-5015_1684.canopy.bin.gz",
+      "buildingSha256": "c76fbd17ddcd980870e9483399a9f7a98bf5b72ab812565b0ef6a8b46069122c",
+      "canopySha256": "5fd5a8d38d957c41ee49bbc13dc35c10e0d1ea9a4ef398f0e34ce41c2c0f67d5"
+    },
+    "-5015_1685": {
+      "x": -12838400,
+      "y": 4316160,
+      "buildings": "-5015_1685.buildings.json.gz",
+      "canopy": "-5015_1685.canopy.bin.gz",
+      "buildingSha256": "1f153ede471790738d15d2f81183c1edbfccd02a7ac031442cf3c68fcc94e864",
+      "canopySha256": "64ee597c83999a4d96540d218b1327344363b81b6bd077dce3cedf099242235b"
+    },
+    "-5015_1686": {
+      "x": -12838400,
+      "y": 4318720,
+      "buildings": "-5015_1686.buildings.json.gz",
+      "canopy": "-5015_1686.canopy.bin.gz",
+      "buildingSha256": "df721bc0668a3b6c8922e42ec475d946c2a9e4d01b9174fa160c09aa90a44b68",
+      "canopySha256": "385b8c668eff30728e74b91122db8ef67c8c59f36c6a69df3ff9d0a82dd623df"
+    },
+    "-5015_1687": {
+      "x": -12838400,
+      "y": 4321280,
+      "buildings": "-5015_1687.buildings.json.gz",
+      "canopy": "-5015_1687.canopy.bin.gz",
+      "buildingSha256": "067a6739b31226f51137e646dfa3bf6705efbd45a347e1c868dbf49714e919ef",
+      "canopySha256": "25d02f11758f91c9a9a0faf5a4fc94a8dcd37bc2c625b84ec0ae0127b65876f5"
+    },
+    "-5015_1688": {
+      "x": -12838400,
+      "y": 4323840,
+      "buildings": "-5015_1688.buildings.json.gz",
+      "canopy": "-5015_1688.canopy.bin.gz",
+      "buildingSha256": "e434e2c22e9371d2d602b0129f76e4e33dc464a5b1ad8f9ba277b849d32bc576",
+      "canopySha256": "7e264ab489a0d9cdd331f0cb7db335660c20917c0832b8b41ffa0c75f8b267ef"
+    },
+    "-5015_1689": {
+      "x": -12838400,
+      "y": 4326400,
+      "buildings": "-5015_1689.buildings.json.gz",
+      "canopy": "-5015_1689.canopy.bin.gz",
+      "buildingSha256": "6f3057ca29d3d8c8789f64679229b1a885fcf17ad1f6b5f51344cedb54f6dc0f",
+      "canopySha256": "9dbefc866fede28de5b20c396b77783bc8840fa8cdbdd9d63024922152d5b4e4"
+    },
+    "-5015_1690": {
+      "x": -12838400,
+      "y": 4328960,
+      "buildings": "-5015_1690.buildings.json.gz",
+      "canopy": "-5015_1690.canopy.bin.gz",
+      "buildingSha256": "39ca2fd9d46824fa611d9e22fe6ba78fa3636b8cf99532f845236d97d85b2fb3",
+      "canopySha256": "dbca4f1e51abdd573878dfd94528e189b6f93362821fa4edfd660616e380f0c0"
+    },
+    "-5015_1691": {
+      "x": -12838400,
+      "y": 4331520,
+      "buildings": "-5015_1691.buildings.json.gz",
+      "canopy": "-5015_1691.canopy.bin.gz",
+      "buildingSha256": "835bb5b75bac03632a93737f541c4ff6bc31edd5a43fc2e797874e2b13780adb",
+      "canopySha256": "827a852c3a23d2e5558a6e2bb5022810126aa4ad5956cf4afeceea0c7e01dd77"
+    },
+    "-5015_1692": {
+      "x": -12838400,
+      "y": 4334080,
+      "buildings": "-5015_1692.buildings.json.gz",
+      "canopy": "-5015_1692.canopy.bin.gz",
+      "buildingSha256": "5f7c821cd2ff46476b4b441bb6de7f87c81f6fa7ceb9779328c58d9fb719aec0",
+      "canopySha256": "202264f5a12afbcfff8883701a7ac5a07523a7a46e0c385ef286e44cda36293e"
+    },
+    "-5015_1693": {
+      "x": -12838400,
+      "y": 4336640,
+      "buildings": "-5015_1693.buildings.json.gz",
+      "canopy": "-5015_1693.canopy.bin.gz",
+      "buildingSha256": "13b56d60aaa03f7a79bafd3d5fba3abc67f2c6d90a9396d8f6c43389caa3eb25",
+      "canopySha256": "21bc8b0f9581d785ec704539acfd9def5ea4736304427fef1455e8635c992f0e"
+    },
+    "-5015_1694": {
+      "x": -12838400,
+      "y": 4339200,
+      "buildings": "-5015_1694.buildings.json.gz",
+      "canopy": "-5015_1694.canopy.bin.gz",
+      "buildingSha256": "5cf5e48728c5866ee68b5ae1c299f066cefbd5451c7e05d0254957e00ed7972a",
+      "canopySha256": "7cc2999b90cce449817355740525b5472ccde15e6e86addb71386360b3d74f95"
+    },
+    "-5015_1695": {
+      "x": -12838400,
+      "y": 4341760,
+      "buildings": "-5015_1695.buildings.json.gz",
+      "canopy": "-5015_1695.canopy.bin.gz",
+      "buildingSha256": "3ce4cf112b626853639cd1583e4fde3130e4b360d326e06b63712919b0aa2244",
+      "canopySha256": "989b927907880f01b900904261612f3a86fd1c2ed87021278741c7032c2fbb12"
+    },
+    "-5015_1696": {
+      "x": -12838400,
+      "y": 4344320,
+      "buildings": "-5015_1696.buildings.json.gz",
+      "canopy": "-5015_1696.canopy.bin.gz",
+      "buildingSha256": "b9287ac75a68a33f97f049f7faf5348c09e74e68652d908b37451a1ff9573e99",
+      "canopySha256": "ff7032c5dc3c1aed525f0fd26d01f6cd3e5ff6b9a2c54a7fc57944dc0e7f3113"
+    },
+    "-5015_1697": {
+      "x": -12838400,
+      "y": 4346880,
+      "buildings": "-5015_1697.buildings.json.gz",
+      "canopy": "-5015_1697.canopy.bin.gz",
+      "buildingSha256": "a4f94787bc1c4a2a70150082028352800634c668ec89351e168b6e84bc309ac5",
+      "canopySha256": "26717b552da939f34e80fe0252daff968d16e336d09e1008a47b9ba7566c7ce7"
+    },
+    "-5015_1698": {
+      "x": -12838400,
+      "y": 4349440,
+      "buildings": "-5015_1698.buildings.json.gz",
+      "canopy": "-5015_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "05d1141f1b86a86f04734868d8c64f689869ae207b97942d9e9c23ca2de73928"
+    },
+    "-5015_1699": {
+      "x": -12838400,
+      "y": 4352000,
+      "buildings": "-5015_1699.buildings.json.gz",
+      "canopy": "-5015_1699.canopy.bin.gz",
+      "buildingSha256": "09c5d409dc0069f06b93fe278a0062872b271b9486450b096d1b7a003e0c0337",
+      "canopySha256": "053b5686a9de7aca7da712f08772a581944d7caf38fba98e4b9940f65f206f69"
+    },
+    "-5015_1700": {
+      "x": -12838400,
+      "y": 4354560,
+      "buildings": "-5015_1700.buildings.json.gz",
+      "canopy": "-5015_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "326b6a7401efee1094af0b73858f21ba47c473c393ce1a554852f802bf8fe557"
+    },
+    "-5015_1701": {
+      "x": -12838400,
+      "y": 4357120,
+      "buildings": "-5015_1701.buildings.json.gz",
+      "canopy": "-5015_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c6c1f280ad69b8046ef758218387ed5ad2d4968cf1d405130687fc161603ee8a"
+    },
+    "-5014_1681": {
+      "x": -12835840,
+      "y": 4305920,
+      "buildings": "-5014_1681.buildings.json.gz",
+      "canopy": "-5014_1681.canopy.bin.gz",
+      "buildingSha256": "b7f05aff141226d009ea55caa5d452ebdc9e4965ce010c1b0cce1351be9e0527",
+      "canopySha256": "a2dfbb6111561ecfc63a499254f537c0bcf4a7b080c4581dbb8c5484ea2e631f"
+    },
+    "-5014_1682": {
+      "x": -12835840,
+      "y": 4308480,
+      "buildings": "-5014_1682.buildings.json.gz",
+      "canopy": "-5014_1682.canopy.bin.gz",
+      "buildingSha256": "69f79cf3999bb3ecc4d07010aa3907269e458163fb8b0045f70c6c53d6c02f8f",
+      "canopySha256": "0b7c28b09b1f543f40cb17f9b93a86ffd6799c26ad8f64e3d07a379b1cf57c94"
+    },
+    "-5014_1683": {
+      "x": -12835840,
+      "y": 4311040,
+      "buildings": "-5014_1683.buildings.json.gz",
+      "canopy": "-5014_1683.canopy.bin.gz",
+      "buildingSha256": "ef86991298f5832b5f80ba7054371aee09d2371dff1ccbbb920fcc016b95f499",
+      "canopySha256": "1d2509b018d8b84c4a44a2ab3a420b6596252afce00c7d68a11f5cecc4503c50"
+    },
+    "-5014_1684": {
+      "x": -12835840,
+      "y": 4313600,
+      "buildings": "-5014_1684.buildings.json.gz",
+      "canopy": "-5014_1684.canopy.bin.gz",
+      "buildingSha256": "843092aefdb24e591bd2595eadc3e2e2c1db2c9ecc59be3f1c49085a65678d0d",
+      "canopySha256": "6f60c899674feaad3650273ad2e7c077cb6b37476562e5777e5dd89dd090a4fa"
+    },
+    "-5014_1685": {
+      "x": -12835840,
+      "y": 4316160,
+      "buildings": "-5014_1685.buildings.json.gz",
+      "canopy": "-5014_1685.canopy.bin.gz",
+      "buildingSha256": "ea4139b647fb825bd92dd767bef3eeca505c9213c72bec22af1fda1b06f9008b",
+      "canopySha256": "19865c7c7394a1a5356330b38781ac96e49d95d99ad2faf79622f1627c725be2"
+    },
+    "-5014_1686": {
+      "x": -12835840,
+      "y": 4318720,
+      "buildings": "-5014_1686.buildings.json.gz",
+      "canopy": "-5014_1686.canopy.bin.gz",
+      "buildingSha256": "eb9a702ce6bd5fee4f1db38f5019bd138b0cd63cc3a4f9ace868cbc6fd9e76f9",
+      "canopySha256": "ac0b634bfae4cb2b383cb2d53a3d3b9c24942a50ad97a672d3cf26ca840ed0b2"
+    },
+    "-5014_1687": {
+      "x": -12835840,
+      "y": 4321280,
+      "buildings": "-5014_1687.buildings.json.gz",
+      "canopy": "-5014_1687.canopy.bin.gz",
+      "buildingSha256": "05764d2c97ab5d98288a5ed8dab7d3e21211c5c3209ec1ef18e249393599e904",
+      "canopySha256": "28a77b1431936939c64fbf6ee22f41d8acdd8886a62a3b5f9ab5297df0271993"
+    },
+    "-5014_1688": {
+      "x": -12835840,
+      "y": 4323840,
+      "buildings": "-5014_1688.buildings.json.gz",
+      "canopy": "-5014_1688.canopy.bin.gz",
+      "buildingSha256": "c5a74e5699ff19a8abe9085356468ba6dbab177b92449f1aa8cc39a8d2d3259f",
+      "canopySha256": "859e8dcc2e4ce71c41d7b623da2110579ddf75a32e2ed74e9cfe3696f20592c9"
+    },
+    "-5014_1689": {
+      "x": -12835840,
+      "y": 4326400,
+      "buildings": "-5014_1689.buildings.json.gz",
+      "canopy": "-5014_1689.canopy.bin.gz",
+      "buildingSha256": "833d5b89eb2e46c6c156e72d2955e8775c23954a3bd0e62daca0f8a9edeb1623",
+      "canopySha256": "55e2976de6598003d950d2a19c576322345e97971400f8b17a96a3b3f402da0a"
+    },
+    "-5014_1690": {
+      "x": -12835840,
+      "y": 4328960,
+      "buildings": "-5014_1690.buildings.json.gz",
+      "canopy": "-5014_1690.canopy.bin.gz",
+      "buildingSha256": "9b032f709dc194ac43149e1ee73b9c3dfbaa0e07ba32b3e6169e2978fbf5f85e",
+      "canopySha256": "802af0b8203434f0c121e664685210db7e0e9d12c91cca71be9d503c1f084bb4"
+    },
+    "-5014_1691": {
+      "x": -12835840,
+      "y": 4331520,
+      "buildings": "-5014_1691.buildings.json.gz",
+      "canopy": "-5014_1691.canopy.bin.gz",
+      "buildingSha256": "0a0c1d9e2eccae66184fd141add6929f248525a651b655b0a60153f90b3ff12b",
+      "canopySha256": "79d657463dffc32ab8f012aa4a942f6c490d45e0eb81047b9bed1c95f5170a1f"
+    },
+    "-5014_1692": {
+      "x": -12835840,
+      "y": 4334080,
+      "buildings": "-5014_1692.buildings.json.gz",
+      "canopy": "-5014_1692.canopy.bin.gz",
+      "buildingSha256": "31af7dcef0f4586998c3155101d95ef5262be9c3a0565d2fae7afe54f2744397",
+      "canopySha256": "d649f947d6e7b6eb321908859f04d94aca7ab56e07389ef28537a6fae0db0f27"
+    },
+    "-5014_1693": {
+      "x": -12835840,
+      "y": 4336640,
+      "buildings": "-5014_1693.buildings.json.gz",
+      "canopy": "-5014_1693.canopy.bin.gz",
+      "buildingSha256": "e88b6693e4601abe12e5dc7bd9c0886c526b384dd8a4f434ce3d690f02a00632",
+      "canopySha256": "49d0dd43730e490c8f5805d4c7b0216f3ca5e6e07adde77d51e465c1cd430931"
+    },
+    "-5014_1694": {
+      "x": -12835840,
+      "y": 4339200,
+      "buildings": "-5014_1694.buildings.json.gz",
+      "canopy": "-5014_1694.canopy.bin.gz",
+      "buildingSha256": "5cf301dddf31738113ef886c81f1e76db84a713481290d55c9683dbaa43cbd1f",
+      "canopySha256": "58831bdab77c5cad5f020de1248a70c0bbeb1de1ebf783deaa384aaf08da9b41"
+    },
+    "-5014_1695": {
+      "x": -12835840,
+      "y": 4341760,
+      "buildings": "-5014_1695.buildings.json.gz",
+      "canopy": "-5014_1695.canopy.bin.gz",
+      "buildingSha256": "e9208fc46a1d52d8e92f595221b2d85df9d8f048dd8e33efa37fdf80338e013a",
+      "canopySha256": "1027e99d8c86573acdd0e5d4167dd445518e5d0164bdf9773673140577e1de9e"
+    },
+    "-5014_1696": {
+      "x": -12835840,
+      "y": 4344320,
+      "buildings": "-5014_1696.buildings.json.gz",
+      "canopy": "-5014_1696.canopy.bin.gz",
+      "buildingSha256": "5bc1f93bcc0b164d42e17e0458bbb71fe4f00e25ffacda3982c9a226f272a0fa",
+      "canopySha256": "d1473128abadd7024a56c79e9e703f09ed1b6eb0a65fe9add2430518e3bfb649"
+    },
+    "-5014_1697": {
+      "x": -12835840,
+      "y": 4346880,
+      "buildings": "-5014_1697.buildings.json.gz",
+      "canopy": "-5014_1697.canopy.bin.gz",
+      "buildingSha256": "eb16383a21c006b185a5bc58bb1e922c85a3c5dd9b8d881e295bc81d2e2c3624",
+      "canopySha256": "3293823386aa859a0eeed842643528af041020a4986255053dda237d7151941c"
+    },
+    "-5014_1698": {
+      "x": -12835840,
+      "y": 4349440,
+      "buildings": "-5014_1698.buildings.json.gz",
+      "canopy": "-5014_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "72ec3886ca2a5089a38b8bf959a80dedc7d3afd736c23fe352a2c9f06b28ce44"
+    },
+    "-5014_1699": {
+      "x": -12835840,
+      "y": 4352000,
+      "buildings": "-5014_1699.buildings.json.gz",
+      "canopy": "-5014_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "3f737a5c800f771a4d17247451d174b3641764b7b8d8a06fa4450df4a26ea1e3"
+    },
+    "-5014_1700": {
+      "x": -12835840,
+      "y": 4354560,
+      "buildings": "-5014_1700.buildings.json.gz",
+      "canopy": "-5014_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5014_1701": {
+      "x": -12835840,
+      "y": 4357120,
+      "buildings": "-5014_1701.buildings.json.gz",
+      "canopy": "-5014_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "4db72a7b212d7ee41a1c099568fe719439eb281f77f22bdfef951f01ea6054f9"
+    },
+    "-5013_1681": {
+      "x": -12833280,
+      "y": 4305920,
+      "buildings": "-5013_1681.buildings.json.gz",
+      "canopy": "-5013_1681.canopy.bin.gz",
+      "buildingSha256": "bb0d254916eb4e05fec546483f8046db0b192145a3f9dd7ad4ecb2b632ed81cc",
+      "canopySha256": "03979a671f7e2666cf65765e663fd2026b77c7d4d0710018700ce311b1e38e8e"
+    },
+    "-5013_1682": {
+      "x": -12833280,
+      "y": 4308480,
+      "buildings": "-5013_1682.buildings.json.gz",
+      "canopy": "-5013_1682.canopy.bin.gz",
+      "buildingSha256": "cd68b3e623f3cc8fa945baf8e762805474e3a9af1b2025069ce625e660ed7291",
+      "canopySha256": "94f6a098812f92ee80879b59674a4329d12b8dcd14b4a7aaeed7c85e2396b9f8"
+    },
+    "-5013_1683": {
+      "x": -12833280,
+      "y": 4311040,
+      "buildings": "-5013_1683.buildings.json.gz",
+      "canopy": "-5013_1683.canopy.bin.gz",
+      "buildingSha256": "06aeeece618ac662736e846abb7d3adafeb8a772e69eba6f31b5e107d8308f4d",
+      "canopySha256": "cec4531761e1be37fcd1f3e49689bfca92cffe25623d9f9f399018ed89b1a3d3"
+    },
+    "-5013_1684": {
+      "x": -12833280,
+      "y": 4313600,
+      "buildings": "-5013_1684.buildings.json.gz",
+      "canopy": "-5013_1684.canopy.bin.gz",
+      "buildingSha256": "e44004c2ca132b4a0b05e6a3ab7af7f707bbe0fc690a334fb18d4f8a98fd0296",
+      "canopySha256": "b821387410be426a9d32c12f013e1baa37d9448bd33af03d0f510ec7e5e03cd2"
+    },
+    "-5013_1685": {
+      "x": -12833280,
+      "y": 4316160,
+      "buildings": "-5013_1685.buildings.json.gz",
+      "canopy": "-5013_1685.canopy.bin.gz",
+      "buildingSha256": "8a5de4076593ad117f88d0cdf7c5c246ec9ca3d0075dea72c5c580f87b009a6c",
+      "canopySha256": "d1dc75881546516484f9786b0486bdc8873fb9ffb032874a64c78371d6c3befa"
+    },
+    "-5013_1686": {
+      "x": -12833280,
+      "y": 4318720,
+      "buildings": "-5013_1686.buildings.json.gz",
+      "canopy": "-5013_1686.canopy.bin.gz",
+      "buildingSha256": "2401cbb0f68351056cf4940cfe69f0f98674ee173129e1118382a99a1df93c4b",
+      "canopySha256": "af29a6dc70ac76c6001ca0f915644cb3749645b590e92aaff1e8a1abc2600ee7"
+    },
+    "-5013_1687": {
+      "x": -12833280,
+      "y": 4321280,
+      "buildings": "-5013_1687.buildings.json.gz",
+      "canopy": "-5013_1687.canopy.bin.gz",
+      "buildingSha256": "cd94c83fe7098383644008d0c32dbe93a97501642b43aaf114a6896028a03156",
+      "canopySha256": "83da8ddc2fe6812ca881e0944508e7c93363aea933ecbb0d801774d166fe7809"
+    },
+    "-5013_1688": {
+      "x": -12833280,
+      "y": 4323840,
+      "buildings": "-5013_1688.buildings.json.gz",
+      "canopy": "-5013_1688.canopy.bin.gz",
+      "buildingSha256": "d3638090ae0bab9c4048818d2eda5cc1278e6817233d7f2226ee1c5966e6816c",
+      "canopySha256": "7f9fba48cb75f17cdd7f6d1188132c4668aede5263482ca8d2499648c734df19"
+    },
+    "-5013_1689": {
+      "x": -12833280,
+      "y": 4326400,
+      "buildings": "-5013_1689.buildings.json.gz",
+      "canopy": "-5013_1689.canopy.bin.gz",
+      "buildingSha256": "abd13e6203fb475ef9a8961bb312c376b400719a454dc352bc5d1aba97ffe2e6",
+      "canopySha256": "27b97b02199a8bd45625d70d8e87dccb46909b5890446dc03bb0172f0ff20101"
+    },
+    "-5013_1690": {
+      "x": -12833280,
+      "y": 4328960,
+      "buildings": "-5013_1690.buildings.json.gz",
+      "canopy": "-5013_1690.canopy.bin.gz",
+      "buildingSha256": "e4828a4057a4c8a672e0154cafb909c0c4ef71ba24fdc9d282e30378a8cf086c",
+      "canopySha256": "360fa93f06051e06966c18f5662be641c164c00c0a347513cf18639d3078a049"
+    },
+    "-5013_1691": {
+      "x": -12833280,
+      "y": 4331520,
+      "buildings": "-5013_1691.buildings.json.gz",
+      "canopy": "-5013_1691.canopy.bin.gz",
+      "buildingSha256": "542f032da3259dc38dbbd6c3cf05912d6dda89f865aa6617b68b34efe0d45811",
+      "canopySha256": "4ee6f242f344aa70c6853759f19563a481ef86041bfa7a13aedfea4561af04b1"
+    },
+    "-5013_1692": {
+      "x": -12833280,
+      "y": 4334080,
+      "buildings": "-5013_1692.buildings.json.gz",
+      "canopy": "-5013_1692.canopy.bin.gz",
+      "buildingSha256": "1eb70ae31d4772432d465885f342aa1f56b061d08d78f46ffcead97921f60534",
+      "canopySha256": "43ce904e303085ce28d5cdaa42496708bd22d7f68e2fa739cc602f3bb3abb661"
+    },
+    "-5013_1693": {
+      "x": -12833280,
+      "y": 4336640,
+      "buildings": "-5013_1693.buildings.json.gz",
+      "canopy": "-5013_1693.canopy.bin.gz",
+      "buildingSha256": "a2bf86b09aafc52c5cc552e44a810d55dffdd4cb04dc8c930cac6dea3d9bd640",
+      "canopySha256": "d17f603a47804b71e520e58c4d3137e2761e0682d06e8ba5fe25ab0a610a78bc"
+    },
+    "-5013_1694": {
+      "x": -12833280,
+      "y": 4339200,
+      "buildings": "-5013_1694.buildings.json.gz",
+      "canopy": "-5013_1694.canopy.bin.gz",
+      "buildingSha256": "f4063767517a233ca7cf2e95c831978ab2715289ca0aa60f33891f92480dfc28",
+      "canopySha256": "4cb43b2f4ce204e152c9d314e8efd10e42786b29e1b64bc6cfd84ef9f48879df"
+    },
+    "-5013_1695": {
+      "x": -12833280,
+      "y": 4341760,
+      "buildings": "-5013_1695.buildings.json.gz",
+      "canopy": "-5013_1695.canopy.bin.gz",
+      "buildingSha256": "b9f27449193629eeb9fe9622176efa083baf3759db048a90e47b923f683de955",
+      "canopySha256": "84f2872f7ea1ac50477fea95acbaa4f46889eac9b1839e114a7d8036d84cd45d"
+    },
+    "-5013_1696": {
+      "x": -12833280,
+      "y": 4344320,
+      "buildings": "-5013_1696.buildings.json.gz",
+      "canopy": "-5013_1696.canopy.bin.gz",
+      "buildingSha256": "8145868147bcfedaaccdb29ca387d4f044268cc513e1bd5d0a37a653092faad8",
+      "canopySha256": "e5df69e32c3cb3ec66b70c2469ecc0fff2c7e63fd2b4af620f03d01bd9ff9865"
+    },
+    "-5013_1697": {
+      "x": -12833280,
+      "y": 4346880,
+      "buildings": "-5013_1697.buildings.json.gz",
+      "canopy": "-5013_1697.canopy.bin.gz",
+      "buildingSha256": "a8778a6798881954043e0c4a7efd3f56ba4a0513e8d37e6521cdec18592ac0fa",
+      "canopySha256": "43f28cbe0b62217508a940e0cb0b073ac144dcabe6ef1d7cb45b29e72f6870ce"
+    },
+    "-5013_1698": {
+      "x": -12833280,
+      "y": 4349440,
+      "buildings": "-5013_1698.buildings.json.gz",
+      "canopy": "-5013_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "371b551cde59812911d9765a5f6d01d4d1ee6e2e77ed20f55018a5497e0508b5"
+    },
+    "-5013_1699": {
+      "x": -12833280,
+      "y": 4352000,
+      "buildings": "-5013_1699.buildings.json.gz",
+      "canopy": "-5013_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5013_1700": {
+      "x": -12833280,
+      "y": 4354560,
+      "buildings": "-5013_1700.buildings.json.gz",
+      "canopy": "-5013_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5013_1701": {
+      "x": -12833280,
+      "y": 4357120,
+      "buildings": "-5013_1701.buildings.json.gz",
+      "canopy": "-5013_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "496d05494978d1377954b9de0b33e8fa5ca7ad4e735d6e6f0228e62bdb260825"
+    },
+    "-5012_1681": {
+      "x": -12830720,
+      "y": 4305920,
+      "buildings": "-5012_1681.buildings.json.gz",
+      "canopy": "-5012_1681.canopy.bin.gz",
+      "buildingSha256": "a4ad0ebcb78cb163e329b0484e14ac6d6e4d8dffb31dc0f70084c8adcc2337cc",
+      "canopySha256": "f2b8f990cf76593199ad838fbbe0988b431b52513c2966efe1d486b01bcd85e8"
+    },
+    "-5012_1682": {
+      "x": -12830720,
+      "y": 4308480,
+      "buildings": "-5012_1682.buildings.json.gz",
+      "canopy": "-5012_1682.canopy.bin.gz",
+      "buildingSha256": "0855690775b732f433745fa785bb645a569aeb7618a1e84f19a201429d6e2d10",
+      "canopySha256": "bf3e013d42354010d5b32364cc62dd2ba4a6669e80933d0a36e31286d912032c"
+    },
+    "-5012_1683": {
+      "x": -12830720,
+      "y": 4311040,
+      "buildings": "-5012_1683.buildings.json.gz",
+      "canopy": "-5012_1683.canopy.bin.gz",
+      "buildingSha256": "5699f218194de21bcfdc052980b20919707acaf30a8c286a688ca61fc3c3ac76",
+      "canopySha256": "9255b0a40d08d9b49ab3e29fc9f006b01b92cf52d2f938dcff0289cceac0c6c8"
+    },
+    "-5012_1684": {
+      "x": -12830720,
+      "y": 4313600,
+      "buildings": "-5012_1684.buildings.json.gz",
+      "canopy": "-5012_1684.canopy.bin.gz",
+      "buildingSha256": "89cf747078bf636d453f7c6204998f7c9fb37299c00d52e8a2419532433b13a4",
+      "canopySha256": "686abb225ac7147e60dde2388635d2a5e2e6af2e5fa79c50a9a9e2651448e474"
+    },
+    "-5012_1685": {
+      "x": -12830720,
+      "y": 4316160,
+      "buildings": "-5012_1685.buildings.json.gz",
+      "canopy": "-5012_1685.canopy.bin.gz",
+      "buildingSha256": "9a8a19383699b1fe5dc6bbb28493c1f0ecee14cc93cd41a8581138bab5b95d76",
+      "canopySha256": "9b7d680fa0ade83adb4733029799820aaf70f097117cd51017a1e8f57dce961a"
+    },
+    "-5012_1686": {
+      "x": -12830720,
+      "y": 4318720,
+      "buildings": "-5012_1686.buildings.json.gz",
+      "canopy": "-5012_1686.canopy.bin.gz",
+      "buildingSha256": "c0d3a608b5c1cf6beb045f86a17da0c28994d74b37b01334d6ad90fafff127ec",
+      "canopySha256": "d5f06bba931a53476dc78ff1a83956cfdf044908dac090a6be53026a388b2d48"
+    },
+    "-5012_1687": {
+      "x": -12830720,
+      "y": 4321280,
+      "buildings": "-5012_1687.buildings.json.gz",
+      "canopy": "-5012_1687.canopy.bin.gz",
+      "buildingSha256": "353e6a2e350ccd1afd8735c4391b61f582a0398f9b10e8a7c654b0eb8df70795",
+      "canopySha256": "55905a88b074f40c421e722ad0293e04738286b5c17e1298e702a29b88c40c08"
+    },
+    "-5012_1688": {
+      "x": -12830720,
+      "y": 4323840,
+      "buildings": "-5012_1688.buildings.json.gz",
+      "canopy": "-5012_1688.canopy.bin.gz",
+      "buildingSha256": "3067049cd172012f6605b60bde8ff24dc2ce236aca33800b4e8163dd70074a67",
+      "canopySha256": "d7f5058b3847a153e9bd69b1e2c73ea36c2bf954d04aa6c35f03fcff45b0c3c9"
+    },
+    "-5012_1689": {
+      "x": -12830720,
+      "y": 4326400,
+      "buildings": "-5012_1689.buildings.json.gz",
+      "canopy": "-5012_1689.canopy.bin.gz",
+      "buildingSha256": "6081cb24757c0bba406a7d90440a46ee6d66019b39fde77749fb37892965a5a4",
+      "canopySha256": "d4d8f2d5332ef1f6d05499bbf2e0e1a7a50f6e214fe298569de45fbd17c27ffc"
+    },
+    "-5012_1690": {
+      "x": -12830720,
+      "y": 4328960,
+      "buildings": "-5012_1690.buildings.json.gz",
+      "canopy": "-5012_1690.canopy.bin.gz",
+      "buildingSha256": "d1d744fd71fc84ad40efb55bc6b0c60a8dcc9ca392f27d37cefef302b9e19e48",
+      "canopySha256": "d1eff201b0577f61ff3e0e8298910870e77adf67c94baef67bf3e996f0c1acdc"
+    },
+    "-5012_1691": {
+      "x": -12830720,
+      "y": 4331520,
+      "buildings": "-5012_1691.buildings.json.gz",
+      "canopy": "-5012_1691.canopy.bin.gz",
+      "buildingSha256": "3145a9adc1a12a87c4c77d1cbb74334928e0c62041b0e9c63c6460ab560f4992",
+      "canopySha256": "bd75441229632ddba7a18637d39315ffd95d6cad977e73d37be268067e19f084"
+    },
+    "-5012_1692": {
+      "x": -12830720,
+      "y": 4334080,
+      "buildings": "-5012_1692.buildings.json.gz",
+      "canopy": "-5012_1692.canopy.bin.gz",
+      "buildingSha256": "f6c7e856dfffd1f16d09777447866c10b2ce6ab26d160713d4f7ec61b8879cf6",
+      "canopySha256": "83066aded0678f55752ea72712a5ea53de2b5ff6b919638474b49ecce59fdd67"
+    },
+    "-5012_1693": {
+      "x": -12830720,
+      "y": 4336640,
+      "buildings": "-5012_1693.buildings.json.gz",
+      "canopy": "-5012_1693.canopy.bin.gz",
+      "buildingSha256": "94867af1940995d6de076646a422ea7263fdec06713f9decf542352201fe3122",
+      "canopySha256": "fb5f7e6a00ebfda0967789178b797a409cb416906abef9fa3d0b27b0482bd492"
+    },
+    "-5012_1694": {
+      "x": -12830720,
+      "y": 4339200,
+      "buildings": "-5012_1694.buildings.json.gz",
+      "canopy": "-5012_1694.canopy.bin.gz",
+      "buildingSha256": "f6ba7e7369f8da1a540f982256aabe519e487c5cf38730c6a2037a6cb623d7fe",
+      "canopySha256": "0707eb8b0879429b25041361ac3b7d1c6101765f1f194f162f2e4893c5cfeaeb"
+    },
+    "-5012_1695": {
+      "x": -12830720,
+      "y": 4341760,
+      "buildings": "-5012_1695.buildings.json.gz",
+      "canopy": "-5012_1695.canopy.bin.gz",
+      "buildingSha256": "4bf0c95048ebae7e3db223d134bf736e98cc547d85c35e7fc374efed48aef87a",
+      "canopySha256": "98235b444db2daa6796fcf053e524d9ef15ab4308f23e31fb6cc068489c5c9f9"
+    },
+    "-5012_1696": {
+      "x": -12830720,
+      "y": 4344320,
+      "buildings": "-5012_1696.buildings.json.gz",
+      "canopy": "-5012_1696.canopy.bin.gz",
+      "buildingSha256": "947dc1047ff91341bc6d7a0f525960d17bf029976275d9616c8419c7a2e1cd3b",
+      "canopySha256": "067465eea0e0d68c9d126f53ab3602104fa1ee136e872e82eaedcec20e19c807"
+    },
+    "-5012_1697": {
+      "x": -12830720,
+      "y": 4346880,
+      "buildings": "-5012_1697.buildings.json.gz",
+      "canopy": "-5012_1697.canopy.bin.gz",
+      "buildingSha256": "7e5e8ba59843be2898eeb0bb2fd9f212968f8a59bf520c62d1fa6cbcb06993b3",
+      "canopySha256": "3e43ece6ad16fe11e0fbc3a5b00be015e2f6c1c869e37c8638c68c7f5a376b6d"
+    },
+    "-5012_1698": {
+      "x": -12830720,
+      "y": 4349440,
+      "buildings": "-5012_1698.buildings.json.gz",
+      "canopy": "-5012_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5012_1699": {
+      "x": -12830720,
+      "y": 4352000,
+      "buildings": "-5012_1699.buildings.json.gz",
+      "canopy": "-5012_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5012_1700": {
+      "x": -12830720,
+      "y": 4354560,
+      "buildings": "-5012_1700.buildings.json.gz",
+      "canopy": "-5012_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "7580fac3ff97c0ec094e8cca913063fdc5e3ee288473512ca16731bd48996164"
+    },
+    "-5012_1701": {
+      "x": -12830720,
+      "y": 4357120,
+      "buildings": "-5012_1701.buildings.json.gz",
+      "canopy": "-5012_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "642b9808146d9b5c9f43ebc414bab8ca7c15208d54357c5f364e9bef4f3eb7ec"
+    },
+    "-5011_1681": {
+      "x": -12828160,
+      "y": 4305920,
+      "buildings": "-5011_1681.buildings.json.gz",
+      "canopy": "-5011_1681.canopy.bin.gz",
+      "buildingSha256": "760ba93bf7b0260bea68befc2bf6005540bbaee09d10d6cea8bd516d4e5ab649",
+      "canopySha256": "7a1df55b329ce9e9d719b4ef8f11f48fd892e24a0fdecd576eed8e6e1cc4591a"
+    },
+    "-5011_1682": {
+      "x": -12828160,
+      "y": 4308480,
+      "buildings": "-5011_1682.buildings.json.gz",
+      "canopy": "-5011_1682.canopy.bin.gz",
+      "buildingSha256": "ba1e32f7ed3f5c58a4c264c673a80126443f6b4d75bc6e1b553e6f866cf5af74",
+      "canopySha256": "936108f2072d812589a4b9a77fbd719756873c8a4187445d9d5018484f1bd7aa"
+    },
+    "-5011_1683": {
+      "x": -12828160,
+      "y": 4311040,
+      "buildings": "-5011_1683.buildings.json.gz",
+      "canopy": "-5011_1683.canopy.bin.gz",
+      "buildingSha256": "c4a45c86637040eaed7be4a6738e1ddf5e63656121d7c2a89164f9c9430bba2e",
+      "canopySha256": "10d5940d64f7775d805eb22b59a76d937e0b0aad3c7710182bbfd998165af16b"
+    },
+    "-5011_1684": {
+      "x": -12828160,
+      "y": 4313600,
+      "buildings": "-5011_1684.buildings.json.gz",
+      "canopy": "-5011_1684.canopy.bin.gz",
+      "buildingSha256": "a2c100bb3479266d03f9449c5fca5835840c0aa8a34264ff54ee2c9c1b28c89f",
+      "canopySha256": "23b9ea036af85e5331379ff2dcb2c28f9d58721fc7158239a32f8d38cbfdeedc"
+    },
+    "-5011_1685": {
+      "x": -12828160,
+      "y": 4316160,
+      "buildings": "-5011_1685.buildings.json.gz",
+      "canopy": "-5011_1685.canopy.bin.gz",
+      "buildingSha256": "7ff1a2668c565eecbf8e0cae5fdf89bb91fb608deab26cd16d9fe407f8ad1f0f",
+      "canopySha256": "078733d6f75650ba57b7ee4bcd25ac6982fd668c15fbeb9816f620283599deec"
+    },
+    "-5011_1686": {
+      "x": -12828160,
+      "y": 4318720,
+      "buildings": "-5011_1686.buildings.json.gz",
+      "canopy": "-5011_1686.canopy.bin.gz",
+      "buildingSha256": "d67193ff1b6388e99c6ad6fb55e252aac576feb5cb4d3f530651db612ac4880c",
+      "canopySha256": "13154ab97fbccaab66b86475d22ec6d78b60c5af4772857d584d345bafc22b53"
+    },
+    "-5011_1687": {
+      "x": -12828160,
+      "y": 4321280,
+      "buildings": "-5011_1687.buildings.json.gz",
+      "canopy": "-5011_1687.canopy.bin.gz",
+      "buildingSha256": "b344645e745ca7aaaa0cefabcf5ca3d901bf36c421c4a0972e836cc6e07795cf",
+      "canopySha256": "f31ac0c632aa2aed12dd50e4d5b32c56c83931fc437fd698f9d12ce7184a992f"
+    },
+    "-5011_1688": {
+      "x": -12828160,
+      "y": 4323840,
+      "buildings": "-5011_1688.buildings.json.gz",
+      "canopy": "-5011_1688.canopy.bin.gz",
+      "buildingSha256": "dda58f613f8a8ba0bbab06cbcd7732bbd16ca5238a805f9fccd8c325e81f244c",
+      "canopySha256": "703d3b778b3167bea0096cf4837e1cb875046e0542cdb0d0d23651b1c4e835d4"
+    },
+    "-5011_1689": {
+      "x": -12828160,
+      "y": 4326400,
+      "buildings": "-5011_1689.buildings.json.gz",
+      "canopy": "-5011_1689.canopy.bin.gz",
+      "buildingSha256": "0ad9b79bfa2a47048989efc9471b93bcedbbf8c67d23b6649c37c56a209e14f9",
+      "canopySha256": "cab9bf32c4bb6122fd728b1529f7838476f1e5c44b381969b2470cc1f0e5bbc7"
+    },
+    "-5011_1690": {
+      "x": -12828160,
+      "y": 4328960,
+      "buildings": "-5011_1690.buildings.json.gz",
+      "canopy": "-5011_1690.canopy.bin.gz",
+      "buildingSha256": "d51386e4c6127bb0370acff67aacb005c7603263aee4f98673b76a07429ec086",
+      "canopySha256": "4cf6df2370aa5ba2e2d6dbbdb58591d7fc6a3f8bfa6c14201c84452e6a6998ed"
+    },
+    "-5011_1691": {
+      "x": -12828160,
+      "y": 4331520,
+      "buildings": "-5011_1691.buildings.json.gz",
+      "canopy": "-5011_1691.canopy.bin.gz",
+      "buildingSha256": "3d41aa2c3b7c5d58790dc5a5dfb8544b8078c8c090840e64027bf240cdb20306",
+      "canopySha256": "09d0b091b726a9adc4f4553b3f4cd69baa0611b0bc1ce3cf5beaab3b8dbc30a9"
+    },
+    "-5011_1692": {
+      "x": -12828160,
+      "y": 4334080,
+      "buildings": "-5011_1692.buildings.json.gz",
+      "canopy": "-5011_1692.canopy.bin.gz",
+      "buildingSha256": "0088e6315d7f841595eeb0e36279fc2c383d8e27cb05229712ca7354e7e21574",
+      "canopySha256": "2df4e02b5d35ad56d77d2104279483952e77db81c3fd9793cc8611e6aa3a5e27"
+    },
+    "-5011_1693": {
+      "x": -12828160,
+      "y": 4336640,
+      "buildings": "-5011_1693.buildings.json.gz",
+      "canopy": "-5011_1693.canopy.bin.gz",
+      "buildingSha256": "f866d5a42a90762c8f5bd1f15c94915f5ef9f0355e325870f8c1ffd7f34e440f",
+      "canopySha256": "9bc64d32dad4e0b6eebc1e618651ca1abdc58e65ef2afa29ba7cbaf0fbbeec13"
+    },
+    "-5011_1694": {
+      "x": -12828160,
+      "y": 4339200,
+      "buildings": "-5011_1694.buildings.json.gz",
+      "canopy": "-5011_1694.canopy.bin.gz",
+      "buildingSha256": "311196f88cbb0403f7b26ceb3dccb6354c5f80c3ef3be371e2872091bbb35972",
+      "canopySha256": "caacd0e76922499de705d9dbba45fd239fe488f33266681d474cd2000cd94960"
+    },
+    "-5011_1695": {
+      "x": -12828160,
+      "y": 4341760,
+      "buildings": "-5011_1695.buildings.json.gz",
+      "canopy": "-5011_1695.canopy.bin.gz",
+      "buildingSha256": "82bb1ee26df19fa7d0c7ebcb24ae4e25d41230d738ad8aaa0e06b994553d417a",
+      "canopySha256": "fb48011796a8e1e147c62766b3c32b264ba5d7a75bd7167c0b40885c54e8d041"
+    },
+    "-5011_1696": {
+      "x": -12828160,
+      "y": 4344320,
+      "buildings": "-5011_1696.buildings.json.gz",
+      "canopy": "-5011_1696.canopy.bin.gz",
+      "buildingSha256": "e4ad248fdabf8e5c6acaa16fe5f3ccca69a31c25549598b43cd84489bad0c142",
+      "canopySha256": "2f8c1f13217d9a874a13885dd5b3ca3246a1c82753bd6643c7323575b6396544"
+    },
+    "-5011_1697": {
+      "x": -12828160,
+      "y": 4346880,
+      "buildings": "-5011_1697.buildings.json.gz",
+      "canopy": "-5011_1697.canopy.bin.gz",
+      "buildingSha256": "1427def631ab47257d901ec93b1e8ee1986f62e2c711ae7994525c57fd89a2fc",
+      "canopySha256": "0f3f24b509411f0486f41f93e4ac953d64f19cdbc9fea950dd6d924c0e62bfcc"
+    },
+    "-5011_1698": {
+      "x": -12828160,
+      "y": 4349440,
+      "buildings": "-5011_1698.buildings.json.gz",
+      "canopy": "-5011_1698.canopy.bin.gz",
+      "buildingSha256": "b09515e23b243035ada91702be9398c70a13cbad4abe6a17f392568616c439d8",
+      "canopySha256": "550c00e50d991c45a429445378ee22d732ab4b79f2bedef2cd69eab6742f5b59"
+    },
+    "-5011_1699": {
+      "x": -12828160,
+      "y": 4352000,
+      "buildings": "-5011_1699.buildings.json.gz",
+      "canopy": "-5011_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5011_1700": {
+      "x": -12828160,
+      "y": 4354560,
+      "buildings": "-5011_1700.buildings.json.gz",
+      "canopy": "-5011_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "bfe25ea5a88b2a6912f250e23bd33979ba60910675ad8558bd3d8527b6e40428"
+    },
+    "-5011_1701": {
+      "x": -12828160,
+      "y": 4357120,
+      "buildings": "-5011_1701.buildings.json.gz",
+      "canopy": "-5011_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "2b9f1eee20372d0ba1d795ddd2760f0ccee70a03a79ce7d7221a0fd2b766dcd8"
+    },
+    "-5010_1681": {
+      "x": -12825600,
+      "y": 4305920,
+      "buildings": "-5010_1681.buildings.json.gz",
+      "canopy": "-5010_1681.canopy.bin.gz",
+      "buildingSha256": "21c6bf4c63c5ac266e581f414d38a57ab5a5160f0ce6a6804e6d19e8b585af1b",
+      "canopySha256": "fc03934b14c4ec098114e0fb7460ef1915ef4017ec9ee055c32377cd732699a4"
+    },
+    "-5010_1682": {
+      "x": -12825600,
+      "y": 4308480,
+      "buildings": "-5010_1682.buildings.json.gz",
+      "canopy": "-5010_1682.canopy.bin.gz",
+      "buildingSha256": "bd2aaac4cee1e62559f98644a3824d83aa59754e49fc0403e8c61b421f0ef551",
+      "canopySha256": "862ddd7359e388c5d8a2a93dd2f75de0945badbea00a7a685a26a025972aa02e"
+    },
+    "-5010_1683": {
+      "x": -12825600,
+      "y": 4311040,
+      "buildings": "-5010_1683.buildings.json.gz",
+      "canopy": "-5010_1683.canopy.bin.gz",
+      "buildingSha256": "c317fb18fea69901d709c0f08fb3a6962059d6303d79cccf8d5415d0ed93f251",
+      "canopySha256": "357f2b68974453f082c9fa7ac3bde45a056ee19396547deb7ac66ca6fef22285"
+    },
+    "-5010_1684": {
+      "x": -12825600,
+      "y": 4313600,
+      "buildings": "-5010_1684.buildings.json.gz",
+      "canopy": "-5010_1684.canopy.bin.gz",
+      "buildingSha256": "56d430021206069618c695be37cbe9be9bb4fa55a409e5b7e11c8f780144e777",
+      "canopySha256": "082abfb25f490c8de1362bf4530fb8df9e7c6f1ed1cb351c46683c414eee0f3b"
+    },
+    "-5010_1685": {
+      "x": -12825600,
+      "y": 4316160,
+      "buildings": "-5010_1685.buildings.json.gz",
+      "canopy": "-5010_1685.canopy.bin.gz",
+      "buildingSha256": "009afcbbd82d0b8ae08f104c94d94404607f7c6eb5b735917ab264778b9e3fdc",
+      "canopySha256": "5bc65ce6f5293c92b4e95d19c652ccf8bed2627ecfee25b13673c2987b407ca3"
+    },
+    "-5010_1686": {
+      "x": -12825600,
+      "y": 4318720,
+      "buildings": "-5010_1686.buildings.json.gz",
+      "canopy": "-5010_1686.canopy.bin.gz",
+      "buildingSha256": "47817a70ae8fad683122e011ec241b06d33e80585266f2201c88f16b2d981483",
+      "canopySha256": "099dd8ebd510b00a7496fd5494ce113fc3665d2ad10774ff6469b9cd90515263"
+    },
+    "-5010_1687": {
+      "x": -12825600,
+      "y": 4321280,
+      "buildings": "-5010_1687.buildings.json.gz",
+      "canopy": "-5010_1687.canopy.bin.gz",
+      "buildingSha256": "699ba9e49e191ea05f764b36ad9f2f31ad3248e6efd0bf81cea90b3194eeb2c2",
+      "canopySha256": "5e99e0d5e36a207923825cde59c667604901f5e12596b89fd1e8468e5be948d3"
+    },
+    "-5010_1688": {
+      "x": -12825600,
+      "y": 4323840,
+      "buildings": "-5010_1688.buildings.json.gz",
+      "canopy": "-5010_1688.canopy.bin.gz",
+      "buildingSha256": "c73e14a5881a723050b763f19e42bc38de352b13b31c674e0b2d1bd35bab848f",
+      "canopySha256": "9cc135c510671e8f9f112e7cd969667cfb8c803248a499c69908a9f39990c8de"
+    },
+    "-5010_1689": {
+      "x": -12825600,
+      "y": 4326400,
+      "buildings": "-5010_1689.buildings.json.gz",
+      "canopy": "-5010_1689.canopy.bin.gz",
+      "buildingSha256": "4eb47fe0975ecee992119dbb66bf08ebb16405feeb2f8d011d0fe721eab034bc",
+      "canopySha256": "e4fd58d17eec21dd406a6fb2290664d51007a0bd8e5945a57eb97df7650f0b6d"
+    },
+    "-5010_1690": {
+      "x": -12825600,
+      "y": 4328960,
+      "buildings": "-5010_1690.buildings.json.gz",
+      "canopy": "-5010_1690.canopy.bin.gz",
+      "buildingSha256": "9d65c7fc5f5c67c4009784a9ab372ef5077ddd9894afecead88b003028847b14",
+      "canopySha256": "26393d54ec14d7525ddf31506d91687bca6e58031e64d519b764cdce52da7d4c"
+    },
+    "-5010_1691": {
+      "x": -12825600,
+      "y": 4331520,
+      "buildings": "-5010_1691.buildings.json.gz",
+      "canopy": "-5010_1691.canopy.bin.gz",
+      "buildingSha256": "d87d795e4df9f531648fbb3641831d4a5e2c560d05a90b2cc0ac213a600efbcb",
+      "canopySha256": "5e9fa3664916d20f9b7c9a9bfb3512c9ffe22d86e7657561f7a4d6e52b262e65"
+    },
+    "-5010_1692": {
+      "x": -12825600,
+      "y": 4334080,
+      "buildings": "-5010_1692.buildings.json.gz",
+      "canopy": "-5010_1692.canopy.bin.gz",
+      "buildingSha256": "2d51c397f0238b95a5ae0c5e1d6378a21447a0aea251bf6a7e147e5afdb42379",
+      "canopySha256": "90833dd4efb65e9158016a7a0a7b96635067416103db7529eea577debb78ba1a"
+    },
+    "-5010_1693": {
+      "x": -12825600,
+      "y": 4336640,
+      "buildings": "-5010_1693.buildings.json.gz",
+      "canopy": "-5010_1693.canopy.bin.gz",
+      "buildingSha256": "d6c828c0cc7bff04fda36d1b38f3a5ce645021476ce4c4b7c44dac807dbbd4a6",
+      "canopySha256": "c0860d7d2c2ec3c378f2fa870747f8f47f81d59bd89412c9c61c4604e965b30a"
+    },
+    "-5010_1694": {
+      "x": -12825600,
+      "y": 4339200,
+      "buildings": "-5010_1694.buildings.json.gz",
+      "canopy": "-5010_1694.canopy.bin.gz",
+      "buildingSha256": "5f7a616a24dad0b8470dd9391a140454fe9b7a63b79e273ae697d03771bbd2df",
+      "canopySha256": "c97b557612f9c02fb6df9a323b44152200743a7d31536a2f2280a820e3d206ae"
+    },
+    "-5010_1695": {
+      "x": -12825600,
+      "y": 4341760,
+      "buildings": "-5010_1695.buildings.json.gz",
+      "canopy": "-5010_1695.canopy.bin.gz",
+      "buildingSha256": "09d1031acb8c5d17b2ffa22ff8bb2ec8a8f74827f5e01d151202060e32ed7882",
+      "canopySha256": "f414fb197c179f4f973392055f99149f2289fce715a623f4963918d674f71554"
+    },
+    "-5010_1696": {
+      "x": -12825600,
+      "y": 4344320,
+      "buildings": "-5010_1696.buildings.json.gz",
+      "canopy": "-5010_1696.canopy.bin.gz",
+      "buildingSha256": "b04b809210bd6dd89e01b0da681aadb11a80894515c40135a8afd769cc52a06b",
+      "canopySha256": "86f0dc27b86b0c1edd4498f061b5c3c4f9c7838745a52cf12a94613b72950753"
+    },
+    "-5010_1697": {
+      "x": -12825600,
+      "y": 4346880,
+      "buildings": "-5010_1697.buildings.json.gz",
+      "canopy": "-5010_1697.canopy.bin.gz",
+      "buildingSha256": "281d950a4ddbebfda5b23a3dd5c9ec2c7cc350c7733819558edd102285b92140",
+      "canopySha256": "735b008ef61786536fedc9a7246480eba3140986c0f7a0300cd4aa32adae4008"
+    },
+    "-5010_1698": {
+      "x": -12825600,
+      "y": 4349440,
+      "buildings": "-5010_1698.buildings.json.gz",
+      "canopy": "-5010_1698.canopy.bin.gz",
+      "buildingSha256": "b2eba89a847664d4aa03465e9cb2d03a5745204a4a6e3e717405c69dd3554e8e",
+      "canopySha256": "dc514d9ccc20e46f05e95899ad10cf29ba615279e924df8504bdd0a8999c93c1"
+    },
+    "-5010_1699": {
+      "x": -12825600,
+      "y": 4352000,
+      "buildings": "-5010_1699.buildings.json.gz",
+      "canopy": "-5010_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "a418b66d47cca238d65456b186219f0d66af5f1bffc4b9ac9c018f36b624a5b7"
+    },
+    "-5010_1700": {
+      "x": -12825600,
+      "y": 4354560,
+      "buildings": "-5010_1700.buildings.json.gz",
+      "canopy": "-5010_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "227dd56ffb5f1f9d0604fdb7279bf1b6785a7a53a90080583e6632301199a6ae"
+    },
+    "-5010_1701": {
+      "x": -12825600,
+      "y": 4357120,
+      "buildings": "-5010_1701.buildings.json.gz",
+      "canopy": "-5010_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "7274b4d1555d72f30240e4ff549a468c6a34d4ea7a73b88741110d15d28b30f8"
+    },
+    "-5009_1681": {
+      "x": -12823040,
+      "y": 4305920,
+      "buildings": "-5009_1681.buildings.json.gz",
+      "canopy": "-5009_1681.canopy.bin.gz",
+      "buildingSha256": "43eff3bd1251e0cb150cbf915c053072feac0e95f3b9e5aed818f3bcb9c66061",
+      "canopySha256": "6e771c6fabffe4533df92f5d95013b68f69c229f13688fd5a03848fab35366ec"
+    },
+    "-5009_1682": {
+      "x": -12823040,
+      "y": 4308480,
+      "buildings": "-5009_1682.buildings.json.gz",
+      "canopy": "-5009_1682.canopy.bin.gz",
+      "buildingSha256": "081f228af3a65a9afa2f30fcfe39bc9e0ee0d68c5a1788dd143117b4a5d32f87",
+      "canopySha256": "b530e8b6d4cecbefa06aa27f62601594932b6164cecf45980f64cf274666a73b"
+    },
+    "-5009_1683": {
+      "x": -12823040,
+      "y": 4311040,
+      "buildings": "-5009_1683.buildings.json.gz",
+      "canopy": "-5009_1683.canopy.bin.gz",
+      "buildingSha256": "ce1931693c20478eedc5c307aca780b2c45784165afce6b93c421d053e4f88af",
+      "canopySha256": "9bf67ec05aaa218f89d1eb59496a75f144d4bce216eb48f5ca1426da4fe7296f"
+    },
+    "-5009_1684": {
+      "x": -12823040,
+      "y": 4313600,
+      "buildings": "-5009_1684.buildings.json.gz",
+      "canopy": "-5009_1684.canopy.bin.gz",
+      "buildingSha256": "a0f93d59c657fa1a9053e56f01bcaf847b55dfefc28ed035f72c4c71bf777958",
+      "canopySha256": "496e8d4e5d7224823253d4ffd879532c386abe484d7bd367c4a13f0f42ebc850"
+    },
+    "-5009_1685": {
+      "x": -12823040,
+      "y": 4316160,
+      "buildings": "-5009_1685.buildings.json.gz",
+      "canopy": "-5009_1685.canopy.bin.gz",
+      "buildingSha256": "9b6b3685f3d39bea5d7a42d7cc5a17b0ba8c352fda5ba10cccb1a95d43f05226",
+      "canopySha256": "d53271ce4cf2bdfd1e6f6651ce29fdfb3a1b085e4abb2c72b0b0e14755082ee6"
+    },
+    "-5009_1686": {
+      "x": -12823040,
+      "y": 4318720,
+      "buildings": "-5009_1686.buildings.json.gz",
+      "canopy": "-5009_1686.canopy.bin.gz",
+      "buildingSha256": "6bbb731d5f8fce2edef79df644cd1df06d22b036fbc350deecbfffcf9f40c41b",
+      "canopySha256": "b713ce513ee359c12a1dcabb43ba3c4377748917d68d352ffdaa275d3cea6e2a"
+    },
+    "-5009_1687": {
+      "x": -12823040,
+      "y": 4321280,
+      "buildings": "-5009_1687.buildings.json.gz",
+      "canopy": "-5009_1687.canopy.bin.gz",
+      "buildingSha256": "0d64cd0e82e92dfccdd27418bd375e3c02cc4322ce05fc26a537cc433cbda73f",
+      "canopySha256": "ecdc2ea675d69e9bffda478a7ea8020313f2f504b9f3ba41325185bef84c5a6d"
+    },
+    "-5009_1688": {
+      "x": -12823040,
+      "y": 4323840,
+      "buildings": "-5009_1688.buildings.json.gz",
+      "canopy": "-5009_1688.canopy.bin.gz",
+      "buildingSha256": "d7f3168433b697a5688926f500b2f8a5aaaf132a9ed809de946f98feb3316964",
+      "canopySha256": "0c9058c2ba402015822761b516344dd77e7c2cb1ca968c515484ff372d3332a8"
+    },
+    "-5009_1689": {
+      "x": -12823040,
+      "y": 4326400,
+      "buildings": "-5009_1689.buildings.json.gz",
+      "canopy": "-5009_1689.canopy.bin.gz",
+      "buildingSha256": "f3990cc20771db0f91c4f85d78015b3582242d85442d5af173bc3fafd5c2fc0f",
+      "canopySha256": "46112302e8f41719afa0a02ced5815ae8d3c6377f05addb01277624ae0845530"
+    },
+    "-5009_1690": {
+      "x": -12823040,
+      "y": 4328960,
+      "buildings": "-5009_1690.buildings.json.gz",
+      "canopy": "-5009_1690.canopy.bin.gz",
+      "buildingSha256": "294613dcc6d08d24210598c2a4fec049b35e458f6aea6e53fdaab7ae0a890f7a",
+      "canopySha256": "c346282c519b6cf7f9f2c5183af1d247b93cce4aaa66347093ec088625ad73bd"
+    },
+    "-5009_1691": {
+      "x": -12823040,
+      "y": 4331520,
+      "buildings": "-5009_1691.buildings.json.gz",
+      "canopy": "-5009_1691.canopy.bin.gz",
+      "buildingSha256": "f6d38a3d5ec74218ee34a255f3ab85077f9b5483b70defd4b2f1197fa7a3bd8a",
+      "canopySha256": "04b66fef208b44f95521ac1149183e2750fe385e474541b09ce1b0efb474a967"
+    },
+    "-5009_1692": {
+      "x": -12823040,
+      "y": 4334080,
+      "buildings": "-5009_1692.buildings.json.gz",
+      "canopy": "-5009_1692.canopy.bin.gz",
+      "buildingSha256": "1265201f7b98c8d8849430693301099efb1784b5446ef54a3384a67b970c4af2",
+      "canopySha256": "768a32bb37494013f8fbeee6b2536ba1ad8780fcf5d9142f2b40c7b606fe71b0"
+    },
+    "-5009_1693": {
+      "x": -12823040,
+      "y": 4336640,
+      "buildings": "-5009_1693.buildings.json.gz",
+      "canopy": "-5009_1693.canopy.bin.gz",
+      "buildingSha256": "db3c2ecf030f5d38fc96e1e371d0a81f162a0a21c7218b2af561fcef5fc1095f",
+      "canopySha256": "d3ad27a14b8b89c52cedfabb070e2f36648b7ad857d579e359efa066a97f2a88"
+    },
+    "-5009_1694": {
+      "x": -12823040,
+      "y": 4339200,
+      "buildings": "-5009_1694.buildings.json.gz",
+      "canopy": "-5009_1694.canopy.bin.gz",
+      "buildingSha256": "668a5a01e32a57c774688e1f0d2dcf2b30b4f6666e687a3eba15ed4678d9373d",
+      "canopySha256": "06bea663b7ce018de55542311c6fd1bc09f1dae41ddc0169fb3950872d8ca58f"
+    },
+    "-5009_1695": {
+      "x": -12823040,
+      "y": 4341760,
+      "buildings": "-5009_1695.buildings.json.gz",
+      "canopy": "-5009_1695.canopy.bin.gz",
+      "buildingSha256": "09c280beb57730ad4d7e657a578a7e3aee01098de28248e1d7236a41ccf72b71",
+      "canopySha256": "dd4e4af62676192e7bc36e8ae33ee199a4e6b577b7a237b7053758f1c8711b2a"
+    },
+    "-5009_1696": {
+      "x": -12823040,
+      "y": 4344320,
+      "buildings": "-5009_1696.buildings.json.gz",
+      "canopy": "-5009_1696.canopy.bin.gz",
+      "buildingSha256": "949cb1ba31bdb0b888adc007d30c067443e14ba3c5cd2275b485d10c9f61494e",
+      "canopySha256": "2b7176ec8fc35427e17a8d241f8ead0693f7b69644aa4540399d041e44fc176e"
+    },
+    "-5009_1697": {
+      "x": -12823040,
+      "y": 4346880,
+      "buildings": "-5009_1697.buildings.json.gz",
+      "canopy": "-5009_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "de4e78b6989db1a1f2d30cf0f9748c4d52d0984697ac1adc9262905751eb52de"
+    },
+    "-5009_1698": {
+      "x": -12823040,
+      "y": 4349440,
+      "buildings": "-5009_1698.buildings.json.gz",
+      "canopy": "-5009_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "cca9e31299af214e304bd5a28fd886490224291fa7607b3eb4970abe7f9d807a"
+    },
+    "-5009_1699": {
+      "x": -12823040,
+      "y": 4352000,
+      "buildings": "-5009_1699.buildings.json.gz",
+      "canopy": "-5009_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "779c453ca5050a24694ebf7e0145488e67cf9f0fbe9368894b78236f3e36834d"
+    },
+    "-5009_1700": {
+      "x": -12823040,
+      "y": 4354560,
+      "buildings": "-5009_1700.buildings.json.gz",
+      "canopy": "-5009_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "ba64d1faed6d84665a199fd99cf34cc44e38d3b27fbf2b2edd07238d48c1941f"
+    },
+    "-5009_1701": {
+      "x": -12823040,
+      "y": 4357120,
+      "buildings": "-5009_1701.buildings.json.gz",
+      "canopy": "-5009_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "382079824179cac8295fe003cda2cd1f141516731fe513714dc70b11c4b86f84"
+    },
+    "-5008_1681": {
+      "x": -12820480,
+      "y": 4305920,
+      "buildings": "-5008_1681.buildings.json.gz",
+      "canopy": "-5008_1681.canopy.bin.gz",
+      "buildingSha256": "e2f372f02ebf1e8e4734d7dbe94135c4e4c4ded69a38cc007a4bdf4a70e499f4",
+      "canopySha256": "61a085d46cfe52de6801015b495f0428296cb6acb5183364de406f85d409f797"
+    },
+    "-5008_1682": {
+      "x": -12820480,
+      "y": 4308480,
+      "buildings": "-5008_1682.buildings.json.gz",
+      "canopy": "-5008_1682.canopy.bin.gz",
+      "buildingSha256": "8e48255384cf99b420a5257ef4929b6573fbe1cf316e2590b3dd656b3b8875a8",
+      "canopySha256": "f7eac22d94e62f9418b5dfe8ec98554e1a9987f69642a8b297740f95b3d97ed0"
+    },
+    "-5008_1683": {
+      "x": -12820480,
+      "y": 4311040,
+      "buildings": "-5008_1683.buildings.json.gz",
+      "canopy": "-5008_1683.canopy.bin.gz",
+      "buildingSha256": "adf5c0e9e7a5db976743d253e9ee74f69a654ec9b2bb57e525949e3321166452",
+      "canopySha256": "02af61d9377a4afd20eeeccd9ccbd66aa298b2b2d8b6a71c7713f91fcc8d0b36"
+    },
+    "-5008_1684": {
+      "x": -12820480,
+      "y": 4313600,
+      "buildings": "-5008_1684.buildings.json.gz",
+      "canopy": "-5008_1684.canopy.bin.gz",
+      "buildingSha256": "1dd1f26d2ddc331f4ad3376fab366e24f36147b7f9575f9f1986608e2c0fa8d0",
+      "canopySha256": "2a1aea5dd427f166e0d20a316c0adec4cd508d8c339ceff70c22eb9929c7b362"
+    },
+    "-5008_1685": {
+      "x": -12820480,
+      "y": 4316160,
+      "buildings": "-5008_1685.buildings.json.gz",
+      "canopy": "-5008_1685.canopy.bin.gz",
+      "buildingSha256": "03e21a44630c6f1c172b83b39d3eefc7889b7c3230eec8285b3e8ec502c15dc3",
+      "canopySha256": "899f279d6486730484b275d147409ae7679bd7cb4b102634654f00caf1c4f5a5"
+    },
+    "-5008_1686": {
+      "x": -12820480,
+      "y": 4318720,
+      "buildings": "-5008_1686.buildings.json.gz",
+      "canopy": "-5008_1686.canopy.bin.gz",
+      "buildingSha256": "55be50ddf26864d21a5249ded20b4d8721924e6b2425c8d66ca0251bb7fdea05",
+      "canopySha256": "8aad972e0aef94cb73b54d3b9fcea80b30e029967d007a909bb130b735618c8d"
+    },
+    "-5008_1687": {
+      "x": -12820480,
+      "y": 4321280,
+      "buildings": "-5008_1687.buildings.json.gz",
+      "canopy": "-5008_1687.canopy.bin.gz",
+      "buildingSha256": "2d3e428c31731bb74c6847de6e2f419fcd6a220545f209e58a428051c1a09d8e",
+      "canopySha256": "be3c6a031320aa87972ec29fb5feb70f453b3ec3bf00ca1d4ed72ae026299c38"
+    },
+    "-5008_1688": {
+      "x": -12820480,
+      "y": 4323840,
+      "buildings": "-5008_1688.buildings.json.gz",
+      "canopy": "-5008_1688.canopy.bin.gz",
+      "buildingSha256": "160d30141e9b18b5014d1e98b94a272e612d8417e1518e3575d1814b97ac04ed",
+      "canopySha256": "c4c791c9fe4b73526e0f6e4b96f61441b9902e9204b9366a3f270aa51e115411"
+    },
+    "-5008_1689": {
+      "x": -12820480,
+      "y": 4326400,
+      "buildings": "-5008_1689.buildings.json.gz",
+      "canopy": "-5008_1689.canopy.bin.gz",
+      "buildingSha256": "108745b5ebd924e46df7fac83a7768cdc9885566706a5118f4d2320233a8774c",
+      "canopySha256": "217d3901c7aa7abfc8b489991d8e27ed14cffbaa0df1e729e7eb99cd2e98fc99"
+    },
+    "-5008_1690": {
+      "x": -12820480,
+      "y": 4328960,
+      "buildings": "-5008_1690.buildings.json.gz",
+      "canopy": "-5008_1690.canopy.bin.gz",
+      "buildingSha256": "94b6685296cf94b4befc24d01d04caca3e4e5c7901e49d29c1d18605c41caac6",
+      "canopySha256": "be17bd0775f29fd2721f347b4d84c5c02e1ebaa9642a60e61cb2fad8bdca5864"
+    },
+    "-5008_1691": {
+      "x": -12820480,
+      "y": 4331520,
+      "buildings": "-5008_1691.buildings.json.gz",
+      "canopy": "-5008_1691.canopy.bin.gz",
+      "buildingSha256": "a315df146c944ed0a6f82fe4e947f04f8dcaa54c216d6c9dd03aeb477ff6c92c",
+      "canopySha256": "a768df5575f400713db02b36c91dfcb7182b3661d89da400f50cb2954ad8af6c"
+    },
+    "-5008_1692": {
+      "x": -12820480,
+      "y": 4334080,
+      "buildings": "-5008_1692.buildings.json.gz",
+      "canopy": "-5008_1692.canopy.bin.gz",
+      "buildingSha256": "0df39db6b002d610b38918f6d46b2d4ba581e77a14f5f1b424ced52d27c431f5",
+      "canopySha256": "514d4974c7654ed0693ac1d5973057d8e840fdca4a905cd2ab9243908bdce629"
+    },
+    "-5008_1693": {
+      "x": -12820480,
+      "y": 4336640,
+      "buildings": "-5008_1693.buildings.json.gz",
+      "canopy": "-5008_1693.canopy.bin.gz",
+      "buildingSha256": "8c4b484d397a6ec5c665d6653bfbd8598bfc3ecce5c80f50fdd1ee94a8e73199",
+      "canopySha256": "d933373405a18a2dbc1e8ae1e200fdf74c63f2d7beb7facde0141ba4c2789167"
+    },
+    "-5008_1694": {
+      "x": -12820480,
+      "y": 4339200,
+      "buildings": "-5008_1694.buildings.json.gz",
+      "canopy": "-5008_1694.canopy.bin.gz",
+      "buildingSha256": "cffb8fc639b859069ebd0286de5dc889a6859f1a77e3a75d65cac9cbfd31571c",
+      "canopySha256": "958dba29337a34e455de953a98546cf7a21f46b370d9266cf1f871778611530a"
+    },
+    "-5008_1695": {
+      "x": -12820480,
+      "y": 4341760,
+      "buildings": "-5008_1695.buildings.json.gz",
+      "canopy": "-5008_1695.canopy.bin.gz",
+      "buildingSha256": "3400af983def8f6abbba26b50a5395c8d4af725225ae80068d3d75f872ec3a2b",
+      "canopySha256": "1b63e6aa079458cf275be93621c08ac548bc45389b68937fb405bd16710a3d0a"
+    },
+    "-5008_1696": {
+      "x": -12820480,
+      "y": 4344320,
+      "buildings": "-5008_1696.buildings.json.gz",
+      "canopy": "-5008_1696.canopy.bin.gz",
+      "buildingSha256": "a5631fce970299e2967a6b9fb55c7b00d201849ebcd1a9b6d40ee4b71ca4c4bf",
+      "canopySha256": "d8c6d322b5e74b55bda1d7eaa2839dc433249637219b1e3f0904322f72e2544c"
+    },
+    "-5008_1697": {
+      "x": -12820480,
+      "y": 4346880,
+      "buildings": "-5008_1697.buildings.json.gz",
+      "canopy": "-5008_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5008_1698": {
+      "x": -12820480,
+      "y": 4349440,
+      "buildings": "-5008_1698.buildings.json.gz",
+      "canopy": "-5008_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "1759c2f80beef0b3b62ab666088fd54b6704214eed8885c373f4d3b360f7d0d1"
+    },
+    "-5008_1699": {
+      "x": -12820480,
+      "y": 4352000,
+      "buildings": "-5008_1699.buildings.json.gz",
+      "canopy": "-5008_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "663406c35bcff56ba08be2c37a917d6656fdfd2e2b91d6151c3d1fdb91d74221"
+    },
+    "-5008_1700": {
+      "x": -12820480,
+      "y": 4354560,
+      "buildings": "-5008_1700.buildings.json.gz",
+      "canopy": "-5008_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "1583cfbfe92b56ad221401def467f3a2d294e6c315b694efa1d64f004e4d90b4"
+    },
+    "-5008_1701": {
+      "x": -12820480,
+      "y": 4357120,
+      "buildings": "-5008_1701.buildings.json.gz",
+      "canopy": "-5008_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "c58bdf5105a608ff3cf62ff509f2cc0b2ed19b1019faae40bfb5feb59362cfd3"
+    },
+    "-5007_1681": {
+      "x": -12817920,
+      "y": 4305920,
+      "buildings": "-5007_1681.buildings.json.gz",
+      "canopy": "-5007_1681.canopy.bin.gz",
+      "buildingSha256": "bdfdd428a5cb62b1e2c4b27ee2981d64ac8804d76b77a1af09de34ec4eee2884",
+      "canopySha256": "b77aadcc1ed69b3aea9f9d66caf359be9aa874c7e19fee750f38189c4899dae9"
+    },
+    "-5007_1682": {
+      "x": -12817920,
+      "y": 4308480,
+      "buildings": "-5007_1682.buildings.json.gz",
+      "canopy": "-5007_1682.canopy.bin.gz",
+      "buildingSha256": "70df5b86b71b902831833c5360b6dfdd77089f00d7d5d5b250dc03417ca39f2c",
+      "canopySha256": "74e083036507e030e8cba38909e7e54d1849496a77aa58bb96b3fbba658964ee"
+    },
+    "-5007_1683": {
+      "x": -12817920,
+      "y": 4311040,
+      "buildings": "-5007_1683.buildings.json.gz",
+      "canopy": "-5007_1683.canopy.bin.gz",
+      "buildingSha256": "262074c682502c19090f3c240bf4a56929db7842f1f064e03a20a599ce5a070a",
+      "canopySha256": "b171c98ed42783b9fb3154f4379fedc7fb8948aadb0f5b76b9fd20935f38d32d"
+    },
+    "-5007_1684": {
+      "x": -12817920,
+      "y": 4313600,
+      "buildings": "-5007_1684.buildings.json.gz",
+      "canopy": "-5007_1684.canopy.bin.gz",
+      "buildingSha256": "a1c08dc98811da6dad2e9807a8314a67b73e283822524dc062414c37fa9614bf",
+      "canopySha256": "7810cfeaa35bc0f7c8348f031953752e1f3477165de026ad59bdd704f112ca47"
+    },
+    "-5007_1685": {
+      "x": -12817920,
+      "y": 4316160,
+      "buildings": "-5007_1685.buildings.json.gz",
+      "canopy": "-5007_1685.canopy.bin.gz",
+      "buildingSha256": "bd9d85797a8b0d99eae10cfbab61fc4488e660b3f1f5b2dec7d0860270d57d71",
+      "canopySha256": "3e77dcd99549cab1cada2a82f9aab4cada61c6929660f0979edfd37e7e21cc8c"
+    },
+    "-5007_1686": {
+      "x": -12817920,
+      "y": 4318720,
+      "buildings": "-5007_1686.buildings.json.gz",
+      "canopy": "-5007_1686.canopy.bin.gz",
+      "buildingSha256": "d5875011bc8b4966cafc732e2306b785ae398ea84c4f828263b7540dd846df70",
+      "canopySha256": "984c1c985490a5033f874b22a47b2846fc496de0e02edc8629fd95c6c344638f"
+    },
+    "-5007_1687": {
+      "x": -12817920,
+      "y": 4321280,
+      "buildings": "-5007_1687.buildings.json.gz",
+      "canopy": "-5007_1687.canopy.bin.gz",
+      "buildingSha256": "3ed177c9c3b2cbbc37d04ac45174a1a23b5731b60d44610e061b64c4ee5d0c5b",
+      "canopySha256": "e33f848e5568d0999d4c6a84ac9f3126221e2a0b9e9ef9ba3c5853a60b272a9d"
+    },
+    "-5007_1688": {
+      "x": -12817920,
+      "y": 4323840,
+      "buildings": "-5007_1688.buildings.json.gz",
+      "canopy": "-5007_1688.canopy.bin.gz",
+      "buildingSha256": "722929c418ff298f9e20b066ac806216f1b0f442f19dff372e0264c59a46404e",
+      "canopySha256": "8405ccdb844481b11f7f6217a850639e9256d36082de39ac68f6768fc0bf952c"
+    },
+    "-5007_1689": {
+      "x": -12817920,
+      "y": 4326400,
+      "buildings": "-5007_1689.buildings.json.gz",
+      "canopy": "-5007_1689.canopy.bin.gz",
+      "buildingSha256": "2d1b13ac4333db96cbc9b1abbe60a2fcbc5ae31e2de7bcae9ee4778f952a50e3",
+      "canopySha256": "3ba4d76530a0cb4ba0955f66d4483584e9bc99a899fb644760dc87aa899ff54c"
+    },
+    "-5007_1690": {
+      "x": -12817920,
+      "y": 4328960,
+      "buildings": "-5007_1690.buildings.json.gz",
+      "canopy": "-5007_1690.canopy.bin.gz",
+      "buildingSha256": "c1542944cd04cf947128c93ee0b56defbfb3df00ac7d213ac29548a7fef835e7",
+      "canopySha256": "7209691c4d3db6dae49e6f53720cd8f8b74a4eb41ecd33c8f69f5c51740d3d74"
+    },
+    "-5007_1691": {
+      "x": -12817920,
+      "y": 4331520,
+      "buildings": "-5007_1691.buildings.json.gz",
+      "canopy": "-5007_1691.canopy.bin.gz",
+      "buildingSha256": "e2bb1f060a71cf692585092c9e483f61a3f9dd94d6422d3b266789e3d1611c4e",
+      "canopySha256": "210405fe000be61b6a8fb17798b77c7bd65aba6923027a9441f91c8024e39f11"
+    },
+    "-5007_1692": {
+      "x": -12817920,
+      "y": 4334080,
+      "buildings": "-5007_1692.buildings.json.gz",
+      "canopy": "-5007_1692.canopy.bin.gz",
+      "buildingSha256": "a49ddc210ec4d9d13c9b4a9e8ac6a2cb0b336d1eb096d57d7c977b752be2c8f5",
+      "canopySha256": "230f383c7dd5de11aa93e1b25954badfe6085b630e42f3fc5a8526cc8289930c"
+    },
+    "-5007_1693": {
+      "x": -12817920,
+      "y": 4336640,
+      "buildings": "-5007_1693.buildings.json.gz",
+      "canopy": "-5007_1693.canopy.bin.gz",
+      "buildingSha256": "d54df3d1206bb7799dd00e3914d1eeaa11f9a2eb8ff89e515c0fdcb61e6d7c09",
+      "canopySha256": "d1f7a15bf85d866051fed665d5571a4902e61cf5227f89258f2357bc230fa42c"
+    },
+    "-5007_1694": {
+      "x": -12817920,
+      "y": 4339200,
+      "buildings": "-5007_1694.buildings.json.gz",
+      "canopy": "-5007_1694.canopy.bin.gz",
+      "buildingSha256": "52d8a0d4a95b58a4ede9fbf0f8006efaaf992e8e11b5b0d536518800ebb98f97",
+      "canopySha256": "412d4d7391b48c6ad28fe39c5fc7b060239182de6ce8a454c70c4a3157ffa4de"
+    },
+    "-5007_1695": {
+      "x": -12817920,
+      "y": 4341760,
+      "buildings": "-5007_1695.buildings.json.gz",
+      "canopy": "-5007_1695.canopy.bin.gz",
+      "buildingSha256": "fe1cccd319849d33df1434557bcbb4de5327aec5fd2287754f71711eb0e66332",
+      "canopySha256": "026fad11f80487e415c8406c16cf40649ecd20c074c55be8eb60f71193b368a8"
+    },
+    "-5007_1696": {
+      "x": -12817920,
+      "y": 4344320,
+      "buildings": "-5007_1696.buildings.json.gz",
+      "canopy": "-5007_1696.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "fde5ed7e4cdf10673ed2b4cbd743b67bb07215f4a5fa717e5f62faaeb5f5b7a1"
+    },
+    "-5007_1697": {
+      "x": -12817920,
+      "y": 4346880,
+      "buildings": "-5007_1697.buildings.json.gz",
+      "canopy": "-5007_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "74f2ac16073bc05389ce7e601b4d15b3a60ecbe520831e18b68c2f767f9ea7d1"
+    },
+    "-5007_1698": {
+      "x": -12817920,
+      "y": 4349440,
+      "buildings": "-5007_1698.buildings.json.gz",
+      "canopy": "-5007_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "febabe1d8f1ed41720e86082b4b4a266be85dcf9e9c7b7c4c1f204c5e2813e96"
+    },
+    "-5007_1699": {
+      "x": -12817920,
+      "y": 4352000,
+      "buildings": "-5007_1699.buildings.json.gz",
+      "canopy": "-5007_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "6bce02155e25d27295799ece881c7bf8196ac73889244224211b7190fa43b76f"
+    },
+    "-5007_1700": {
+      "x": -12817920,
+      "y": 4354560,
+      "buildings": "-5007_1700.buildings.json.gz",
+      "canopy": "-5007_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "360615686b9285a3ffc3ab13dade57fa9d80ae0abaa872c25bcdfc829246a7a1"
+    },
+    "-5007_1701": {
+      "x": -12817920,
+      "y": 4357120,
+      "buildings": "-5007_1701.buildings.json.gz",
+      "canopy": "-5007_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "245cd4ff75ff47b8f1a8642b5bec4b677d7f78aa238665e579a266029dd48b07"
+    },
+    "-5006_1681": {
+      "x": -12815360,
+      "y": 4305920,
+      "buildings": "-5006_1681.buildings.json.gz",
+      "canopy": "-5006_1681.canopy.bin.gz",
+      "buildingSha256": "5b228a6e12d881c13d8be206461da2a6a7b8e16351a0baa0359eb9c065744140",
+      "canopySha256": "729087df11ce4d30580075e9ec1ea2f5dda4573bfb3b87d7403df99ce34a5704"
+    },
+    "-5006_1682": {
+      "x": -12815360,
+      "y": 4308480,
+      "buildings": "-5006_1682.buildings.json.gz",
+      "canopy": "-5006_1682.canopy.bin.gz",
+      "buildingSha256": "85acf0b145286872b5fbb39f4ebac3ad1104f468bd2432a17032fdd35360c6a4",
+      "canopySha256": "eb8c6528267746f3c85c8c4e403feb6f631475f28f64ea511525fa588e76cdfc"
+    },
+    "-5006_1683": {
+      "x": -12815360,
+      "y": 4311040,
+      "buildings": "-5006_1683.buildings.json.gz",
+      "canopy": "-5006_1683.canopy.bin.gz",
+      "buildingSha256": "3f8611bff392194aae67f60fd90caba5ac9e0da14e4be63d171f6b52050ca6d5",
+      "canopySha256": "9c8d7add91d048717d31425b10d13c2b7293ad1c57e33f1708cc9999e0d0c838"
+    },
+    "-5006_1684": {
+      "x": -12815360,
+      "y": 4313600,
+      "buildings": "-5006_1684.buildings.json.gz",
+      "canopy": "-5006_1684.canopy.bin.gz",
+      "buildingSha256": "bf6aa6947d1fcc6d46f0357b0e6c48cb5a7d57ecec45bf70416dabacdec26fff",
+      "canopySha256": "1ab835d94c47f18e11f5b759fbe381dd156ead85e1b4c987a0a4362e64742a4b"
+    },
+    "-5006_1685": {
+      "x": -12815360,
+      "y": 4316160,
+      "buildings": "-5006_1685.buildings.json.gz",
+      "canopy": "-5006_1685.canopy.bin.gz",
+      "buildingSha256": "27146ba319bf00216c0f4bb4fa32be406b0eaa539c82082e66db12542679b8e2",
+      "canopySha256": "61c2cb6e822a61d62b0dcc40568a6bbb4fda4d50dec7dd91a6d88685e8dd3f54"
+    },
+    "-5006_1686": {
+      "x": -12815360,
+      "y": 4318720,
+      "buildings": "-5006_1686.buildings.json.gz",
+      "canopy": "-5006_1686.canopy.bin.gz",
+      "buildingSha256": "39a70053f2d28a187005d33d2ad35420e966622db2565fe037172ba79904fb02",
+      "canopySha256": "044a3073158ce418477ba348ea78672b557a0a730751be671c18267f1759b9b4"
+    },
+    "-5006_1687": {
+      "x": -12815360,
+      "y": 4321280,
+      "buildings": "-5006_1687.buildings.json.gz",
+      "canopy": "-5006_1687.canopy.bin.gz",
+      "buildingSha256": "550ccff38b6adbc70fae72470214cb61583776993f90837b2609992b5e38ebbc",
+      "canopySha256": "ef1003778d449352ce154f366d7ba3af717260ea7098d38064a07d550a903fce"
+    },
+    "-5006_1688": {
+      "x": -12815360,
+      "y": 4323840,
+      "buildings": "-5006_1688.buildings.json.gz",
+      "canopy": "-5006_1688.canopy.bin.gz",
+      "buildingSha256": "25dd2256c1860e4cad31b6312e546c024e4d937c39a9106c393e91636f83e5d2",
+      "canopySha256": "91c60b65e8bd7810e5419be0331a244da98c8cd20f1c92cce48d6f15cfae47d1"
+    },
+    "-5006_1689": {
+      "x": -12815360,
+      "y": 4326400,
+      "buildings": "-5006_1689.buildings.json.gz",
+      "canopy": "-5006_1689.canopy.bin.gz",
+      "buildingSha256": "25e7ec9535c15267bb8cfda925aa106167d40aa6ffd2af96b90a77c21bbc7ea4",
+      "canopySha256": "cfc4f4191a3f79bbe9fee004fde5a5d24a702b2651cccc12ecf85d7a4b7c979f"
+    },
+    "-5006_1690": {
+      "x": -12815360,
+      "y": 4328960,
+      "buildings": "-5006_1690.buildings.json.gz",
+      "canopy": "-5006_1690.canopy.bin.gz",
+      "buildingSha256": "9da0b7dc8a066d26082f5faac4ed2722e97cbc90be2930cac92c1a45297c90c4",
+      "canopySha256": "ee76d7e849d8093e9ed888f223563573087a43a3ca2815ee2938484e35f61e94"
+    },
+    "-5006_1691": {
+      "x": -12815360,
+      "y": 4331520,
+      "buildings": "-5006_1691.buildings.json.gz",
+      "canopy": "-5006_1691.canopy.bin.gz",
+      "buildingSha256": "d2ea935d733ae76324a408e7365b429a7e9d06c59d60e6f297fedf355e21ca03",
+      "canopySha256": "4c4b64649b07161fdac69663ec562c1660548f23e714ccba068ad0a4536e9157"
+    },
+    "-5006_1692": {
+      "x": -12815360,
+      "y": 4334080,
+      "buildings": "-5006_1692.buildings.json.gz",
+      "canopy": "-5006_1692.canopy.bin.gz",
+      "buildingSha256": "aa501002886e9397ec060d25a9921ae77a41d0f65a8f619086847b71b896963d",
+      "canopySha256": "80fcdbd1791d656294a1455ae9e1a21d87b411c699de089221d4d27ffad58a17"
+    },
+    "-5006_1693": {
+      "x": -12815360,
+      "y": 4336640,
+      "buildings": "-5006_1693.buildings.json.gz",
+      "canopy": "-5006_1693.canopy.bin.gz",
+      "buildingSha256": "7459877d2b2c7eb9d139d085177ef8a8e546dc3739916bb31ceb14ef134929ec",
+      "canopySha256": "91c80ea5f7318fab52649604ff2e992b41960c91be64ba4a5ef199e217939be8"
+    },
+    "-5006_1694": {
+      "x": -12815360,
+      "y": 4339200,
+      "buildings": "-5006_1694.buildings.json.gz",
+      "canopy": "-5006_1694.canopy.bin.gz",
+      "buildingSha256": "43e405b1a18c90b7ee7404a144b7d2d786d457185700800c48a58c977917a376",
+      "canopySha256": "13aa18b96349e68d84196e0b19d9f9e08184c4a729f13a4d67f9650a43cba381"
+    },
+    "-5006_1695": {
+      "x": -12815360,
+      "y": 4341760,
+      "buildings": "-5006_1695.buildings.json.gz",
+      "canopy": "-5006_1695.canopy.bin.gz",
+      "buildingSha256": "787b6ed1020b7d8fc5a60cf35b671a71f2645dcc331737d35c4e85b9189d9bf4",
+      "canopySha256": "bb107ea4ee630c35f2ff9ff562f49b80a3fbe02f38af63ac390d09283af7c5aa"
+    },
+    "-5006_1696": {
+      "x": -12815360,
+      "y": 4344320,
+      "buildings": "-5006_1696.buildings.json.gz",
+      "canopy": "-5006_1696.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "a343ac80f5e511de8de3c0fd6ce81e291a6df27c2638dd3324200110a8c66198"
+    },
+    "-5006_1697": {
+      "x": -12815360,
+      "y": 4346880,
+      "buildings": "-5006_1697.buildings.json.gz",
+      "canopy": "-5006_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "398a00f1a1b6b52a0f315b0c9e2597a53f42e428db40c3c22a04ad0e511a62e2"
+    },
+    "-5006_1698": {
+      "x": -12815360,
+      "y": 4349440,
+      "buildings": "-5006_1698.buildings.json.gz",
+      "canopy": "-5006_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "342983ca012f21f6641ae54ee663b75efc46c64480b7c969ce8563e7ba4f7a4f"
+    },
+    "-5006_1699": {
+      "x": -12815360,
+      "y": 4352000,
+      "buildings": "-5006_1699.buildings.json.gz",
+      "canopy": "-5006_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "f1ae36278342e4ab1288e570f66647774b9e67d670dce68476eb4a922adc6f21"
+    },
+    "-5006_1700": {
+      "x": -12815360,
+      "y": 4354560,
+      "buildings": "-5006_1700.buildings.json.gz",
+      "canopy": "-5006_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "eead109bbff9a1aecc45d6c466934c2d34cbc7bc5139984cd02a1b5e4451b42d"
+    },
+    "-5006_1701": {
+      "x": -12815360,
+      "y": 4357120,
+      "buildings": "-5006_1701.buildings.json.gz",
+      "canopy": "-5006_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "a28f81e4e375c3fe229aa08a452ecb68d9bbfcb7ff8245a30ceb0c06577620bc"
+    },
+    "-5005_1681": {
+      "x": -12812800,
+      "y": 4305920,
+      "buildings": "-5005_1681.buildings.json.gz",
+      "canopy": "-5005_1681.canopy.bin.gz",
+      "buildingSha256": "dab3771913f6dd1d5e6e55bba0fe8a86b6030a2ba0973f94bcbc9bdbe8201cef",
+      "canopySha256": "d829c1f18f6043d717102fad6263f10b99d5a79b47430779ef605c10f271a14a"
+    },
+    "-5005_1682": {
+      "x": -12812800,
+      "y": 4308480,
+      "buildings": "-5005_1682.buildings.json.gz",
+      "canopy": "-5005_1682.canopy.bin.gz",
+      "buildingSha256": "cde270b04c9197e1383f35a97fc3fcf4dfc68b7ca2e11148e67b579bd9d910c0",
+      "canopySha256": "256f688ac733280c7a575758bbf4e1d8f2cae1fa5a8ea494e9fa242cee90f8a4"
+    },
+    "-5005_1683": {
+      "x": -12812800,
+      "y": 4311040,
+      "buildings": "-5005_1683.buildings.json.gz",
+      "canopy": "-5005_1683.canopy.bin.gz",
+      "buildingSha256": "8e6889eb8c6bd4a52cc8596a1bb6d084b2a8d05254658acdceb3bd92fe781733",
+      "canopySha256": "c67ee52752f4d2cc006eeee6b9b73eab323787ae87993c3d8213d801da804d63"
+    },
+    "-5005_1684": {
+      "x": -12812800,
+      "y": 4313600,
+      "buildings": "-5005_1684.buildings.json.gz",
+      "canopy": "-5005_1684.canopy.bin.gz",
+      "buildingSha256": "347e5f00898272557799b9b86a4da86cda8d99ca70306eafec683f62a6947b77",
+      "canopySha256": "17b296dbc2cd89ec47292b504d9b111d54269440439c41da9ea25f8f4f9eb3cc"
+    },
+    "-5005_1685": {
+      "x": -12812800,
+      "y": 4316160,
+      "buildings": "-5005_1685.buildings.json.gz",
+      "canopy": "-5005_1685.canopy.bin.gz",
+      "buildingSha256": "b6cbf6187106c12de90c9bbd925b23d7f92cc4d61caafbcfd19ee8a2536a06b5",
+      "canopySha256": "153c34bee5c5f3091b40cff2f4b715ac0ffc07a7a9bea2e539611ccc0e1c1ff1"
+    },
+    "-5005_1686": {
+      "x": -12812800,
+      "y": 4318720,
+      "buildings": "-5005_1686.buildings.json.gz",
+      "canopy": "-5005_1686.canopy.bin.gz",
+      "buildingSha256": "f245325887cc800443eae7d98073af332dd482a5a25772110175f4b4c15742cf",
+      "canopySha256": "d481b5c8f5a5eec559018c97b97c260f2aa91ae8c5665cd99138cd27a4003a2f"
+    },
+    "-5005_1687": {
+      "x": -12812800,
+      "y": 4321280,
+      "buildings": "-5005_1687.buildings.json.gz",
+      "canopy": "-5005_1687.canopy.bin.gz",
+      "buildingSha256": "50edf35d1fd611b5eb41825ca046cc907a194ef5aac2d2a9d86598ae36155fca",
+      "canopySha256": "0337f593ccd9c25804777e4ed66d3f54c7a0c50f027e069b62386fe76998a0d9"
+    },
+    "-5005_1688": {
+      "x": -12812800,
+      "y": 4323840,
+      "buildings": "-5005_1688.buildings.json.gz",
+      "canopy": "-5005_1688.canopy.bin.gz",
+      "buildingSha256": "cbd575a1b31e81be7b8bd8487b4bdf464328df0523985bbb4e23d2e770cb042d",
+      "canopySha256": "305896f757b51692c62b581b84de1b0567ae32a94f69092dcbcabeca780ebe95"
+    },
+    "-5005_1689": {
+      "x": -12812800,
+      "y": 4326400,
+      "buildings": "-5005_1689.buildings.json.gz",
+      "canopy": "-5005_1689.canopy.bin.gz",
+      "buildingSha256": "f9cb35f49cdacc60f2692165b7814df40cfa4712b7b37fdfbc1bac5cba22fe9a",
+      "canopySha256": "8b083e13cba93097d1f7b1593ea0c3bd773b7bdecf304a68fd067439d144d349"
+    },
+    "-5005_1690": {
+      "x": -12812800,
+      "y": 4328960,
+      "buildings": "-5005_1690.buildings.json.gz",
+      "canopy": "-5005_1690.canopy.bin.gz",
+      "buildingSha256": "81e184f5e85bfdf934b2d185a77f3ac2979f78a2eb1c2f4707296038ea7eace8",
+      "canopySha256": "9cccc5f866819fbcfab5ad304f0be38430f8576fbfa9d6086f81d6ec52e8d4ca"
+    },
+    "-5005_1691": {
+      "x": -12812800,
+      "y": 4331520,
+      "buildings": "-5005_1691.buildings.json.gz",
+      "canopy": "-5005_1691.canopy.bin.gz",
+      "buildingSha256": "794a76ce0b1afb18492cce5fb9a6875e7960a1c9f084f547e71720bbb554f9d1",
+      "canopySha256": "0a1da75600d3832dd625474fe13f8183eaddc82894d1916f4a832e5cb8cc254c"
+    },
+    "-5005_1692": {
+      "x": -12812800,
+      "y": 4334080,
+      "buildings": "-5005_1692.buildings.json.gz",
+      "canopy": "-5005_1692.canopy.bin.gz",
+      "buildingSha256": "e07321b4c23760a996d723f58891b0fa97848e4682b2ab1807b205a143505ecb",
+      "canopySha256": "eb2b627f8d9c2b8cea334e2560b2b4ec8ef9bed7c5b2e0e0773809968bcb1389"
+    },
+    "-5005_1693": {
+      "x": -12812800,
+      "y": 4336640,
+      "buildings": "-5005_1693.buildings.json.gz",
+      "canopy": "-5005_1693.canopy.bin.gz",
+      "buildingSha256": "f9e477f35c7cdfe44287564c0c8af37717119f1779aefc1022bc28c0c1eeab0a",
+      "canopySha256": "56891412593acd1718b1cc6ec3babf3e82048510333f5202fac2d17976e10ea8"
+    },
+    "-5005_1694": {
+      "x": -12812800,
+      "y": 4339200,
+      "buildings": "-5005_1694.buildings.json.gz",
+      "canopy": "-5005_1694.canopy.bin.gz",
+      "buildingSha256": "3ed7c49b3e08d36e36964def553d6f017d2b55883c122b191988c850201ea914",
+      "canopySha256": "80a74d59c2dfe91fa0c98ba52de9f2d97d831ffdc897e8fd11940eec587f7b34"
+    },
+    "-5005_1695": {
+      "x": -12812800,
+      "y": 4341760,
+      "buildings": "-5005_1695.buildings.json.gz",
+      "canopy": "-5005_1695.canopy.bin.gz",
+      "buildingSha256": "a52b2fb47788bedda882b51e231062facc839821c2abeac10301b0637473e583",
+      "canopySha256": "6ee47cd12aaebe662913277ed9f2880c40c34737de0a059591f58c7327de4cab"
+    },
+    "-5005_1696": {
+      "x": -12812800,
+      "y": 4344320,
+      "buildings": "-5005_1696.buildings.json.gz",
+      "canopy": "-5005_1696.canopy.bin.gz",
+      "buildingSha256": "827cb448c367c446c978e80ae345fe2e22771a49d884ad855d67a3781f0bb43f",
+      "canopySha256": "2654715482c32d9ee798383e495e8216e781c21b34f136ed043cbfb3d8a069c4"
+    },
+    "-5005_1697": {
+      "x": -12812800,
+      "y": 4346880,
+      "buildings": "-5005_1697.buildings.json.gz",
+      "canopy": "-5005_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "73261ad2963fdd9307345e288f7f8f8424ebc624548ee077521fb5d0f3867d40"
+    },
+    "-5005_1698": {
+      "x": -12812800,
+      "y": 4349440,
+      "buildings": "-5005_1698.buildings.json.gz",
+      "canopy": "-5005_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "b1caa5ab4aa1d90e3e23af01119d57abee9510dd334671c2a79686738575bbe2"
+    },
+    "-5005_1699": {
+      "x": -12812800,
+      "y": 4352000,
+      "buildings": "-5005_1699.buildings.json.gz",
+      "canopy": "-5005_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "9a46d361b49f6df4f5ba526dd375257557667bf61a5500b4796c60e20164e18b"
+    },
+    "-5005_1700": {
+      "x": -12812800,
+      "y": 4354560,
+      "buildings": "-5005_1700.buildings.json.gz",
+      "canopy": "-5005_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "01cd425a461d696caeb7dbd4acf9245715d4ba74f6e27177d9666265ea94c726"
+    },
+    "-5005_1701": {
+      "x": -12812800,
+      "y": 4357120,
+      "buildings": "-5005_1701.buildings.json.gz",
+      "canopy": "-5005_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "39634ed23e5cc82403c2b72eae1cc665d69e0f35d0e2833a23db8689fc7813ca"
+    },
+    "-5004_1681": {
+      "x": -12810240,
+      "y": 4305920,
+      "buildings": "-5004_1681.buildings.json.gz",
+      "canopy": "-5004_1681.canopy.bin.gz",
+      "buildingSha256": "3b8313d392200ffe71b2695e3c47808f25a027fe8bdb883d8c910ff460bb0c48",
+      "canopySha256": "6f304d0dc0296ea7e17d95502c1e25806aad19bb548cbd711db61b1d514b4a0f"
+    },
+    "-5004_1682": {
+      "x": -12810240,
+      "y": 4308480,
+      "buildings": "-5004_1682.buildings.json.gz",
+      "canopy": "-5004_1682.canopy.bin.gz",
+      "buildingSha256": "9b93fea60aeaa57573f3b998bab22304fcf02863f14e1d98db88944222c55276",
+      "canopySha256": "331c93fc9b6c41cb298982038c22928d29929b17384cc90d8b7507a6250186f5"
+    },
+    "-5004_1683": {
+      "x": -12810240,
+      "y": 4311040,
+      "buildings": "-5004_1683.buildings.json.gz",
+      "canopy": "-5004_1683.canopy.bin.gz",
+      "buildingSha256": "568270ded05346932be19ccfef3991388ac19718db481b12f7e0f9065e2ff453",
+      "canopySha256": "0fbf045f6aefd12dee58026a92693dfd85801d994244cae390a8dbf7d27ceca8"
+    },
+    "-5004_1684": {
+      "x": -12810240,
+      "y": 4313600,
+      "buildings": "-5004_1684.buildings.json.gz",
+      "canopy": "-5004_1684.canopy.bin.gz",
+      "buildingSha256": "91400ffdda8041a2939d908c9cbd79cf290af6527a36db6a994956452d73aa2e",
+      "canopySha256": "a1df1ca8d598484c6c8ce6b9561083165326d0106cfabe037d94e326b40cf261"
+    },
+    "-5004_1685": {
+      "x": -12810240,
+      "y": 4316160,
+      "buildings": "-5004_1685.buildings.json.gz",
+      "canopy": "-5004_1685.canopy.bin.gz",
+      "buildingSha256": "12442d55ae98858c0c0fddd65b9307002c5961c978596a35dddb000a82d3aa26",
+      "canopySha256": "e9552a7c4c0dc7c221ab6b48f531d98bb1f98f5bbc145357d0e87ade3bb221a8"
+    },
+    "-5004_1686": {
+      "x": -12810240,
+      "y": 4318720,
+      "buildings": "-5004_1686.buildings.json.gz",
+      "canopy": "-5004_1686.canopy.bin.gz",
+      "buildingSha256": "96b09057b0f2dc50f3bd98c3b3852d6e94d0728b9b9dbc5af3d9c3ddb7a0ba87",
+      "canopySha256": "dbc9aace7bd2a0011d36e4c77490de4e02c43eeb38602b61a8f852430ddbd3e5"
+    },
+    "-5004_1687": {
+      "x": -12810240,
+      "y": 4321280,
+      "buildings": "-5004_1687.buildings.json.gz",
+      "canopy": "-5004_1687.canopy.bin.gz",
+      "buildingSha256": "2e8af373f27d55babfe262650b254df9e927dbf73b7a4679945e25fd81fba647",
+      "canopySha256": "c113e519106bda349fd45dd52c546abfe5b22a644c70625eca93b81c3f8646fc"
+    },
+    "-5004_1688": {
+      "x": -12810240,
+      "y": 4323840,
+      "buildings": "-5004_1688.buildings.json.gz",
+      "canopy": "-5004_1688.canopy.bin.gz",
+      "buildingSha256": "d4f428c1cf6dc26dc93f08e6f9fcf50ba221cd590911ca5ba49eea855d413fbe",
+      "canopySha256": "d9666187d2ecbe0a1973b928dd842a7d20c695fbcba4c7e7ec7513d1a61c95db"
+    },
+    "-5004_1689": {
+      "x": -12810240,
+      "y": 4326400,
+      "buildings": "-5004_1689.buildings.json.gz",
+      "canopy": "-5004_1689.canopy.bin.gz",
+      "buildingSha256": "ebae08af2373bc9625188883f44538549682da6c8339e5cc7ba8ce7a032967ce",
+      "canopySha256": "7e9e61d5d1e8e2d48858f5fb33f03c3e61aeb4221ae9910ee1e484b7e597e9b7"
+    },
+    "-5004_1690": {
+      "x": -12810240,
+      "y": 4328960,
+      "buildings": "-5004_1690.buildings.json.gz",
+      "canopy": "-5004_1690.canopy.bin.gz",
+      "buildingSha256": "3999aa7386ea2d04d17c4842b19806a066907badb7e45041652a9d73bb518d45",
+      "canopySha256": "301fbb03c1eb7a7503dadaebef914462d3301f549c82cf45ad31bc164c724a6a"
+    },
+    "-5004_1691": {
+      "x": -12810240,
+      "y": 4331520,
+      "buildings": "-5004_1691.buildings.json.gz",
+      "canopy": "-5004_1691.canopy.bin.gz",
+      "buildingSha256": "69796ea2710024ca6c0b2099f04791807c217d8d59968902bc6f4e2a1cbb1ad0",
+      "canopySha256": "6bc02c75ebd4c615990adfd8ee5847ceb11bffa9ed50e0b2c2eb38969cfc06b7"
+    },
+    "-5004_1692": {
+      "x": -12810240,
+      "y": 4334080,
+      "buildings": "-5004_1692.buildings.json.gz",
+      "canopy": "-5004_1692.canopy.bin.gz",
+      "buildingSha256": "f662a90c0a5715d7bc08c8f93e74cf4b120ecc2dc9e52d86307a9bdbe88fe0a4",
+      "canopySha256": "472802e3221f45fd0afa972cab5269afec0f937f74d994131b4b90c42dbb662e"
+    },
+    "-5004_1693": {
+      "x": -12810240,
+      "y": 4336640,
+      "buildings": "-5004_1693.buildings.json.gz",
+      "canopy": "-5004_1693.canopy.bin.gz",
+      "buildingSha256": "0738f46194bf31b6ba9751c835b35897b587c568705798e8e10b4e8f6c19f8f6",
+      "canopySha256": "415f12bea1ad1b3e86d3bc98fbdfd93fa3a075aa09e5b386ec71a52320185703"
+    },
+    "-5004_1694": {
+      "x": -12810240,
+      "y": 4339200,
+      "buildings": "-5004_1694.buildings.json.gz",
+      "canopy": "-5004_1694.canopy.bin.gz",
+      "buildingSha256": "4a9065ab53b19df586f5806164bd25d9a241043daa9e2ee522747c1e2072082d",
+      "canopySha256": "4ebae8bd86c7bb6e030d0dc93a6ab8bf16ea0bd2b9e4377176b641373f88011d"
+    },
+    "-5004_1695": {
+      "x": -12810240,
+      "y": 4341760,
+      "buildings": "-5004_1695.buildings.json.gz",
+      "canopy": "-5004_1695.canopy.bin.gz",
+      "buildingSha256": "90c2aa8b7dc1335f0d430621af3f4db8ac1527682b9d0786e8bee2ab87a5e6eb",
+      "canopySha256": "65dd59a76cb6011537bd05a9aa253bf62a4eb6d385d0fc0ffbb604132db764a4"
+    },
+    "-5004_1696": {
+      "x": -12810240,
+      "y": 4344320,
+      "buildings": "-5004_1696.buildings.json.gz",
+      "canopy": "-5004_1696.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "4db1e02c6fdd9e772aaf689a1cb3d6ba1038d2af77a3b28d1129465ab3491dbd"
+    },
+    "-5004_1697": {
+      "x": -12810240,
+      "y": 4346880,
+      "buildings": "-5004_1697.buildings.json.gz",
+      "canopy": "-5004_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "994e829e30a0282504f48b2045829925b13127f122268a5c15043ba3c061aea0"
+    },
+    "-5004_1698": {
+      "x": -12810240,
+      "y": 4349440,
+      "buildings": "-5004_1698.buildings.json.gz",
+      "canopy": "-5004_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "68d46d21b1485b935e095a6a52536cdfdb92a524a1501f5de71267dff7f2ae8f"
+    },
+    "-5004_1699": {
+      "x": -12810240,
+      "y": 4352000,
+      "buildings": "-5004_1699.buildings.json.gz",
+      "canopy": "-5004_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "0340936275a0da898fb658052f77da366dba7cf168ffe9174ad8410322ff54ea"
+    },
+    "-5004_1700": {
+      "x": -12810240,
+      "y": 4354560,
+      "buildings": "-5004_1700.buildings.json.gz",
+      "canopy": "-5004_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "a5549e4ae2ff3881629669b6477f9f7aa44d2c49835cddeed9bca8d8db50e385"
+    },
+    "-5004_1701": {
+      "x": -12810240,
+      "y": 4357120,
+      "buildings": "-5004_1701.buildings.json.gz",
+      "canopy": "-5004_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "0630fafcf03be8db2a7dfe2f6c4b525a0634924bd81fbf3fd1ee81753fc47ed9"
+    },
+    "-5003_1681": {
+      "x": -12807680,
+      "y": 4305920,
+      "buildings": "-5003_1681.buildings.json.gz",
+      "canopy": "-5003_1681.canopy.bin.gz",
+      "buildingSha256": "28863613209aa17a89a32140a6a22ab3d111f5af0b9537d37cac5ccaf5afc329",
+      "canopySha256": "283ec5495e2e250764d39ac058f6e26dc5c4b75afd025c6af9ac1244bc4fb1b8"
+    },
+    "-5003_1682": {
+      "x": -12807680,
+      "y": 4308480,
+      "buildings": "-5003_1682.buildings.json.gz",
+      "canopy": "-5003_1682.canopy.bin.gz",
+      "buildingSha256": "cfe292def7fcb5767409999ca3bc182318f865243dfe2f48bb8597667db4902c",
+      "canopySha256": "eb10a57fb683aa12d717e771dca345107e84f2662d828d57eedf07ee8dcb2abb"
+    },
+    "-5003_1683": {
+      "x": -12807680,
+      "y": 4311040,
+      "buildings": "-5003_1683.buildings.json.gz",
+      "canopy": "-5003_1683.canopy.bin.gz",
+      "buildingSha256": "210efcca9f417caa90040a7835535e3193cd79a9d8d569c936bba3684ed58c4b",
+      "canopySha256": "b4077b44c73b0abe149446449411aec3495efd264a45839b935c7d8efdf033bf"
+    },
+    "-5003_1684": {
+      "x": -12807680,
+      "y": 4313600,
+      "buildings": "-5003_1684.buildings.json.gz",
+      "canopy": "-5003_1684.canopy.bin.gz",
+      "buildingSha256": "037caa137fb4b371befaecffbd1689d0bfb511b27f1277366198912bd6fc6ee6",
+      "canopySha256": "f34f1f2fce412e44c1aa4da686fb6dfe94c2aece2231a33ff0d6801a5d1c514a"
+    },
+    "-5003_1685": {
+      "x": -12807680,
+      "y": 4316160,
+      "buildings": "-5003_1685.buildings.json.gz",
+      "canopy": "-5003_1685.canopy.bin.gz",
+      "buildingSha256": "dd3703b88f9de9667c60d6683b092c4c4293e3c38f3276f5a450049aaf98ab74",
+      "canopySha256": "d1a701e647837868b891f4714a5d86bcda053c54c6d901020822cf6851dc9bb7"
+    },
+    "-5003_1686": {
+      "x": -12807680,
+      "y": 4318720,
+      "buildings": "-5003_1686.buildings.json.gz",
+      "canopy": "-5003_1686.canopy.bin.gz",
+      "buildingSha256": "8d5ca4012244ea51d53cc8fd4067fd61b13351bcf6923af42aa2588331602bfc",
+      "canopySha256": "5179c9c9667789de501841b2f15b2bc63d2c27f26d4dadf92423316c12de5742"
+    },
+    "-5003_1687": {
+      "x": -12807680,
+      "y": 4321280,
+      "buildings": "-5003_1687.buildings.json.gz",
+      "canopy": "-5003_1687.canopy.bin.gz",
+      "buildingSha256": "0e4d37979994e299c94a3ab6a9e69e6e5b108fe57d0984d8a75f85be586f8b10",
+      "canopySha256": "fd27f9a7c535b3be1af949fc5b9abfaf21e521cf8a0faf7de14f80878dece05b"
+    },
+    "-5003_1688": {
+      "x": -12807680,
+      "y": 4323840,
+      "buildings": "-5003_1688.buildings.json.gz",
+      "canopy": "-5003_1688.canopy.bin.gz",
+      "buildingSha256": "5e64765b73b85284fb35e58a17c91a8f217ef548deead1c9458ab93e8ad505a4",
+      "canopySha256": "7e9ecea1a4276a69f091c594eaeba5c9aa01ca3387c8c69d6dfe189d0ef11e75"
+    },
+    "-5003_1689": {
+      "x": -12807680,
+      "y": 4326400,
+      "buildings": "-5003_1689.buildings.json.gz",
+      "canopy": "-5003_1689.canopy.bin.gz",
+      "buildingSha256": "00e09ae2b999cb340a088232fcb67e37ab423e94e5ac8ae57d24adc3c9d0af9f",
+      "canopySha256": "83b60fef0d8ab304c05b9f93c43db0976c3f2ca0c5531a8ba16287bb40ae8577"
+    },
+    "-5003_1690": {
+      "x": -12807680,
+      "y": 4328960,
+      "buildings": "-5003_1690.buildings.json.gz",
+      "canopy": "-5003_1690.canopy.bin.gz",
+      "buildingSha256": "ce2d3ff07c261a59c374bff87a78acc647452807c25000e25d075a76506c2a84",
+      "canopySha256": "a705ea5ac0b4a188f5f6d27a2d0ab37b6677d5ad9ab8e94e31485f5315251291"
+    },
+    "-5003_1691": {
+      "x": -12807680,
+      "y": 4331520,
+      "buildings": "-5003_1691.buildings.json.gz",
+      "canopy": "-5003_1691.canopy.bin.gz",
+      "buildingSha256": "6dd097a480c608bd8fe534ab7f0f61439a374ccb167f75bc2f62d4923684f1e6",
+      "canopySha256": "7d20b3b22cc6dfdc1cf911830e8e6b00ce2dca3eb0672b1b9a504fb25677ec96"
+    },
+    "-5003_1692": {
+      "x": -12807680,
+      "y": 4334080,
+      "buildings": "-5003_1692.buildings.json.gz",
+      "canopy": "-5003_1692.canopy.bin.gz",
+      "buildingSha256": "7fe0b3409286e351bb92454c90db8732a279a3d2c299a1cfbb3b07d307394daf",
+      "canopySha256": "a3410c0a997998a4fd566f44e22280343c942357a2373bdbe2441f3c0e260915"
+    },
+    "-5003_1693": {
+      "x": -12807680,
+      "y": 4336640,
+      "buildings": "-5003_1693.buildings.json.gz",
+      "canopy": "-5003_1693.canopy.bin.gz",
+      "buildingSha256": "4653fb48f18fc38daf601f7eb672de410cb9042a8ce1ba496dab9e4a83d0d1b2",
+      "canopySha256": "60a2d71db8449fb8492b0b3a7c4c756efee4639cc649f11517082051bd4d5052"
+    },
+    "-5003_1694": {
+      "x": -12807680,
+      "y": 4339200,
+      "buildings": "-5003_1694.buildings.json.gz",
+      "canopy": "-5003_1694.canopy.bin.gz",
+      "buildingSha256": "5b4b496d4d566ce0b261d8092794214750c6ca9eb7d5109ddc72d85700397bb1",
+      "canopySha256": "ba8cc1677eff593390ee8339124f5a2c26208ef2dde18e4a61703d9f81d56761"
+    },
+    "-5003_1695": {
+      "x": -12807680,
+      "y": 4341760,
+      "buildings": "-5003_1695.buildings.json.gz",
+      "canopy": "-5003_1695.canopy.bin.gz",
+      "buildingSha256": "27dc5fcce6c70fb5f4b51eb020a72c8623754aec973c5a82a0d0505797671abd",
+      "canopySha256": "a9de91f2121bfab222353a553d801a438e9dc2d5178c8ee2ef033a77d8ee0232"
+    },
+    "-5003_1696": {
+      "x": -12807680,
+      "y": 4344320,
+      "buildings": "-5003_1696.buildings.json.gz",
+      "canopy": "-5003_1696.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "328347c63a3b0fc0419eb60acc55101c0f686844b7d6fbdc5e2829d8ba8da3bb"
+    },
+    "-5003_1697": {
+      "x": -12807680,
+      "y": 4346880,
+      "buildings": "-5003_1697.buildings.json.gz",
+      "canopy": "-5003_1697.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "96599f47d7fe70cf4612039c5685b30e0691f24bc41f60191061584bcdca1bea"
+    },
+    "-5003_1698": {
+      "x": -12807680,
+      "y": 4349440,
+      "buildings": "-5003_1698.buildings.json.gz",
+      "canopy": "-5003_1698.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "0f65f41ec31ea5bfa6349da09553170ce17a211fdd5ca46549b0fa02573a1cbc"
+    },
+    "-5003_1699": {
+      "x": -12807680,
+      "y": 4352000,
+      "buildings": "-5003_1699.buildings.json.gz",
+      "canopy": "-5003_1699.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "1af672c98b8f8a4b11eb648bc8ef598cbf72b2983f852df2445b562993736503"
+    },
+    "-5003_1700": {
+      "x": -12807680,
+      "y": 4354560,
+      "buildings": "-5003_1700.buildings.json.gz",
+      "canopy": "-5003_1700.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "018355a603352dbc8cd212e099f954a45847d0df8b14f4402ba5f61070b63356"
+    },
+    "-5003_1701": {
+      "x": -12807680,
+      "y": 4357120,
+      "buildings": "-5003_1701.buildings.json.gz",
+      "canopy": "-5003_1701.canopy.bin.gz",
+      "buildingSha256": "64406e753d82e11c6bd63d1d04bb6aa083eefa0a46949bbfce994d556b989f0f",
+      "canopySha256": "9c9b706e53becb41ad03e62e710ac00fa7055114c76b0e6e46e00b9bfe75ef04"
+    }
+  },
+  "licenses": [
+    {
+      "name": "Microsoft Global ML Building Footprints",
+      "license": "CDLA Permissive 2.0",
+      "url": "https://cdla.dev/permissive-2-0/"
+    },
+    {
+      "name": "Meta and WRI 2026 CHMv2, source imagery Vantor",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "processing": "Full polygons and holes; missing building heights null. Canopy resampled nearest to 5 EPSG:3857 metres (~4 ground metres at Vegas), height metres quantized by provider; cloud/unavailable =255, valid no-canopy=0. Model assumes opaque vegetation below canopy surface; not measured shade or UV dose.",
+  "canopyObservationDatesIntersectingExtract": {
+    "0230130111.metadata.geojson": [
+      "2018-11-11",
+      "2018-11-15",
+      "2019-10-18",
+      "2019-10-31"
+    ],
+    "0230131002.metadata.geojson": [
+      "2019-10-18",
+      "2020-01-17",
+      "2020-02-08",
+      "2020-02-26",
+      "2020-03-03",
+      "2020-03-28"
+    ],
+    "0230131000.metadata.geojson": [
+      "2018-11-06",
+      "2018-11-11",
+      "2019-10-18",
+      "2020-02-08",
+      "2020-03-28"
+    ],
+    "0230130113.metadata.geojson": [
+      "2018-11-15",
+      "2019-01-20",
+      "2019-10-18",
+      "2020-01-17",
+      "2020-03-03"
+    ]
+  }
+}

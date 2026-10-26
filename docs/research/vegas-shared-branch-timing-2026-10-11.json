@@ -1,0 +1,183 @@
+{
+  "publicSnapshotResults": [
+    {
+      "pair": 1,
+      "developmentShadeFractions": [
+        0.2394860160663142,
+        0.21656656705666333,
+        0.21555543597282067,
+        0.20694188148852588,
+        0.2107656407678759,
+        0.24869860367750385
+      ],
+      "dataCoverageFractions": [
+        1.0,
+        1.0,
+        0.9645460833396657,
+        1.0,
+        1.0,
+        0.9929689414630087
+      ],
+      "candidates": 6,
+      "developmentTimeTotals": [
+        {
+          "building": 68.06258503829999,
+          "canopy": 0.0,
+          "open": 216.14016782495403,
+          "unknown": 0.0,
+          "night": 0.0
+        },
+        {
+          "building": 68.06258503829997,
+          "canopy": 0.0,
+          "open": 246.21761971967538,
+          "unknown": 0.0,
+          "night": 0.0
+        },
+        {
+          "building": 68.06258503829997,
+          "canopy": 0.0,
+          "open": 236.4971191713535,
+          "unknown": 11.194731446898238,
+          "night": 0.0
+        },
+        {
+          "building": 60.505993547957445,
+          "canopy": 5.405344918166655,
+          "open": 252.59034902229595,
+          "unknown": 0.0,
+          "night": 0.0
+        },
+        {
+          "building": 68.0530858861323,
+          "canopy": 0.0,
+          "open": 254.83201833767095,
+          "unknown": 0.0,
+          "night": 0.0
+        },
+        {
+          "building": 80.45711926469316,
+          "canopy": 0.0,
+          "open": 240.78079429039627,
+          "unknown": 2.2746356710602966,
+          "night": 0.0
+        }
+      ],
+      "preferenceIndices": {
+        "balanced": 0,
+        "mostShade": 0,
+        "fastest": 0
+      },
+      "meters": [
+        397.8838540085556,
+        439.99228666116545,
+        442.0562099191723,
+        445.90236248378795,
+        452.0391459133246,
+        452.9175689166096
+      ],
+      "steps": [
+        10,
+        12,
+        13,
+        16,
+        16,
+        18
+      ]
+    },
+    {
+      "pair": 2,
+      "developmentShadeFractions": [
+        0.6154699617302759,
+        0.3836038720109788,
+        0.5473980038509761,
+        0.3310482893053486,
+        0.34222925491379136,
+        0.21211918978126032
+      ],
+      "dataCoverageFractions": [
+        0.9535042277067021,
+        0.9377475183559092,
+        0.9595875290908437,
+        0.9392465426991317,
+        0.9394765753310231,
+        0.9577022027566475
+      ],
+      "candidates": 6,
+      "developmentTimeTotals": [
+        {
+          "building": 135.1995844411333,
+          "canopy": 5.0377228054067995,
+          "open": 77.02246765110128,
+          "unknown": 10.59424880205267,
+          "night": 0.0
+        },
+        {
+          "building": 88.62347635532365,
+          "canopy": 10.567367472638715,
+          "open": 143.28837609148144,
+          "unknown": 16.097012139870632,
+          "night": 0.0
+        },
+        {
+          "building": 133.05893836708304,
+          "canopy": 10.443067723573455,
+          "open": 108.0567034321508,
+          "unknown": 10.594248802052668,
+          "night": 0.0
+        },
+        {
+          "building": 71.74062226670127,
+          "canopy": 15.97271239080537,
+          "open": 161.14596770755168,
+          "unknown": 16.097012139870632,
+          "night": 0.0
+        },
+        {
+          "building": 80.45306802148696,
+          "canopy": 10.567367472638717,
+          "open": 158.84589181532698,
+          "unknown": 16.097012139870635,
+          "night": 0.0
+        },
+        {
+          "building": 29.276212536697713,
+          "canopy": 27.200402824085092,
+          "open": 198.51105921518342,
+          "unknown": 11.261764803008113,
+          "night": 0.0
+        }
+      ],
+      "preferenceIndices": {
+        "balanced": 0,
+        "mostShade": 0,
+        "fastest": 0
+      },
+      "meters": [
+        318.99563317957154,
+        362.0067248830401,
+        367.0141416548039,
+        370.9388403069005,
+        372.34867522905256,
+        372.7492151305639
+      ],
+      "steps": [
+        7,
+        8,
+        11,
+        11,
+        12,
+        4
+      ]
+    }
+  ],
+  "processedAt": "2026-10-11T17:31:05.879481+00:00",
+  "scope": "Saved public downtown OSM geometry and bundled modeled shade, not new network acquisition or field validation. Time totals are developer-only modeled seconds.",
+  "graphRetrievalTimestamp": null,
+  "departureUtc": "2026-10-10T17:00:00Z",
+  "sources": [
+    "https://www.openstreetmap.org",
+    "https://routing.openstreetmap.de/about.html"
+  ],
+  "snapshotSha256": "517030e5512afa136d4004ea8b42101bade4662320ef82e7a4cb2f391451f2e2"
+}

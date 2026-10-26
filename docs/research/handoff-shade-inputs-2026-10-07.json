@@ -1,0 +1,131 @@
+{
+  "checkedOn": "2026-10-07",
+  "scope": "Packaged-file integrity and source-to-package values, not measured shade accuracy",
+  "packagedFilesChecked": 882,
+  "sourceHashesChecked": [
+    {
+      "kind": "Microsoft buildings",
+      "file": "023013011.geojsonl.gz",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Microsoft buildings",
+      "file": "023013100.geojsonl.gz",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Meta WRI CHMv2",
+      "file": "0230130111.tif",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Canopy observation dates",
+      "file": "0230130111.metadata.geojson",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Meta WRI CHMv2",
+      "file": "0230130113.tif",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Canopy observation dates",
+      "file": "0230130113.metadata.geojson",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Meta WRI CHMv2",
+      "file": "0230131000.tif",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Canopy observation dates",
+      "file": "0230131000.metadata.geojson",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Meta WRI CHMv2",
+      "file": "0230131002.tif",
+      "sha256Matches": true
+    },
+    {
+      "kind": "Canopy observation dates",
+      "file": "0230131002.metadata.geojson",
+      "sha256Matches": true
+    }
+  ],
+  "uniqueFootprints": 520114,
+  "sourceFootprintHeightConfidenceMatches": 520114,
+  "heightsAvailable": 502930,
+  "unknownHeights": 17184,
+  "heightStatisticsMeters": {
+    "minimum": 0.01,
+    "median": 3.9,
+    "p95": 6.23,
+    "maximum": 38.15
+  },
+  "footprintDetectionConfidenceCounts": {
+    "unknown": 600,
+    "at_least_0.8": 518545,
+    "0.5_to_0.8": 960,
+    "below_0.5": 9
+  },
+  "canopyCells": {
+    "total": 115605504,
+    "unknownOrOutside": 9790140,
+    "validZero": 98720387,
+    "validAtLeast2m": 5283416
+  },
+  "canopyObservationDatesIntersectingExtract": {
+    "0230130111.metadata.geojson": [
+      "2018-11-11",
+      "2018-11-15",
+      "2019-10-18",
+      "2019-10-31"
+    ],
+    "0230131002.metadata.geojson": [
+      "2019-10-18",
+      "2020-01-17",
+      "2020-02-08",
+      "2020-02-26",
+      "2020-03-03",
+      "2020-03-28"
+    ],
+    "0230131000.metadata.geojson": [
+      "2018-11-06",
+      "2018-11-11",
+      "2019-10-18",
+      "2020-02-08",
+      "2020-03-28"
+    ],
+    "0230130113.metadata.geojson": [
+      "2018-11-15",
+      "2019-01-20",
+      "2019-10-18",
+      "2020-01-17",
+      "2020-03-03"
+    ]
+  },
+  "coverageGaps": [
+    [
+      -115.28507673095997,
+      36.08619305861901,
+      -115.28497885308944,
+      36.08623096035338
+    ],
+    [
+      -115.16778673917577,
+      36.19348999013738,
+      -115.165590032973,
+      36.19425913221994
+    ],
+    [
+      -115.24779184162328,
+      36.198348739516966,
+      -115.24753175351864,
+      36.19862108976924
+    ]
+  ],
+  "groundAccuracyVerified": false,
+  "remaining": "Field observations or independent ground-normalized lidar are required; confidence is footprint detection, not height certainty."
+}

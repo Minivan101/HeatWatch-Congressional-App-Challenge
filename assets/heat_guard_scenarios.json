@@ -1,0 +1,72 @@
+{
+  "sampleOnly": true,
+  "exampleAsOf": "2026-06-21T16:00:00.000Z",
+  "description": "Fictional historical scenarios. Not current weather or an actual alert check.",
+  "scenarios": {
+    "active": {
+      "current": {
+        "temperatureC": 32,
+        "feelsLikeC": 36,
+        "humidityPercent": 42,
+        "uvIndex": 8
+      },
+      "alerts": [
+        {
+          "title": "Fictional heat advisory",
+          "severity": "severe",
+          "source": "Fictional Weather Authority",
+          "sourceUrl": "https://example.org/weather",
+          "expiresAt": "2026-06-21T19:00:00.000Z"
+        }
+      ],
+      "alertsChecked": true,
+      "guidance": [
+        "Follow the linked official alert and local instructions.",
+        "Use extra sun protection. Seek shade and wear broad-spectrum sunscreen, protective clothing, a hat, and sunglasses."
+      ],
+      "fetchedAt": "2026-06-21T15:50:00.000Z"
+    },
+    "checkedNone": {
+      "current": {
+        "temperatureC": 32,
+        "feelsLikeC": 36,
+        "humidityPercent": 42,
+        "uvIndex": 8
+      },
+      "alerts": [],
+      "alertsChecked": true,
+      "guidance": [
+        "Use extra sun protection. Seek shade and wear broad-spectrum sunscreen, protective clothing, a hat, and sunglasses."
+      ],
+      "fetchedAt": "2026-06-21T15:50:00.000Z"
+    },
+    "unchecked": {
+      "current": {
+        "temperatureC": 32,
+        "feelsLikeC": 36,
+        "humidityPercent": 42,
+        "uvIndex": 8
+      },
+      "alerts": [],
+      "alertsChecked": false,
+      "guidance": [
+        "Use extra sun protection. Seek shade and wear broad-spectrum sunscreen, protective clothing, a hat, and sunglasses."
+      ],
+      "fetchedAt": "2026-06-21T15:50:00.000Z"
+    },
+    "stale": {
+      "current": {
+        "temperatureC": 32,
+        "feelsLikeC": 36,
+        "humidityPercent": 42,
+        "uvIndex": 8
+      },
+      "alerts": [],
+      "alertsChecked": true,
+      "guidance": [
+        "Use extra sun protection. Seek shade and wear broad-spectrum sunscreen, protective clothing, a hat, and sunglasses."
+      ],
+      "fetchedAt": "2026-06-21T13:00:00.000Z"
+    }
+  }
+}

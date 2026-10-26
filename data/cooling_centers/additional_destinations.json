@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-20",
+  "sources": [
+    {
+      "id": "oct20-miracle-mile",
+      "title": "Miracle Mile Shops — operator information",
+      "url": "https://www.miraclemileshopslv.com/"
+    },
+    {
+      "id": "oct20-miracle-mile-coordinate",
+      "title": "Miracle Mile Shops — mapped reference point",
+      "url": "https://www.openstreetmap.org/relation/1606512"
+    },
+    {
+      "id": "oct20-forum-shops",
+      "title": "The Forum Shops at Caesars — operator information",
+      "url": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace"
+    },
+    {
+      "id": "oct20-forum-shops-coordinate",
+      "title": "The Forum Shops at Caesars — mapped reference point",
+      "url": "https://www.openstreetmap.org/way/34068416"
+    },
+    {
+      "id": "oct20-grand-canal",
+      "title": "Grand Canal Shoppes — operator information",
+      "url": "https://www.grandcanalshoppes.com/en/visit/"
+    },
+    {
+      "id": "oct20-grand-canal-coordinate",
+      "title": "Grand Canal Shoppes — mapped reference point",
+      "url": "https://en.wikipedia.org/wiki/Grand_Canal_Shoppes"
+    },
+    {
+      "id": "oct20-crystals",
+      "title": "The Shops at Crystals — operator information",
+      "url": "https://www.simon.com/mall/the-shops-at-crystals"
+    },
+    {
+      "id": "oct20-crystals-coordinate",
+      "title": "The Shops at Crystals — mapped reference point",
+      "url": "https://www.openstreetmap.org/way/52134608"
+    },
+    {
+      "id": "oct20-aliante",
+      "title": "Aliante Hotel — visitor lobby — operator information",
+      "url": "https://aliante.boydgaming.com/contact-us"
+    },
+    {
+      "id": "oct20-aliante-detail-0",
+      "title": "Aliante Hotel — visitor lobby — facility details",
+      "url": "https://aliante.boydgaming.com/explore/photos-and-virtual-tours"
+    },
+    {
+      "id": "oct20-aliante-detail-1",
+      "title": "Aliante Hotel — visitor lobby — facility details",
+      "url": "https://www.boydgaming.com/locations"
+    },
+    {
+      "id": "oct20-aliante-coordinate",
+      "title": "Aliante Hotel — visitor lobby — mapped reference point",
+      "url": "https://en.wikipedia.org/wiki/Aliante_Casino_and_Hotel"
+    },
+    {
+      "id": "oct20-santa-fe",
+      "title": "Santa Fe Station — visitor common areas — operator information",
+      "url": "https://santafestation.com/stay/"
+    },
+    {
+      "id": "oct20-santa-fe-coordinate",
+      "title": "Santa Fe Station — visitor common areas — mapped reference point",
+      "url": "https://www.openstreetmap.org/way/961460045"
+    },
+    {
+      "id": "oct20-wetlands",
+      "title": "Wetlands Park Nature Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter"
+    },
+    {
+      "id": "oct20-wetlands-detail-0",
+      "title": "Wetlands Park Nature Center — facility details",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/"
+    },
+    {
+      "id": "oct20-wetlands-coordinate",
+      "title": "Wetlands Park Nature Center — mapped reference point",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7050%20Wetlands%20Park%20Lane%20Las%20Vegas%20NV%2089122&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "oct20-desert-breeze",
+      "title": "Desert Breeze Community Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/desert-breeze-community-center"
+    },
+    {
+      "id": "oct20-desert-breeze-coordinate",
+      "title": "Desert Breeze Community Center — mapped reference point",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4"
+    },
+    {
+      "id": "oct20-silverado-ranch",
+      "title": "Silverado Ranch Community Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/silverado-ranch-community-center"
+    },
+    {
+      "id": "oct20-silverado-ranch-coordinate",
+      "title": "Silverado Ranch Community Center — mapped reference point",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4"
+    },
+    {
+      "id": "oct20-mountain-crest",
+      "title": "Mountain Crest Community Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest"
+    },
+    {
+      "id": "oct20-mountain-crest-coordinate",
+      "title": "Mountain Crest Community Center — mapped reference point",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4"
+    }
+  ],
+  "places": [
+    {
+      "id": "community-added-miracle-mile",
+      "name": "Miracle Mile Shops",
+      "aliases": [],
+      "address": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules.",
+      "hours": "Sunday–Thursday 10 am–9 pm; Friday–Saturday 10 am–10 pm.",
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1097354,
+        "longitude": -115.1716327,
+        "sourceUrl": "https://www.openstreetmap.org/relation/1606512",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-miracle-mile",
+        "oct20-miracle-mile-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.miraclemileshopslv.com/",
+        "amenitySources": {
+          "food": "https://www.miraclemileshopslv.com/"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#miracle-mile",
+        "operatorPageSha256": "6165e320db0901e4c2977fbeb8c241f8e55c848657e2fe9274cddb2e3af5a2f3"
+      }
+    },
+    {
+      "id": "community-added-forum-shops",
+      "name": "The Forum Shops at Caesars",
+      "aliases": [],
+      "address": "3500 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules.",
+      "hours": "Sunday–Thursday 10 am–9 pm; Friday–Saturday 10 am–10 pm.",
+      "phone": "702-893-4800",
+      "coordinates": {
+        "latitude": 36.118919,
+        "longitude": -115.1764611,
+        "sourceUrl": "https://www.openstreetmap.org/way/34068416",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-forum-shops",
+        "oct20-forum-shops-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+        "amenitySources": {
+          "food": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+          "wifi": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+          "restrooms": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#forum-shops",
+        "operatorPageSha256": "77ff80e98af7cb6652a94c0d8e6cedd23454b1efb9e265b6bc545b7f7bf9c680"
+      }
+    },
+    {
+      "id": "community-added-grand-canal",
+      "name": "Grand Canal Shoppes",
+      "aliases": [],
+      "address": "3377 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules. No backpacks or mall-walking program; follow the operator’s age and visitor rules.",
+      "hours": "Sunday–Thursday 10 am–9 pm; Friday–Saturday 10 am–10 pm.",
+      "phone": "702-414-4525",
+      "coordinates": {
+        "latitude": 36.1213889,
+        "longitude": -115.1694444,
+        "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Canal_Shoppes",
+        "precision": "Published representative property point; not a surveyed lobby entrance."
+      },
+      "sourceIds": [
+        "oct20-grand-canal",
+        "oct20-grand-canal-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.grandcanalshoppes.com/en/visit/",
+        "amenitySources": {
+          "food": "https://www.grandcanalshoppes.com/en/visit/",
+          "seating": "https://www.grandcanalshoppes.com/en/visit/",
+          "restrooms": "https://www.grandcanalshoppes.com/en/visit/"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "Published representative property point; not a surveyed lobby entrance.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#grand-canal",
+        "operatorPageSha256": "97052158a1ac4146bf3fffb6790cd8745913289e9ff7ddb1c4961cd8b781e76d"
+      }
+    },
+    {
+      "id": "community-added-crystals",
+      "name": "The Shops at Crystals",
+      "aliases": [],
+      "address": "3720 S Las Vegas Blvd, Las Vegas, NV 89158",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules.",
+      "hours": null,
+      "phone": "702-590-9299",
+      "coordinates": {
+        "latitude": 36.1077414,
+        "longitude": -115.1742962,
+        "sourceUrl": "https://www.openstreetmap.org/way/52134608",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-crystals",
+        "oct20-crystals-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.simon.com/mall/the-shops-at-crystals",
+        "amenitySources": {
+          "food": "https://www.simon.com/mall/the-shops-at-crystals",
+          "wifi": "https://www.simon.com/mall/the-shops-at-crystals",
+          "restrooms": "https://www.simon.com/mall/the-shops-at-crystals"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#crystals",
+        "operatorPageSha256": "0fff1491331c923b3ea66f4514fc4911e2a8e8ff29017896339e4042f655ae7d"
+      }
+    },
+    {
+      "id": "community-added-aliante",
+      "name": "Aliante Hotel — visitor lobby",
+      "aliases": [
+        "Aliante Casino and Hotel"
+      ],
+      "address": "7300 Aliante Pkwy, North Las Vegas, NV 89084",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Non-gaming visitor common areas",
+      "access": "Only visitor-accessible non-gaming hotel/common areas, where permitted by staff. Gaming floors, bars, age-restricted and guest-only areas are excluded.",
+      "hours": null,
+      "phone": "702-692-7777",
+      "coordinates": {
+        "latitude": 36.2911111,
+        "longitude": -115.1819444,
+        "sourceUrl": "https://en.wikipedia.org/wiki/Aliante_Casino_and_Hotel",
+        "precision": "Published representative property point; not a surveyed lobby entrance."
+      },
+      "sourceIds": [
+        "oct20-aliante",
+        "oct20-aliante-coordinate",
+        "oct20-aliante-detail-0",
+        "oct20-aliante-detail-1"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Non-gaming visitor common areas",
+        "scopeSource": "https://aliante.boydgaming.com/explore/photos-and-virtual-tours",
+        "amenitySources": {
+          "food": "https://www.boydgaming.com/locations"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "Published representative property point; not a surveyed lobby entrance.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#aliante"
+      }
+    },
+    {
+      "id": "community-added-santa-fe",
+      "name": "Santa Fe Station — visitor common areas",
+      "aliases": [
+        "Santa Fe Station"
+      ],
+      "address": "4949 N Rancho Dr, Las Vegas, NV 89130",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Non-gaming visitor common areas",
+      "access": "Only visitor-accessible non-gaming hotel/common areas, where permitted by staff. Gaming floors, bars, age-restricted and guest-only areas are excluded.",
+      "hours": null,
+      "phone": "702-658-4900",
+      "coordinates": {
+        "latitude": 36.2498865,
+        "longitude": -115.2448221,
+        "sourceUrl": "https://www.openstreetmap.org/way/961460045",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-santa-fe",
+        "oct20-santa-fe-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Non-gaming visitor common areas",
+        "scopeSource": "https://santafestation.com/stay/",
+        "amenitySources": {
+          "food": "https://santafestation.com/stay/"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#santa-fe",
+        "operatorPageSha256": "d5db778aeaab99cc769a21679f7811c1a116d7fbd3b6d6646a347e8e57ea40d1"
+      }
+    },
+    {
+      "id": "community-added-wetlands",
+      "name": "Wetlands Park Nature Center",
+      "aliases": [],
+      "address": "7050 Wetlands Park Ln, Las Vegas, NV 89122",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Indoor lounge & galleries",
+      "access": "Public Exhibit Gallery and climate-controlled Lizard Lounge during Nature Center hours; outdoor trails are separate.",
+      "hours": "Tuesday–Sunday 9 am–3 pm; Monday closed.",
+      "phone": "702-455-7522",
+      "coordinates": {
+        "latitude": 36.1002088,
+        "longitude": -115.0249697,
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7050%20Wetlands%20Park%20Lane%20Las%20Vegas%20NV%2089122&benchmark=Public_AR_Current&format=json",
+        "precision": "Census address-interpolated street point; Nature Center entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-wetlands",
+        "oct20-wetlands-coordinate",
+        "oct20-wetlands-detail-0"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor lounge & galleries",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+        "amenitySources": {
+          "food": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+          "seating": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+          "restrooms": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "Census address-interpolated street point; Nature Center entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#wetlands",
+        "operatorPageSha256": "a7d0215bbd2725a6872aed5848ddd087fd8515856bfb35b47d49c72a1501802d"
+      }
+    },
+    {
+      "id": "community-added-desert-breeze",
+      "name": "Desert Breeze Community Center",
+      "aliases": [],
+      "address": "8275 Spring Mountain Rd, Las Vegas, NV 89117",
+      "area": "Las Vegas area",
+      "kind": "communityVenue",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Public reception/common areas during center hours; activity rooms follow staff and program access rules.",
+      "hours": "Monday–Friday 7 am–8 pm; Saturday–Sunday closed.",
+      "phone": "702-455-8334",
+      "coordinates": {
+        "latitude": 36.1245356,
+        "longitude": -115.2715025,
+        "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+        "precision": "County facility-parcel centroid, not a building entrance; use the published address for arrival."
+      },
+      "sourceIds": [
+        "oct20-desert-breeze",
+        "oct20-desert-breeze-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor public reception/common areas",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/desert-breeze-community-center",
+        "amenitySources": {},
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "County facility-parcel centroid, not a building entrance; use the published address for arrival.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#desert-breeze",
+        "operatorPageSha256": "71d94b3aa9d290ef851a87f09c006224fdb0049bea8031a6c22e42d792fc7c59"
+      }
+    },
+    {
+      "id": "community-added-silverado-ranch",
+      "name": "Silverado Ranch Community Center",
+      "aliases": [],
+      "address": "9855 Gilespie St, Las Vegas, NV 89183",
+      "area": "Las Vegas area",
+      "kind": "communityVenue",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Public reception/common areas during center hours; activity rooms follow staff and program access rules.",
+      "hours": "Monday–Friday 7 am–8 pm; Saturday 8 am–3 pm; Sunday closed.",
+      "phone": "702-455-6811",
+      "coordinates": {
+        "latitude": 36.0117617,
+        "longitude": -115.1657949,
+        "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+        "precision": "County facility-parcel centroid, not a building entrance; use the published address for arrival."
+      },
+      "sourceIds": [
+        "oct20-silverado-ranch",
+        "oct20-silverado-ranch-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor public reception/common areas",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/silverado-ranch-community-center",
+        "amenitySources": {},
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "County facility-parcel centroid, not a building entrance; use the published address for arrival.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#silverado-ranch",
+        "operatorPageSha256": "81ec7f8d03bb1d793cd926d1f235bc4c23e9aeddf995e77db5f6cbe5430f637d"
+      }
+    },
+    {
+      "id": "community-added-mountain-crest",
+      "name": "Mountain Crest Community Center",
+      "aliases": [],
+      "address": "4701 N Durango Dr, Las Vegas, NV 89129",
+      "area": "Las Vegas area",
+      "kind": "communityVenue",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Public reception/common areas during center hours; activity rooms follow staff and program access rules. Outdoor playground and splash-pad resurfacing is posted for September 21–December 21, 2026.",
+      "hours": "Monday–Friday 9 am–5 pm; Saturday–Sunday closed.",
+      "phone": "702-455-1905",
+      "coordinates": {
+        "latitude": 36.2465815,
+        "longitude": -115.2815608,
+        "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+        "precision": "County facility-parcel centroid, not a building entrance; use the published address for arrival."
+      },
+      "sourceIds": [
+        "oct20-mountain-crest",
+        "oct20-mountain-crest-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor public reception/common areas",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest",
+        "amenitySources": {
+          "restrooms": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "County facility-parcel centroid, not a building entrance; use the published address for arrival.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#mountain-crest",
+        "operatorPageSha256": "680feceabeffbc90cf920c0478277c3213bdf542e97ad7aeac18ff108d5df7b1",
+        "constructionSource": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:edc6714c-59f3-48a3-b88a-514c30bf6a64/as/mtncrest-construction-notice-2026.jpg?preferwebp=true"
+      }
+    }
+  ]
+}

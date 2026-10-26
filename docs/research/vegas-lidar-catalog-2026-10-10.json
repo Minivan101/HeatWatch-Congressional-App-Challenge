@@ -1,0 +1,84 @@
+{
+  "retrievedDate": "2026-10-10",
+  "sourceUrl": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=Lidar%20Point%20Cloud%20%28LPC%29&bbox=-115.504%2C36.036%2C-115.036%2C36.404&max=5&outputFormat=JSON",
+  "totalOverlappingCatalogItems": 1566,
+  "sampleOnly": true,
+  "downloadedPointCloud": false,
+  "items": [
+    {
+      "title": "USGS Lidar Point Cloud NV_ClarkCounty_B22 683600_26710640",
+      "sourceId": "648f0f09d34ef77fcaffc1fe",
+      "publicationDate": "2023-06-15",
+      "dateCreated": "2023-06-18T08:04:57.140-06:00",
+      "sizeInBytes": 684983351,
+      "boundingBox": {
+        "minX": -115.490556,
+        "maxX": -115.4726806,
+        "minY": 36.02472526,
+        "maxY": 36.03823482
+      },
+      "metaUrl": "https://www.sciencebase.gov/catalog/item/648f0f09d34ef77fcaffc1fe",
+      "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/NV_ClarkCounty_B22/NV_ClarkCo_2_B22/LAZ/USGS_LPC_NV_ClarkCounty_B22_683600_26710640.laz"
+    },
+    {
+      "title": "USGS Lidar Point Cloud NV_ClarkCounty_B22 688880_26710640",
+      "sourceId": "648f0f49d34ef77fcaffc47e",
+      "publicationDate": "2023-06-15",
+      "dateCreated": "2023-06-18T08:06:01.204-06:00",
+      "sizeInBytes": 819114122,
+      "boundingBox": {
+        "minX": -115.4726995,
+        "maxX": -115.4548195,
+        "minY": 36.02470745,
+        "maxY": 36.03923058
+      },
+      "metaUrl": "https://www.sciencebase.gov/catalog/item/648f0f49d34ef77fcaffc47e",
+      "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/NV_ClarkCounty_B22/NV_ClarkCo_2_B22/LAZ/USGS_LPC_NV_ClarkCounty_B22_688880_26710640.laz"
+    },
+    {
+      "title": "USGS Lidar Point Cloud NV_ClarkCounty_B22 688880_26715920",
+      "sourceId": "648f0f2ad34ef77fcaffc340",
+      "publicationDate": "2023-06-15",
+      "dateCreated": "2023-06-18T08:05:30.203-06:00",
+      "sizeInBytes": 36044669,
+      "boundingBox": {
+        "minX": -115.4681949,
+        "maxX": -115.4548149,
+        "minY": 36.03921277,
+        "maxY": 36.04201376
+      },
+      "metaUrl": "https://www.sciencebase.gov/catalog/item/648f0f2ad34ef77fcaffc340",
+      "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/NV_ClarkCounty_B22/NV_ClarkCo_2_B22/LAZ/USGS_LPC_NV_ClarkCounty_B22_688880_26715920.laz"
+    },
+    {
+      "title": "USGS Lidar Point Cloud NV_ClarkCounty_B22 694160_26710640",
+      "sourceId": "648f0ec9d34ef77fcaffbfb2",
+      "publicationDate": "2023-06-15",
+      "dateCreated": "2023-06-18T08:03:53.272-06:00",
+      "sizeInBytes": 889637602,
+      "boundingBox": {
+        "minX": -115.454843,
+        "maxX": -115.4369597,
+        "minY": 36.02468699,
+        "maxY": 36.03921277
+      },
+      "metaUrl": "https://www.sciencebase.gov/catalog/item/648f0ec9d34ef77fcaffbfb2",
+      "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/NV_ClarkCounty_B22/NV_ClarkCo_2_B22/LAZ/USGS_LPC_NV_ClarkCounty_B22_694160_26710640.laz"
+    },
+    {
+      "title": "USGS Lidar Point Cloud NV_ClarkCounty_B22 694160_26715920",
+      "sourceId": "648f0e97d34ef77fcaffbe1a",
+      "publicationDate": "2023-06-15",
+      "dateCreated": "2023-06-18T08:03:03.984-06:00",
+      "sizeInBytes": 134180842,
+      "boundingBox": {
+        "minX": -115.4548195,
+        "maxX": -115.4369546,
+        "minY": 36.0391923,
+        "maxY": 36.04199884
+      },
+      "metaUrl": "https://www.sciencebase.gov/catalog/item/648f0e97d34ef77fcaffbe1a",
+      "downloadURL": "https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/NV_ClarkCounty_B22/NV_ClarkCo_2_B22/LAZ/USGS_LPC_NV_ClarkCounty_B22_694160_26715920.laz"
+    }
+  ]
+}

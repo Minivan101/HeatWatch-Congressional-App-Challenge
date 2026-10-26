@@ -1,0 +1,51 @@
+{
+  "source": "vegas-long-foot-route-2026-10-10.json",
+  "modeledDeparture": "2026-06-21T15:00:00Z",
+  "fieldValidated": false,
+  "routes": [
+    {
+      "distance": 17558.28482372554,
+      "duration": 14062.1,
+      "shade": 0.1479104215410589,
+      "coverage": 0.9973690153646161,
+      "arrival": "2026-06-21T18:54:22.100Z",
+      "sunAtDeparture": {
+        "elevation": 28.713364622342063,
+        "azimuth": 80.70620558537507
+      },
+      "sunAtArrival": {
+        "elevation": 73.64920154913156,
+        "azimuth": 137.76339403951204
+      },
+      "totals": {
+        "building": 128.86292384737567,
+        "canopy": 2468.190385967841,
+        "open": 14915.035936315368,
+        "unknown": 46.195577594915676,
+        "night": 0.0
+      }
+    },
+    {
+      "distance": 18971.09577882423,
+      "duration": 15195.6,
+      "shade": 0.1313851227731475,
+      "coverage": 0.9837010137685752,
+      "arrival": "2026-06-21T19:13:15.600Z",
+      "sunAtDeparture": {
+        "elevation": 28.713364622342063,
+        "azimuth": 80.70620558537507
+      },
+      "sunAtArrival": {
+        "elevation": 75.85250634362673,
+        "azimuth": 152.00571911361402
+      },
+      "totals": {
+        "building": 256.6415399968455,
+        "canopy": 2235.878208045111,
+        "open": 16169.366401888139,
+        "unknown": 309.2096288940955,
+        "night": 0.0
+      }
+    }
+  ]
+}

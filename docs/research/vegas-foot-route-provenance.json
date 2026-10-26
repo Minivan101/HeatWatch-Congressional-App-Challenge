@@ -1,0 +1,6 @@
+{
+  "sourceUrl": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/-115.287,36.197;-115.280,36.204?overview=full&geometries=geojson&alternatives=true&steps=false",
+  "retrievedAt": "2026-10-06T02:48:28.787233+00:00",
+  "sha256": "d40b581a0e8fb9007c747b2ff9503a8270d92806041c03a1e338c8881a1b5f90",
+  "use": "Actual public-coordinate walking response for calculator verification, not a runtime demo route; public access not field verified."
+}

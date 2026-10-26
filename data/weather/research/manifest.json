@@ -1,0 +1,16 @@
+[
+  {
+    "file": "open_meteo_live.json",
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.19531&longitude=-115.28587&current=temperature_2m,apparent_temperature,relative_humidity_2m&hourly=uv_index&daily=uv_index_max&temperature_unit=celsius&timeformat=unixtime&timezone=auto&forecast_days=2",
+    "recordedMetadataAt": "2026-10-02T20:41:07.152553+00:00",
+    "sha256": "4ed64b569d44f690aeccaf94e98528454d6b7f4706049c43d63aa1fc01a46dcd",
+    "note": "Captured October 2 for this one saved map point; test evidence, not a bundled current conditions source."
+  },
+  {
+    "file": "nws_alerts_live.json",
+    "url": "https://api.weather.gov/alerts/active?point=36.19531,-115.28587",
+    "recordedMetadataAt": "2026-10-02T20:41:07.152553+00:00",
+    "sha256": "b0214b780b2edc4b178da23af8d0a36d712ccdc028e898c803c13b9a26acc2e8",
+    "note": "Captured October 2 for this one saved map point; test evidence, not a bundled current conditions source."
+  }
+]

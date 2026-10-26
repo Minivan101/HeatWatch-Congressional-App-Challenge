@@ -1,0 +1,16 @@
+{
+  "current": {
+    "temperatureC": 32,
+    "feelsLikeC": 36,
+    "humidityPercent": 42,
+    "uvIndex": 8
+  },
+  "alerts": [],
+  "alertsChecked": false,
+  "guidance": [
+    "Use extra sun protection. Seek shade and wear broad-spectrum sunscreen, protective clothing, a hat, and sunglasses."
+  ],
+  "fetchedAt": "2026-06-21T16:00:00.000Z",
+  "sampleOnly": true,
+  "description": "Invented example conditions. Not current weather."
+}

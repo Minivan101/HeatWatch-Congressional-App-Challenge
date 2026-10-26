@@ -1,0 +1,58 @@
+name: heatwatch
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  archive: ^4.3.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.15.0
+  cloud_functions: ^6.5.0
+  firebase_app_check: ^0.4.8
+  cloud_firestore: ^6.10.0
+  google_maps_flutter: ^2.18.1
+  google_maps_flutter_ios_sdk9: ^2.19.0
+  geolocator: ^14.0.3
+  url_launcher: ^6.3.2
+  path_provider: ^2.1.6
+  http: ^1.6.0
+  path_provider_android: 2.2.22
+  flutter_map: ^8.3.2
+  latlong2: ^0.9.1
+  timezone: ^0.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  assets:
+    - data/places/las_vegas.json
+    - assets/shade_demo.json
+    - assets/building_manifest.json
+    - data/shade/las_vegas/
+    - data/buildings/las_vegas/buildings.json
+    - data/buildings/pilot/buildings.json
+    - data/buildings/pilot/routes.json
+    - assets/heat_guard_demo.json
+    - assets/heat_guard_scenarios.json
+    - assets/cool_spots_demo.json
+    - assets/cool_spots/
+    - data/cooling_centers/clark_county_june_2026.json
+    - data/cooling_centers/official_directory.json
+    - data/cooling_centers/unofficial_directory.json
+
+  uses-material-design: true

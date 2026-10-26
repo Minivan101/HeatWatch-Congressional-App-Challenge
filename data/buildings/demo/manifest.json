@@ -1,0 +1,94 @@
+{
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "buildingCount": 50,
+  "coverageBounds": {
+    "east": -117.9965,
+    "north": 34.0025,
+    "south": 33.9975,
+    "west": -118.0035
+  },
+  "coverageGaps": [],
+  "downloadedAt": "2026-09-25",
+  "heightConfidenceCounts": {
+    "high": 50,
+    "low": 0,
+    "medium": 0
+  },
+  "licenseUrl": "https://www.openstreetmap.org/copyright",
+  "skippedBuildingRelations": 0,
+  "skippedWays": {
+    "invalid": 0,
+    "missing_nodes": 0,
+    "open": 0
+  },
+  "source": "OpenStreetMap",
+  "sourceSha256": "c17a2225960b324e03842716cdf084967c52fb47dbddba9b21d753c9fe51cd7c",
+  "tileSizeDegrees": 0.002,
+  "tiles": [
+    {
+      "buildingCount": 7,
+      "file": "tile_16998_-58999.json",
+      "key": "16998_-58999"
+    },
+    {
+      "buildingCount": 8,
+      "file": "tile_16998_-59000.json",
+      "key": "16998_-59000"
+    },
+    {
+      "buildingCount": 4,
+      "file": "tile_16998_-59001.json",
+      "key": "16998_-59001"
+    },
+    {
+      "buildingCount": 2,
+      "file": "tile_16998_-59002.json",
+      "key": "16998_-59002"
+    },
+    {
+      "buildingCount": 3,
+      "file": "tile_16999_-58999.json",
+      "key": "16999_-58999"
+    },
+    {
+      "buildingCount": 15,
+      "file": "tile_16999_-59000.json",
+      "key": "16999_-59000"
+    },
+    {
+      "buildingCount": 6,
+      "file": "tile_16999_-59001.json",
+      "key": "16999_-59001"
+    },
+    {
+      "buildingCount": 7,
+      "file": "tile_16999_-59002.json",
+      "key": "16999_-59002"
+    },
+    {
+      "buildingCount": 1,
+      "file": "tile_17000_-58999.json",
+      "key": "17000_-58999"
+    },
+    {
+      "buildingCount": 3,
+      "file": "tile_17000_-59000.json",
+      "key": "17000_-59000"
+    },
+    {
+      "buildingCount": 6,
+      "file": "tile_17000_-59001.json",
+      "key": "17000_-59001"
+    },
+    {
+      "buildingCount": 4,
+      "file": "tile_17000_-59002.json",
+      "key": "17000_-59002"
+    },
+    {
+      "buildingCount": 1,
+      "file": "tile_17001_-58999.json",
+      "key": "17001_-58999"
+    }
+  ]
+}

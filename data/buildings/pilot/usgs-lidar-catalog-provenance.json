@@ -1,0 +1,8 @@
+{
+  "queriedAt": "2026-10-04T02:09:58.858156+00:00",
+  "url": "https://tnmaccess.nationalmap.gov/api/v1/products?datasets=Lidar%20Point%20Cloud%20%28LPC%29&bbox=-115.299,36.185,-115.272,36.211&max=20&outputFormat=JSON",
+  "sha256": "32aaf6b391a4f76a00f6b38ecfce6282ef062a633862363c8a836648a3c1f69c",
+  "totalMatches": 24,
+  "returnedItems": 20,
+  "scope": "Catalog metadata only; partial first page. No lidar downloaded, heights derived or acquisition accuracy verified."
+}

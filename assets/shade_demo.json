@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "id": "route-1",
+      "durationSeconds": 75,
+      "distanceMeters": 71.79310100280055,
+      "shadeFraction": 0.44284340081034174,
+      "daylightDistanceMeters": 71.79310100280055,
+      "sampleCount": 8,
+      "encodedPolyline": "kj{{Evos~T?_D",
+      "estimatedShadedMeters": 31.793101002800555
+    },
+    {
+      "id": "route-2",
+      "durationSeconds": 100,
+      "distanceMeters": 98.47988339806453,
+      "shadeFraction": 0.6953692575087919,
+      "daylightDistanceMeters": 98.47988339806453,
+      "sampleCount": 10,
+      "encodedPolyline": "kj{{Evos~TW??_DV?",
+      "estimatedShadedMeters": 68.47988339806453
+    },
+    {
+      "id": "route-3",
+      "durationSeconds": 115,
+      "distanceMeters": 111.82327459490642,
+      "shadeFraction": 0.8211463572994758,
+      "daylightDistanceMeters": 111.82327459490642,
+      "sampleCount": 12,
+      "encodedPolyline": "kj{{Evos~Tb@??_Dc@?",
+      "estimatedShadedMeters": 91.82327459490642
+    }
+  ],
+  "choices": {
+    "fastest": "route-1",
+    "balanced": "route-2",
+    "mostShade": "route-2"
+  },
+  "estimated": true,
+  "buildingCount": 194,
+  "calculatedAt": "2026-10-07T05:36:57.091Z",
+  "dataSource": "OpenStreetMap building footprints",
+  "timeZoneId": "America/Los_Angeles",
+  "confidence": "prototype",
+  "walkingCaution": "Walking routes can miss sidewalks or paths. Check real-world conditions.",
+  "sampleOnly": true,
+  "origin": {
+    "latitude": 36.18998,
+    "longitude": -115.2846
+  },
+  "departureTime": "2026-06-21T16:00:00.000Z",
+  "destination": {
+    "id": "demo-east-end",
+    "label": "Demo destination",
+    "latitude": 36.18998,
+    "longitude": -115.2838
+  },
+  "source": "OpenStreetMap building footprints",
+  "description": "Invented route lines in Las Vegas at 9 AM on June 21; saved Las Vegas OpenStreetMap footprints; missing heights use the demo-only 9 m assumption. Not walking directions."
+}

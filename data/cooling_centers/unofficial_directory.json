@@ -1,0 +1,3341 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-05",
+  "placeCount": 70,
+  "selection": "49 sourced park water stops and 21 indoor facilities/districts. Record evidence retains its own review date. Town Square and Downtown Summerlin have outdoor walkways; resorts cover permitted non-gaming visitor areas only. Not a complete inventory.",
+  "sources": [
+    {
+      "id": "city-fountains",
+      "title": "City of Las Vegas drinking-fountain inventory",
+      "url": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8"
+    },
+    {
+      "id": "city-parks",
+      "title": "City of Las Vegas park addresses",
+      "url": "https://services1.arcgis.com/F1v0ufATbBQScMtY/ArcGIS/rest/services/Parks_Facilities_Merge/FeatureServer/4"
+    },
+    {
+      "id": "mall-operator",
+      "title": "Las Vegas South Premium Outlets visitor information",
+      "url": "https://www.premiumoutlets.com/outlet/las-vegas-south/about"
+    },
+    {
+      "id": "mall-coordinate",
+      "title": "OpenStreetMap mall location",
+      "url": "https://www.openstreetmap.org/way/38358961"
+    },
+    {
+      "id": "snhd-95",
+      "title": "Southern Nevada Health District: Desert Breeze Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=95"
+    },
+    {
+      "id": "snhd-98",
+      "title": "Southern Nevada Health District: Exploration Peak Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=98"
+    },
+    {
+      "id": "snhd-153",
+      "title": "Southern Nevada Health District: Spring Valley Community Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=153"
+    },
+    {
+      "id": "snhd-138",
+      "title": "Southern Nevada Health District: Prosperity Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=138"
+    },
+    {
+      "id": "snhd-93",
+      "title": "Southern Nevada Health District: Davis Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=93"
+    },
+    {
+      "id": "snhd-392",
+      "title": "Southern Nevada Health District: Rainbow Family Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=392"
+    },
+    {
+      "id": "snhd-112",
+      "title": "Southern Nevada Health District: Inzalaco Family Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=112"
+    },
+    {
+      "id": "snhd-139",
+      "title": "Southern Nevada Health District: Red Ridge Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=139"
+    },
+    {
+      "id": "snhd-440",
+      "title": "Southern Nevada Health District: Charlie Frias Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=440"
+    },
+    {
+      "id": "snhd-142",
+      "title": "Southern Nevada Health District: Ridgebrook Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=142"
+    },
+    {
+      "id": "snhd-96",
+      "title": "Southern Nevada Health District: Duck Creek Park",
+      "url": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=96"
+    },
+    {
+      "id": "indoor-fashion-show-1",
+      "title": "Fashion Show Las Vegas — operator information",
+      "url": "https://www.fslv.com/"
+    },
+    {
+      "id": "indoor-fashion-show-2",
+      "title": "Fashion Show Las Vegas — facility evidence 1",
+      "url": "https://www.fslv.com/en/visit/"
+    },
+    {
+      "id": "indoor-fashion-show-3",
+      "title": "Fashion Show Las Vegas — facility evidence 2",
+      "url": "https://www.fslv.com/en/directory/?category=food"
+    },
+    {
+      "id": "indoor-meadows-1",
+      "title": "Meadows Mall — operator information",
+      "url": "https://www.meadowsmall.com/en/visit/"
+    },
+    {
+      "id": "indoor-meadows-2",
+      "title": "Meadows Mall — facility evidence 1",
+      "url": "https://www.meadowsmall.com/en/directory/?category=food"
+    },
+    {
+      "id": "indoor-meadows-3",
+      "title": "Meadows Mall — facility evidence 2",
+      "url": "https://www.openstreetmap.org/way/27550235"
+    },
+    {
+      "id": "indoor-galleria-1",
+      "title": "Galleria at Sunset — operator information",
+      "url": "https://www.galleriaatsunset.com/"
+    },
+    {
+      "id": "indoor-galleria-2",
+      "title": "Galleria at Sunset — facility evidence 1",
+      "url": "https://www.galleriaatsunset.com/location"
+    },
+    {
+      "id": "indoor-galleria-3",
+      "title": "Galleria at Sunset — facility evidence 2",
+      "url": "https://www.galleriaatsunset.com/events/breakfast-bingo-5-bfb97-jzys8-67ppe-wwd67-8a4kz"
+    },
+    {
+      "id": "indoor-galleria-4",
+      "title": "Galleria at Sunset — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/27738434"
+    },
+    {
+      "id": "indoor-boulevard-1",
+      "title": "Boulevard Mall — operator information",
+      "url": "https://boulevardmall.com/"
+    },
+    {
+      "id": "indoor-boulevard-2",
+      "title": "Boulevard Mall — facility evidence 1",
+      "url": "https://boulevardmall.com/mercado/?lang=es"
+    },
+    {
+      "id": "indoor-boulevard-3",
+      "title": "Boulevard Mall — facility evidence 2",
+      "url": "https://www.openstreetmap.org/way/135692590"
+    },
+    {
+      "id": "indoor-red-rock-1",
+      "title": "Red Rock Resort — operator information",
+      "url": "https://redrockresort.com/"
+    },
+    {
+      "id": "indoor-red-rock-2",
+      "title": "Red Rock Resort — facility evidence 1",
+      "url": "https://redrockresort.com/wp-content/uploads/2024/10/Red-Rock-Sales-Kit-10142024.pdf"
+    },
+    {
+      "id": "indoor-red-rock-3",
+      "title": "Red Rock Resort — facility evidence 2",
+      "url": "https://redrockresort.com/eat-and-drink/restaurants/"
+    },
+    {
+      "id": "indoor-red-rock-4",
+      "title": "Red Rock Resort — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/316302054"
+    },
+    {
+      "id": "indoor-green-valley-1",
+      "title": "Green Valley Ranch Resort — operator information",
+      "url": "https://greenvalleyranch.com/"
+    },
+    {
+      "id": "indoor-green-valley-2",
+      "title": "Green Valley Ranch Resort — facility evidence 1",
+      "url": "https://greenvalleyranch.com/wp-content/uploads/2025/09/Green-Valley-Ranch-Sales-Kit-09162025.pdf"
+    },
+    {
+      "id": "indoor-green-valley-3",
+      "title": "Green Valley Ranch Resort — facility evidence 2",
+      "url": "https://greenvalleyranch.com/eat-and-drink/quick-eats/"
+    },
+    {
+      "id": "indoor-green-valley-4",
+      "title": "Green Valley Ranch Resort — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/341326765"
+    },
+    {
+      "id": "indoor-sunset-station-1",
+      "title": "Sunset Station — operator information",
+      "url": "https://sunsetstation.com/stay/"
+    },
+    {
+      "id": "indoor-sunset-station-2",
+      "title": "Sunset Station — facility evidence 1",
+      "url": "https://sunsetstation.com/see-and-do/"
+    },
+    {
+      "id": "indoor-sunset-station-3",
+      "title": "Sunset Station — facility evidence 2",
+      "url": "https://sunsetstation.com/eat-and-drink/"
+    },
+    {
+      "id": "indoor-sunset-station-4",
+      "title": "Sunset Station — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/27738460"
+    },
+    {
+      "id": "indoor-durango-1",
+      "title": "Durango Resort — operator information",
+      "url": "https://durangoresort.com/"
+    },
+    {
+      "id": "indoor-durango-2",
+      "title": "Durango Resort — facility evidence 1",
+      "url": "https://durangoresort.com/durango-concierge-property-map/"
+    },
+    {
+      "id": "indoor-durango-3",
+      "title": "Durango Resort — facility evidence 2",
+      "url": "https://durangoresort.com/eat-and-drink/vesta-coffee/"
+    },
+    {
+      "id": "indoor-durango-4",
+      "title": "Durango Resort — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/1086573564"
+    },
+    {
+      "id": "indoor-town-square-1",
+      "title": "Town Square Las Vegas — operator information",
+      "url": "https://mytownsquarelasvegas.com/"
+    },
+    {
+      "id": "indoor-town-square-2",
+      "title": "Town Square Las Vegas — facility evidence 1",
+      "url": "https://www.fairbourne.com/town-square"
+    },
+    {
+      "id": "indoor-town-square-3",
+      "title": "Town Square Las Vegas — facility evidence 2",
+      "url": "https://tslv.com/about"
+    },
+    {
+      "id": "indoor-summerlin-1",
+      "title": "Downtown Summerlin — operator information",
+      "url": "https://summerlin.com/experience/"
+    },
+    {
+      "id": "indoor-summerlin-2",
+      "title": "Downtown Summerlin — facility evidence 1",
+      "url": "https://summerlin.com/experience/concierge/"
+    },
+    {
+      "id": "indoor-summerlin-3",
+      "title": "Downtown Summerlin — facility evidence 2",
+      "url": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf"
+    },
+    {
+      "id": "indoor-summerlin-4",
+      "title": "Downtown Summerlin — facility evidence 3",
+      "url": "https://www.openstreetmap.org/way/179893580"
+    },
+    {
+      "id": "oct20-miracle-mile",
+      "title": "Miracle Mile Shops — operator information",
+      "url": "https://www.miraclemileshopslv.com/"
+    },
+    {
+      "id": "oct20-miracle-mile-coordinate",
+      "title": "Miracle Mile Shops — mapped reference point",
+      "url": "https://www.openstreetmap.org/relation/1606512"
+    },
+    {
+      "id": "oct20-forum-shops",
+      "title": "The Forum Shops at Caesars — operator information",
+      "url": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace"
+    },
+    {
+      "id": "oct20-forum-shops-coordinate",
+      "title": "The Forum Shops at Caesars — mapped reference point",
+      "url": "https://www.openstreetmap.org/way/34068416"
+    },
+    {
+      "id": "oct20-grand-canal",
+      "title": "Grand Canal Shoppes — operator information",
+      "url": "https://www.grandcanalshoppes.com/en/visit/"
+    },
+    {
+      "id": "oct20-grand-canal-coordinate",
+      "title": "Grand Canal Shoppes — mapped reference point",
+      "url": "https://en.wikipedia.org/wiki/Grand_Canal_Shoppes"
+    },
+    {
+      "id": "oct20-crystals",
+      "title": "The Shops at Crystals — operator information",
+      "url": "https://www.simon.com/mall/the-shops-at-crystals"
+    },
+    {
+      "id": "oct20-crystals-coordinate",
+      "title": "The Shops at Crystals — mapped reference point",
+      "url": "https://www.openstreetmap.org/way/52134608"
+    },
+    {
+      "id": "oct20-aliante",
+      "title": "Aliante Hotel — visitor lobby — operator information",
+      "url": "https://aliante.boydgaming.com/contact-us"
+    },
+    {
+      "id": "oct20-aliante-detail-0",
+      "title": "Aliante Hotel — visitor lobby — facility details",
+      "url": "https://aliante.boydgaming.com/explore/photos-and-virtual-tours"
+    },
+    {
+      "id": "oct20-aliante-detail-1",
+      "title": "Aliante Hotel — visitor lobby — facility details",
+      "url": "https://www.boydgaming.com/locations"
+    },
+    {
+      "id": "oct20-aliante-coordinate",
+      "title": "Aliante Hotel — visitor lobby — mapped reference point",
+      "url": "https://en.wikipedia.org/wiki/Aliante_Casino_and_Hotel"
+    },
+    {
+      "id": "oct20-santa-fe",
+      "title": "Santa Fe Station — visitor common areas — operator information",
+      "url": "https://santafestation.com/stay/"
+    },
+    {
+      "id": "oct20-santa-fe-coordinate",
+      "title": "Santa Fe Station — visitor common areas — mapped reference point",
+      "url": "https://www.openstreetmap.org/way/961460045"
+    },
+    {
+      "id": "oct20-wetlands",
+      "title": "Wetlands Park Nature Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter"
+    },
+    {
+      "id": "oct20-wetlands-detail-0",
+      "title": "Wetlands Park Nature Center — facility details",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/"
+    },
+    {
+      "id": "oct20-wetlands-coordinate",
+      "title": "Wetlands Park Nature Center — mapped reference point",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7050%20Wetlands%20Park%20Lane%20Las%20Vegas%20NV%2089122&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "id": "oct20-desert-breeze",
+      "title": "Desert Breeze Community Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/desert-breeze-community-center"
+    },
+    {
+      "id": "oct20-desert-breeze-coordinate",
+      "title": "Desert Breeze Community Center — mapped reference point",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4"
+    },
+    {
+      "id": "oct20-silverado-ranch",
+      "title": "Silverado Ranch Community Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/silverado-ranch-community-center"
+    },
+    {
+      "id": "oct20-silverado-ranch-coordinate",
+      "title": "Silverado Ranch Community Center — mapped reference point",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4"
+    },
+    {
+      "id": "oct20-mountain-crest",
+      "title": "Mountain Crest Community Center — operator information",
+      "url": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest"
+    },
+    {
+      "id": "oct20-mountain-crest-coordinate",
+      "title": "Mountain Crest Community Center — mapped reference point",
+      "url": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4"
+    }
+  ],
+  "places": [
+    {
+      "id": "community-added-aliante",
+      "name": "Aliante Hotel — visitor lobby",
+      "aliases": [
+        "Aliante Casino and Hotel"
+      ],
+      "address": "7300 Aliante Pkwy, North Las Vegas, NV 89084",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Non-gaming visitor common areas",
+      "access": "Only visitor-accessible non-gaming hotel/common areas, where permitted by staff. Gaming floors, bars, age-restricted and guest-only areas are excluded.",
+      "hours": null,
+      "phone": "702-692-7777",
+      "coordinates": {
+        "latitude": 36.2911111,
+        "longitude": -115.1819444,
+        "sourceUrl": "https://en.wikipedia.org/wiki/Aliante_Casino_and_Hotel",
+        "precision": "Published representative property point; not a surveyed lobby entrance."
+      },
+      "sourceIds": [
+        "oct20-aliante",
+        "oct20-aliante-coordinate",
+        "oct20-aliante-detail-0",
+        "oct20-aliante-detail-1"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Non-gaming visitor common areas",
+        "scopeSource": "https://aliante.boydgaming.com/explore/photos-and-virtual-tours",
+        "amenitySources": {
+          "food": "https://www.boydgaming.com/locations"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "Published representative property point; not a surveyed lobby entrance.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#aliante"
+      }
+    },
+    {
+      "id": "community-city-207",
+      "name": "All American Park",
+      "aliases": [],
+      "address": "1551 S Buffalo Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1554662435481,
+        "longitude": -115.26457358795034,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 207,
+        "fountainFeatureIds": [
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "fountains": [
+          {
+            "featureId": 173,
+            "latitude": 36.1554662435481,
+            "longitude": -115.26457358795034
+          },
+          {
+            "featureId": 174,
+            "latitude": 36.155688708878465,
+            "longitude": -115.26486327889536
+          },
+          {
+            "featureId": 175,
+            "latitude": 36.15285532943639,
+            "longitude": -115.26234706407939
+          },
+          {
+            "featureId": 176,
+            "latitude": 36.153544068360965,
+            "longitude": -115.26234322139051
+          },
+          {
+            "featureId": 177,
+            "latitude": 36.1567345831579,
+            "longitude": -115.26298903154975
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-165",
+      "name": "Aloha Shores Park",
+      "aliases": [],
+      "address": "7550 Sauer St, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.21606130871458,
+        "longitude": -115.25875147351948,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 165,
+        "fountainFeatureIds": [
+          113,
+          114
+        ],
+        "fountains": [
+          {
+            "featureId": 113,
+            "latitude": 36.21606130871458,
+            "longitude": -115.25875147351948
+          },
+          {
+            "featureId": 114,
+            "latitude": 36.21630791912505,
+            "longitude": -115.25931263237939
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-181",
+      "name": "Angel Park",
+      "aliases": [],
+      "address": "241 S Durango Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1705669343816,
+        "longitude": -115.27827237085202,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 181,
+        "fountainFeatureIds": [
+          142
+        ],
+        "fountains": [
+          {
+            "featureId": 142,
+            "latitude": 36.1705669343816,
+            "longitude": -115.27827237085202
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-182",
+      "name": "AnSan Sister City Park",
+      "aliases": [],
+      "address": "7801 Ducharme Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.169577629880756,
+        "longitude": -115.26486500651016,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 182,
+        "fountainFeatureIds": [
+          269,
+          270,
+          271
+        ],
+        "fountains": [
+          {
+            "featureId": 269,
+            "latitude": 36.169577629880756,
+            "longitude": -115.26486500651016
+          },
+          {
+            "featureId": 270,
+            "latitude": 36.16983354981531,
+            "longitude": -115.26611617834857
+          },
+          {
+            "featureId": 271,
+            "latitude": 36.169376181575174,
+            "longitude": -115.26608515650646
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-226",
+      "name": "Bettye Wilson Soccer Complex",
+      "aliases": [],
+      "address": "7353 Eugene Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.19857649669494,
+        "longitude": -115.2521863077365,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 226,
+        "fountainFeatureIds": [
+          2825,
+          2865
+        ],
+        "fountains": [
+          {
+            "featureId": 2825,
+            "latitude": 36.19857649669494,
+            "longitude": -115.2521863077365
+          },
+          {
+            "featureId": 2865,
+            "latitude": 36.19852522924453,
+            "longitude": -115.25452337605726
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-179",
+      "name": "Bill Briare Family Park",
+      "aliases": [],
+      "address": "650 N Tenaya Way, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.17912516367472,
+        "longitude": -115.25000814753132,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 179,
+        "fountainFeatureIds": [
+          2644
+        ],
+        "fountains": [
+          {
+            "featureId": 2644,
+            "latitude": 36.17912516367472,
+            "longitude": -115.25000814753132
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-188",
+      "name": "Bob Baskin Park",
+      "aliases": [],
+      "address": "2801 W Oakey Blvd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.15091246039663,
+        "longitude": -115.1803505139046,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 188,
+        "fountainFeatureIds": [
+          4637
+        ],
+        "fountains": [
+          {
+            "featureId": 4637,
+            "latitude": 36.15091246039663,
+            "longitude": -115.1803505139046
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-indoor-boulevard",
+      "name": "Boulevard Mall",
+      "aliases": [],
+      "address": "3528 S Maryland Pkwy, Las Vegas, NV 89169",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1245499,
+        "longitude": -115.1352369,
+        "sourceUrl": "https://www.openstreetmap.org/way/135692590",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-boulevard-1",
+        "indoor-boulevard-2",
+        "indoor-boulevard-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://boulevardmall.com/mercado/?lang=es",
+        "amenitySources": {
+          "food": "https://boulevardmall.com/mercado/?lang=es"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-city-172",
+      "name": "Bruce Trent Park",
+      "aliases": [],
+      "address": "8851 Vegas Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.18666521197702,
+        "longitude": -115.28702679306085,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 172,
+        "fountainFeatureIds": [
+          365,
+          366,
+          367,
+          368,
+          369
+        ],
+        "fountains": [
+          {
+            "featureId": 365,
+            "latitude": 36.18666521197702,
+            "longitude": -115.28702679306085
+          },
+          {
+            "featureId": 366,
+            "latitude": 36.187865573423196,
+            "longitude": -115.2859813859164
+          },
+          {
+            "featureId": 367,
+            "latitude": 36.187890040991654,
+            "longitude": -115.28707598594431
+          },
+          {
+            "featureId": 368,
+            "latitude": 36.18818413289513,
+            "longitude": -115.28666597287139
+          },
+          {
+            "featureId": 369,
+            "latitude": 36.18606641870484,
+            "longitude": -115.28682333991706
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-166",
+      "name": "Cameron Community Park",
+      "aliases": [],
+      "address": "6410 Smoke Ranch Rd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.20376813879522,
+        "longitude": -115.23341827669435,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 166,
+        "fountainFeatureIds": [
+          2870
+        ],
+        "fountains": [
+          {
+            "featureId": 2870,
+            "latitude": 36.20376813879522,
+            "longitude": -115.23341827669435
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-snhd-440",
+      "name": "Charlie Frias Park",
+      "aliases": [
+        "Charlie Frias Park Loop Trail"
+      ],
+      "address": "Tropicana & Decatur, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.10137003,
+        "longitude": -115.21048352,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=440",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-440"
+      ],
+      "evidence": {
+        "trailId": 440,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-city-158",
+      "name": "Cimarron Rose Park",
+      "aliases": [],
+      "address": "5591 N Cimarron Rd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.262309528612846,
+        "longitude": -115.27055233621645,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 158,
+        "fountainFeatureIds": [
+          467
+        ],
+        "fountains": [
+          {
+            "featureId": 467,
+            "latitude": 36.262309528612846,
+            "longitude": -115.27055233621645
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-174",
+      "name": "Coleman Park",
+      "aliases": [],
+      "address": "6336 Carmen Blvd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.18486246444818,
+        "longitude": -115.23039253344702,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 174,
+        "fountainFeatureIds": [
+          504
+        ],
+        "fountains": [
+          {
+            "featureId": 504,
+            "latitude": 36.18486246444818,
+            "longitude": -115.23039253344702
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-snhd-93",
+      "name": "Davis Park",
+      "aliases": [
+        "Davis Park Loop Trail"
+      ],
+      "address": "2796 Redwood Street Las Vegas, NV 89146",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.13877356,
+        "longitude": -115.23818253,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=93",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-93"
+      ],
+      "evidence": {
+        "trailId": 93,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-added-desert-breeze",
+      "name": "Desert Breeze Community Center",
+      "aliases": [],
+      "address": "8275 Spring Mountain Rd, Las Vegas, NV 89117",
+      "area": "Las Vegas area",
+      "kind": "communityVenue",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Public reception/common areas during center hours; activity rooms follow staff and program access rules.",
+      "hours": "Monday–Friday 7 am–8 pm; Saturday–Sunday closed.",
+      "phone": "702-455-8334",
+      "coordinates": {
+        "latitude": 36.1245356,
+        "longitude": -115.2715025,
+        "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+        "precision": "County facility-parcel centroid, not a building entrance; use the published address for arrival."
+      },
+      "sourceIds": [
+        "oct20-desert-breeze",
+        "oct20-desert-breeze-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor public reception/common areas",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/desert-breeze-community-center",
+        "amenitySources": {},
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "County facility-parcel centroid, not a building entrance; use the published address for arrival.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#desert-breeze",
+        "operatorPageSha256": "71d94b3aa9d290ef851a87f09c006224fdb0049bea8031a6c22e42d792fc7c59"
+      }
+    },
+    {
+      "id": "community-snhd-95",
+      "name": "Desert Breeze Park",
+      "aliases": [
+        "Desert Breeze Park South Loop Trail"
+      ],
+      "address": "8275 Spring Mountain Road Las Vegas, NV 89147",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.125618,
+        "longitude": -115.271525,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=95",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-95"
+      ],
+      "evidence": {
+        "trailId": 95,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-city-196",
+      "name": "Doc Romeo Park",
+      "aliases": [],
+      "address": "7400 Peak Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.21339006318437,
+        "longitude": -115.25441477958485,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 196,
+        "fountainFeatureIds": [
+          533,
+          534
+        ],
+        "fountains": [
+          {
+            "featureId": 533,
+            "latitude": 36.21339006318437,
+            "longitude": -115.25441477958485
+          },
+          {
+            "featureId": 534,
+            "latitude": 36.211205426420676,
+            "longitude": -115.25352509813024
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-indoor-summerlin",
+      "name": "Downtown Summerlin",
+      "aliases": [],
+      "address": "1980 Festival Plaza Dr, Las Vegas, NV 89135",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "indoorVenues"
+      ],
+      "scopeLabel": "Indoor venues · outdoor walkways",
+      "access": "Outdoor paths connect indoor venues. Visitor access is set by each venue; use an indoor visitor area only where permitted.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1497659,
+        "longitude": -115.3335469,
+        "sourceUrl": "https://www.openstreetmap.org/way/179893580",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-summerlin-1",
+        "indoor-summerlin-2",
+        "indoor-summerlin-3",
+        "indoor-summerlin-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Indoor venues · outdoor walkways",
+        "scopeSource": "https://summerlin.com/experience/concierge/",
+        "amenitySources": {
+          "food": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf",
+          "restrooms": "https://summerlin.com/wp-content/uploads/2024/12/HHSU1024-01_Summerlin_Dir_removed.pdf"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "indoorVenues": "Operator documents indoor entertainment venues within an open-air district. This record does not establish an enclosed public cooling common area."
+      }
+    },
+    {
+      "id": "community-snhd-96",
+      "name": "Duck Creek Park",
+      "aliases": [
+        "Duck Creek Park Loop Trail"
+      ],
+      "address": "8650 Pollock Drive Las Vegas, NV 89123",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.03253735,
+        "longitude": -115.1438769,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=96",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-96"
+      ],
+      "evidence": {
+        "trailId": 96,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-city-164",
+      "name": "Durango Hills Park",
+      "aliases": [],
+      "address": "3521 N Durango Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.22563649831227,
+        "longitude": -115.28023369764549,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 164,
+        "fountainFeatureIds": [
+          124,
+          3715
+        ],
+        "fountains": [
+          {
+            "featureId": 124,
+            "latitude": 36.22563649831227,
+            "longitude": -115.28023369764549
+          },
+          {
+            "featureId": 3715,
+            "latitude": 36.224566346815465,
+            "longitude": -115.27940674516694
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-indoor-durango",
+      "name": "Durango Resort",
+      "aliases": [],
+      "address": "6915 S Durango Dr, Las Vegas, NV 89113",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Lobby & food hall · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.06407,
+        "longitude": -115.2820561,
+        "sourceUrl": "https://www.openstreetmap.org/way/1086573564",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-durango-1",
+        "indoor-durango-2",
+        "indoor-durango-3",
+        "indoor-durango-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Lobby & food hall · non-gaming areas",
+        "scopeSource": "https://durangoresort.com/durango-concierge-property-map/",
+        "amenitySources": {
+          "food": "https://durangoresort.com/eat-and-drink/vesta-coffee/",
+          "restrooms": "https://durangoresort.com/durango-concierge-property-map/"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-city-199",
+      "name": "Ed Fountain Park",
+      "aliases": [],
+      "address": "1400 N Decatur Blvd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.18639107883217,
+        "longitude": -115.20217136052774,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 199,
+        "fountainFeatureIds": [
+          601,
+          1896,
+          3847,
+          3857,
+          3908
+        ],
+        "fountains": [
+          {
+            "featureId": 601,
+            "latitude": 36.18639107883217,
+            "longitude": -115.20217136052774
+          },
+          {
+            "featureId": 1896,
+            "latitude": 36.187152943840644,
+            "longitude": -115.20182145941578
+          },
+          {
+            "featureId": 3847,
+            "latitude": 36.18672297218917,
+            "longitude": -115.20396498855374
+          },
+          {
+            "featureId": 3857,
+            "latitude": 36.186227542759866,
+            "longitude": -115.20520376994088
+          },
+          {
+            "featureId": 3908,
+            "latitude": 36.18626887307364,
+            "longitude": -115.20128051705136
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-157",
+      "name": "Estelle Neal Park",
+      "aliases": [],
+      "address": "6075 Rebecca Rd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.270290392782385,
+        "longitude": -115.23834624845412,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 157,
+        "fountainFeatureIds": [
+          2014,
+          3930
+        ],
+        "fountains": [
+          {
+            "featureId": 2014,
+            "latitude": 36.270290392782385,
+            "longitude": -115.23834624845412
+          },
+          {
+            "featureId": 3930,
+            "latitude": 36.269648184310576,
+            "longitude": -115.23847129649693
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-177",
+      "name": "Ethel Pearson Park",
+      "aliases": [],
+      "address": "451 W Washington Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.18055022257759,
+        "longitude": -115.1475108153396,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 177,
+        "fountainFeatureIds": [
+          3393
+        ],
+        "fountains": [
+          {
+            "featureId": 3393,
+            "latitude": 36.18055022257759,
+            "longitude": -115.1475108153396
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-snhd-98",
+      "name": "Exploration Peak Park",
+      "aliases": [
+        "Exploration Peak Park Loop Trail"
+      ],
+      "address": "9600 S. Buffalo Drive Las Vegas, NV 89178",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.01397324,
+        "longitude": -115.26021687,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=98",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-98"
+      ],
+      "evidence": {
+        "trailId": 98,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-indoor-fashion-show",
+      "name": "Fashion Show Las Vegas",
+      "aliases": [],
+      "address": "3200 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.127457,
+        "longitude": -115.171341,
+        "sourceUrl": "https://www.fslv.com/",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-fashion-show-1",
+        "indoor-fashion-show-2",
+        "indoor-fashion-show-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://www.fslv.com/en/visit/",
+        "amenitySources": {
+          "food": "https://www.fslv.com/en/directory/?category=food"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-indoor-galleria",
+      "name": "Galleria at Sunset",
+      "aliases": [],
+      "address": "1300 W Sunset Rd, Henderson, NV 89014",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.0673523,
+        "longitude": -115.0426491,
+        "sourceUrl": "https://www.openstreetmap.org/way/27738434",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-galleria-1",
+        "indoor-galleria-2",
+        "indoor-galleria-3",
+        "indoor-galleria-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://www.galleriaatsunset.com/location",
+        "amenitySources": {
+          "food": "https://www.galleriaatsunset.com/events/breakfast-bingo-5-bfb97-jzys8-67ppe-wwd67-8a4kz"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-city-162",
+      "name": "Garehime Heights Park",
+      "aliases": [],
+      "address": "3901 N Campbell Rd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.23167848921596,
+        "longitude": -115.29371442208094,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 162,
+        "fountainFeatureIds": [
+          705,
+          706
+        ],
+        "fountains": [
+          {
+            "featureId": 705,
+            "latitude": 36.23167848921596,
+            "longitude": -115.29371442208094
+          },
+          {
+            "featureId": 706,
+            "latitude": 36.23102550325978,
+            "longitude": -115.29373825040986
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-206",
+      "name": "Gary Dexter Park",
+      "aliases": [],
+      "address": "800 Upland Blvd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.16203607488716,
+        "longitude": -115.22051299739037,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 206,
+        "fountainFeatureIds": [
+          4373,
+          4374,
+          4376,
+          4378,
+          4380
+        ],
+        "fountains": [
+          {
+            "featureId": 4373,
+            "latitude": 36.16203607488716,
+            "longitude": -115.22051299739037
+          },
+          {
+            "featureId": 4374,
+            "latitude": 36.162251134705926,
+            "longitude": -115.2208940151787
+          },
+          {
+            "featureId": 4376,
+            "latitude": 36.1626397991956,
+            "longitude": -115.22071195430607
+          },
+          {
+            "featureId": 4378,
+            "latitude": 36.16261433102233,
+            "longitude": -115.22076721235051
+          },
+          {
+            "featureId": 4380,
+            "latitude": 36.16231878753375,
+            "longitude": -115.22123001326234
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-155",
+      "name": "Gilcrease Brothers Park",
+      "aliases": [],
+      "address": "10011 Gilcrease Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.30274665310096,
+        "longitude": -115.31394781775329,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 155,
+        "fountainFeatureIds": [
+          760
+        ],
+        "fountains": [
+          {
+            "featureId": 760,
+            "latitude": 36.30274665310096,
+            "longitude": -115.31394781775329
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-added-grand-canal",
+      "name": "Grand Canal Shoppes",
+      "aliases": [],
+      "address": "3377 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules. No backpacks or mall-walking program; follow the operator’s age and visitor rules.",
+      "hours": "Sunday–Thursday 10 am–9 pm; Friday–Saturday 10 am–10 pm.",
+      "phone": "702-414-4525",
+      "coordinates": {
+        "latitude": 36.1213889,
+        "longitude": -115.1694444,
+        "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Canal_Shoppes",
+        "precision": "Published representative property point; not a surveyed lobby entrance."
+      },
+      "sourceIds": [
+        "oct20-grand-canal",
+        "oct20-grand-canal-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.grandcanalshoppes.com/en/visit/",
+        "amenitySources": {
+          "food": "https://www.grandcanalshoppes.com/en/visit/",
+          "seating": "https://www.grandcanalshoppes.com/en/visit/",
+          "restrooms": "https://www.grandcanalshoppes.com/en/visit/"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "Published representative property point; not a surveyed lobby entrance.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#grand-canal",
+        "operatorPageSha256": "97052158a1ac4146bf3fffb6790cd8745913289e9ff7ddb1c4961cd8b781e76d"
+      }
+    },
+    {
+      "id": "community-indoor-green-valley",
+      "name": "Green Valley Ranch Resort",
+      "aliases": [],
+      "address": "2300 Paseo Verde Pkwy, Henderson, NV 89052",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Hotel lobby · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.020683,
+        "longitude": -115.0896973,
+        "sourceUrl": "https://www.openstreetmap.org/way/341326765",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-green-valley-1",
+        "indoor-green-valley-2",
+        "indoor-green-valley-3",
+        "indoor-green-valley-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Hotel lobby · non-gaming areas",
+        "scopeSource": "https://greenvalleyranch.com/wp-content/uploads/2025/09/Green-Valley-Ranch-Sales-Kit-09162025.pdf",
+        "amenitySources": {
+          "food": "https://greenvalleyranch.com/eat-and-drink/quick-eats/",
+          "seating": "https://greenvalleyranch.com/wp-content/uploads/2025/09/Green-Valley-Ranch-Sales-Kit-09162025.pdf"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-city-197",
+      "name": "Heers Park",
+      "aliases": [],
+      "address": "6320 Plaza Verde Pl, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.203860732094284,
+        "longitude": -115.23116321152577,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 197,
+        "fountainFeatureIds": [
+          810,
+          811
+        ],
+        "fountains": [
+          {
+            "featureId": 810,
+            "latitude": 36.203860732094284,
+            "longitude": -115.23116321152577
+          },
+          {
+            "featureId": 811,
+            "latitude": 36.20391923204774,
+            "longitude": -115.23107716671576
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-225",
+      "name": "Hualapai Canyon Trailhead",
+      "aliases": [],
+      "address": "10018 Alta Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.17247221396452,
+        "longitude": -115.31534612890347,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 225,
+        "fountainFeatureIds": [
+          4495
+        ],
+        "fountains": [
+          {
+            "featureId": 4495,
+            "latitude": 36.17247221396452,
+            "longitude": -115.31534612890347
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-snhd-112",
+      "name": "Inzalaco Family Park",
+      "aliases": [
+        "Inzalaco Family Park Loop Path"
+      ],
+      "address": "5801 Shinnecock Hills Avenue Las Vegas, NV 89141",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 35.99114738,
+        "longitude": -115.22179775,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=112",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-112"
+      ],
+      "evidence": {
+        "trailId": 112,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-city-201",
+      "name": "Kellogg - Zaher Sports Complex",
+      "aliases": [
+        "Kellogg-Zaher Sports Complex"
+      ],
+      "address": "7901 W Washington Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.18023764555876,
+        "longitude": -115.26445820312556,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 201,
+        "fountainFeatureIds": [
+          940,
+          941,
+          942,
+          943,
+          944,
+          945,
+          946
+        ],
+        "fountains": [
+          {
+            "featureId": 940,
+            "latitude": 36.18023764555876,
+            "longitude": -115.26445820312556
+          },
+          {
+            "featureId": 941,
+            "latitude": 36.179770105478624,
+            "longitude": -115.26970875578375
+          },
+          {
+            "featureId": 942,
+            "latitude": 36.179756592034614,
+            "longitude": -115.27354929434196
+          },
+          {
+            "featureId": 943,
+            "latitude": 36.179748393427076,
+            "longitude": -115.26646881170954
+          },
+          {
+            "featureId": 944,
+            "latitude": 36.17991897714937,
+            "longitude": -115.26770344752163
+          },
+          {
+            "featureId": 945,
+            "latitude": 36.18024889216584,
+            "longitude": -115.26347784619735
+          },
+          {
+            "featureId": 946,
+            "latitude": 36.17981364389052,
+            "longitude": -115.26093976852987
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-south-premium-outlets",
+      "name": "Las Vegas South Premium Outlets",
+      "aliases": [
+        "Indoor mall",
+        "Food courts"
+      ],
+      "address": "7400 Las Vegas Blvd S, Las Vegas, NV 89123",
+      "area": "Las Vegas area",
+      "kind": "mall",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "access": "Indoor common areas during mall hours. Mall walkers welcome; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": "702-896-2247",
+      "coordinates": {
+        "latitude": 36.0539382,
+        "longitude": -115.1691447,
+        "sourceUrl": "https://www.openstreetmap.org/way/38358961",
+        "precision": "OpenStreetMap mall center via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "mall-operator",
+        "mall-coordinate"
+      ],
+      "evidence": {
+        "operatorDescription": "Climate controlled indoor mall",
+        "water": "Water is sold; free drinking water not established.",
+        "osmType": "way",
+        "osmId": 38358961,
+        "coordinateRole": "mall center"
+      }
+    },
+    {
+      "id": "community-city-223",
+      "name": "Mayfair Park",
+      "aliases": [
+        "Mayfair Place Park"
+      ],
+      "address": "417 S 15th St, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.16015107045662,
+        "longitude": -115.13129014856635,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 223,
+        "fountainFeatureIds": [
+          4547
+        ],
+        "fountains": [
+          {
+            "featureId": 4547,
+            "latitude": 36.16015107045662,
+            "longitude": -115.13129014856635
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-indoor-meadows",
+      "name": "Meadows Mall",
+      "aliases": [],
+      "address": "4300 Meadows Ln, Las Vegas, NV 89107",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during venue hours; follow the facility’s visitor access rules.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1722623,
+        "longitude": -115.1973085,
+        "sourceUrl": "https://www.openstreetmap.org/way/27550235",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-meadows-1",
+        "indoor-meadows-2",
+        "indoor-meadows-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Enclosed mall common areas",
+        "scopeSource": "https://www.meadowsmall.com/en/visit/",
+        "amenitySources": {
+          "food": "https://www.meadowsmall.com/en/directory/?category=food",
+          "restrooms": "https://www.meadowsmall.com/en/visit/"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-city-214",
+      "name": "Mirabelli Park",
+      "aliases": [],
+      "address": "6200 Elton Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1732509819352,
+        "longitude": -115.22780244735519,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 214,
+        "fountainFeatureIds": [
+          2066
+        ],
+        "fountains": [
+          {
+            "featureId": 2066,
+            "latitude": 36.1732509819352,
+            "longitude": -115.22780244735519
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-added-miracle-mile",
+      "name": "Miracle Mile Shops",
+      "aliases": [],
+      "address": "3663 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules.",
+      "hours": "Sunday–Thursday 10 am–9 pm; Friday–Saturday 10 am–10 pm.",
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1097354,
+        "longitude": -115.1716327,
+        "sourceUrl": "https://www.openstreetmap.org/relation/1606512",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-miracle-mile",
+        "oct20-miracle-mile-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.miraclemileshopslv.com/",
+        "amenitySources": {
+          "food": "https://www.miraclemileshopslv.com/"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#miracle-mile",
+        "operatorPageSha256": "6165e320db0901e4c2977fbeb8c241f8e55c848657e2fe9274cddb2e3af5a2f3"
+      }
+    },
+    {
+      "id": "community-added-mountain-crest",
+      "name": "Mountain Crest Community Center",
+      "aliases": [],
+      "address": "4701 N Durango Dr, Las Vegas, NV 89129",
+      "area": "Las Vegas area",
+      "kind": "communityVenue",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Public reception/common areas during center hours; activity rooms follow staff and program access rules. Outdoor playground and splash-pad resurfacing is posted for September 21–December 21, 2026.",
+      "hours": "Monday–Friday 9 am–5 pm; Saturday–Sunday closed.",
+      "phone": "702-455-1905",
+      "coordinates": {
+        "latitude": 36.2465815,
+        "longitude": -115.2815608,
+        "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+        "precision": "County facility-parcel centroid, not a building entrance; use the published address for arrival."
+      },
+      "sourceIds": [
+        "oct20-mountain-crest",
+        "oct20-mountain-crest-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor public reception/common areas",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest",
+        "amenitySources": {
+          "restrooms": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/mountaincrest"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "County facility-parcel centroid, not a building entrance; use the published address for arrival.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#mountain-crest",
+        "operatorPageSha256": "680feceabeffbc90cf920c0478277c3213bdf542e97ad7aeac18ff108d5df7b1",
+        "constructionSource": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:edc6714c-59f3-48a3-b88a-514c30bf6a64/as/mtncrest-construction-notice-2026.jpg?preferwebp=true"
+      }
+    },
+    {
+      "id": "community-city-210",
+      "name": "Mountain Ridge Park",
+      "aliases": [],
+      "address": "7151 Oso Blanca Rd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.29033986534867,
+        "longitude": -115.28115568657944,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 210,
+        "fountainFeatureIds": [
+          1133,
+          1134,
+          1135,
+          1136,
+          1137,
+          1138,
+          1139,
+          1140,
+          1141,
+          1142,
+          3971
+        ],
+        "fountains": [
+          {
+            "featureId": 1133,
+            "latitude": 36.29033986534867,
+            "longitude": -115.28115568657944
+          },
+          {
+            "featureId": 1134,
+            "latitude": 36.28988327226234,
+            "longitude": -115.2815328459764
+          },
+          {
+            "featureId": 1135,
+            "latitude": 36.290184744664685,
+            "longitude": -115.28210326196796
+          },
+          {
+            "featureId": 1136,
+            "latitude": 36.29092127421068,
+            "longitude": -115.28076576336282
+          },
+          {
+            "featureId": 1137,
+            "latitude": 36.29063081687386,
+            "longitude": -115.28173386230968
+          },
+          {
+            "featureId": 1138,
+            "latitude": 36.288973716728435,
+            "longitude": -115.28117104496546
+          },
+          {
+            "featureId": 1139,
+            "latitude": 36.28897189709662,
+            "longitude": -115.28209301596263
+          },
+          {
+            "featureId": 1140,
+            "latitude": 36.28866244677201,
+            "longitude": -115.28173095602607
+          },
+          {
+            "featureId": 1141,
+            "latitude": 36.28891446349719,
+            "longitude": -115.2803085575291
+          },
+          {
+            "featureId": 1142,
+            "latitude": 36.28938242434705,
+            "longitude": -115.27976739758348
+          },
+          {
+            "featureId": 3971,
+            "latitude": 36.28977466014636,
+            "longitude": -115.28004346752058
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-234",
+      "name": "Pioneer Park",
+      "aliases": [],
+      "address": "7449 Braswell Drive, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.18548363505012,
+        "longitude": -115.25483088769454,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 234,
+        "fountainFeatureIds": [
+          1173,
+          1174,
+          1175
+        ],
+        "fountains": [
+          {
+            "featureId": 1173,
+            "latitude": 36.18548363505012,
+            "longitude": -115.25483088769454
+          },
+          {
+            "featureId": 1174,
+            "latitude": 36.18488236604935,
+            "longitude": -115.25473161644781
+          },
+          {
+            "featureId": 1175,
+            "latitude": 36.18523889685703,
+            "longitude": -115.25503667196206
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-193",
+      "name": "Police Memorial Park",
+      "aliases": [],
+      "address": "3250 Metro Academy Way, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.22086997112981,
+        "longitude": -115.30960786766971,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 193,
+        "fountainFeatureIds": [
+          1206,
+          1207,
+          1208,
+          1209,
+          1210,
+          1211,
+          1212,
+          1213,
+          1214,
+          1215,
+          1216
+        ],
+        "fountains": [
+          {
+            "featureId": 1206,
+            "latitude": 36.22086997112981,
+            "longitude": -115.30960786766971
+          },
+          {
+            "featureId": 1207,
+            "latitude": 36.22086920743539,
+            "longitude": -115.30958724697159
+          },
+          {
+            "featureId": 1208,
+            "latitude": 36.22084879622784,
+            "longitude": -115.31021608844821
+          },
+          {
+            "featureId": 1209,
+            "latitude": 36.22307074966451,
+            "longitude": -115.30947612128851
+          },
+          {
+            "featureId": 1210,
+            "latitude": 36.22164524511112,
+            "longitude": -115.30950464268
+          },
+          {
+            "featureId": 1211,
+            "latitude": 36.22418399027471,
+            "longitude": -115.31045312662464
+          },
+          {
+            "featureId": 1212,
+            "latitude": 36.223513633981895,
+            "longitude": -115.31035212913184
+          },
+          {
+            "featureId": 1213,
+            "latitude": 36.224673399690666,
+            "longitude": -115.31056843177315
+          },
+          {
+            "featureId": 1214,
+            "latitude": 36.22220887364964,
+            "longitude": -115.31014279516774
+          },
+          {
+            "featureId": 1215,
+            "latitude": 36.222609893523234,
+            "longitude": -115.31059921801112
+          },
+          {
+            "featureId": 1216,
+            "latitude": 36.22191437616502,
+            "longitude": -115.3105655286627
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-snhd-138",
+      "name": "Prosperity Park",
+      "aliases": [
+        "Prosperity Park Loop Trail"
+      ],
+      "address": "7101 Parasol Lane Las Vegas, NV 89147",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.11926266,
+        "longitude": -115.24759792,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=138",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-138"
+      ],
+      "evidence": {
+        "trailId": 138,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-city-205",
+      "name": "Rafael Rivera Park",
+      "aliases": [],
+      "address": "2850 Stewart Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.164169972401226,
+        "longitude": -115.10870222299701,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 205,
+        "fountainFeatureIds": [
+          848,
+          849
+        ],
+        "fountains": [
+          {
+            "featureId": 848,
+            "latitude": 36.164169972401226,
+            "longitude": -115.10870222299701
+          },
+          {
+            "featureId": 849,
+            "latitude": 36.16460383209261,
+            "longitude": -115.10923103480886
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-snhd-392",
+      "name": "Rainbow Family Park",
+      "aliases": [
+        "Rainbow Family Park Loop Trail"
+      ],
+      "address": "7151 W Oakey Blvd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.14973524,
+        "longitude": -115.24696223,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=392",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-392",
+        "city-parks"
+      ],
+      "evidence": {
+        "trailId": 392,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-snhd-139",
+      "name": "Red Ridge Park",
+      "aliases": [
+        "Red Ridge Park Loop Trail"
+      ],
+      "address": "7027 S El Capitan Way Las Vegas, NV 89148",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.05947026,
+        "longitude": -115.28865449,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=139",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-139"
+      ],
+      "evidence": {
+        "trailId": 139,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-indoor-red-rock",
+      "name": "Red Rock Resort",
+      "aliases": [],
+      "address": "11011 W Charleston Blvd, Las Vegas, NV 89135",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Hotel lobby · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.1563373,
+        "longitude": -115.3335352,
+        "sourceUrl": "https://www.openstreetmap.org/way/316302054",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-red-rock-1",
+        "indoor-red-rock-2",
+        "indoor-red-rock-3",
+        "indoor-red-rock-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Hotel lobby · non-gaming areas",
+        "scopeSource": "https://redrockresort.com/wp-content/uploads/2024/10/Red-Rock-Sales-Kit-10142024.pdf",
+        "amenitySources": {
+          "food": "https://redrockresort.com/eat-and-drink/restaurants/",
+          "restrooms": "https://redrockresort.com/wp-content/uploads/2024/10/Red-Rock-Sales-Kit-10142024.pdf"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-snhd-142",
+      "name": "Ridgebrook Park",
+      "aliases": [
+        "Ridgebrook Park Loop Trail"
+      ],
+      "address": "3600 Ridge Hollow Drive Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.12387493,
+        "longitude": -115.33425674,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=142",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-142"
+      ],
+      "evidence": {
+        "trailId": 142,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-city-185",
+      "name": "Rotary Park",
+      "aliases": [],
+      "address": "901 Hinson St, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.16029017412708,
+        "longitude": -115.19415655275748,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 185,
+        "fountainFeatureIds": [
+          3944
+        ],
+        "fountains": [
+          {
+            "featureId": 3944,
+            "latitude": 36.16029017412708,
+            "longitude": -115.19415655275748
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-added-santa-fe",
+      "name": "Santa Fe Station — visitor common areas",
+      "aliases": [
+        "Santa Fe Station"
+      ],
+      "address": "4949 N Rancho Dr, Las Vegas, NV 89130",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Non-gaming visitor common areas",
+      "access": "Only visitor-accessible non-gaming hotel/common areas, where permitted by staff. Gaming floors, bars, age-restricted and guest-only areas are excluded.",
+      "hours": null,
+      "phone": "702-658-4900",
+      "coordinates": {
+        "latitude": 36.2498865,
+        "longitude": -115.2448221,
+        "sourceUrl": "https://www.openstreetmap.org/way/961460045",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-santa-fe",
+        "oct20-santa-fe-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Non-gaming visitor common areas",
+        "scopeSource": "https://santafestation.com/stay/",
+        "amenitySources": {
+          "food": "https://santafestation.com/stay/"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#santa-fe",
+        "operatorPageSha256": "d5db778aeaab99cc769a21679f7811c1a116d7fbd3b6d6646a347e8e57ea40d1"
+      }
+    },
+    {
+      "id": "community-added-silverado-ranch",
+      "name": "Silverado Ranch Community Center",
+      "aliases": [],
+      "address": "9855 Gilespie St, Las Vegas, NV 89183",
+      "area": "Las Vegas area",
+      "kind": "communityVenue",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Public reception/common areas during center hours; activity rooms follow staff and program access rules.",
+      "hours": "Monday–Friday 7 am–8 pm; Saturday 8 am–3 pm; Sunday closed.",
+      "phone": "702-455-6811",
+      "coordinates": {
+        "latitude": 36.0117617,
+        "longitude": -115.1657949,
+        "sourceUrl": "https://maps.clarkcountynv.gov/arcgis/rest/services/OpenData/Recreation/MapServer/4",
+        "precision": "County facility-parcel centroid, not a building entrance; use the published address for arrival."
+      },
+      "sourceIds": [
+        "oct20-silverado-ranch",
+        "oct20-silverado-ranch-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor public reception/common areas",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/facilities/silverado-ranch-community-center",
+        "amenitySources": {},
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "County facility-parcel centroid, not a building entrance; use the published address for arrival.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#silverado-ranch",
+        "operatorPageSha256": "81ec7f8d03bb1d793cd926d1f235bc4c23e9aeddf995e77db5f6cbe5430f637d"
+      }
+    },
+    {
+      "id": "community-snhd-153",
+      "name": "Spring Valley Community Park",
+      "aliases": [
+        "Spring Valley Community Park Loop Trail"
+      ],
+      "address": "7600 West Flamingo Las Vegas, NV 89147",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.11580892,
+        "longitude": -115.25818728,
+        "sourceUrl": "https://app.gethealthyclarkcounty.org/neon2nature/traildetails.php?trail_id=153",
+        "precision": "Health District trailhead point; fountain is within the park."
+      },
+      "sourceIds": [
+        "snhd-153"
+      ],
+      "evidence": {
+        "trailId": 153,
+        "amenityAsPublished": "Drinking Fountains",
+        "coordinateRole": "trailhead"
+      }
+    },
+    {
+      "id": "community-city-156",
+      "name": "Sunny Springs Park",
+      "aliases": [],
+      "address": "7620 Golden Talon Ave, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.29346224317117,
+        "longitude": -115.26285135314276,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 156,
+        "fountainFeatureIds": [
+          1311,
+          1312
+        ],
+        "fountains": [
+          {
+            "featureId": 1311,
+            "latitude": 36.29346224317117,
+            "longitude": -115.26285135314276
+          },
+          {
+            "featureId": 1312,
+            "latitude": 36.29371399117863,
+            "longitude": -115.26121598752904
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-indoor-sunset-station",
+      "name": "Sunset Station",
+      "aliases": [],
+      "address": "1301 W Sunset Rd, Henderson, NV 89014",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Hotel lobby · non-gaming areas",
+      "access": "Use the hotel entrance for permitted non-gaming visitor common areas. Gaming floors, bars, guest-only rooms and age-restricted areas are outside this destination.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.0604183,
+        "longitude": -115.0408078,
+        "sourceUrl": "https://www.openstreetmap.org/way/27738460",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-sunset-station-1",
+        "indoor-sunset-station-2",
+        "indoor-sunset-station-3",
+        "indoor-sunset-station-4"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Hotel lobby · non-gaming areas",
+        "scopeSource": "https://sunsetstation.com/see-and-do/",
+        "amenitySources": {
+          "food": "https://sunsetstation.com/eat-and-drink/"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "airConditioning": "Conditioned enclosed mall or hotel visitor common area; amenity applies to the identified indoor scope, not outdoor grounds."
+      }
+    },
+    {
+      "id": "community-city-151",
+      "name": "Teton Trails Park",
+      "aliases": [],
+      "address": "7850 N Bradley Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.302692449288365,
+        "longitude": -115.21478898825669,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 151,
+        "fountainFeatureIds": [
+          1992
+        ],
+        "fountains": [
+          {
+            "featureId": 1992,
+            "latitude": 36.302692449288365,
+            "longitude": -115.21478898825669
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-added-forum-shops",
+      "name": "The Forum Shops at Caesars",
+      "aliases": [],
+      "address": "3500 Las Vegas Blvd S, Las Vegas, NV 89109",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules.",
+      "hours": "Sunday–Thursday 10 am–9 pm; Friday–Saturday 10 am–10 pm.",
+      "phone": "702-893-4800",
+      "coordinates": {
+        "latitude": 36.118919,
+        "longitude": -115.1764611,
+        "sourceUrl": "https://www.openstreetmap.org/way/34068416",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-forum-shops",
+        "oct20-forum-shops-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+        "amenitySources": {
+          "food": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+          "wifi": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace",
+          "restrooms": "https://www.simon.com/mall/the-forum-shops-at-caesars-palace"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#forum-shops",
+        "operatorPageSha256": "77ff80e98af7cb6652a94c0d8e6cedd23454b1efb9e265b6bc545b7f7bf9c680"
+      }
+    },
+    {
+      "id": "community-added-crystals",
+      "name": "The Shops at Crystals",
+      "aliases": [],
+      "address": "3720 S Las Vegas Blvd, Las Vegas, NV 89158",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": null,
+      "access": "Indoor visitor common areas during published venue hours; follow facility access rules.",
+      "hours": null,
+      "phone": "702-590-9299",
+      "coordinates": {
+        "latitude": 36.1077414,
+        "longitude": -115.1742962,
+        "sourceUrl": "https://www.openstreetmap.org/way/52134608",
+        "precision": "OpenStreetMap representative facility point via Photon; public entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-crystals",
+        "oct20-crystals-coordinate"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Enclosed mall visitor common areas",
+        "scopeSource": "https://www.simon.com/mall/the-shops-at-crystals",
+        "amenitySources": {
+          "food": "https://www.simon.com/mall/the-shops-at-crystals",
+          "wifi": "https://www.simon.com/mall/the-shops-at-crystals",
+          "restrooms": "https://www.simon.com/mall/the-shops-at-crystals"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "OpenStreetMap representative facility point via Photon; public entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#crystals",
+        "operatorPageSha256": "0fff1491331c923b3ea66f4514fc4911e2a8e8ff29017896339e4042f655ae7d"
+      }
+    },
+    {
+      "id": "community-city-194",
+      "name": "Thunderbird Viper Lacrosse Fields",
+      "aliases": [
+        "Viper Lacrosse Fields at Thunderbird Family Sports Complex"
+      ],
+      "address": "6105 N Durango Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.272774346162876,
+        "longitude": -115.28463130256743,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 194,
+        "fountainFeatureIds": [
+          3454,
+          3455
+        ],
+        "fountains": [
+          {
+            "featureId": 3454,
+            "latitude": 36.272774346162876,
+            "longitude": -115.28463130256743
+          },
+          {
+            "featureId": 3455,
+            "latitude": 36.272771861495855,
+            "longitude": -115.28363812991142
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-indoor-town-square",
+      "name": "Town Square Las Vegas",
+      "aliases": [],
+      "address": "6605 Las Vegas Blvd S, Las Vegas, NV 89119",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "indoorVenues"
+      ],
+      "scopeLabel": "Indoor venues · outdoor walkways",
+      "access": "Outdoor paths connect indoor venues. Visitor access is set by each venue; use an indoor visitor area only where permitted.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.068372,
+        "longitude": -115.177523,
+        "sourceUrl": "https://mytownsquarelasvegas.com/",
+        "precision": "Operator or OSM representative facility point; entrance may differ."
+      },
+      "sourceIds": [
+        "indoor-town-square-1",
+        "indoor-town-square-2",
+        "indoor-town-square-3"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-10",
+        "coolingScope": "Indoor venues · outdoor walkways",
+        "scopeSource": "https://www.fairbourne.com/town-square",
+        "amenitySources": {
+          "food": "https://tslv.com/about"
+        },
+        "water": "Drinking-water fountain/refill access not established; no Water badge.",
+        "coordinateRole": "Operator or OSM representative facility point; entrance may differ.",
+        "indoorVenues": "Operator documents indoor entertainment venues within an open-air district. This record does not establish an enclosed public cooling common area."
+      }
+    },
+    {
+      "id": "community-city-229",
+      "name": "Trigono Hills Park",
+      "aliases": [
+        "Gilmore/Cliff Shadows"
+      ],
+      "address": "W Gilmore Ave & Cliff Shadows Pkwy, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.232002670271825,
+        "longitude": -115.33406047908181,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 229,
+        "fountainFeatureIds": [
+          1943
+        ],
+        "fountains": [
+          {
+            "featureId": 1943,
+            "latitude": 36.232002670271825,
+            "longitude": -115.33406047908181
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-202",
+      "name": "Veterans Memorial Ball Fields",
+      "aliases": [
+        "Veterans Memorial Fields"
+      ],
+      "address": "101 N Pavilion Center Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.173923740031356,
+        "longitude": -115.33581186571207,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 202,
+        "fountainFeatureIds": [
+          1050
+        ],
+        "fountains": [
+          {
+            "featureId": 1050,
+            "latitude": 36.173923740031356,
+            "longitude": -115.33581186571207
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-161",
+      "name": "Wayne Bunker Family Park",
+      "aliases": [],
+      "address": "7351 W Alexander Rd, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.23271395706677,
+        "longitude": -115.25502989134617,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 161,
+        "fountainFeatureIds": [
+          2779
+        ],
+        "fountains": [
+          {
+            "featureId": 2779,
+            "latitude": 36.23271395706677,
+            "longitude": -115.25502989134617
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-184",
+      "name": "West Charleston Lions ~ Essex Park",
+      "aliases": [
+        "W Charleston Lions Essex Park"
+      ],
+      "address": "600 Essex Cir, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.16308352401088,
+        "longitude": -115.20119394764417,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 184,
+        "fountainFeatureIds": [
+          2681
+        ],
+        "fountains": [
+          {
+            "featureId": 2681,
+            "latitude": 36.16308352401088,
+            "longitude": -115.20119394764417
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-added-wetlands",
+      "name": "Wetlands Park Nature Center",
+      "aliases": [],
+      "address": "7050 Wetlands Park Ln, Las Vegas, NV 89122",
+      "area": "Las Vegas area",
+      "kind": "indoorDestination",
+      "officialCoolingStation": false,
+      "methods": [
+        "airConditioning"
+      ],
+      "scopeLabel": "Indoor lounge & galleries",
+      "access": "Public Exhibit Gallery and climate-controlled Lizard Lounge during Nature Center hours; outdoor trails are separate.",
+      "hours": "Tuesday–Sunday 9 am–3 pm; Monday closed.",
+      "phone": "702-455-7522",
+      "coordinates": {
+        "latitude": 36.1002088,
+        "longitude": -115.0249697,
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7050%20Wetlands%20Park%20Lane%20Las%20Vegas%20NV%2089122&benchmark=Public_AR_Current&format=json",
+        "precision": "Census address-interpolated street point; Nature Center entrance may differ."
+      },
+      "sourceIds": [
+        "oct20-wetlands",
+        "oct20-wetlands-coordinate",
+        "oct20-wetlands-detail-0"
+      ],
+      "evidence": {
+        "reviewedOn": "2026-10-20",
+        "coolingScope": "Indoor lounge & galleries",
+        "scopeSource": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+        "amenitySources": {
+          "food": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+          "seating": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter",
+          "restrooms": "https://www.clarkcountynv.gov/government/departments/parks___recreation/wetlands_park/naturecenter"
+        },
+        "water": "No verified public drinking-water fountain/refill evidence; Water badge omitted.",
+        "coordinateRole": "Census address-interpolated street point; Nature Center entrance may differ.",
+        "airConditioning": "Conditioned indoor-space inference from enclosed facility type, except Wetlands Lizard Lounge which the County explicitly describes as climate controlled. Not a field measurement.",
+        "coordinateEvidence": "additional_sources/coordinate-evidence.json#wetlands",
+        "operatorPageSha256": "a7d0215bbd2725a6872aed5848ddd087fd8515856bfb35b47d49c72a1501802d"
+      }
+    },
+    {
+      "id": "community-city-169",
+      "name": "Wildwood Park",
+      "aliases": [],
+      "address": "1800 Wildwood Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.190442417164085,
+        "longitude": -115.2183068346278,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 169,
+        "fountainFeatureIds": [
+          1329
+        ],
+        "fountains": [
+          {
+            "featureId": 1329,
+            "latitude": 36.190442417164085,
+            "longitude": -115.2183068346278
+          }
+        ]
+      }
+    },
+    {
+      "id": "community-city-170",
+      "name": "Woofter Family Park",
+      "aliases": [],
+      "address": "1600 Rock Springs Dr, Las Vegas, NV",
+      "area": "Las Vegas area",
+      "kind": "park",
+      "officialCoolingStation": false,
+      "methods": [
+        "drinkingWater"
+      ],
+      "access": "Outdoor drinking-water stop during posted park hours.",
+      "hours": null,
+      "phone": null,
+      "coordinates": {
+        "latitude": 36.18981141557891,
+        "longitude": -115.24747478876976,
+        "sourceUrl": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ExistingInfrastructure/Public_Park_Amenities/MapServer/8",
+        "precision": "City GPS-mapped drinking fountain; park entrance may differ."
+      },
+      "sourceIds": [
+        "city-fountains",
+        "city-parks"
+      ],
+      "evidence": {
+        "parkFeatureId": 170,
+        "fountainFeatureIds": [
+          2711
+        ],
+        "fountains": [
+          {
+            "featureId": 2711,
+            "latitude": 36.18981141557891,
+            "longitude": -115.24747478876976
+          }
+        ]
+      }
+    }
+  ]
+}

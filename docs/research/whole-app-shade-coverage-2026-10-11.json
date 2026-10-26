@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-12T01:53:09.446876+00:00",
+  "datasetRetrievedAt": "2026-10-06T02:52:40.915666+00:00",
+  "boundaryRetrievedAt": "2026-10-11T04:44:55.370200+00:00",
+  "boundaryChecks": [
+    {
+      "name": "City of Las Vegas",
+      "url": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/AdministrativeBoundaries/City_and_County_Limits_Shaded/MapServer/0/query?objectIds=5&returnExtentOnly=true&outSR=4326&f=pjson",
+      "withinDatasetWith250mBuffer": true
+    },
+    {
+      "name": "City Limits feature 2 (larger city polygon, ambiguous symbol attributes)",
+      "url": "https://mapdata.lasvegasnevada.gov/clvgis/rest/services/ReferenceInformation/CityLimits/MapServer/0/query?objectIds=2&returnExtentOnly=true&outSR=4326&f=pjson",
+      "withinDatasetWith250mBuffer": true
+    }
+  ],
+  "bounds": {
+    "south": 36.036,
+    "north": 36.404,
+    "west": -115.504,
+    "east": -115.036
+  },
+  "tiles": 441,
+  "filesHashVerified": 882,
+  "uniqueBuildings": 520114,
+  "estimatedHeights": 502930,
+  "unknownBuildingHeights": 17184,
+  "canopyValidCells": 105815364,
+  "canopyTreeCells": 5283416,
+  "canopyCellsInsideExtraction": 105815364,
+  "canopyMissingCellsInsideExtraction": 0,
+  "invalidSourcePolygonGaps": [
+    [
+      -115.28507673095997,
+      36.08619305861901,
+      -115.28497885308944,
+      36.08623096035338
+    ],
+    [
+      -115.16778673917577,
+      36.19348999013738,
+      -115.165590032973,
+      36.19425913221994
+    ],
+    [
+      -115.24779184162328,
+      36.198348739516966,
+      -115.24753175351864,
+      36.19862108976924
+    ]
+  ],
+  "physicalShadeAccuracyVerified": false,
+  "scope": "Packaged file integrity and official city envelope coverage; missing heights/canopy stay unknown. Does not establish that every street/entrance is mapped or safely walkable."
+}
